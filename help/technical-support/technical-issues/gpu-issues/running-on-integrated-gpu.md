@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/running-on-integrated-gpu.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/gpu-issues/running-on-integrated-gpu.html"
 breadcrumb-title: ''
 description: 了解如何配置Substance 3D Painter以使用专用GPU而不是集成图形来获取更好的性能。
 helpx_creative_field: ""

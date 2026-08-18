@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter启动期间修复崩溃和冻结问题，以稳定启动应用程序。
 helpx_creative_field: ""
@@ -41,7 +41,7 @@ ht-degree: 0%
 * 外部应用程序正在产生冲突，请参阅[软件冲突](software-conflicts.md)以了解哪些冲突。
 * 该应用程序的某些窗口已在另一个监视器上打开。 将界面恢复为默认布局后，可以正常启动应用程序：
   1. 从开始菜单中打开注册表编辑器(**regedit**)
-  1. 导航到应用程序首选项（请参阅： [首选项和应用程序数据位置](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)）
+  1. 导航到应用程序首选项（请参阅： [首选项和应用程序数据位置](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)）
   1. 展开&#x200B;**Adobe Substance 3D Painter**&#x200B;项
   1. 选择&#x200B;**主窗口2018**&#x200B;键并将其删除
   1. 重新启动应用程序

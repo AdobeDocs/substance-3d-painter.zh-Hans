@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-6.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2-6.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Painter版本2.6的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -48,7 +48,7 @@ ht-degree: 0%
 ![](../../assets/texture-set-rename-description.png)
 
 现在可以直接在Substance Painter内更改纹理集的名称。 重命名纹理集将会影响导出到磁盘上的纹理名称（取决于使用的导出预设）。\
-要重命名纹理集，只需双击其名称对其进行修改，或者使用右键单击打开上下文菜单。 还可以添加自定义描述，以提供有关纹理集作用的更多信息。 在处理[UDIM项目](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html)时，此功能非常有用。 使用“**设置**”按钮配置说明在列表中的显示方式。
+要重命名纹理集，只需双击其名称对其进行修改，或者使用右键单击打开上下文菜单。 还可以添加自定义描述，以提供有关纹理集作用的更多信息。 在处理[UDIM项目](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html)时，此功能非常有用。 使用“**设置**”按钮配置说明在列表中的显示方式。
 
 ![](../../assets/reasign-texture-set.png)
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/projection.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/projection.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Painter中的“投影”工具可将2D图像投影到3D表面上，以用于纹理绘制工作流程。
 helpx_creative_field: ""

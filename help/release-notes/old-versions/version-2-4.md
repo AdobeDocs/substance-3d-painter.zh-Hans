@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-4.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2-4.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Painter版本2.4的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 通过重新整理托架，我们还&#x200B;**改进了资源导入窗口**。 窗口现在更加一致，可以&#x200B;**以三种不同的方式调用** ：通过“文件”菜单、通过书架窗口中的按钮或者就像之前一样，通过将资源拖放到书架窗口中。 新窗口允许&#x200B;**一次快速设置**&#x200B;多个资源&#x200B;**的使用情况**，这意味着您不必先将资源拖放到正确的位置。 我们还添加了&#x200B;**指定自定义路径**&#x200B;以创建子文件夹的可能性，以便利用新的树视图。
 
-有关更多详细信息，请参阅文档的专用部分： [通过导入窗口添加资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+有关更多详细信息，请参阅文档的专用部分： [通过导入窗口添加资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
 
 ### 新的粒子预设
 

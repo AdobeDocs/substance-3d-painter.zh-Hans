@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/polygon-fill.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/polygon-fill.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Painter中的“Polygon Fill Tool”（多边形填充工具）为选定的多边形添加颜料以实现高效的纹理绘制。
 helpx_creative_field: ""

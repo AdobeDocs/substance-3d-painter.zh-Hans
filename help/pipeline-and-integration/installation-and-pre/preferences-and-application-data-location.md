@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/installation-and-preferences/preferences-and-application-data-location.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/pipeline-and-integration/installation-and-preferences/preferences-and-application-data-location.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Painter的首选项和应用程序数据位置，以管理设置和用户数据。
 helpx_creative_field: ""

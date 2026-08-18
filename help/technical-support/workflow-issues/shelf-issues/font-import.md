@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/font-import.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/shelf-issues/font-import.html"
 breadcrumb-title: ''
 description: 了解如何修复Substance 3D Painter中的字体文件导入问题，以成功导入和使用字体资源。
 helpx_creative_field: ""

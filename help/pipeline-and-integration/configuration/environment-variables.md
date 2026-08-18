@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/environment-variables.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/pipeline-and-integration/configuration/environment-variables.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用环境变量来配置应用程序行为和管道集成。
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ ht-degree: 3%
 | **SUBSTANCE\_PAINTER\_TEMP\_LOCATION** | 值：文件夹的直接路径定义Substance Painter应将其临时文件（包括SVT缓存）写入的位置。此变量将覆盖[设置](../../interface/settings/settings.md)窗口中可用的参数。 | <ol data-preserve-html="true"><li data-preserve-html="true">3</li></ol> |
 | **SUBSTANCE\_PAINTER\_PREVIEWS\_MEMORY\_BUDGET** | 值： 500定义应用程序可用于从“资源”窗口加载和临时存储预览的内存(Ram)量。 达到预算限制时，旧预览会被卸载。 此值仅控制“资源”窗口中的预览显示。该值以MB为单位定义。 默认值为500MB。 | <ol data-preserve-html="true"><li data-preserve-html="true">2</li></ol> |
 | **SUBSTANCE\_PAINTER\_PLUGINS\_PATH** | 其他Python插件的位置。 | 6.1 |
-| **PYTHONPATH** | 其他Python模块，通过Python集成应用程序加载。 有关详细信息，请参阅[加载外部Python模块](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/loading-external-python-modules-205363420.html)。 | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
+| **PYTHONPATH** | 其他Python模块，通过Python集成应用程序加载。 有关详细信息，请参阅[加载外部Python模块](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/loading-external-python-modules-205363420.html)。 | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
 | **OCIO** | **config.ocio**&#x200B;文件的路径，该文件将用于使用OpenColorIO驱动[色彩管理](../../features/color-management/color-management.md)设置。  **注意：**&#x200B;此环境变量的优先级高于&#x200B;**PAINTER\_ACE\_CONFIG**&#x200B;变量。 | <ol data-preserve-html="true"><li data-preserve-html="true">4</li></ol> |
 | **PAINTER\_ACE\_CONFIG** | 用于通过AdobeACE驱动[色彩管理](../../features/color-management/color-management.md)设置的json文件的路径。 | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
 | **SUBSTANCE\_DISABLE\_SPECIFIC\_FEATURES** | 禁用应用程序中的多项功能：<ul data-preserve-html="true"><li data-preserve-html="true">外部资源（帮助、网页、示例等）链接</li><li data-preserve-html="true">禁用更新检查</li><li data-preserve-html="true">禁用使用情况统计信息的发送</li><li data-preserve-html="true">禁用导出到Substance share</li><li data-preserve-html="true">禁用“欢迎”和“新增功能”面板</li></ul> | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |

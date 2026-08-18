@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.html"
 breadcrumb-title: ''
 description: 了解如何恢复在Substance 3D Painter 7.2更新后消失的资源架以恢复您的资源库。
 helpx_creative_field: ""

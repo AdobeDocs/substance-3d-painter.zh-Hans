@@ -9,7 +9,7 @@ landing-page-name: substance-3d
 landing-page-breadcrumb-title: Substance 3D
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/substance-3d-painter.en
+git-repo: https://github.com/AdobeDocs/substance-3d-painter.zh-Hans
 index: true
 source-git-commit: 7808377fae4ecd1db700ff9c2ddfc16bc2e39136
 workflow-type: tm+mt

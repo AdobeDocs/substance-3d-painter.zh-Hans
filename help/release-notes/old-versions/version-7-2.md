@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-2.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-7-2.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Painter版本7.2的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 版本7.2
 
-**Substance 3D Painter 7.2**&#x200B;通过Adobe标准素材工作流程带来了新的渲染功能、在[Substance 3D应用程序](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)之间共享内容的新方法以及经过全面调整的“资源”窗口。
+**Substance 3D Painter 7.2**&#x200B;通过Adobe标准素材工作流程带来了新的渲染功能、在[Substance 3D应用程序](https://www.adobe.com/cn/products/substance3d/3d-augmented-reality.html)之间共享内容的新方法以及经过全面调整的“资源”窗口。
 
 发行日期：*2021年6月23日*
 

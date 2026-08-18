@@ -8,7 +8,7 @@ ht-degree: 1%
 # 已知问题生成器 — Substance 3D Painter
 
 自动为Substance 3D Painter生成已知问题标记文档，发布位置为：
-`https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html`
+`https://helpx.adobe.com/cn/substance-3d-painter/release-notes/know-issues.html`
 
 问题源自Jira史诗`SBSFOUR-6267`。 该脚本会获取所有问题，过滤掉目标版本中已修复的任何内容，并输出准备提交的格式化标记文件。
 
@@ -172,7 +172,7 @@ OUTPUT_FILE=known-issues.md
 
 ```markdown
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/know-issues.html"
 ...
 ---
 
