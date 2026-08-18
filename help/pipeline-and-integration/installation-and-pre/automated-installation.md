@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/installation-and-preferences/automated-installation.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/pipeline-and-integration/installation-and-preferences/automated-installation.html"
 breadcrumb-title: ''
 description: 了解如何针对企业部署和管道集成工作流自动化Substance 3D Painter安装。
 helpx_creative_field: ""

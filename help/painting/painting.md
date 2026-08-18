@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用各种画笔、工具和技术，直接在3D模型上绘制纹理。
 helpx_creative_field: ""

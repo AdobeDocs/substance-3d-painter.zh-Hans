@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用纹理扩展和填充来防止导出的纹理中出现边缘伪影。
 helpx_creative_field: ""

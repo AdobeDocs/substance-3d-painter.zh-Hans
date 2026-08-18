@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/subsurface-scattering.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用次表面散射来创建逼真的半透明材料，例如皮肤和蜡。
 helpx_creative_field: ""

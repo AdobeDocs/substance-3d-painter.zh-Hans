@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中修复模糊视区和纹理，以确保清晰、锐利的视觉品质。
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 默认情况下，Substance 3D Painter会缩小高DPI/Retina屏幕上的视区分辨率以改善性能。
 
-通过更改&#x200B;**视口缩放**&#x200B;参数，可以在[主要设置](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html)中更改此行为。
+通过更改&#x200B;**视口缩放**&#x200B;参数，可以在[主要设置](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/general-71008262.html)中更改此行为。
 
 ## Texture filtering
 

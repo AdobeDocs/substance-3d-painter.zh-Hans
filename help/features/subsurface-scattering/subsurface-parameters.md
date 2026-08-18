@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/subsurface-parameters.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/subsurface-scattering/subsurface-parameters.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置次表面散射参数，以创建逼真的半透明材质。
 helpx_creative_field: ""

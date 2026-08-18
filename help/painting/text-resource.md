@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/text-resource.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/text-resource.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的文本资源向纹理绘画工作流程添加文本和排版规则。
 helpx_creative_field: ""

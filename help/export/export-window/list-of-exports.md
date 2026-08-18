@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter导出窗口中管理导出列表以整理纹理导出。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter的自定义效果中使用基于网格的输入来创建几何识别纹理效果。
 helpx_creative_field: ""

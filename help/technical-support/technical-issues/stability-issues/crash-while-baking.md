@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
 breadcrumb-title: ''
 description: 了解如何修复烘焙操作期间Substance 3D Painter崩溃的问题，以实现可靠的纹理烘焙工作流程。
 helpx_creative_field: ""

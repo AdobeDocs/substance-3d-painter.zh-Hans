@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
 breadcrumb-title: ''
 description: 了解如何修复Substance 3D Painter中Ubuntu上的视口中断或无响应的问题，以便进行正确的3D渲染。
 helpx_creative_field: ""

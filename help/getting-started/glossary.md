@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/glossary.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/glossary.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Painter术语表，以了解整个文档中使用的关键术语和概念。
 helpx_creative_field: ""

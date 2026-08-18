@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/exporting-the-log-file.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/exporting-the-log-file.html"
 breadcrumb-title: ''
 description: 了解如何从Substance 3D Painter导出日志文件，用于故障排除和技术支持目的。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/sliders.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/miscellaneous/sliders.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用滑块通过精确控制调整数字值和参数。
 helpx_creative_field: ""

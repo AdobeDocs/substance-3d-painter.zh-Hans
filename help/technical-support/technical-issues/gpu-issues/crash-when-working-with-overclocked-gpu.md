@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.html"
 breadcrumb-title: ''
 description: 了解如何修复在使用超频GPU时Substance 3D Painter崩溃的问题，以实现稳定的应用程序性能。
 helpx_creative_field: ""

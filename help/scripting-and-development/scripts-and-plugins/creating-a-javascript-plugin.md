@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
 breadcrumb-title: ''
 description: 了解如何为Substance 3D Painter创建JavaScript插件，以扩展功能并自动执行自定义工作流。
 helpx_creative_field: ""

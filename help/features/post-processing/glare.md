@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/glare.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/post-processing/glare.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的眩光后期处理效果向明亮区域添加镜头眩光和开花效果。
 helpx_creative_field: ""

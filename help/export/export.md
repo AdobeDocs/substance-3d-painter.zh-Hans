@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export.html"
 breadcrumb-title: ''
 description: 了解如何从Substance 3D Painter导出各种格式的纹理以用于其他应用程序和游戏引擎。
 helpx_creative_field: ""

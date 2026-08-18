@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中直接绘制环境遮蔽图，向纹理添加逼真的阴影和深度。
 helpx_creative_field: ""

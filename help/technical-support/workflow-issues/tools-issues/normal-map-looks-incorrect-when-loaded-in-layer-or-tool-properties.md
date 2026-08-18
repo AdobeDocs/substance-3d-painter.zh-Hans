@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.html"
 breadcrumb-title: ''
 description: 了解如何修复Substance 3D Painter图层和工具属性中的法线映射显示问题，以获取准确的表面细节。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-reprojection.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/uv-reprojection.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用UV重投影，在不同的UV布局之间转移纹理。
 helpx_creative_field: ""

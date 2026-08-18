@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/file-menu.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/main-menu/file-menu.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的“文件”菜单来管理项目、导入资源和导出纹理。
 helpx_creative_field: ""

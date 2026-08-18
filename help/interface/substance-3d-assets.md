@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/substance-3d-assets.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/substance-3d-assets.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中访问和使用Substance 3D Assets来浏览和导入3D模型和素材。
 helpx_creative_field: ""

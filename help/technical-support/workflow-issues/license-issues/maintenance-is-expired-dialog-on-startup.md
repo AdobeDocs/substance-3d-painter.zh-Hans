@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/license-issues/maintenance-is-expired-dialog-on-startup.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/license-issues/maintenance-is-expired-dialog-on-startup.html"
 breadcrumb-title: ''
 description: 了解如何解决Substance 3D Painter启动时显示的“维护已过期”对话框，以便进行许可证管理。
 helpx_creative_field: ""

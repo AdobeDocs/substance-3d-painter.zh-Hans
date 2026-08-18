@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
 breadcrumb-title: ''
 description: 了解如何修复在Substance 3D Painter视口中从后面观看时网格面消失的问题，以便获得正确的网格可见性。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/multi-bi-gpu.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/gpu-issues/multi-bi-gpu.html"
 breadcrumb-title: ''
 description: 了解如何为多GPU和Bi-GPU系统配置Substance 3D Painter以优化渲染性能。
 helpx_creative_field: ""

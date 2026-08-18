@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置笔和平板电脑，以获得最佳压力敏感度和绘图体验。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/compare-mask.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/effects/compare-mask.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用比较蒙版效果根据纹理比较操作创建蒙版。
 helpx_creative_field: ""

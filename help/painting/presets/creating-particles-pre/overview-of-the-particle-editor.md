@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Painter中的粒子编辑器，该编辑器可为纹理绘画创建自定义粒子画笔预设。
 helpx_creative_field: ""

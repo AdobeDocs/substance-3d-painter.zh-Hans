@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/lazy-mouse.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/lazy-mouse.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用懒惰鼠标，创建光标响应延迟的流畅画笔描边。
 helpx_creative_field: ""
