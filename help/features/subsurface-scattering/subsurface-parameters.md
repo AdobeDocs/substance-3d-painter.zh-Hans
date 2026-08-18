@@ -21,7 +21,7 @@ ht-degree: 0%
 # 次曲面参数
 
 Substance 3D Painter实时亚表面实现是一种屏幕空间亚表面散射效应。 本页说明了控制它的参数。\
-当前实现基于PIXAR](http://graphics.pixar.com/library/ApproxBSSRDF/)发布的“有效次表面散射的近似反射率轮廓”方法[。
+当前实现基于PIXAR[&#128279;](http://graphics.pixar.com/library/ApproxBSSRDF/)发布的“有效次表面散射的近似反射率轮廓”方法。
 
 有关基于这些参数的材质示例，请参阅： [次表面材质类型](subsurface-material-type.md)。
 
