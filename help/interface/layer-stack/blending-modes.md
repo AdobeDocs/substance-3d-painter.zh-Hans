@@ -56,7 +56,7 @@ ht-degree: 2%
 | *名称* | *描述* |
 | --- | --- |
 | 法线 | 将顶部图层显示在底部图层上方，而不进行变换（复制模式）。 如果顶部图层具有透明度(alpha)，则它将通过透明像素显示底部图层。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-copy.jpg"/></div> |
-| Passthrough | 将底部图层拼合为顶部图层。 主要适用于以下情况：<ul data-preserve-html="true"> <li data-preserve-html="true">对顶部图层下方的所有图层应用效果</li> <li data-preserve-html="true">涂抹或仿制顶部图层下方的图层</li> </ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-passthrough.jpg"/></div> **注意：****效果**&#x200B;可以&#x200B;**直接拖放到图层栈栈中**，这样将创建其所有通道的“混合模式”均设置为“穿透”的图层。 |
+| Passthrough | 将底部图层拼合为顶部图层。 主要适用于以下情况：<ul data-preserve-html="true"> <li data-preserve-html="true">对顶部图层下方的所有图层应用效果</li> <li data-preserve-html="true">涂抹或仿制顶部图层下方的图层</li> </ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-passthrough.jpg"/></div> **注意：**&#x200B;**效果**&#x200B;可以&#x200B;**直接拖放到图层栈栈中**，这样将创建其所有通道的“混合模式”均设置为“穿透”的图层。 |
 | Disable | 放弃图层的混合，仅显示前面的图层。 它可以通过在顶层中忽略通道来优化通道计算。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-disable.jpg"/></div> |
 | 替换 | 覆盖底层。 例如，这对于避免将信息与下面的图层混合是非常有用的。 “替换”的工作方式与“正常”混合不同，因为它还会忽略顶部图层中的Alpha，这可能会导致透明像素。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-replace.jpg"/></div> |
 |  |  |
@@ -94,4 +94,4 @@ ht-degree: 2%
 | 法线图细节 | 面向细节的混合操作（重新定向的法线映射），比法线映射合并更精确。 保留平面法线映射和两个源的强度。 要确保结果，顶部层法线将重新定向为跟随底部层表面。 有关详细信息，请参阅[法线图绘画](../../painting/advanced-channel-painting/normal-map-painting.md)。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r37-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-detail.jpg"/></div> |
 | 法线图逆细节 | 与“法线映射细节”混合操作的行为相同，但只有底部图层会进行变换，以适合顶部图层的表面。 有关详细信息，请参阅[法线图绘画](../../painting/advanced-channel-painting/normal-map-painting.md)。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r38-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-inverse-detail.jpg"/></div> |
 
->>
+&#x200B;>>
