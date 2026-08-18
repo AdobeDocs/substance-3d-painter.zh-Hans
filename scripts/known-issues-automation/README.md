@@ -12,7 +12,7 @@ ht-degree: 1%
 
 问题源自Jira史诗`SBSFOUR-6267`。 该脚本会获取所有问题，过滤掉目标版本中已修复的任何内容，并输出准备提交的格式化标记文件。
 
----
+&#x200B;---
 
 ## 快速开始
 
@@ -25,12 +25,13 @@ ht-degree: 1%
    ```
    python fetch_known_issues.py
    ```
+
 4. 查看输出摘要 — 它将报告获取的问题数和排除的问题数
 5. 将生成的`known-issues.md`复制到`help/release-notes/known-issues.md`
 
 > 如果丢失任何问题或出现意外问题，请在应用筛选之前检查`raw_issues.json`以准确查看Jira返回的内容。
 
----
+&#x200B;---
 
 ## 一次性设置
 
@@ -64,7 +65,7 @@ OUTPUT_FILE=known-issues.md
 
 `TARGET_VERSION`是您为其生成已知问题页面的Substance 3D Painter版本。 它控制排除哪些已修复的问题 — 请参阅下面的[筛选逻辑](#filtering-logic)。
 
----
+&#x200B;---
 
 ## 存储库结构
 
@@ -78,7 +79,7 @@ OUTPUT_FILE=known-issues.md
 └── known-issues.md            # Generated output from last run — gitignored
 ```
 
----
+&#x200B;---
 
 ## Jira Reference
 
@@ -90,7 +91,7 @@ OUTPUT_FILE=known-issues.md
 
 所有已知问题都必须与此史诗链接，才能在生成的文档中显示。 如果需要向页面添加问题或从页面中删除问题，请在Jira中更新epic，而不是手动编辑markdown。
 
----
+&#x200B;---
 
 ## 脚本的工作方式
 
@@ -153,7 +154,7 @@ OUTPUT_FILE=known-issues.md
 - 类别组之间的空白行
 - 结尾处有一个`## Stability`部分，介绍崩溃问题
 
----
+&#x200B;---
 
 ## 过滤逻辑
 
@@ -165,7 +166,7 @@ OUTPUT_FILE=known-issues.md
 | `Fixed` | 是 | 修复目标≤版本 | 无（已发货） |
 | `Fixed` | 是 | 修复版本>目标 | 是（未来版本中会进行修复） |
 
----
+&#x200B;---
 
 ## 输出格式
 
@@ -194,7 +195,7 @@ This page lists all the active known issues present in v12.0.3 of Substance 3D P
 
 **设置注释格式：**&#x200B;类别标签使用单后置循环 — `` `[Category]` `` — 而不是双后置循环。 手动维护的旧版文档包含双回拨错误；脚本始终生成正确的格式。
 
----
+&#x200B;---
 
 ## 故障排除
 
