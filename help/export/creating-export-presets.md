@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/creating-export-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/creating-export-presets.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中创建自定义输出模板，以定义您自己的纹理导出配置。
 helpx_creative_field: ""
