@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/tone-mapping.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/post-processing/tone-mapping.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用色调映射后期处理来调整视区中的曝光度和颜色分级。
 helpx_creative_field: ""

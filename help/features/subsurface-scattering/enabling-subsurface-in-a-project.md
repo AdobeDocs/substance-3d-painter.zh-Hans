@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter项目中启用子表面散射，以创建逼真的半透明素材效果。
 helpx_creative_field: ""

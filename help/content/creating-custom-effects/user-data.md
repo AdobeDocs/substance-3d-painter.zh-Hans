@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/user-data.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/content/creating-custom-effects/user-data.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter自定义效果中的用户数据将自定义信息传递到着色器效果。
 helpx_creative_field: ""

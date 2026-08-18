@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/main-menu.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的主菜单访问文件操作、编辑工具和应用程序设置。
 helpx_creative_field: ""
@@ -28,6 +28,6 @@ ht-degree: 0%
 * [“编辑”菜单](edit-menu.md)
 * [“模式”菜单](mode-menu.md)
 * [“窗口”菜单](window-menu.md)
-* [视区菜单](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
+* [视区菜单](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
 * [“插件”菜单](plugins-menu.md)
 * [“帮助”菜单](help-menu.md)

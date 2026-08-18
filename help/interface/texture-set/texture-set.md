@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/texture-set.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用纹理集来组织纹理和管理不同的素材分配。
 helpx_creative_field: ""

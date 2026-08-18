@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/anchor-point.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/effects/anchor-point.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用锚点效果来引用其他图层中的纹理以实现高级合成。
 helpx_creative_field: ""

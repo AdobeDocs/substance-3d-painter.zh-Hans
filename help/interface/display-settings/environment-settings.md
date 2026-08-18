@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/environment-settings.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/display-settings/environment-settings.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置环境设置，以控制材质预览的光照和背景。
 helpx_creative_field: ""

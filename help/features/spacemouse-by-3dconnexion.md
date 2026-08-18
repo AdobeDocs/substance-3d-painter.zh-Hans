@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/spacemouse-by-3dconnexion.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/spacemouse-by-3dconnexion.html"
 breadcrumb-title: ''
 description: 了解如何将3Dconnection提供的SpaceMouse与Substance 3D Painter配合使用，以实现增强的3D导航和视口控制。
 helpx_creative_field: ""

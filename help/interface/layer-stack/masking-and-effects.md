@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/layer-stack/masking-and-effects.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter图层栈栈中使用蒙版和效果来控制图层可见性并应用图层效果。
 helpx_creative_field: ""

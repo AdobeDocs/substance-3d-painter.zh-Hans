@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/home.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/home.html"
 breadcrumb-title: ''
 description: 开始使用Substance 3D Painter，直接在3D模型上绘制纹理并创建逼真的素材表面。
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Substance 3D Painter是一款3D绘画软件，可以纹理化和渲染3D网格�
 
 本文档旨在帮助您学习如何使用该软件，从基本技术到高级技术。
 
-如果您有任何在本手册中未得到解答的问题，欢迎在我们的[论坛](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter)上提问。 如果您想了解有关 PBR 的更多信息，您还可以下载我们的[基于物理的渲染指南](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html)。
+如果您有任何在本手册中未得到解答的问题，欢迎在我们的[论坛](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter)上提问。 如果您想了解有关 PBR 的更多信息，您还可以下载我们的[基于物理的渲染指南](https://helpx.adobe.com/cn/substance-3d/unlisted/tutorials.html)。
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
@@ -83,7 +83,7 @@ Substance 3D Painter是一款3D绘画软件，可以纹理化和渲染3D网格�
 ### 内容
 
 * [创建自定义效果](content/creating-custom-effects/creating-custom-effects.md)
-* [导入资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+* [导入资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 ### 功能
 
@@ -112,7 +112,7 @@ Substance 3D Painter是一款3D绘画软件，可以纹理化和渲染3D网格�
 
 ### 脚本编写和开发
 
-* [脚本和插件](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
+* [脚本和插件](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
 
 ### 技术支持
 

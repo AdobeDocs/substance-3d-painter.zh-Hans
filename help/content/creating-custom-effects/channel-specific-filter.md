@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
 breadcrumb-title: ''
 description: 了解如何为Substance 3D Painter创建特定于通道的滤镜效果，以处理单独的纹理通道。
 helpx_creative_field: ""

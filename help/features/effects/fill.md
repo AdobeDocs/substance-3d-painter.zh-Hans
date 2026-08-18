@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/fill.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/effects/fill.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的填充效果，用纯色、纹理或素材填充图层。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中重新分配纹理集，以重新组织网格分配和纹理映射。
 helpx_creative_field: ""

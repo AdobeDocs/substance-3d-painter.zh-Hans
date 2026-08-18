@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/universal-scene-description-usd.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/universal-scene-description-usd.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用通用场景描述(USD)文件以实现现代管道集成。
 helpx_creative_field: ""

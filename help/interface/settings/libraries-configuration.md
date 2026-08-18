@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings/libraries-configuration.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/settings/libraries-configuration.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter设置中配置库，以管理资源路径和资源组织。
 helpx_creative_field: ""
@@ -45,5 +45,5 @@ ht-degree: 1%
 | --- | --- |
 | **名称** | 用于引用接口中的路径的已命名（例如，右键单击资源时）。 此名称还定义要跟踪资源的内部位置名称（无论它们是否为最新），因此建议在定义此名称后不要对其进行更改。 |
 | **路径** | 资源在磁盘上的实际位置（或将在该位置）。 |
-| **加号按钮**  <div><img data-preserve-html="true" src="../../assets/shelf-button.png" width="30"/></div> | 单击此按钮会将名称和路径设置定义的路径添加到下面的列表中。添加新路径将自动创建组织数据和资源所需的子文件夹结构。 要了解放置资源的位置，请参阅： [将内容添加到托架](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)。 |
+| **加号按钮**  <div><img data-preserve-html="true" src="../../assets/shelf-button.png" width="30"/></div> | 单击此按钮会将名称和路径设置定义的路径添加到下面的列表中。添加新路径将自动创建组织数据和资源所需的子文件夹结构。 要了解放置资源的位置，请参阅： [将内容添加到托架](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)。 |
 | **减号按钮**   <div><img data-preserve-html="true" src="../../assets/shelf-remove.png" width="30"/></div> | 单击路径前面的此按钮会将其从列表中删除。 资源将不再列在[资源](../assets/assets.md)界面中。  **注意：**&#x200B;无法删除默认路径，但这些路径将被禁用，其资源将被隐藏。 |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/automatic-uv-unwrapping.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/automatic-uv-unwrapping.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用“自动UV展开”功能自动为3D模型生成UV布局。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用地下材料类型来创建逼真的皮肤、蜡和有机材料。
 helpx_creative_field: ""

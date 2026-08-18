@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/dynamic-material-layering.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/dynamic-material-layering.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用动态材质分层将素材与程序化蒙版混合和组合。
 helpx_creative_field: ""

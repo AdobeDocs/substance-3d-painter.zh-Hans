@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中创建自定义动态笔触，以设计独特的画笔描边行为和效果。
 helpx_creative_field: ""

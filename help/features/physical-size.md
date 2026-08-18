@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/physical-size.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/physical-size.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中设置物理尺寸以定义真实世界的尺寸，从而实现精确的纹理缩放。
 helpx_creative_field: ""

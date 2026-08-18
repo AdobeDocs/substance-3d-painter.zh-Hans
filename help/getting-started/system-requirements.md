@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Painter的系统要求，确保您的计算机符合硬件和软件规格。
 helpx_creative_field: ""

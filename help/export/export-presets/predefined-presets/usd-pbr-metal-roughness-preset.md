@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的USDz (Apple AR)导出预设为Apple AR工作流程导出纹理。
 helpx_creative_field: ""

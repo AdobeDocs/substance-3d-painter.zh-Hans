@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/import-drag-and-drop.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/content/importing-assets/import-drag-and-drop.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中通过拖放操作添加资源以快速将资源导入项目。
 helpx_creative_field: ""

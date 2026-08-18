@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/assets.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的“资源”面板浏览、搜索和管理您的资源库。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 资源
 
-“资源”窗口允许您访问应用程序附带的默认资源（称为&#x200B;**入门资源**）以及任何[导入的](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)资源（可在&#x200B;**您的资源**&#x200B;下找到）。
+“资源”窗口允许您访问应用程序附带的默认资源（称为&#x200B;**入门资源**）以及任何[导入的](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)资源（可在&#x200B;**您的资源**&#x200B;下找到）。
 
 * 在磁盘上，**入门资源**&#x200B;库存储在应用程序的安装文件夹中，而默认情况下导入到&#x200B;**您的资源**&#x200B;库的资源位于“文档”文件夹中。
 * 有关您的资源在磁盘上的存储位置的详细信息，请参阅[在硬盘上添加内容](../../content/importing-assets/adding-content-on-the-hard-drive.md)。

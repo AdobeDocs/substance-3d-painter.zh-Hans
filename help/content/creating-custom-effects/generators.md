@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/generators.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/content/creating-custom-effects/generators.html"
 breadcrumb-title: ''
 description: 了解如何为Substance 3D Painter创建生成器效果，以自动生成程序性纹理和图案。
 helpx_creative_field: ""

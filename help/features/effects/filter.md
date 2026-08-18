@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/filter.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/effects/filter.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用滤镜效果来应用图像处理滤镜和纹理调整。
 helpx_creative_field: ""

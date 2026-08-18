@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking.html'
+helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/baking.html'
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中烘焙网格图，以生成环境遮蔽、曲率和其他基于几何的纹理。
 helpx_creative_field: ''

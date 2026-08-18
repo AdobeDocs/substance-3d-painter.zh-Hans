@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/export-presets.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的输出模板配置纹理导出格式和通道映射。
 helpx_creative_field: ""

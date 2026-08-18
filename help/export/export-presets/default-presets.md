@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Painter中的默认输出模板，以了解标准导出配置和格式。
 helpx_creative_field: ""

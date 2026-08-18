@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles/image-sequence.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/uv-tiles/image-sequence.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用带有UV磁贴的图像序列进行动画纹理工作流程。
 helpx_creative_field: ""

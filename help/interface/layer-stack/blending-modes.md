@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/blending-modes.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/layer-stack/blending-modes.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用混合模式来组合图层并创建各种纹理混合效果。
 helpx_creative_field: ""

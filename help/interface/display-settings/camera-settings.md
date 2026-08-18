@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/camera-settings.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/display-settings/camera-settings.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置相机设置，以控制视口相机的行为和投影。
 helpx_creative_field: ""

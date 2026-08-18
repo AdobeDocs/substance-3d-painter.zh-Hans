@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/color-management.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置色彩管理，以确保整个工作流程中的色彩准确一致。
 helpx_creative_field: ""

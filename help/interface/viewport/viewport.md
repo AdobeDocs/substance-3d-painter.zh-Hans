@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport.html'
+helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/interface/viewport.html'
 description: 了解如何在Substance 3D Painter中使用视口在绘画过程中可视化您的3D模型和纹理。
 helpx_description: Painter > Interface > Viewport
 title: 视口

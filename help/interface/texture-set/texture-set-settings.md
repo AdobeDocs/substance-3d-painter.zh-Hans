@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-settings.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/texture-set/texture-set-settings.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置纹理集设置，以控制纹理分辨率和通道属性。
 helpx_creative_field: ""

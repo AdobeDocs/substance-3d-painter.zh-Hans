@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/output-templates.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/export-window/output-templates.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter导出窗口中的输出模板来配置纹理导出格式和命名。
 helpx_creative_field: ""

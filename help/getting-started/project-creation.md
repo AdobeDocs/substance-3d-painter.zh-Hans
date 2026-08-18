@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/project-creation.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/project-creation.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中创建新项目以开始在3D模型上绘制纹理。
 helpx_creative_field: ""

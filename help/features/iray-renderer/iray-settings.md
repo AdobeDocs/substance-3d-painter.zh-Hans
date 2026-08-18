@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer/iray-settings.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/iray-renderer/iray-settings.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置Iray渲染器设置，以控制渲染质量和性能。
 helpx_creative_field: ""

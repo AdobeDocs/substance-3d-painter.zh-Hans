@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/viewport-settings.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/display-settings/viewport-settings.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置视口设置，以自定义显示选项和渲染品质。
 helpx_creative_field: ""

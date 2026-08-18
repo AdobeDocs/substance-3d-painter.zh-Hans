@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/sparse-virtual-textures.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/sparse-virtual-textures.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用稀疏虚拟纹理来高效处理超高分辨率纹理。
 helpx_creative_field: ""
@@ -60,7 +60,7 @@ SVT的目标是为GPU内存分配多少视口使用量，从而为主引擎执�
 ![](../assets/settings-temp.png)
 
 当没有足够的可用系统内存(Ram)来存储SVT缓存时，Substance 3D Painter将改为切换到计算机硬盘驱动器以存储缓存。\
-此缓存的位置默认位于“操作系统临时文件”文件夹中。 可通过进入应用程序的主要设置来更改此位置，请参阅[常规首选项](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) 。
+此缓存的位置默认位于“操作系统临时文件”文件夹中。 可通过进入应用程序的主要设置来更改此位置，请参阅[常规首选项](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/general-71008262.html) 。
 
 ## 着色器兼容性
 
@@ -69,7 +69,7 @@ SVT的目标是为GPU内存分配多少视口使用量，从而为主引擎执�
 要更新着色器，请执行以下操作：
 
 * 对于&#x200B;**默认Substance 3D Painter着色器** ：按照[更新着色器](../interface/shader-settings/updating-a-shader.md)页面中的分步过程操作。
-* 对于&#x200B;**自定义着色器** ：查看日志中的错误消息以及[着色器 API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)页。
+* 对于&#x200B;**自定义着色器** ：查看日志中的错误消息以及[着色器 API](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)页。
 
 >[!WARNING]
 >

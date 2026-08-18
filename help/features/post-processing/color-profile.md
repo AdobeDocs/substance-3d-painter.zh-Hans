@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-profile.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/post-processing/color-profile.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用颜色配置文件后期处理功能来应用颜色分级和LUT变换。
 helpx_creative_field: ""
@@ -84,4 +84,4 @@ ociolutimage --generate --cubesize 64 --config nuke-default/config.ocio --colorc
 
 只需打开导入窗口（或将LUT拖放到货架中）。 在Substance 3D Painter中导入LUT纹理时，请确保将“**colorlut**”**用法**&#x200B;分配给新资源。 否则，资源将无法正确显示在盘架中。
 
-有关详细信息，请参阅有关导入新资源的文档： [通过导入窗口添加资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+有关详细信息，请参阅有关导入新资源的文档： [通过导入窗口添加资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
