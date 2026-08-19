@@ -207,42 +207,42 @@ ht-degree: 1%
 **已添加：**
 
 * [Libraries]用于更换架子的新资源面板
-* [库][UI]新的“资源”面板布局
-* [库][UI]更改默认资源面板方向和UI
-* [Libraries][UI]将列表视图选项引入库
-* [库][UI]“资源”面板中新的面包屑导航
-* [库][UI]选择保存的搜索时，选择“所有库”
-* [库][UI]取消选择所有文件夹后，选择“所有库”
-* [Libraries][UI]针对粒子画笔的新标记
-* [Libraries][UI]将“shelf”替换为“All Libraries”（所有库）
-* [Libraries][UI]允许隐藏空文件夹
-* [Libraries][UI]即使为空，默认用户库也应可见
-* [库][UI]新的筛选方法（通过资源类型图标）
+* [库]&#x200B;[UI]新的“资源”面板布局
+* [库]&#x200B;[UI]更改默认资源面板方向和UI
+* [Libraries]&#x200B;[UI]将列表视图选项引入库
+* [库]&#x200B;[UI]“资源”面板中新的面包屑导航
+* [库]&#x200B;[UI]选择保存的搜索时，选择“所有库”
+* [库]&#x200B;[UI]取消选择所有文件夹后，选择“所有库”
+* [Libraries]&#x200B;[UI]针对粒子画笔的新标记
+* [Libraries]&#x200B;[UI]将“shelf”替换为“All Libraries”（所有库）
+* [Libraries]&#x200B;[UI]允许隐藏空文件夹
+* [Libraries]&#x200B;[UI]即使为空，默认用户库也应可见
+* [库]&#x200B;[UI]新的筛选方法（通过资源类型图标）
 * [库]使用快捷键“CTRL”选择多个资源类型
 * [库]用于控制资源预览内存预算的新环境变量
-* [Libraries][Content]新的环境地图
-* [Libraries][Content][UI]在默认材质上渲染位移
-* [库][内容]将Adobe标准素材(ASM)着色器设置为生成预览的默认值
-* [Libraries][Content][ASM]新ASM着色器的新项目模板
-* [Libraries][Thumbnail]使用新的Studio 6环境映射
-* [库][缩略图]在资源中读取缩略图而不是生成缩略图
-* [Libraries][Thumbnail]将位移添加到缩略图生成
+* [Libraries]&#x200B;[Content]新的环境地图
+* [Libraries]&#x200B;[Content]&#x200B;[UI]在默认材质上渲染位移
+* [库]&#x200B;[内容]将Adobe标准素材(ASM)着色器设置为生成预览的默认值
+* [Libraries]&#x200B;[Content]&#x200B;[ASM]新ASM着色器的新项目模板
+* [Libraries]&#x200B;[Thumbnail]使用新的Studio 6环境映射
+* [库]&#x200B;[缩略图]在资源中读取缩略图而不是生成缩略图
+* [Libraries]&#x200B;[Thumbnail]将位移添加到缩略图生成
 * [纹理集设置]
-* [纹理集设置][UI]将新Height公开为正常转换方法
-* [纹理集设置][UI]重工通道的UI组织
+* [纹理集设置]&#x200B;[UI]将新Height公开为正常转换方法
+* [纹理集设置]&#x200B;[UI]重工通道的UI组织
 * [纹理集设置]用户通道数限制增加到16个
-* [纹理集设置][UI]指示哪些通道与当前选定的着色器兼容
-* [Shader][ASM]新的Adobe标准素材着色器
-* [Shader][ASM]增加了对各向异性、透明涂层、次表面散射、Specular edge color和光泽的支持
-* [Shader][ASM]更改默认通道的颜色值
-* [Shader][ASM][Export]更新了Adobe Dimension到Adobe Substance 3D Stager的导出模板
-* [Shader][ASM]添加了着色器和MDL参数的标签和工具提示
-* [Shader][ASM]即使不支持SSS，也要使散点颜色在2D视图中可见
-* [Shader][ASM][Iray]支持使用新MDL的Iray中的ASM着色器
-* [着色器][ASM][射线]更新了旧版PBR规范光泽和铜版纸中的子表面散射
-* [Shader][ASM][Content]更改了示例的默认SSS类型
-* [Shader][ASM]添加了有关ASM API的文档
-* [着色器][ASM]优化着色器以忽略未使用的通道
+* [纹理集设置]&#x200B;[UI]指示哪些通道与当前选定的着色器兼容
+* [Shader]&#x200B;[ASM]新的Adobe标准素材着色器
+* [Shader]&#x200B;[ASM]增加了对各向异性、透明涂层、次表面散射、Specular edge color和光泽的支持
+* [Shader]&#x200B;[ASM]更改默认通道的颜色值
+* [Shader]&#x200B;[ASM]&#x200B;[Export]更新了Adobe Dimension到Adobe Substance 3D Stager的导出模板
+* [Shader]&#x200B;[ASM]添加了着色器和MDL参数的标签和工具提示
+* [Shader]&#x200B;[ASM]即使不支持SSS，也要使散点颜色在2D视图中可见
+* [Shader]&#x200B;[ASM]&#x200B;[Iray]支持使用新MDL的Iray中的ASM着色器
+* [着色器]&#x200B;[ASM]&#x200B;[射线]更新了旧版PBR规范光泽和铜版纸中的子表面散射
+* [Shader]&#x200B;[ASM]&#x200B;[Content]更改了示例的默认SSS类型
+* [Shader]&#x200B;[ASM]添加了有关ASM API的文档
+* [着色器]&#x200B;[ASM]优化着色器以忽略未使用的通道
 * [Shader]显示新的纹理集通道
 * [着色器]改进的次表面散射
 * [着色器]为某些着色器隐藏了新的着色器参数
@@ -259,41 +259,41 @@ ht-degree: 1%
 * [UI] UI的整体刷新
 * [UI] “帮助”菜单的重新工作
 * [UI]替换反转图标
-* [UI][插件]替换插件dcc链接的图标
-* [UI][AMD]更新所需的最低版本和弹出消息
+* [UI]&#x200B;[插件]替换插件dcc链接的图标
+* [UI]&#x200B;[AMD]更新所需的最低版本和弹出消息
 * [图层栈栈]在选定的空文件夹内创建新图层
 * 更新Python文档
 * [品牌]
-* [品牌推广][UI]应用程序名称已更新为Adobe Substance 3D Painter
-* [品牌推广][UI]已将独立版本更新为“Substance版”
-* [品牌推广][UI]更新了应用程序可执行文件名、安装路径、包和图标
-* [Branding][UI]重命名的默认库和路径
-* [品牌][UI]更新了“关于”窗口
-* [品牌推广][UI]更新了“欢迎”屏幕
-* [品牌][UI]已删除基于年份的版本号
+* [品牌推广]&#x200B;[UI]应用程序名称已更新为Adobe Substance 3D Painter
+* [品牌推广]&#x200B;[UI]已将独立版本更新为“Substance版”
+* [品牌推广]&#x200B;[UI]更新了应用程序可执行文件名、安装路径、包和图标
+* [Branding]&#x200B;[UI]重命名的默认库和路径
+* [品牌]&#x200B;[UI]更新了“关于”窗口
+* [品牌推广]&#x200B;[UI]更新了“欢迎”屏幕
+* [品牌]&#x200B;[UI]已删除基于年份的版本号
 * [本地化]德语、法语和简体中文的新翻译
 * [互操作性]不适用于Steam和Substance版本
 * [互操作性]与Adobe生态系统的互操作性：Designer、Sampler、Stager和Bridge
-* [互操作性][UI]从Designer接收和更新资源
-* [互操作性][UI]从Sampler接收资源
-* [互操作性][UI]将资源发送到Stager
-* [互操作性][UI]在Adobe Bridge中显示
-* [互操作性][UI]允许快速访问Adobe的3D资源
+* [互操作性]&#x200B;[UI]从Designer接收和更新资源
+* [互操作性]&#x200B;[UI]从Sampler接收资源
+* [互操作性]&#x200B;[UI]将资源发送到Stager
+* [互操作性]&#x200B;[UI]在Adobe Bridge中显示
+* [互操作性]&#x200B;[UI]允许快速访问Adobe的3D资源
 * [互操作性] sbsar的新使用标记
 * [互操作性]处理收到的资源类型
 * [互操作性]从Adobe Substance 3D Designer或Adobe Substance 3D Sampler收到的资源存储在用户的默认选定库中
-* [互操作性][UI]左侧工具栏中的新图标可发送至Stager或Photoshop
+* [互操作性]&#x200B;[UI]左侧工具栏中的新图标可发送至Stager或Photoshop
 
 **已修复：**
 
 * [Tablet]使用压力绘画时性能较低
 * [Tablet]带滑块控件的平板电脑出现问题
 * [崩溃]纹理集列表和导出器之间的名称不匹配
-* [崩溃][库]双击子库
+* [崩溃]&#x200B;[库]双击子库
 * [Libraries]搜索库目录时出现问题
 * [Libraries]强制预览生成命令行无法按预期工作
-* [Libraries][Content]默认情况下，烘焙光环境滤镜为黑色
-* [Linux][MacOS][导出网格]无法导入在Linux/MacOS上创建的glTF
+* [Libraries]&#x200B;[Content]默认情况下，烘焙光环境滤镜为黑色
+* [Linux]&#x200B;[MacOS]&#x200B;[导出网格]无法导入在Linux/MacOS上创建的glTF
 * [Linux]将文件拖放到“资源”面板中可能会导致崩溃
 * [自动展开]即使未选择网格进行重新加载，“自动展开”也可用
 * [粒子]重力的粒子行为错误
@@ -305,7 +305,7 @@ ht-degree: 1%
 * [Iray]渲染新项目时不考虑法线图
 * [保存]共享驱动器上的保存问题
 * [烘焙]使用修改后的参数重新烘焙网格时显示警告
-* [烘焙][回归]当高多边形网格的全局定界框不包括场景原点时，结果不正确
+* [烘焙]&#x200B;[回归]当高多边形网格的全局定界框不包括场景原点时，结果不正确
 * [Python]自定义用户库未考虑在内
 
 **已知问题：**
