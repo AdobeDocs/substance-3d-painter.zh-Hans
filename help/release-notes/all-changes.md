@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/release-notes/all-changes.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/release-notes/all-changes.html'
 breadcrumb-title: ''
 description: 查看所有Substance 3D Painter版本之间的更改和更新，以跟踪功能随时间的演变和改进。
 helpx_creative_field: ''
@@ -123,7 +123,7 @@ ht-degree: 0%
 * [自动保持架]高多边形文件路径无效时的无限负载
 * [Linux][Windows]拾色器有时可能完全为黑色或不显示
 * [多边形填充工具]该工具不适用于非PBR
-* &lbrack;[Paint]删除基色通道不会删除以前绘制的颜色
+* [[Paint]删除基色通道不会删除以前绘制的颜色
 * [USD]未正确检测到所有着色器实例
 * [Substance]仅考虑输入/输出节点的首次用法
 * [Shader]使用不同的混合方法两次使用“遮蔽集”应用环境纹理

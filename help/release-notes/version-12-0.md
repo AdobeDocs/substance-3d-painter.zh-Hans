@@ -2,7 +2,7 @@
 title: 版本12.0
 description: ''
 helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/version-12-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-12-0.html"
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
 workflow-type: tm+mt
 source-wordcount: '1138'
