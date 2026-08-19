@@ -167,9 +167,9 @@ ht-degree: 0%
 * [动态笔触]为动态笔触添加距离属性
 * [动态笔触]向动态笔触添加大小和间距属性
 * [动态笔触]为动态笔触添加start/middle/end属性
-* [Python][USD]公开USD格式的项目配置参数
-* [Python][USD]公开USD格式的项目创建参数
-* [导出][USD]在导出的USD文件中添加项目路径信息
+* [Python]&#x200B;[USD]公开USD格式的项目配置参数
+* [Python]&#x200B;[USD]公开USD格式的项目创建参数
+* [导出]&#x200B;[USD]在导出的USD文件中添加项目路径信息
 * [GLTF]重新加载GLTF文件时更新库中的纹理
 * [着色器]减少具有不同方向的UV 岛的接缝伪影
 * [Engine]更新到Substance引擎版本9.0
