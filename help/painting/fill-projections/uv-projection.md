@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/fill-projections/uv-projection.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/uv-projection.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Painter中的“UV 投影”功能投影基于UV坐标的纹理，以实现精确的纹理放置。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: UV 投影
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: 2903c7fdf6a9fe0da149b61fa9064033bb88926a
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 | *设置* | *描述* |
 | --- | --- |
-| **筛选** | 控制如何过滤纹理或素材。 此设置可能会影响多次重复时纹理的外观。 对于高缩放值，使用不同于默认值的滤波方法可能会获得更好的视觉效果。 当前可用设置：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>两次线性 | HQ </strong>：（默认）高级双线性过滤，尝试在拼贴值较高时改进纹理的品质。</li><li data-preserve-html="true"><strong>两次线性 |锐化</strong>：简单的双线性过滤，略微平滑纹理，但尝试保留细节。</li><li data-preserve-html="true"><strong>最接近的</strong>：无过滤，如果双线性过滤产生模糊结果并破坏细微细节，则非常有用。 可以在纹理中引入锯齿。</li></ul> |
+| **筛选** | 控制如何过滤纹理或素材。 此设置可能会影响多次重复时纹理的外观。 对于高缩放值，使用不同于默认值的滤波方法可能会获得更好的视觉效果。 当前可用设置：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>双线性`\|`HQ </strong>： （默认）高级双线性过滤，尝试在拼贴值较高时提高纹理的品质。</li><li data-preserve-html="true"><strong>双线性`\|`锐化</strong>：简单的双线性滤波，略微平滑纹理，但尝试保留细节。</li><li data-preserve-html="true"><strong>最接近的</strong>：无过滤，如果双线性过滤产生模糊结果并破坏细微细节，则非常有用。 可以在纹理中引入锯齿。</li></ul> |
 | **UV 展开** | 控制投影的素材/图像在投影形状内重复的方式。 可能的值为：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>无</strong> ：投影不重复。</li><li data-preserve-html="true"><strong>水平重复</strong> ：仅水平重复。</li><li data-preserve-html="true"><strong>垂直重复</strong> ：仅垂直重复。</li><li data-preserve-html="true"><strong>重复</strong>（默认） ：水平和垂直重复。</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-repeat.jpg" width="500px"/></div> |
 
 ### UV转换
