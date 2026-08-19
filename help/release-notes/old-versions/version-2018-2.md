@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Painter版本2018.2的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 要在项目中添加子表面散射，请执行以下几个步骤：
 
-1. 转到&#x200B;**显示设置**&#x200B;窗口和&#x200B;**激活**&#x200B;**次表面散射**&#x200B;设置。
+1. 转到&#x200B;**显示设置**&#x200B;窗口和&#x200B;**激活****次表面散射**&#x200B;设置。
 1. 在当前纹理集中添加“**散射**”通道
 1. 使用填充图层或在新通道中&#x200B;**绘制白色**&#x200B;以&#x200B;**显示**&#x200B;视区中的子表面效果。
 
@@ -190,7 +190,7 @@ Substance Painter内的Substance集成已改进，产生了人们期待已久的
 
 （2018年9月25日发布）
 
-**&#x200B;**&#x200B;已修复：**&#x200B;**
+****已修复：****
 
 * [2D视图] 2D视图在创建新项目时被一些网格破坏
 * [崩溃]从UV 投影切换到三平面投影会导致崩溃

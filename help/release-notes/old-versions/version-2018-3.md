@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2018-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-3.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Painter版本2018.3的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -42,7 +42,7 @@ ht-degree: 0%
 ![](../../assets/baked-lighting.jpg)
 
 **烘焙光照环境**&#x200B;筛选器已得到大幅改进，现在可正确支持&#x200B;**HDR环境映射**。\
-您现在可以复制视区的光照（如2D视图中所示），并将它放下到“基色”通道中。 新滤镜提供了进一步的控制，如&#x200B;**旋转**&#x200B;**环境**&#x200B;映射&#x200B;**垂直**&#x200B;和更改&#x200B;**曝光**。
+您现在可以复制视区的光照（如2D视图中所示），并将它放下到“基色”通道中。 新滤镜提供了进一步的控制，如&#x200B;**旋转****环境**&#x200B;映射&#x200B;**垂直**&#x200B;和更改&#x200B;**曝光**。
 
 ![](../../assets/shelf-baked-lighting.png)
 

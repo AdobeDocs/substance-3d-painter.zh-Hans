@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Painter版本2019.3的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 如果您没有可导入的ABR文件，则可以在线找到大量此类文件：
 
-* [Kyle的Adobe画笔预设](https://www.adobe.com/cn/products/photoshop/brushes.html)
+* [Kyle的Adobe画笔预设](https://www.adobe.com/products/photoshop/brushes.html)
 * [ArtStation上的画笔预设](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [DeviantArt上的画笔预设](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Cubebrush上的画笔预设](https://cubebrush.co/marketplace?categories=354,57)
@@ -115,7 +115,7 @@ ht-degree: 0%
 现在，Substance Painter将自动展开缺少UV坐标的网格。 这样就可以导入任何类型的几何并立即开始绘制。 我们的UV展开系统将在每个子网格生成一个UV 岛，同时仍然遵循素材分配以创建纹理集。 此功能当前处于测试阶段，以后版本中将继续改进。 自动展开将仅应用于&#x200B;**不使用UDIM工作流程**&#x200B;的项目。
 
 * **自动UV展开**\
-  默认情况下，Substance Painter现在会自动为缺少网格的网格生成UV坐标。 这适用于项目创建和网格重新导入。 但是，可以通过进入[主要设置](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/general-71008262.html)并在&#x200B;**导入选项**&#x200B;下禁用&#x200B;**启用自动UV解封**&#x200B;来禁用此行为。
+  默认情况下，Substance Painter现在会自动为缺少网格的网格生成UV坐标。 这适用于项目创建和网格重新导入。 但是，可以通过进入[主要设置](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html)并在&#x200B;**导入选项**&#x200B;下禁用&#x200B;**启用自动UV解封**&#x200B;来禁用此行为。
 
   ![](../../assets/uv-unwrap-setting.png)
 * **UV展开进度栏**\
@@ -215,7 +215,7 @@ ht-degree: 0%
 * **新画笔预设**
 
   * **102个Photoshop画笔预设**\
-    随着Photoshop画笔支持的引入，包含了一组新的预设来展示它。 这些预设是从[Adobe网站](https://www.adobe.com/cn/products/photoshop/brushes.html)上提供的Kyle T. Webster包中选择的。
+    随着Photoshop画笔支持的引入，包含了一组新的预设来展示它。 这些预设是从[Adobe网站](https://www.adobe.com/products/photoshop/brushes.html)上提供的Kyle T. Webster包中选择的。
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18个新画笔预设**\

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Painter版本2018.1的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -144,11 +144,11 @@ Substance Painter2018.1引入了&#x200B;**界面的完整重新处理**，范围
   方向可以定义为2个3D位置，它们可以直接在位置图上选取。\
   示例：
 
-1. &#x200B;
+1. 
    1. 在其中一个图层中创建蒙版生成器&#x200B;**3D Linear gradient**
    1. 将视口显示切换到“**位置**”（通过视口下拉菜单或使用“**B**”键）
    1. 单击“**3D位置开始**”参数以打开&#x200B;**拾色器**&#x200B;弹出窗口
-   1. **在视区中的网格**&#x200B;上选取一种颜色&#x200B;**&#x200B;**
+   1. **在视区中的网格**&#x200B;上选取一种颜色&#x200B;****
    1. 对第二个参数“**3D位置结束**”重复此过程
 
       ![](../../assets/3d-gradient.jpg)
