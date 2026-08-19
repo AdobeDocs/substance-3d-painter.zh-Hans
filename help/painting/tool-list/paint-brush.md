@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 画笔
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
@@ -76,7 +76,7 @@ ht-degree: 1%
 | **流抖动** | 在画笔描边内对每个图章应用随机流值。 值为0表示无随机性，值为1表示完全随机性。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r8-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-flow.png"/></div> |
 | **角度抖动** | 在画笔描边内对每个图章应用随机附加旋转角度。 值为0表示无随机性，值为1表示完全随机性。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r9-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-rotation.png"/></div> |
 | **位置抖动** | 在画笔描边内对每个图章应用随机位置偏移。 值为0表示无随机性，值为1表示完全随机性。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r10-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-position.png"/></div> |
-| **对齐** | 确定画笔描边内的图章在3D网格曲面上的投影/定向方式。 以下值可用：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>相机</strong> ：将图章朝向视口视角</li><li data-preserve-html="true"><strong>正切 |绕排（默认） </strong> ：调整图章方向以与3D网格表面对齐。 印章也将变形以符合表面。</li><li data-preserve-html="true"><strong>正切 |平面</strong> ：调整图章方向，使其与3D网格表面对齐。 图章的边框将渐隐到3D网格表面以外的位置。 </li><li data-preserve-html="true"><strong> UV </strong> ：根据3D网格UV调整图章方向。</li></ul> |
+| **对齐** | 确定画笔描边内的图章在3D网格曲面上的投影/定向方式。 以下值可用：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>相机</strong> ：将图章朝向视口视角</li><li data-preserve-html="true"><strong>相切`\|`绕排（默认） </strong> ：调整图章方向以与3D网格表面对齐。 印章也将变形以符合表面。</li><li data-preserve-html="true"><strong>正切`\|`平面</strong> ：调整图章方向以与3D网格表面对齐。 图章的边框将渐隐到3D网格表面以外的位置。 </li><li data-preserve-html="true"><strong> UV </strong> ：根据3D网格UV调整图章方向。</li></ul> |
 | **背面剔除** | 允许忽略3D网格上未与图章对齐的曲面。 为了计算3D网格的哪些部分应被忽略，绘画引擎会查看3D网格表面的法线，并将其角度与定义的值进行比较。 |
 | **大小空间** | 控制计算画笔大小的相对空间。 可能的值为：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>对象（默认） </strong> ：画笔大小与3D网格大小同步。 在视区中移动摄像机将影响其大小，以使其保持相对于3D网格。</li><li data-preserve-html="true"><strong>视区</strong> ：画笔大小已链接到视区。 调整界面大小将会影响画笔大小。 移动相机不会产生任何效果。</li><li data-preserve-html="true"><strong>纹理</strong> ：画笔大小链接到2D视口缩放级别。</li></ul> |
 

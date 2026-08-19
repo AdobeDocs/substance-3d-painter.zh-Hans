@@ -226,16 +226,16 @@ ht-degree: 0%
 <b>已添加</b>：
 
 * [Illustrator]在Painter中使用带有艺术讨论区的Illustrator文件
-* [Illustrator][SVG]在范围选择中添加预览
+* [Illustrator]&#x200B;[SVG]在范围选择中添加预览
 * [Substance 3D Assets]直接在Painter中浏览、选择和下载3D资源
-* [Substance 3D Assets][UI]新面板
+* [Substance 3D Assets]&#x200B;[UI]新面板
 * [Substance 3D Assets]支持环境地图和材料
 * [Substance 3D Assets]允许重新加载、导航和打开新Substance 3D Assets面板中的位置文件夹
 * [Substance 3D Assets]添加下载管理器
 * [文本资源]允许使用可嵌入字体
 * [文本资源]允许在网格上渲染字体/文本
 * [文本资源]在“资源”面板中使用新类别显示用户和其他共享路径的字体
-* [文本资源][属性]添加对高级字体属性的支持
+* [文本资源]&#x200B;[属性]添加对高级字体属性的支持
 * [文本资源]允许在迷你货架中搜索/查看字体
 * [文本资源]导入不兼容的字体时添加错误消息/对话框
 * 杂项
@@ -298,9 +298,9 @@ ht-degree: 0%
 <b>已知问题</b>：
 
 * [色彩管理]在Linux上使用ACE进行HDR色彩空间转换时，会产生固定颜色
-* [崩溃][Linux][AMD]在Wayland操作系统上的图层栈栈中拖放资源
-* [回归][UI]右键单击菜单在高清屏幕上过小
-* [崩溃][Python]由TextureStateEvent触发美元导出
+* [崩溃]&#x200B;[Linux]&#x200B;[AMD]在Wayland操作系统上的图层栈栈中拖放资源
+* [回归]&#x200B;[UI]右键单击菜单在高清屏幕上过小
+* [崩溃]&#x200B;[Python]由TextureStateEvent触发美元导出
 * [保存]当“另存为”失败时，Spp项目文件丢失
 * [MacOS Intel]导入某些预设时崩溃
 * [Illustrator]服务器崩溃后，如果不重新启动Painter，就无法导入Ai文件
