@@ -1,11 +1,11 @@
 ---
-helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/interface/viewport.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport.html'
 description: 了解如何在Substance 3D Painter中使用视口在绘画过程中可视化您的3D模型和纹理。
 helpx_description: Painter > Interface > Viewport
 title: 视口
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 307c4f1121ae6841d68f8ea5dc597790e0d18a14
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -74,19 +74,19 @@ ht-degree: 2%
     <th><em>描述</em></th>
   </tr>
   <tr>
-    <td><strong>视口模式</strong><br>！[&#128279;](../../assets/viewport-viewmode.png)</td>
+    <td><strong>视区模式</strong><br><img src="../../assets/viewport-viewmode.png"/></td>
     <td>这些设置控制视区的布局：<br><ul><li><strong>3D/2D</strong>（默认）：在视口中同时显示3D视图和2D视图</li><li><strong>仅限3D</strong>：最大化3D视图并隐藏2D视图。</li><li><strong>仅限2D</strong>：最大化2D视图并隐藏3D视图。</li><li><strong>交换3D/2D</strong>：交换视图的显示顺序。 如果3D视图位于左侧，在选择此操作后，它将位于右侧。</li></ul></td>
   </tr>
   <tr>
-    <td><strong>透视模式</strong><br>！[&#128279;](../../assets/viewport-camera-projection.png)</td>
+    <td><strong>透视模式</strong><br><img src="../../assets/viewport-camera-projection.png"/></td>
     <td>这些设置控制3D网格在3D视图中的显示方式：<br><ul><li><strong>透视视图</strong>（默认）：显示3D网格，就像人眼或相机看到的那样。</li><li><strong>正交视图</strong>：将3D网格显示为每个方向测量相同的长度。</li></ul></td>
   </tr>
   <tr>
-    <td><strong>相机旋转模式</strong><br>！[&#128279;](../../assets/viewport-camera-axis.png)</td>
+    <td><strong>相机旋转模式</strong><br><img src="../../assets/viewport-camera-axis.png"/></td>
     <td>此设置控制视口相机可以旋转多少个轴。<br><ul><li><strong>自由旋转</strong>：相机在X、Y和Z轴上旋转。</li><li><strong>受限旋转</strong>（默认）：相机仅在X轴和Y轴上旋转（无滚动）。</li></ul></td>
   </tr>
   <tr>
-    <td><strong>渲染模式</strong><br>！[&#128279;](../../assets/viewport-rendering.png)</td>
+    <td><strong>渲染模式</strong><br><img src="../../assets/viewport-rendering.png"/></td>
     <td>切换到<a href="../../features/iray-renderer/iray-renderer.md">渲染模式</a>。</td>
   </tr>
 </table>
