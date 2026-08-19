@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/cylindrical-projection.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/fill-projections/cylindrical-projection.html"
 breadcrumb-title: ''
 description: 在Substance 3D Painter中使用圆柱投影从圆柱投影纹理以围绕圆柱对象环绕纹理。
 helpx_creative_field: ""
