@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Painter版本2017.3的发行说明，了解新增功能、改进和错误修复。
 helpx_creative_field: ""
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ![](../../assets/gradient-rust.jpg)
 
-**渐变滤镜**&#x200B;已完全改版。 与&#x200B;**节点**&#x200B;中可用的&#x200B;**渐变映射** Substance Designer的作用更加相似。 它现在最多支持&#x200B;**10种不同的颜色**，可以指定颜色在&#x200B;**渐变&#x200B;**&#x200B;**内的位置**，从而打开许多新门。 这允许创建更多&#x200B;**高级颜色模式**，也可以&#x200B;**重新映射高度图**&#x200B;并创建&#x200B;**新形状**。
+**渐变滤镜**&#x200B;已完全改版。 与&#x200B;**节点**&#x200B;中可用的&#x200B;**渐变映射** Substance Designer的作用更加相似。 它现在最多支持&#x200B;**10种不同的颜色**，可以指定颜色在&#x200B;**渐变&#x200B;****内的位置**，从而打开许多新门。 这允许创建更多&#x200B;**高级颜色模式**，也可以&#x200B;**重新映射高度图**并创建&#x200B;**新形状**。
 
 主滑块（颜色量）定义用于创建渐变的总颜色数。 下面的按钮定义了颜色混合模式（sRGB或线性）。 如果要在颜色之间进行正确的混合，这一点非常重要。 例如，混合纯红色和纯绿色应该会得到一个漂亮的黄色。 如果禁用该按钮，则不会出现这种情况（它会变为深褐色）。 重映射Height或任何其他灰度通道时，应禁用此按钮以避免执行灰度系数转换。
 
