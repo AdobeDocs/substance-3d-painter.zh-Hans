@@ -32,7 +32,7 @@ ht-degree: 0%
 | **比较** | 这里有三个参数可用于选择应如何计算蒙版。 中间的下拉菜单定义比较操作（小于、在公差范围内、大于）。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/compare-mode.png"/></div> 源模式和目标模式为：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>下方图层</strong> ：考虑当前图层下方所有图层的拼合版本。</li><li data-preserve-html="true"><strong>此图层</strong> ：仅考虑此图层。</li><li data-preserve-html="true"><strong>此蒙版</strong> ：考虑蒙版的现有内容（例如，如果填充效果或生成器效果已经存在）。</li><li data-preserve-html="true"><strong>常量</strong> ：统一值。</li></ul>操作包括：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>小于</strong> ：如果源（左侧下拉菜单）的值小于目标（右侧下拉菜单）的值，则将在蒙版中输出白色值。</li><li data-preserve-html="true"><strong>在容差范围内</strong> ：如果源（左侧下拉菜单）与目标（右侧下拉菜单）具有相似的值，则将在蒙版中输出白色值。</li><li data-preserve-html="true"><strong>大于</strong> ：如果源（左侧下拉菜单）的值高于目标（右侧下拉菜单）的值，则将在蒙版中输出白色值。</li></ul> |
 | **常量** | 比较设置设为“常量”时要比较的值。 |
 | **硬度** | 控制生成的蒙版比较的Smoothness/硬度。 |
-| **源通道直方图** | 提供源和目标的直方图视图。 有助于了解它们是否重叠了一点（如果它们没有重叠，蒙版将为空）。有关直方图工作方式的更多信息，请参阅： [色阶](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/substance-graphs/nodes-reference-for-substance-graphs/atomic-nodes/levels)。 |
+| **源通道直方图** | 提供源和目标的直方图视图。 有助于了解它们是否重叠了一点（如果它们没有重叠，蒙版将为空）。有关直方图工作方式的更多信息，请参阅： [色阶](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-designer/using/substance-graphs/nodes-reference-for-substance-graphs/atomic-nodes/levels)。 |
 
 >[!NOTE]
 >

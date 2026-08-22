@@ -19,6 +19,6 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 有关如何按名称匹配资源的信息，请参见[Bakers文档](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/matching-by-name)。
+> 有关如何按名称匹配资源的信息，请参见[Bakers文档](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/features/matching-by-name)。
 
 ![](../../assets/baking/baking-log-panel.png)
