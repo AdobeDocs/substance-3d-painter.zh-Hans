@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 可能还支持此处未列出的某些其他软件（如&#x200B;**辛烷**）。 有关详细信息，请参阅[生态系统和插件](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)。
+> 可能还支持此处未列出的某些其他软件（如&#x200B;**辛烷**）。 有关详细信息，请参阅[生态系统和插件](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/ecosystem/home)。
 
 | *预设* | *描述* |
 | --- | --- |
