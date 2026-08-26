@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Painter的已知问题，了解最新版本中的当前限制和解决方法。
 helpx_creative_field: ""
