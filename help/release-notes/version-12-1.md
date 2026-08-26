@@ -2,9 +2,9 @@
 title: 版本 12.1
 description: 版本12.1的发行说明
 helpx_description: Substance 3D Painter
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,24 @@ Painter现在支持OpenPBR着色模型，并将其用作默认工作流程，从
 [![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
 ## 发行说明
+
+### 12.1.3
+
+发行日期：**2026/08/25**
+
+摘要： **次要版本**
+
+**已添加：**
+
+* 将Substance引擎更新到9.4.6v版
+
+**已修复：**
+
+* [灰度选取器]选取器在更改工具后保持打开状态
+* [倾斜烘焙]绘画和撤消时倾斜校正中断
+* [投影工具]视口交互被投影工具阻止
+* [动态描边]在画笔属性中缺少动态描边参数
+* 无法再导出到网络
 
 ### 12.1.2
 

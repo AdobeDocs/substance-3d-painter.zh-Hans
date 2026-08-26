@@ -11,9 +11,9 @@ title: 所有更改
 user-guide-description: ''
 user-guide-title: ''
 hold: false
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 9bb3d9d70fb00c8817a11c2938292aa337279b74
 workflow-type: tm+mt
-source-wordcount: '33932'
+source-wordcount: '33992'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,24 @@ ht-degree: 0%
 > 要查看可能影响Painter的已知问题，请参阅[专用文档页面](known-issues.md)。
 
 ## 版本12
+
+### 12.1.3
+
+发行日期：**2026/08/26**
+
+摘要： **次要版本**
+
+**已添加：**
+
+* 将Substance引擎更新到版本9.4.6
+
+**已修复：**
+
+* [灰度选取器]选取器在更改工具后保持打开状态
+* [倾斜烘焙]绘画和撤消时倾斜校正中断
+* [投影工具]视口交互被投影工具阻止
+* [动态描边]在画笔属性中缺少动态描边参数
+* 无法再导出到网络
 
 ### 12.1.2
 
