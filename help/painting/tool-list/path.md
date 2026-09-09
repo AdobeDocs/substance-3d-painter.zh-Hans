@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/painting/tool-list/path.html'
+helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/path.html'
 breadcrumb-title: ''
 description: 使用Substance 3D Painter中的“路径”工具创建和编辑路径，以便精确绘制纹理和放置描边。
 helpx_creative_field: ''
