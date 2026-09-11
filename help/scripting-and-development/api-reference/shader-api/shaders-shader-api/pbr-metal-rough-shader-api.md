@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Painter的PBR Metal Rough着色器 API参考以创建基于物理的材质。
+description: 请访问Substance 3D Painter的PBR Metal Rough着色器 API参考以创建基于物理的材料。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > PBR Metal Rough - Shader API
 helpx_experience_level: ""
@@ -37,7 +37,7 @@ import lib-utils.glsl
 ```
 
 
-声明要用于此着色器的图像模型材料。
+声明要用于此着色器的imray mdl材料。
 
 ```
 //: metadata { 
@@ -69,7 +69,7 @@ uniform SamplerSparse specularlevel_tex;
 ```
 
 
-着色器入口点。
+入口点着色器。
 
 ```
 void shade(V2F inputs) 

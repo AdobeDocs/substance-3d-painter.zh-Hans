@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Painter的Lib Sampler着色器 API参考，在自定义着色器开发中对纹理和数据进行采样。
+description: 访问Substance 3D Painter的Lib Sampler着色器 API参考，以在自定义着色器开发中示例纹理和数据。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sampler - Shader API
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## lib-sampler.glsl
 
-**公共函数：** *getAO* *getShadowFactor* *getGlossiness* *getRoughness* *getMetallic* *getInvisionalLevel* *getInvisionalAngle* *getOpacity* *getHeight* *getDisplacement* *get2&rbrace; specularLevel* *getBaseColor* *getSpream* *getSpecularColor* *getScreattering* *generateOtherspariousRoughness* *generateSpreamColor* *generateSpecularColor*
+**公共函数：** *getAO* *getShadowFactor* *getGlossiness* *getRoughness* *getMetallic* *getInvisionalLevel* *getInvisionalAngle* *getOpacity* *getHeight* *getDisplacement* *get2} specularLevel* *getBaseColor* *getSpream* *getSpecularColor* *getScreattering* *generateOtherspariousRoughness* *generateSpreamColor* *generateSpecularColor*
 
 从库导入
 
@@ -77,7 +77,7 @@ uniform SamplerSparse ao_tex;
 ```
 
 
-用于微调环境遮蔽强度的值。
+用于微调Ambient occlusion强度的值。
 
 ```
 //: param custom { 
@@ -119,7 +119,7 @@ uniform vec4 screen_size;
 ```
 
 
-返回采样的光泽度或默认值
+返回取样光泽度或默认值
 
 ```
 float getGlossiness(vec4 sampledValue) 
@@ -142,7 +142,7 @@ float getGlossiness(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-返回样本粗糙度或默认值
+返回取样粗糙度或默认值
 
 ```
 float getRoughness(vec4 sampledValue) 
@@ -165,7 +165,7 @@ float getRoughness(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-返回取样的金属或默认值
+返回金属样本或默认值
 
 ```
 float getMetallic(vec4 sampledValue) 
@@ -188,7 +188,7 @@ float getMetallic(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-返回采样各向异性级别或默认值
+返回取样anisotropy level或默认值
 
 ```
 float getAnisotropyLevel(vec4 sampledValue) 
@@ -211,7 +211,7 @@ float getAnisotropyLevel(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-返回取样各向异性角度或默认值
+返回取样anisotropy angle或默认值
 
 ```
 float getAnisotropyAngle(vec4 sampledValue) 
@@ -381,7 +381,7 @@ float getDisplacement(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-返回环境遮蔽
+返回ambient occlusion
 
 ```
 float getAO(SparseCoord coord, bool is_premult) 
@@ -424,7 +424,7 @@ float getAO(SparseCoord coord, bool is_premult)
 ```
 
 
-帮助程序获取着色的环境遮蔽
+获取ambient occlusion的助手
 
 ```
 float getAO(SparseCoord coord) 
@@ -493,7 +493,7 @@ float getShadowFactor()
 ```
 
 
-返回取样基色或默认值
+返回取样base color或默认值
 
 ```
 vec3 getBaseColor(vec4 sampledValue) 
@@ -566,7 +566,7 @@ vec3 getSpecularColor(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-根据粗糙度和各向异性度生成各向异性粗糙度
+从粗糙度和anisotropy level生成各向异性粗糙度
 
 ```
 vec2 generateAnisotropicRoughness(float roughness, float anisoLevel) 
@@ -579,7 +579,7 @@ vec2 generateAnisotropicRoughness(float roughness, float anisoLevel)
 ```
 
 
-从基色和金属色因子生成漫射色
+根据base color和金属因素生成漫射色
 
 ```
 vec3 generateDiffuseColor(vec3 baseColor, float metallic) 
@@ -592,7 +592,7 @@ vec3 generateDiffuseColor(vec3 baseColor, float metallic)
 ```
 
 
-从电介质Specular level、基色和金属系数生成Specular
+根据介电Specular level、Specular和金属因素生成base color
 
 ```
 vec3 generateSpecularColor(float specularLevel, vec3 baseColor, float metallic) 
@@ -605,7 +605,7 @@ vec3 generateSpecularColor(float specularLevel, vec3 baseColor, float metallic)
 ```
 
 
-使用介质的默认Specular level(0.04)，根据基色和金属色系数生成Specular
+使用介质的默认Specular(0.04)，根据base color和金属因子生成Specular level
 
 ```
 vec3 generateSpecularColor(vec3 baseColor, float metallic) 

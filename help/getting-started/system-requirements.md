@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: 查看Substance 3D Painter的系统要求，确保您的计算机符合硬件和软件规格。
 helpx_creative_field: ""
@@ -51,10 +51,10 @@ ht-degree: 1%
 
 ## 一般建议
 
-为了在使用UV磁贴工作流程时获得良好的性能，我们建议使用：
+要在使用UV 平铺工作流程时获得良好的性能，我们建议采用以下方法：
 
 * 32 GB内存
-* GPU具有8 GB显存
+* GPU具有8 GB的VRAM
 * SSD用于存储项目和应用程序缓存。
 
 其他：
@@ -64,7 +64,7 @@ ht-degree: 1%
 * 以<b>8K</b>（8192\*8192像素）导出需要具有超过<b> 2GB VRam的GPU。</b>
 * 为了在MacOS 10.15 (Catalina)上运行，仅对版本2019.x及更高版本进行了公证。
 * 要通过RDP（远程桌面）使用软件，请参阅专用的[文档页面](../pipeline-and-integration/configuration/remote-desktop.md)。
-* 烘焙时Ryzen CPU崩溃，可通过更新BIOS来修复。
+* 烘焙时崩溃在Ryzen CPU上，可通过更新BIOS来修复。
 
 ## 不支持的配置
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 <b>DXR</b>也需要以下最低配置：
 
-* <b>Windows 10</b>版本1809，有关详细信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/features/gpu-raytracing)
+* <b>Windows 10</b>版本1809，有关详细信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)
 * 具有Pascal体系结构的<b> GPU</b> (Nvidia GeForce 10XX)
 
 >[!TIP]
@@ -142,7 +142,7 @@ ht-degree: 1%
 | --- | --- |
 | Windows | XP-PENWin\_3.2.2.211027 |
 | macOS | XP-PENMac\_3.2.3\_211203 |
-| Linux | XP-PEN-pentablet-3.2.1.211019-1 |
+| Linux | XP-笔-pentablet-3.2.1.211019-1 |
 
 
 +++
@@ -160,7 +160,7 @@ ht-degree: 1%
 +++
 
 +++异黑体
-<b>型号：</b>绘图板介质
+<b>型号：</b>笔平板电脑媒体
 
 
 | 操作系统 | 驱动程序版本 |

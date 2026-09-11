@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/main-menu/window-menu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/window-menu.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的“窗口”菜单来管理界面面板和自定义工作区布局。
 helpx_creative_field: ""
@@ -27,5 +27,5 @@ ht-degree: 10%
 | --- | --- |
 | **个视图** | 列出界面中可用的窗口（复选框指示当前是否可见）。 |
 | **工具栏** | 列出界面中可用的工具栏（复选框指示它当前是否可见，以允许切换它们）：停靠、增效工具和工具。 |
-| **隐藏UI** | 隐藏界面的所有窗口和停靠区，并最大化视口。 |
+| **隐藏UI** | 隐藏接口的所有窗口和坞站，并最大化视口。 |
 | **重置UI** | 将当前窗口布局重置为默认值。 |

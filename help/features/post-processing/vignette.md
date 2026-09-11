@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/post-processing/vignette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/vignette.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的晕影后期处理效果在视口边缘周围添加变暗效果。
 helpx_creative_field: ""
@@ -22,6 +22,6 @@ ht-degree: 5%
 
 ![](../../assets/vignette-22.png)
 
-晕影效果可使视区的角落变暗，以模拟相机阴影。
+晕影效果可调暗视口的角落，以模拟相机阴影。
 
 ![](../../assets/vignette-example-2.jpg)

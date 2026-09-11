@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/pipeline-and-integration/installation-and-preferences/preferences-and-application-data-location.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/installation-and-preferences/preferences-and-application-data-location.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Painter的首选项和应用程序数据位置，以管理设置和用户数据。
 helpx_creative_field: ""
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 ## 首选项
 
-此路径是应用程序首选项（已保存的快捷键、托架/资源路径、界面布局等）的位置。
+此路径是应用程序首选项（已保存的快捷键、工具架/资源路径、界面布局等）的位置。
 
 <table data-preserve-html="true"><colgroup> <col/> <col/> <col/> </colgroup><tbody><tr><th>系统</th><th>Version</th><th>路径</th></tr><tr><td rowspan="2"><p><strong>Windows</strong></p><p>（注册表）</p></td><td><strong>7.2</strong>或更高版本</td><td>HKEY_CURRENT_USER\Software\Adobe\Adobe Substance 3D Painter</td></tr><tr><td>旧版</td><td>HKEY_CURRENT_USER\Software\Allegorithmic\Substance Painter</td></tr><tr><td rowspan="2"><p><strong>Mac</strong></p><p>（库）</p></td><td><strong>7.2</strong>或更高版本</td><td>/用户/[用户名]/Library/Preferences/com.adobe.Adobe Substance 3D Painter.plist</td></tr><tr><td>旧版</td><td>/用户/[用户名]/资源库/Library/Preferences/com.substance3d.Substance Painter.plist</td></tr><tr><td rowspan="2"><strong>Linux</strong></td><td><strong>7.2</strong>或更高版本</td><td>/home/[用户名]/.config/Adobe/Adobe Substance 3D Painter.conf</td></tr><tr><td>旧版</td><td>/home/[用户名]/.config/Allegorithmic/Substance Painter.conf</td></tr></tbody></table>
 

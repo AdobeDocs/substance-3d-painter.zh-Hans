@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Painter的Lib SSS着色器 API参考，以在自定义着色器中创建子表面散射效果。
+description: 访问Substance 3D Painter的Lib SSS着色器 API参考，以在自定义着色器中创建次表面散射效果。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib SSS - Shader API
 helpx_experience_level: ""
@@ -62,7 +62,7 @@ uniform bool sssEnabled;
 ```
 
 
-选择光线是直接透过材质（半透明）还是先扩散，然后再开始散点（皮肤）。
+选择光线是直接透过材料（半透明）还是开始散点（皮肤）之前扩散。
 
 ```
 //: param custom { 
@@ -135,7 +135,7 @@ uniform vec3 sssColor;
 ```
 
 
-返回材质SSS系数
+返回材料SSS系数
 
 ```
 vec4 getSSSCoefficients(float scattering) { 

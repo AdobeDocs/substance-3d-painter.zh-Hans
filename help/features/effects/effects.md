@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用效果将滤镜、生成器和调整应用于纹理图层。
 helpx_creative_field: ""
@@ -22,11 +22,11 @@ ht-degree: 3%
 
 ![](../../assets/new-filters.jpg){width="450px"}
 
-效果是一组不同的&#x200B;**操作**，可以应用于Substance 3D Painter图层栈栈中&#x200B;**图层**&#x200B;的&#x200B;**内容**&#x200B;或&#x200B;**蒙版**。\
+效果是一组不同的&#x200B;**操作**，可以应用于图层堆叠中&#x200B;**图层**&#x200B;的&#x200B;**内容**&#x200B;或&#x200B;**蒙版**。\
 它们允许从简单的颜色变化到复杂的蒙版创建的一系列变化。 默认情况下，Substance 3D Painter附带多个效果，但您也可以在Substance 3D Designer中创建自己的效果。
 
-通过在任何图层或蒙版上&#x200B;**单击右键**，或者单击图层栈栈窗口顶部&#x200B;**的专用**&#x200B;按钮，可以向栈栈添加效果。\
-大多数效果都有混合模式和不透明度，例如常规图层，而且可以重新排序，从而允许您创建完整的效果栈栈，来创建复杂的蒙版。
+通过在任何图层或蒙版上&#x200B;**单击右键**，或者单击堆叠窗口顶部&#x200B;**的专用**&#x200B;按钮，可以将效果添加到图层堆叠中。\
+大多数效果都有混合模式和不透明度，例如常规图层，而且可以重新排序，从而让您创建完整的效果堆叠，以创建复杂的蒙版。
 
 >[!NOTE]
 >

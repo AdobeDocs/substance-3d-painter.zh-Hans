@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/send-to.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/send-to.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的“发送到”功能将项目和资源转移到其他Substance 3D应用程序。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![横幅图像](../assets/sendto_banner.jpg)
 
-<b>发送到</b>是可将资源从项目轻松导出和导入到其他应用程序的操作，无需手动执行。 发送至：可用于将3D模型及其纹理导出到其他渲染应用程序，或从Substance 3D Designer接收Substance素材。
+<b>发送到</b>是可将资源从项目轻松导出和导入到其他应用程序的操作，无需手动执行。 发送至：可用于将3D模型及其纹理导出到其他渲染应用程序，或从Substance 3D Designer接收Substance材料。
 
 可通过<b>文件>发送</b>至菜单来执行“发送至”操作。
 

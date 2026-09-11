@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/startup-issues/application-failed-to-start-because-of-qt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/application-failed-to-start-because-of-qt.html"
 breadcrumb-title: ''
 description: 了解如何修复由Qt框架问题导致的Substance 3D Painter启动失败以正确启动应用程序。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 启动应用程序时可能会出现以下错误消息：
 
-&#x200B;>> 
+>> 
 
 此应用程序无法启动，因为无法初始化Qt平台插件。 重新安装应用程序可以修复此问题。
 

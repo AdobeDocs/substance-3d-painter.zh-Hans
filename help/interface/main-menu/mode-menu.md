@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/interface/main-menu/mode-menu.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/main-menu/mode-menu.html'
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的“模式”菜单在不同的应用程序模式和工作流程之间切换。
 helpx_creative_field: ''
@@ -26,6 +26,6 @@ ht-degree: 1%
 
 | 操作 | 描述 |
 | --- | --- |
-| **烘焙网格图** | 使用此模式创建常规图、世界空间常规图、AO和ID图等实用图，具体方法是：从高多边形到低多边形，或者仅使用项目网格本身。 |
-| **绘画** | 在Painter中，您可以花费大部分时间在绘画模式下，在这里，您可以访问图层栈栈和材质，并直接在3D模型上绘画。 |
-| **渲染(Iray)** | 切换到Iray渲染模式。 Iray是一种可创建高质量渲染的非实时渲染器。 有关详细信息，请参阅专用页面： [Iray渲染器](../../features/iray-renderer/iray-renderer.md)。 |
+| **网格图** | 使用此模式创建常规图、世界空间常规图、AO和ID图等实用图，具体方法是：从高多边形到低多边形，或者仅使用项目网格本身。 |
+| **绘画** | 在Painter中，您可以把大部分时间花在绘画模式中，在这里，您可以访问图层堆叠和材料，并直接绘画在3D模型上。 |
+| **渲染(Iray)** | 切换到Iray渲染模式。 Iray是一种可创建高质量渲染的非实时渲染器。 有关详细信息，请参阅专用页： [Iray渲染器](../../features/iray-renderer/iray-renderer.md)。 |

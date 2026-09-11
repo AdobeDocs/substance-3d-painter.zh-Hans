@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/main-menu/edit-menu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/edit-menu.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的“编辑”菜单来访问撤消、重做和编辑操作。
 helpx_creative_field: ""
@@ -25,8 +25,8 @@ ht-degree: 2%
 
 | 操作 | 描述 |
 | --- | --- |
-| **撤消** | 在[历史记录](../history.md)栈栈中后退一步。 |
-| **重做** | 在[历史记录](../history.md)栈栈中前进一步。 |
+| **撤消** | 在[历史记录](../history.md)堆叠中后退一步。 |
+| **重做** | 在[历史记录](../history.md)堆叠中前进一步。 |
 | **项目配置** | 打开当前项目的[项目设置](../project-configuration.md)窗口。 |
 | **设置** | 打开常规[应用程序设置](../settings/settings.md)窗口。 |
-| **烘焙网格图** | 打开[烘焙](../../baking/baking.md)窗口。 |
+| **网格图** | 打开[烘焙](../../baking/baking.md)窗口。 |

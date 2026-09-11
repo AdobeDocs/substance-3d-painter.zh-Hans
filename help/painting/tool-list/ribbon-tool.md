@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/ribbon-tool.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/ribbon-tool.html"
 breadcrumb-title: ''
-description: 使用Substance 3D Painter中的“色带”工具，沿装饰纹理绘画的路径创建类似色带的绘画描边。
+description: 使用Substance 3D Painter中的“色带”工具沿路径创建类似色带的绘画描边，以进行装饰性纹理绘画。
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
 helpx_experience_level: ""
@@ -34,9 +34,9 @@ ht-degree: 2%
 
 ## 概述
 
-“功能区路径”工具与“沿路径绘画”工具的不同之处在于前者绘制图像和素材的方式。
+功能区路径工具与沿路径绘画工具在绘制图像和材料方面的不同。
 
-使用基于绘画/画笔的工具时，图像在路径上重复多次，使用色带时，图像沿路径重复并发生变形以遵循其曲线。 画笔的单个组件称为<b>图章</b>，而功能区中的那些组件称为<b>修补程序</b>。
+使用基于绘画/画笔的工具时，图像在路径上重复多次，使用色带时，图像沿路径重复并发生变形以遵循其曲线。 绘画画笔的单个组件称为<b>图章</b>，而功能区中的那些组件称为<b>修补程序</b>。
 
 ![](../../assets/ribbon_comparison.jpg)
 
@@ -66,14 +66,14 @@ ht-degree: 2%
 | --- | --- |
 | <b>图像方向</b> | 定义输入图像的方向。 此方向控制图像在路径上的放置方式。 |
 | <b>翻转图像</b> | 沿路径的轴/宽度翻转图像。 |
-| <b>角</b> | 定义如何在路径上显示尖角（分割切线）。 可能的行为包括：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>斜接连接</b>：尖角/尖角</li> <li data-preserve-html="true"><b>圆角连接</b>：平滑/圆角</li> <li data-preserve-html="true"><b>斜面连接</b>：正方形/平面角</li> <li data-preserve-html="true"><b>剪切连接</b>：再次启动路径。 此模式将创建一个具有专用起始/结束部分的新路径。</li> </ul>下面是角落的外观，按顺序排列：  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_1489087363_row-1k52rbi-column-6c32r7q_image" src="../../assets/ribbon_corners_small.jpg"/></div> |
+| <b>角</b> | 定义锐角（分割正切）应如何在路径上显示。 可能的行为包括：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>斜接连接</b>：尖角/尖角</li> <li data-preserve-html="true"><b>圆角连接</b>：平滑/圆角</li> <li data-preserve-html="true"><b>斜面连接</b>：正方形/平面角</li> <li data-preserve-html="true"><b>剪切连接</b>：再次启动路径。 此模式将创建一个具有专用起始/结束部分的新路径。</li> </ul>下面是角落的外观，按顺序排列：  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_1489087363_row-1k52rbi-column-6c32r7q_image" src="../../assets/ribbon_corners_small.jpg"/></div> |
 | <b>关闭时省略结束</b> | 如果启用，则当路径闭合以进行连续循环时，将删除起始/结束部分。 这适用于拉伸偏移和动态笔触。 |
 
 ### 拉伸和拼贴
 
 ![](../../assets/ribbon_ui_stretch.png)
 
-该功能区路径可以使用两种不同的模式来控制沿路径重复和拉伸图像的方式：
+功能区路径可以使用两种不同的模式来控制图像沿路径重复和拉伸的方式：
 
 * <b>沿路径拉伸</b>： （默认）将拉伸沿路径重复的图像以适合路径长度
 * <b>保持长宽比</b>：沿路径重复的图像将保留其长宽比。 如果图像与路径相比太长，则将被裁剪。
@@ -84,7 +84,7 @@ ht-degree: 2%
 
 | 参数 | 描述 |
 | --- | --- |
-| <b>仅在偏移之间伸缩</b> | 如果启用，则在拉伸中间部分时，图像的起始部分和结束部分将保持不变。 使用<b>起始偏移</b>和<b>结束偏移</b>参数定义这些部分的大小。 中间截面将根据起始/终止自动计算。  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_122891642_row-3t12rpd-column-6c32r7q_image" src="../../assets/ribbon_stretch_guides_path.png"/></div> |
+| <b>仅在偏移之间拉伸</b> | 如果启用此选项，则在拉伸中间位置时，图像的开始部分和结束部分将保持不变。 使用<b>起始偏移</b>和<b>结束偏移</b>参数定义这些部分的大小。 中间截面将根据起始/终止自动计算。  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_122891642_row-3t12rpd-column-6c32r7q_image" src="../../assets/ribbon_stretch_guides_path.png"/></div> |
 | <b>拼贴模式</b> | 定义如何沿路径重复图像。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>无</b>：图像将不会重复。 它会沿着整条路被拉长。</li> <li data-preserve-html="true"><b>自动</b>：（默认）图像根据其大小和描边宽度自动重复特定次数。</li> <li data-preserve-html="true"><b>自定义</b>：映像按<b>拼贴量</b>参数定义的次数重复。</li> </ul> |
 | <b>拼贴数量</b> | 指定图像在<b>自定义</b>拼贴模式下的重复次数。 |
 | <b>每隔2个磁贴镜像一次</b> | 每第二次重复一次，沿着路径长度翻转所使用的图像。 |
@@ -111,9 +111,9 @@ ht-degree: 2%
 
 | 参数 | 描述 |
 | --- | --- |
-| <b>Alpha</b> | 控制功能区路径的<b>Alpha</b>部分在其自身重叠的区域中混合的方式，这会影响所有其他声道的混合强度。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>正常</b>：使用最顶端线段的Alpha。</li> <li data-preserve-html="true"><b>变亮（最大）</b>： （默认）使用最大Alpha值，保留最不透明的段。</li> <li data-preserve-html="true"><b>线性减淡（相加）</b>：添加段的Alpha以将它们累积在一起，从而产生更饱和的值。</li> </ul> |
-| <b>正常</b> | 定义<b>正常</b>通道在路径自身重叠的区域中混合的方式。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>正常</b>：使用最上面的线段的结果。</li> <li data-preserve-html="true"><b>法线映射组合</b>： （默认）将强度相等的线段组合。</li> <li data-preserve-html="true"><b>法线图细节</b>：将最顶层的部分视为其他细节，而底部区域将保持其强度。</li> </ul>此设置独立于为整个图层定义的<b>正常</b>混合模式，该模式在路径自身的自重叠混合之后应用。 <b>注意</b>：如果通道为统一颜色，则禁用此设置。 它仅与位图和Substance资源兼容。 |
-| <b>Height</b> | 定义<b>Height</b>通道在路径自身重叠的区域中混合的方式。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>正常</b>：使用最上面的线段的结果。</li> <li data-preserve-html="true"><b>线性减淡（添加）</b>：将段添加在一起，同时保留其原始强度。</li> <li data-preserve-html="true"><b>变暗（最小值）</b>：仅保留重叠段的最暗/最低值。</li> <li data-preserve-html="true"><b>亮度（最大）</b>： （默认）保持重叠段的最亮/最高值。</li> <li data-preserve-html="true"><b>屏幕</b>：类似于<b>线性减淡</b>，但得到的饱和度较低。</li> </ul>此设置独立于为整个图层定义的<b>Height</b>混合模式，该模式在路径自身的自重叠混合之后应用。 <b>注意</b>：如果通道为统一颜色，则禁用此设置。 它仅与位图和Substance资源兼容。 |
+| <b>Alpha</b> | 控制功能区路径的<b>Alpha</b>部分在其自身重叠的区域中混合的方式，这会影响所有其他声道的混合强度。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>正常</b>：使用最顶端线段的Alpha。</li> <li data-preserve-html="true"><b>变亮（最大）（最大）</b>： （默认）使用最大Alpha值，保留最不透明的段。</li> <li data-preserve-html="true"><b>Linear dodge（相加）</b>：将段的Alpha相加以一起累加，得到一个饱和度更高的值。</li> </ul> |
+| <b>正常</b> | 定义<b>正常</b>通道在路径自身重叠的区域中混合的方式。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>正常</b>：使用最上面的线段的结果。</li> <li data-preserve-html="true"><b>法线图合并</b>： （默认）以相同的强度合并线段。</li> <li data-preserve-html="true"><b>法线图细节</b>：将最顶层的部分视为其他细节，而底部区域将保持其强度。</li> </ul>此设置独立于为整个图层定义的<b>正常</b>混合模式，该模式在路径自身的自重叠混合之后应用。 <b>注意</b>：如果通道是统一颜色，此设置将被禁用。 它仅与位图和Substance资源兼容。 |
+| <b>Height</b> | 定义<b>Height</b>通道在路径自身重叠的区域中混合的方式。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>正常</b>：使用最上面的线段的结果。</li> <li data-preserve-html="true"><b>Linear dodge（添加）</b>：将段添加在一起，同时保留其原始强度。</li> <li data-preserve-html="true"><b>变暗（最小值）</b>：仅保留重叠段的最暗/最低值。</li> <li data-preserve-html="true"><b>亮度（最大）</b>： （默认）保持重叠段的最亮/最高值。</li> <li data-preserve-html="true"><b>屏幕</b>：类似于<b>线性减淡</b>，但得到的饱和度较低。</li> </ul>此设置独立于为整个图层定义的<b>Height</b>混合模式，该模式在路径自身的自重叠混合之后应用。 <b>注意</b>：如果通道是统一颜色，此设置将被禁用。 它仅与位图和Substance资源兼容。 |
 
 带Height声道的混合模式示例：
 

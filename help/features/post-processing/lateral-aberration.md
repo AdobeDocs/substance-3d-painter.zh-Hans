@@ -2,7 +2,7 @@
 title: 横向色差
 description: ''
 helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/post-processing/lateral-aberration.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/lateral-aberration.html"
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
 workflow-type: tm+mt
 source-wordcount: '155'
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 ![](../../assets/v12_post_aberration.jpg)
 
-通过从图像中心向外移动颜色通道，再现真实相机镜头边缘的可见彩色边纹，来模拟色差。
+通过从图像中心向外移动颜色通道，重现真实相机镜头边缘的可见彩色边纹，来模拟色差。
 
 | <b>参数</b> | <b>描述</b> |
 | --- | --- |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/gpu-issues/painter-doesn-t-start-on-the-right-gpu.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/painter-doesn-t-start-on-the-right-gpu.html"
 breadcrumb-title: ''
 description: 了解如何配置Substance 3D Painter以在正确的GPU上启动以获得最佳性能和兼容性。
 helpx_creative_field: ""
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 ### 禁用“偏好使用非默认GPU”
 
-从桌面快捷方式运行Painter或通过Steam运行它时，请确保<b>\*.desktop</b>文件内的设置<b>PrefersNonDefaultGPU</b>设置为<b>false</b>。
+从桌面快捷键运行Painter或通过Steam运行它时，请确保<b>\*.desktop</b>文件内的设置<b>PrefersNonDefaultGPU</b>设置为<b>false</b>。
 
 此设置可能会产生误导，导致使用/强制使用集成的GPU，而不是谨慎且功能更强大的GPU。 有关详细信息，[请参阅此讨论](https://github.com/ValveSoftware/steam-for-linux/issues/9940)。
 

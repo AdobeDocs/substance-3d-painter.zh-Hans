@@ -14,7 +14,7 @@ ht-degree: 2%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_uv_random_color.png" alt=""/><br><strong>在：</strong>实用程序中，蒙版</td>
-    <td style="border: 0;" valign="top"><strong>说明</strong><br>UV随机颜色生成器会为每个UV 岛分配纯的独特颜色。 这通常可用作具有复杂网格的诊断工具。<br><br>UV随机颜色可用于创建蒙版（黑白输出），或直接用作填充图层以根据UV 岛将颜色变化应用于网格，例如，将木地板的每个平板随机化。</td>
+    <td style="border: 0;" valign="top"><strong>说明</strong><br>UV随机颜色生成器为每个UV 岛分配纯的独特颜色。 这通常可用作具有复杂网格的诊断工具。<br><br>UV随机颜色可用于创建蒙版（黑白输出），或直接用作根据UV 岛对网格应用颜色变化的填充图层，例如，随机化木地板的每个木板。</td>
   </tr>
 </table>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
 breadcrumb-title: ''
 description: 了解如何修复Substance 3D Painter中的“保留画笔描边”设置保持禁用状态，以便正确保留画笔描边。
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * 在Substance 3D Painter 1.7或更高版本中打开有此问题的项目
 * 转到编辑>项目配置
-* 选择并重新导入您在当前项目中使用的原始网格（不是更新版本）
-* 验证并让Substance 3D Painter计算图层，如果图层是同一网格，则不会发生任何更改
+* 选择并重新导入您在当前项目中使用的原始网格（而不是更新版本）
+* 验证并让Substance 3D Painter计算图层，如果它的网格相同，则不会发生任何更改
 * 再次转到编辑>项目配置
 * “保留网格上的描边位置”现在应再次启用，从而允许您导入新网格

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/assets/advanced-search-queries.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/advanced-search-queries.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中创建高级搜索查询，以使用复杂的搜索条件查找特定资源。
 helpx_creative_field: ""
@@ -41,16 +41,16 @@ ht-degree: 0%
 例如：
 
 * **pbr.glsl**：着色器文件 — 它只能用作着色器，不能用作其他内容。
-* **effect.sbsar**： Substance文件 — 可以是生成器、滤镜甚至素材，因此如果原始图形（在Designer中）中未设置其用法，则导入时用户必须在Painter中指示它。
+* **effect.sbsar**： Substance文件 — 可以是生成器、滤镜甚至材料，因此，如果原始图形（在Designer中）未设置其用法，则导入时用户必须在Painter中指示其用法。
 
 ## 文本
 
-文本查询支持多种过滤类型，其中一些过滤类型比常规界面更高级。\
+文本查询支持多种类型的筛选，其中一些比常规界面更高级。\
 键入正确的关键字即可启用这些功能。
 
 * **可用的搜索类型** ：
   * “ **n：** ”：名称
-  * “ **：**”：托架/库（包括“会话”和“项目”）
+  * “ **：**”：工具架/库（包括“会话”和“项目”）
   * “ **p：** ”：路径
   * “ **u：** ”：用法
 * **转义** ：可以在需要转义的字符前使用“ **\**”或改用引号，例如：

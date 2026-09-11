@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/plugins/autosave.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins/autosave.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的自动保存插件定期自动保存项目。
 helpx_creative_field: ""
@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 > 自动存储计时器将在以下情况下暂停：
 > 
-> * 引擎正在做一个计算
+> * 引擎正在执行计算
 > * 正在导出纹理
 > * 配置窗口已打开
 > * 当前正在保存项目

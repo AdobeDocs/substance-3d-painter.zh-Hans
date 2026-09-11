@@ -1,7 +1,7 @@
 ---
-helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/features/effects/generator.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中使用生成器效果自动创建程序纹理和图案。
+description: 了解如何在Substance 3D Painter中使用生成器效果自动创建程序化纹理和图案。
 helpx_creative_field: ''
 helpx_description: Painter > Features > Effects > Generator
 helpx_experience_level: ''
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # 生成器
 
-生成器是生成蒙版或纹理的物质，这些蒙版或纹理基于网格拓扑[使用烘焙实用地图（如位置、曲率以及世界空间法线](../../baking/baking.md)）生成。
+生成器是基于网格拓扑[使用烘焙的实用地图（如位置、弯曲和世界空间法线](../../baking/baking.md)）生成蒙版或纹理的物质。
 
 >[!NOTE]
 >
-> 大多数生成器都输出单色（黑白）纹理，使其对于创建控制素材图层的蒙版最有用。 但是，不会阻止您使用单色生成器作为填充图层，或使用全色生成器作为蒙版。
+> 大多数生成器都输出单色（黑白）纹理，使其对于创建控制材料图层的蒙版最有用。 但是，没有任何因素阻止您使用单色生成器作为填充图层，或使用全色生成器作为蒙版。
 
 要将生成器添加到蒙版，请执行以下操作：
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 ![](../../assets/generators/generator_spectrum.png)
 
 每个生成器都有一组参数，用于微调生成的蒙版。\
-若要在盘架中添加自定义生成器，请参阅： [将内容添加到盘架](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+若要在工具架中添加自定义生成器，请参阅： [向工具架添加内容](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >

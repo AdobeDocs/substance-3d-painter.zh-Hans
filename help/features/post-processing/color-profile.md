@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/post-processing/color-profile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-profile.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用颜色配置文件后期处理功能来应用颜色分级和LUT变换。
 helpx_creative_field: ""
@@ -22,23 +22,23 @@ ht-degree: 0%
 
 ![](../../assets/doc-lut-example.jpg){width="700px"}
 
-Substance 3D Painter允许通过加载&#x200B;**LUT**&#x200B;纹理来将&#x200B;**颜色配置文件**&#x200B;分配给&#x200B;**视口**。\
-颜色配置文件可用于校准屏幕的最终颜色以匹配目标，例如特定相机。 通常，配置文件会通过更改亮度、灰度系数、对比度甚至色彩平衡来操纵颜色。
+Substance 3D Painter允许通过加载&#x200B;**LUT**&#x200B;颜色配置文件来将&#x200B;**视口**&#x200B;分配给&#x200B;**纹理**。\
+颜色配置文件可用于校准屏幕的最终颜色以匹配目标，如特定相机。 通常，配置文件会通过更改亮度、灰度系数、对比度甚至色彩平衡来操纵颜色。
 
 >[!NOTE]
 >
 > **LUT**&#x200B;表示“**查找表**”。 这是一种将颜色分级作为后期效果执行的最优化方法。 LUT用于弥补源和结果之间的差异。\
->  Substance 3D Painter使用存储为任何可能分辨率的&#x200B;**2D纹理**（浮动）的&#x200B;**3D** LUT（默认为&#x200B;**2048x128像素**）。 这意味着存储颜色操作的立方体被分成多个片并排显示。 有关更多技术详细信息，请参阅&#x200B;**GPU Gem**&#x200B;文章： <http://http.developer.nvidia.com/GPUGems2/gpugems2_chapter24.html>
+>  Substance 3D Painter使用存储为&#x200B;**2D纹理**（浮动）的&#x200B;**3D** LUT，具有任何可能的分辨率（默认为&#x200B;**2048x128像素**）。 这意味着存储颜色操作的立方体被分成多个片并排显示。 有关更多技术详细信息，请参阅&#x200B;**GPU Gem**&#x200B;文章： <http://http.developer.nvidia.com/GPUGems2/gpugems2_chapter24.html>
 
 ## 使用颜色配置文件
 
-可通过“显示设置”窗口载入颜色配置文件。\
+可以通过“显示设置”窗口加载颜色配置文件。\
 选中“**激活颜色配置文件**”复选框以影响视区并启用颜色配置文件。
 
 ![](../../assets/color-profile-ui.png)
 
-* 当“激活颜色配置文件”为&#x200B;**禁用**&#x200B;时，将以&#x200B;**sRGB**&#x200B;为材质视图渲染视区（对于某些特定通道，为线性）
-* 当“激活颜色配置文件”为&#x200B;**已启用**&#x200B;时，视区的渲染将在每个视图（包括独奏通道）的&#x200B;**线性/Raw**&#x200B;中完成
+* 当“激活颜色配置文件”处于&#x200B;**禁用**&#x200B;状态时，视口的渲染将以&#x200B;**sRGB**&#x200B;格式完成，用于材料视图（对于某些特定通道，为线性）
+* 在“激活颜色配置文件”处于&#x200B;**已启用**&#x200B;的情况下，将在每个视图（包括独奏通道）的&#x200B;**线性/原始数据**&#x200B;中完成视口渲染
 
 如果LUT纹理加载到资源插槽中，则它将用于在&#x200B;**材质模式**&#x200B;下处理视区的渲染。\
 否则，渲染将显示为线性/原始数据（例如，带有单独通道视图）。
@@ -60,7 +60,7 @@ Substance 3D Painter不处理输入颜色，而是通过白场设置处理。 �
 
 ## 创建颜色配置文件
 
-启用“**激活颜色配置文件**”后，Substance 3D Painter会将视区转换为&#x200B;**线性**&#x200B;渲染。 这意味着在应用LUT时，需要将颜色从线性配置文件转换为所需的目标。
+启用“**激活视口**”后，Substance 3D Painter会将颜色配置文件转换为&#x200B;**线性**&#x200B;渲染。 这意味着在应用LUT时，需要将线性配置文件中的颜色平移为所需的目标。
 
 ### 方法1 ：修改身份LUT
 
@@ -80,8 +80,8 @@ ociolutimage --generate --cubesize 64 --config nuke-default/config.ocio --colorc
 
 **注意**：也可以使用&#x200B;**ocioconvert**&#x200B;程序对此LUT应用颜色转换，从而使用&#x200B;**OpenColor IO**&#x200B;修改标识LUT。
 
-### 导入新的颜色配置文件
+### 导入新颜色配置文件
 
-只需打开导入窗口（或将LUT拖放到货架中）。 在Substance 3D Painter中导入LUT纹理时，请确保将“**colorlut**”**用法**&#x200B;分配给新资源。 否则，资源将无法正确显示在盘架中。
+只需打开导入窗口（或将LUT拖放到工具架中）。 在Substance 3D Painter中导入LUT纹理时，请确保将“ **colorlut**”**用法**&#x200B;分配给新资源。 否则，资源将无法在工具架中正确显示。
 
-有关详细信息，请参阅有关导入新资源的文档： [通过导入窗口添加资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+有关详细信息，请参阅有关导入新资源的文档： [通过导入窗口添加资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)

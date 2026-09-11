@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
 breadcrumb-title: ''
-description: 了解如何将Photoshop画笔预设（ABR文件）导入Substance 3D Painter以扩展画笔库。
+description: 了解如何将笔刷预设（ABR文件）导入Substance 3D Painter以扩展画笔库。
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Importing Photoshop Brush Presets
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 导入Photoshop画笔预设
+title: 导入笔刷预设
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# 导入Photoshop画笔预设
+# 导入笔刷预设
 
 本页逐步介绍了如何将ABR文件导入Substance 3D Painter。
 
@@ -51,16 +51,16 @@ ht-degree: 0%
    在“导入资源”窗口底部，选择加载ABR文件的位置：
 
    * <b>项目</b>：ABR文件将加载到当前打开的项目中。 仅当当前项目打开并附加到项目文件时，画笔才可用。
-   * <b>会话</b>：将ABR文件加载到内存中。 在应用程序关闭之前，画笔预设将一直可用。
-   * <b>库</b>：ABR文件将被复制到磁盘上的托架。 每当打开Painter时，画笔预设都可用，适用于所有项目。
+   * <b>会话</b>：将ABR文件加载到内存中。 在关闭应用程序之前，这些笔刷预设将可用。
+   * <b>库</b>： ABR文件将被复制到磁盘上的工具架中。 每当打开所有项目的Painter时，笔刷预设都可用。
 
    ![](../../../assets/import-location.png)
-1. <b>从盘架中访问画笔预设。</b>
+1. <b>从工具架访问笔刷预设。</b>
 
    ![](../../../assets/shelf-demo.png)
 
-   如果导入画笔预设时没有问题，这些画笔预设将出现在[资源](../../../interface/assets/assets.md)窗口中。
+   如果导入笔刷预设时没有问题，这些资产将显示在[资产](../../../interface/assets/assets.md)窗口中。
 
    >[!NOTE]
    >
-   > 如果画笔预设基于位图，则该画笔预设所使用的图像也可用于与画笔预设同名的“Shelf”的“Alpha”部分。
+   > 如果笔刷预设基于位图，则在笔刷预设的Alpha部分中也可以使用与工具架相同的名称使用该颜色所使用的图像。

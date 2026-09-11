@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/uv-tiles/image-sequence.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles/image-sequence.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用带有UV磁贴的图像序列进行动画纹理工作流程。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 图像序列
 
-图像序列是层架中分组为单个资源的图像集合。 图像根据其文件名中的特定图案分组在一起。
+图像序列是图像的一个集合，这些图像被组合为工具架中的单个资源。 图像根据其文件名中的特定图案分组在一起。
 
 ## 如何将图像作为序列导入
 
@@ -53,4 +53,4 @@ ht-degree: 0%
 
 像加载任何其他资源一样，可以将图像序列加载到接口中的任何资源插槽中。 但在某些情况下，可能需要正确使用其他设置。
 
-在[填充图层](../../painting/fill-projections/fill-projections.md)（和填充效果）中，确保投影模式设置为&#x200B;**填充（每个UV图块匹配）**，以确保将序列中的每个图像分配给纹理集中的右侧[UV图块](uv-tiles.md)。
+在[填充图层](../../painting/fill-projections/fill-projections.md)（和填充效果）中，确保将投影模式设置为&#x200B;**填充（每UV 平铺匹配）**，以确保将序列中的每个图像分配到纹理集中的右[UV 平铺](uv-tiles.md)。

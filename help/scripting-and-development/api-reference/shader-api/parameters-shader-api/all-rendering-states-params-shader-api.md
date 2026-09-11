@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Painter的“所有渲染状态参数”着色器 API参考，以控制渲染状态参数。
 helpx_creative_field: ""
@@ -24,14 +24,14 @@ ht-degree: 2%
 
 ## 背面消隐
 
-去除背面：
+回退脸部：
 
 ```
 //: state cull_face on
 ```
 
 
-绘制正面和背面：
+绘制前后脸部：
 
 ```
 //: state cull_face off
@@ -75,9 +75,9 @@ ht-degree: 2%
 ```
 
 
-## 着色器取样区域
+## 着色器采样局部性
 
-默认情况下，使用未变换的纹理坐标对文档通道进行采样，以便在绘画过程中进行渲染优化。
+默认情况下，将使用未变换的纹理坐标对文档通道进行取样，以便在绘画过程中优化渲染。
 
 如果出现伪像，请将&#x200B;*非本地*&#x200B;状态设置为&#x200B;*上的* 。
 

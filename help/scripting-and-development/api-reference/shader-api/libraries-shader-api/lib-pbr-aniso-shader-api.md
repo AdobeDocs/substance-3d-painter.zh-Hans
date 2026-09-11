@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-aniso-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-aniso-shader-api.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Painter的Lib PBR Aniso着色器 API参考以创建基于物理的各向异性材料。
+description: 请访问Substance 3D Painter的Lib PBR Aniso着色器 API参考以创建基于物理的各向异性材料。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib PBR Aniso - Shader API
 helpx_experience_level: ""

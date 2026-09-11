@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Painter的“库法线”着色器 API参考，以便在自定义着色器中使用法线映射和曲面法线。
+description: 访问Substance 3D Painter的“库法线”着色器 API参考，以处理自定义着色器中的法线图和表面法线。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Normal - Shader API
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## lib-normal.glsl
 
-**公共函数：** *normalBlend* *normalBlendOriented* *normalFade* *normalUnpack* *normalFromBaseNormal* *normalFromNormal* *normalFromHeight* *getTSNormal* *computeWSB9&rbrace;*&#x200B;计算NORMAL WSNORMAL **
+**公共函数：** *normalBlend* *normalBlendOriented* *normalFade* *normalUnpack* *normalFromBaseNormal* *normalFromNormal* *normalFromHeight* *getTSNormal* *computeWSB9}*&#x200B;计算NORMAL WSNORMAL **
 
 从库导入
 
@@ -54,7 +54,7 @@ uniform int normal_blending_mode;
 ```
 
 
-用于反转法线映射的Y轴
+用于反转法线图的Y轴
 
 ```
 //: param auto normal_y_coeff 
@@ -70,7 +70,7 @@ const float HEIGHT_FACTOR = 400.0;
 ```
 
 
-在2个正常映射之间执行混合
+在2个法线图之间执行混合
 
 这是基于Whiteout混合http://blog.selfshadow.com/publications/blending-in-detail/
 
@@ -89,7 +89,7 @@ vec3 normalBlend(vec3 baseNormal, vec3 overNormal)
 ```
 
 
-在2个正常映射之间执行细节方向混合
+在2个法线图之间执行面向细节的混合
 
 这基于细节导向混合http://blog.selfshadow.com/publications/blending-in-detail/
 
@@ -137,7 +137,7 @@ vec3 normalFade(vec3 normal,float attenuation)
 ```
 
 
-使用Alpha通道打开普通包装
+使用Alpha 通道打开普通包装
 
 ```
 vec3 normalUnpack(vec4 normal_alpha, float y_coeff) 
@@ -172,7 +172,7 @@ vec3 normalUnpack(vec4 normal_alpha, float y_coeff)
 ```
 
 
-使用Alpha通道打开正常包装，不进行Y反转
+使用Alpha 通道打开正常包装，不进行Y反转
 
 ```
 vec3 normalUnpack(vec4 normal_alpha) 
@@ -185,7 +185,7 @@ vec3 normalUnpack(vec4 normal_alpha)
 ```
 
 
-根据文档的Height通道计算切线空间法向
+根据文档的正切通道正常计算Height空间
 
 ```
 vec3 normalFromHeight(SparseCoord coord, float height_force) 
@@ -240,7 +240,7 @@ vec3 normalFromHeight(SparseCoord coord, float height_force)
 ```
 
 
-“帮助器”可根据基准法向、Height值和可选的细节法向，计算切线空间。
+从“基本法线”和Height值计算“法线”正切空间的助手，以及可选的细节“法线”。
 
 ```
 vec3 getTSNormal(SparseCoord coord, vec3 normalFromHeight) 
@@ -279,7 +279,7 @@ vec3 getTSNormal(SparseCoord coord, vec3 normalFromHeight)
 ```
 
 
-“帮助器”可根据基准法线和Height计算切线空间法线，以及可选的细节法线。
+从“基本法向”和“Height”计算“法向”正切空间的助手，以及可选的细节“法向”。
 
 ```
 vec3 getTSNormal(SparseCoord coord) 
@@ -296,7 +296,7 @@ vec3 getTSNormal(SparseCoord coord)
 ```
 
 
-帮助程序，用于从切线空间基准法线计算世界空间法线。
+从正切空间基准法线计算世界空间法线的助手。
 
 ```
 vec3 computeWSBaseNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 normal) 
@@ -319,7 +319,7 @@ vec3 computeWSBaseNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 n
 ```
 
 
-利用getTSNormal helper给出的切空间法向，以及网格的局部框架来计算世界空间法向。
+从getTSNormal助手给出的正切空间法线计算世界空间法线的助手，以及网格的局部帧。
 
 ```
 vec3 computeWSNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 normal) 

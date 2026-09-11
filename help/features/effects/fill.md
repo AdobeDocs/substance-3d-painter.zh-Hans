@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/effects/fill.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/fill.html"
 breadcrumb-title: ''
-description: 了解如何使用Substance 3D Painter中的填充效果，用纯色、纹理或素材填充图层。
+description: 了解如何使用Substance 3D Painter中的填充效果来填充具有纯色、纹理或材料的填充图层。
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Fill
 helpx_experience_level: ""
@@ -20,6 +20,6 @@ ht-degree: 3%
 
 # 填充
 
-填充效果与填充图层相同，但可以将其用作图层或蒙版上的效果，从而在单个图层中构建更复杂的材质或蒙版。
+填充效果与填充图层相同，但可以作为效果应用到图层或蒙版，允许在单个图层中创建更复杂的材料或蒙版。
 
 ![](../../assets/fill-effect.jpg)

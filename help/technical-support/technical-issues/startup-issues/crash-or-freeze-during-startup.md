@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter启动期间修复崩溃和冻结问题，以稳定启动应用程序。
 helpx_creative_field: ""
@@ -41,12 +41,12 @@ ht-degree: 0%
 * 外部应用程序正在产生冲突，请参阅[软件冲突](software-conflicts.md)以了解哪些冲突。
 * 该应用程序的某些窗口已在另一个监视器上打开。 将界面恢复为默认布局后，可以正常启动应用程序：
   1. 从开始菜单中打开注册表编辑器(**regedit**)
-  1. 导航到应用程序首选项（请参阅： [首选项和应用程序数据位置](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)）
+  1. 导航到应用程序首选项（请参阅： [首选项和应用程序数据位置](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)）
   1. 展开&#x200B;**Adobe Substance 3D Painter**&#x200B;项
   1. 选择&#x200B;**主窗口2018**&#x200B;键并将其删除
   1. 重新启动应用程序
 
-## 由于不正确的系统路径/Python路径而崩溃
+## 崩溃，因为系统路径/Python路径不正确
 
 应用程序会检查系统Path以加载Python模块和环境设置。 如果系统设置不正确，则可能会导致在启动过程中崩溃。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 1. 单击&#x200B;**环境变量**
 1. 在&#x200B;**系统变量**&#x200B;下找到&#x200B;**PATH**&#x200B;变量
 
-然后，可以编辑变量以验证其内容。 例如，如果变量包含此类以下字符，则会导致崩溃
+然后，可以编辑变量以验证其内容。 例如，如果变量包含此类以下字符，则将导致崩溃
 
 ```
 ï–›éŒ à €è¸€ì‡ì‡ç¿¹
@@ -93,7 +93,7 @@ Windows 10的某些更新有时可能会导致不稳定。 使用Windows附带�
 
 ## 在旧版本上启动时崩溃
 
-在Windows上，版本2018 (4.x)或更早版本可能无法启动，因为安装文件夹提供的dll文件之一对于操作系统来说太旧。 可通过手动将该文件替换为较新版本来修复此崩溃问题。
+在Windows上，版本2018 (4.x)或更早版本可能无法启动，因为安装文件夹提供的dll文件之一对于操作系统来说太旧。 可以通过手动使用较新版本替换文件来修复此崩溃。
 
 具体操作如下：
 

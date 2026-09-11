@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.html"
 breadcrumb-title: ''
-description: 了解如何修复在Substance 3D Painter中将文件添加到托架时出现的拖放问题，以便实现有效的资源管理。
+description: 了解如何修复在Substance 3D Painter中将文件添加到工具架时出现的拖放问题，以实现有效的资源管理。
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to drag and drop files into the shelf
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 无法将文件拖放到架子中
+title: 无法将文件拖放到工具架中
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# 无法将文件拖放到架子中
+# 无法将文件拖放到工具架中
 
 在&#x200B;**Windows 8和Windows 10**&#x200B;上，如果您在管理员模式下运行Substance 3D Painter，则软件的安全级别可能高于Windows资源管理器的安全级别。 因此，Windows不允许在这些应用程序之间拖放文件。
 

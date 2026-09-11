@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/color-picker.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/color-picker.html"
 breadcrumb-title: ''
-description: 了解如何使用Substance 3D Painter中的拾色器从纹理和素材中选择颜色。
+description: 了解如何在Substance 3D Painter中使用拾色器从您的纹理和材料中选择颜色。
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Color picker
 helpx_experience_level: ""
@@ -22,13 +22,13 @@ ht-degree: 1%
 
 ![](../assets/color-picker-12.jpg)
 
-拾色器允许将颜色设置为在网格上绘制或投影。 此工具可用于从外部图像中选择颜色，或调整应用程序中的现有图像。
+拾色器允许将颜色设置为网格上的绘画或项目。 此工具可用于从外部图像中选择颜色，或调整应用程序中的现有图像。
 
 在Painter中单击任何色域(可在“属性”或任何其他设置或菜单（如“显示”或“着色器”参数）中找到)时，会显示拾色器窗口。
 
 ## 拾色器概述
 
-一旦打开，拾色器将处于半持续状态，这意味着它将在上下文发生变化之前保持打开状态 — 例如，从绘画图层切换到填充图层时。 可以移动窗口并将其放在任何可用屏幕上的任意位置。 但是，与其他窗口不同，拾色器无法停靠。
+打开后，拾色器将处于半持续状态，这意味着它将在上下文发生变化之前保持打开状态 — 例如，从绘画图层切换到填充图层时。 可以移动窗口并将其放在任何可用屏幕上的任意位置。 但是，与其他窗口不同，拾色器无法停靠。
 
 该窗口采用垂直布局，由三个部分组成：
 
@@ -42,17 +42,17 @@ ht-degree: 1%
 
 | 名称和视觉对象 | 描述 |
 | --- | --- |
-| **显示选择器** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/display-selector.png" width="250px"/></div> | 允许选择要用于编辑颜色的显示（色谱和滑块）。 默认值与主视区使用的“显示”相匹配。  **注意：**&#x200B;此设置仅在启用[色彩管理](../features/color-management/color-management.md)时可用。 |
-| **光谱** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/spectrum.png" width="250px"/></div> | 垂直滑块为常规色相。 它允许选择在渐变字段中显示的颜色的阴影。选择常规阴影后，可以按住并拖动渐变字段中的十字线光标以选择所需的颜色。  **注意：**&#x200B;启用[色彩管理](../features/color-management/color-management.md)后，当前显示器中的HDR颜色将被固定（在工作色彩空间中）。 这是为了避免在色彩管理的通道中输出HDR值。 |
+| **显示选择器** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/display-selector.png" width="250px"/></div> | 允许选择要用于编辑颜色的显示（色谱和滑块）。 默认值与主视口使用的“显示”相匹配。  **注意：**&#x200B;此设置仅在启用[色彩管理](../features/color-management/color-management.md)时可用。 |
+| **光谱** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/spectrum.png" width="250px"/></div> | 垂直滑块为常规色相。 它允许选择在渐变字段中显示的颜色的阴影。选择常规阴影后，可以按住并拖动渐变字段中的十字线光标以选择所需的颜色。  **注意：**&#x200B;启用[色彩管理](../features/color-management/color-management.md)后，来自当前显示器的HDR颜色将被固定（在工作色彩空间中）。 这是为了避免在色彩管理的通道中出现输出HDR 值。 |
 | **当前和以前的颜色** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/color-preview-current.png"/></div> | 左矩形指示将从拾色器输出的最终颜色。右边的矩形显示上一次使用的颜色（打开拾色器时）。 可以单击它以恢复以前的颜色，并使其成为当前的颜色。 |
 | **十六进制字段** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/hexa-field.png"/></div> | 十六进制字段以十六进制值表示当前颜色。 RGB组件用一对字母表示。例如，#FF0000表示红色。  **注意：**&#x200B;启用[色彩管理](../features/color-management/color-management.md)后，无论项目使用的当前显示空间或工作空间如何，十六进制字段始终在标准sRGB色彩空间中工作，以便更轻松地跨软件复制/粘贴值。 |
-| **滴管** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/picker.png"/></div> | 可使用滴管从外部源中选取颜色。 要使用它，请&#x200B;**单击图标上的**，然后移动鼠标并再次复制。  **注意：**&#x200B;在视区中选择颜色时，可以使用&#x200B;**Shift**&#x200B;修饰键来选择直接编辑的当前通道。 这样可以避免在原始纹理和屏幕上显示的颜色之间进行有损颜色转换。 在无需从&#x200B;**材质**&#x200B;显示模式切换的情况下选取颜色时，此功能也非常有用。 <div><img data-preserve-html="true" src="../assets/eyedropper-shift.png" width="150"/></div>  **注意：**&#x200B;颜色字段的旁边还会显示一个吸管，可用于快速选取颜色，而无需打开拾色器。 <div><img data-preserve-html="true" height="83" src="../assets/eyedropper.jpg"/></div>  **注意：**&#x200B;在Mac OS上，由于隐私设置，吸管可能无法在应用程序界面之外选取颜色。 要解决此问题，请为`System Preferences > Security & Privacy > Privacy > Screen Recording`中的应用程序分配正确的权限 |
+| **滴管** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/picker.png"/></div> | 可使用滴管从外部源中选取颜色。 要使用它，请&#x200B;**单击图标上的**，然后移动鼠标并再次复制。  **注意：**&#x200B;在视口中选择一种颜色时，可以使用&#x200B;**Shift**&#x200B;功能键来选择直接编辑的当前通道。 这样可以避免在原始纹理和屏幕上显示的颜色之间进行有损颜色转换。 在无需从&#x200B;**颜色**&#x200B;显示模式切换的情况下选取材料时，此功能也非常有用。 <div><img data-preserve-html="true" src="../assets/eyedropper-shift.png" width="150"/></div>  **注意：**&#x200B;颜色字段的旁边还会显示一个吸管，可用于快速选取颜色，而无需打开拾色器。 <div><img data-preserve-html="true" height="83" src="../assets/eyedropper.jpg"/></div>  **注意：**&#x200B;在Mac OS上，由于隐私设置，吸管可能无法在应用程序界面之外选取颜色。 要解决此问题，请为`System Preferences > Security & Privacy > Privacy > Screen Recording`中的应用程序分配正确的权限 |
 
 ### 颜色设置
 
 | 设置 | 描述 |
 | --- | --- |
-| **滴管色彩空间** | 指定在视区外部为所选颜色指定的色彩空间。**自动**&#x200B;设置使用项目设置中的标准sRGB色彩空间。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../assets/eyedropper-color-space-1.png"/></div> **注意：**&#x200B;此设置也适用于颜色按钮旁边的吸管。  **注意：**&#x200B;在未使用Shift修改键时，在视区内选定的颜色也会使用此配置文件。 |
+| **滴管色彩空间** | 为在视口外部选择的颜色指定色彩空间。**自动**&#x200B;设置使用项目设置中的标准sRGB色彩空间。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../assets/eyedropper-color-space-1.png"/></div> **注意：**&#x200B;此设置也适用于颜色按钮旁边的吸管。  **注意：**&#x200B;在不使用Shift修改键时，在视口内选定的颜色也会使用此配置文件。 |
 
 ### 滑块
 
@@ -159,4 +159,4 @@ RGB滑块通常通过0-255值进行测量。 可通过禁用&#x200B;**浮点值*
 
 >[!NOTE]
 >
-> 色板保存在用户文档文件夹中可用的配置文件内。 有关详细信息，请参阅[盘架和资源位置](../pipeline-and-integration/resource-management/shelf-and-assets-location.md)页面。
+> 色板保存在用户文档文件夹中可用的配置文件内。 有关详细信息，请参阅[工具架和资源位置](../pipeline-and-integration/resource-management/shelf-and-assets-location.md)页面。

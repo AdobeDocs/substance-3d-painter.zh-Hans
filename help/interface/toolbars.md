@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/toolbars.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/toolbars.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用和自定义工具栏以有效地访问工具和功能。
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 默认情况下，**工具工具栏**&#x200B;在主界面的左上角可用。 其中列出了[绘画工具](../painting/painting.md)的所有内容，这些工具可用于对当前打开的项目的3D网格进行纹理化处理。 只有在选择了绘画图层时，才能访问这些工具。
 
-某些工具具有名为“物理”的第二种模式，此模式支持粒子绘画。 还可以通过单击[资源](assets/assets.md)窗口中的粒子画笔预设来访问粒子绘画。
+某些工具具有名为“物理”的第二种模式，此模式支持粒子绘画。 还可以通过单击[资源](assets/assets.md)窗口中的笔刷预设来访问粒子绘画。
 
 此工具栏只能在主界面的左侧或右侧垂直停放。
 
@@ -56,11 +56,11 @@ ht-degree: 1%
 
 ![](../assets/contextual-toolbar.png){width="450px"}
 
-上下文工具栏是一个工具栏，其内容的某些部分会根据当前选定的工具或修改的其他属性而发生更改。 工具栏的左侧可以更改，但右侧是固定的，并列出快捷键以修改[视区](viewport/viewport.md)的显示。
+上下文工具栏是一个工具栏，其内容的某些部分会根据当前选定的工具或修改的其他属性而发生更改。 工具栏的左侧可以更改，但右侧已修复，并列出快捷键以修改[视口](viewport/viewport.md)的显示。
 
 此工具栏可列出以下元素的属性：
 
 * [绘画](../painting/painting.md)
-* [填充层投影操纵器](../painting/fill-projections/fill-projections.md)
+* [投影的操纵器](../painting/fill-projections/fill-projections.md)
 
-此工具栏无法移动，并始终位于视区的顶部。
+此工具栏无法移动，并始终位于视口顶部。

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Painter的Lib Vector着色器 API参考，以便在自定义着色器中处理矢量操作。
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ uniform bool is2DView;
 ```
 
 
-使用哪种投影。
+使用的是哪种投影？
 
 ```
 //: param auto is_perspective_projection 
@@ -96,7 +96,7 @@ vec3 getEyeVec(vec3 position) {
 ```
 
 
-将矢量从切线空间转换为世界空间
+将矢量从正切空间转换为世界空间
 
 ```
 vec3 tangentSpaceToWorldSpace(vec3 vecTS, V2F inputs) { 
@@ -113,7 +113,7 @@ vec3 tangentSpaceToWorldSpace(vec3 vecTS, V2F inputs) {
 ```
 
 
-将矢量从世界空间转换为切线空间
+将矢量从世界空间转换为正切空间
 
 ```
 vec3 worldSpaceToTangentSpace(vec3 vecWS, V2F inputs) { 
@@ -126,7 +126,7 @@ vec3 worldSpaceToTangentSpace(vec3 vecWS, V2F inputs) {
 ```
 
 
-世界空间中顶点的局部框架
+世界空间中顶点的本地帧
 
 ```
 struct LocalVectors { 
@@ -139,7 +139,7 @@ struct LocalVectors {
 ```
 
 
-从自定义世界空间法线和各向异性角度计算局部帧
+通过自定义世界空间法线和anisotropy angle计算本地帧
 
 ```
 LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) { 
@@ -222,7 +222,7 @@ LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) {
 ```
 
 
-根据网格和文档Height及法线计算局部帧
+从网格和文档Height及法线计算本地帧
 
 ```
 LocalVectors computeLocalFrame(V2F inputs) { 

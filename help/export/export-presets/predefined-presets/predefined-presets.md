@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/export-presets/predefined-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/predefined-presets.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Painter中的预定义输出模板，以便对常见工作流程使用现成的导出配置。
 helpx_creative_field: ""
@@ -31,4 +31,4 @@ ht-degree: 5%
 * Substance 3D Stager
 * [USDz (Apple AR)](usd-pbr-metal-roughness-preset.md)
 * glTF PBR金属粗糙度
-* glTF PBR金属粗糙度+位移纹理（试验）
+* glTF PBR金属粗糙度+位移纹理（实验性）

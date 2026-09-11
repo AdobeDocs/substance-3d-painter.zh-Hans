@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Painter的“表面”着色器 API参考，以创建自定义表面着色器效果和材质。
+description: 访问Substance 3D Painter的表面着色器 API参考以创建自定义表面着色器效果和材料。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Surface Shader - Shader API
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 表面着色器 — 着色器 API
+title: 表面着色器-着色器 API
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# 表面着色器 — 着色器 API
+# 表面着色器-着色器 API
 
-## surface-shader.glsl
+## surface-着色器.glsl
 
-要创建可用于Substance Painter的着色器资源，只需创建一个包含以下配置文件且包含一个名为&#x200B;*shade*&#x200B;函数的glsl文件：
+若要创建可以在Substance Painter中使用的着色器资源，只需创建一个包含以下配置文件且包含名为&#x200B;*shade*&#x200B;的单个函数的glsl文件：
 
 ```
 void shade(V2F inputs);
@@ -56,7 +56,7 @@ struct V2F {
 
 注意：要获取uv1-uv7的SparseCoord，必须显式调用[lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)中定义的&#x200B;*getSparseCoord(vec2)*
 
-## 曲面着色器输出：
+## 表面着色器输出：
 
 可以从&#x200B;*shade*&#x200B;函数内部调用以下函数来说明片段属性：
 

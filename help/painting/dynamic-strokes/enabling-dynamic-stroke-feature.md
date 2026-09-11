@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中启用动态描边功能，以创建具有变量效果的响应式画笔描边。
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ ht-degree: 2%
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-dyn.png"/></div> | 此资源可以使用以下一个或多个行为：<ul data-preserve-html="true"><li data-preserve-html="true">Stamp Index</li><li data-preserve-html="true">时间</li><li data-preserve-html="true">随机种子</li></ul> |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-random.png"/></div> | 此资源仅公开随机植入参数。 |
 
-还可通过使用以下关键字使用架中的搜索字段来搜索资源：
+还可通过使用包含以下关键字的工具架中的搜索字段来搜索资源：
 
 * dynamicstroke
 * 随机植入
@@ -60,8 +60,8 @@ ht-degree: 2%
 | **橡皮擦** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li><li data-preserve-html="true">材质</li></ul> |
 | **投影** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li></ul> |
 | **涂抹** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li></ul> |
-| **克隆** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li></ul> |
+| **仿制** | <ul data-preserve-html="true"><li data-preserve-html="true">Alpha</li></ul> |
 
 >[!NOTE]
 >
-> 动态笔触与&#x200B;**粒子**&#x200B;不兼容，这就是在物理模式下使用任何“工具”时该功能被禁用的原因。
+> 动态笔触与&#x200B;**粒子**&#x200B;不兼容，因此在使用物理模式中的任何工具时，该功能会被禁用。

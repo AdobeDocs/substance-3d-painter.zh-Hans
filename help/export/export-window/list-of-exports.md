@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter导出窗口中管理导出列表以整理纹理导出。
 helpx_creative_field: ""
@@ -22,4 +22,4 @@ ht-degree: 0%
 
 ![](../../assets/list-of-export.png){width="550px"}
 
-<b>导出窗口</b>的<b>导出列表</b>列出了每个纹理集中导出的纹理，并有一个控制台指示导出状态，包括错误消息。
+<b>导出窗口</b>的<b>导出列表选项卡</b>列出了每个纹理集中导出的纹理，并有一个控制台指示导出状态，包括错误消息。

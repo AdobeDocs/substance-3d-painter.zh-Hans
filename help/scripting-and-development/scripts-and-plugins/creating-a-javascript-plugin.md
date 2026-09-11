@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/scripts-and-plugins/creating-a-javascript-plugin.html"
 breadcrumb-title: ''
 description: 了解如何为Substance 3D Painter创建JavaScript插件，以扩展功能并自动执行自定义工作流。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 本分步指南介绍如何创建简单的插件，以便导出项目中当前选定图层的蒙版。
 
-本指南中增效工具的目标是将项目内当前纹理集的所有通道导出为单个纹理。
+本指南中增效工具的目标是将项目内当前纹理集的所有渠道导出为单个纹理。
 
 ## 1 — 导航到插件文件夹
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 增效工具名称基于其父文件夹的名称。
 
-对于本示例，只需在plugins文件夹中创建一个名为&#x200B;**export-textures**&#x200B;的新文件夹即可。
+在此示例中，只需在plugins文件夹中创建一个名为&#x200B;**export-plusts**&#x200B;的新文件纹理。
 
 ### 3 — 创建插件文件
 
@@ -325,7 +325,7 @@ PainterPlugin
 
 启动Substance 3D Painter，默认情况下，会自动加载并启用新插件。
 
-打开一个项目，然后单击由增效工具创建的UI按钮以导出当前所选纹理集的通道：
+打开一个项目，然后单击增效工具创建的UI按钮以导出当前所选纹理集的通道：
 
 ![](../../assets/button-plugin.png)
 

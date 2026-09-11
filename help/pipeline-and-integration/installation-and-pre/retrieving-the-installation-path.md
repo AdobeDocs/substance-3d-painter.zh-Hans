@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/pipeline-and-integration/installation-and-preferences/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/installation-and-preferences/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: 了解如何检索Substance 3D Painter的安装路径以用于脚本和管道集成目的。
 helpx_creative_field: ""
@@ -27,14 +27,14 @@ ht-degree: 6%
 ### Creative Cloud 桌面版
 
 1. 打开Windows注册表编辑器(**regedit**)。
-1. 导航到注册表项： **&#x200B; HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\**
+1. 导航到注册表项： ** HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\**
 1. 打开名为&#x200B;**Adobe Substance 3D Painter.exe**&#x200B;的子密钥
 1. 密钥的值包含安装该密钥的应用程序可执行文件的路径
 
 >[!NOTE]
 >
 > 此注册表项仅从版本7.2开始可用。\
->  对于旧版本，可从&#x200B;**HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ Explorer\FileExts**&#x200B;中的文件关联检索安装路径。
+>  对于旧版本，可从&#x200B;**资源管理器\FileExts**&#x200B;中的文件关联检索安装路径。
 
 ### Substance 3D Standalone
 

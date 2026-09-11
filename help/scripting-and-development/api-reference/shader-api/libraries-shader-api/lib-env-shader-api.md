@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
 breadcrumb-title: ''
-description: 访问Substance 3D Painter的Lib Env着色器 API参考，以便在自定义着色器中使用环境映射和光照。
+description: 访问Substance 3D Painter的Lib Env着色器 API参考，以处理自定义着色器中的环境图和光照。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Env - Shader API
 helpx_experience_level: ""
@@ -60,7 +60,7 @@ uniform mat4 irrad_mat_blue;
 ```
 
 
-允许对环境进行采样的帮助程序。 旋转也会被考虑在内。 环境地图是场景后的全景环境地图，这就是为什么dir矢量中有额外的计算。
+允许对环境进行采样的帮助程序。 旋转也会被考虑在内。 环境图是场景后的全景环境图，这就是为什么dir矢量中有额外的计算。
 
 ```
 vec3 envSampleLOD(vec3 dir, float lod) 

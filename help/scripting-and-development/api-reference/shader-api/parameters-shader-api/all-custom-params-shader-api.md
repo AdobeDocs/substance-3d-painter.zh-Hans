@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Painter的“所有自定义参数”着色器 API参考，以定义和控制自定义着色器参数。
 helpx_creative_field: ""
@@ -132,7 +132,7 @@ uniform bool u_bool;
 
 ## Sampler参数
 
-纹理在货架中由其名称定义，并且必须属于&#x200B;*纹理*&#x200B;或&#x200B;*环境*&#x200B;类别。
+该纹理在工具架中由其名称定义，并且必须属于&#x200B;*纹理*&#x200B;或&#x200B;*环境*&#x200B;类别。
 
 ```
 //: param custom { "default": "", "default_color": [1.0, 1.0, 0.0, 1.0], "label": "Texture" } 

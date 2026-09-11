@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Painter的像素化着色器 API参考以创建自定义像素化渲染效果。
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ const vec3 light_pos = vec3(10.0, 10.0, 10.0);
 ```
 
 
-我们&#x200B;**将**&#x200B;自动参数世界眼睛位置绑定到我们的制服&#x200B;**摄像机\_pos**。
+我们&#x200B;**将**&#x200B;自动参数世界眼睛位置绑定到我们的制服&#x200B;**相机\_pos**。
 
 ```
 //: param auto world_eye_position 
@@ -131,7 +131,7 @@ void shade(V2F inputs)
 ```
 
 
-基于基色明亮度，在蒙版大小中引入一些抖动
+根据明亮度为蒙版大小引入一些抖动
 
 ```
   float maskRadiusJitter = pow(dot(baseColor, vec3(0.3333)), 0.1);
@@ -145,7 +145,7 @@ void shade(V2F inputs)
 ```
 
 
-这里，我们对基色进行取样，并应用简单的扩散衰减
+在这里，我们对base color进行采样并应用简单的扩散衰减
 
 ```
   vec3 color = baseColor * NdL; 

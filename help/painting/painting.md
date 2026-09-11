@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中使用各种画笔、工具和技术，直接在3D模型上绘制纹理。
+description: 了解如何在Substance 3D Painter中使用各种画笔、纹理和技术直接将绘画到3D模型上。
 helpx_creative_field: ""
 helpx_description: Painter > Painting
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 可以使用手动工具或自动操作以多种方式在Substance 3D Painter中完成绘画。
 
-手动绘画工具可直接通过工具栏（或其专用快捷键）访问。 选择绘画工具后，其属性显示在“属性”窗口中。
+手动绘画工具可直接通过工具栏（或其专用的快捷键）访问。 选择绘画工具后，其属性将显示在“属性”窗口中。
 
 有关每个工具的信息，请参阅其专用页面：
 
