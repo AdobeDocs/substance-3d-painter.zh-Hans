@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/edit-menu.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/main-menu/edit-menu.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的“编辑”菜单来访问撤消、重做和编辑操作。
 helpx_creative_field: ""

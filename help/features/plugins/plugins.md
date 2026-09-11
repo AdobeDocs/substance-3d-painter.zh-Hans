@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/plugins.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的插件扩展功能并自定义纹理绘画工作流程。
 helpx_creative_field: ""

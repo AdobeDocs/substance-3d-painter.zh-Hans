@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/customizing-the-layout.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/assets/customizing-the-layout.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中自定义“资源”面板布局以优化您的资源浏览体验。
 helpx_creative_field: ""

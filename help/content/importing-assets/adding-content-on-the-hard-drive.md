@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
 breadcrumb-title: ''
 description: 了解如何将硬盘中的内容添加到Substance 3D Painter，以使用本地文件扩展您的资源库。
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 从版本7.2.0开始，可以在库中使用自定义文件夹和类别。 可以通过[按路径筛选](../../interface/assets/filter-by-path.md)或[痕迹导航](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html)在“资源”窗口中访问它们。
+> 从版本7.2.0开始，可以在库中使用自定义文件夹和类别。 可以通过[按路径筛选](../../interface/assets/filter-by-path.md)或[痕迹导航](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html)在“资源”窗口中访问它们。
 
 >[!WARNING]
 >

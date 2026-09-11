@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置工具架和资源位置，以便组织和访问您的资源库。
 helpx_creative_field: ""

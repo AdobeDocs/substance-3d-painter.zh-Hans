@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/viewport-menu.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/main-menu/viewport-menu.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的“视口”菜单来访问视口设置和显示选项。
 helpx_creative_field: ""

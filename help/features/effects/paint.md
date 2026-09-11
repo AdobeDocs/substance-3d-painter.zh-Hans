@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/paint.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/effects/paint.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的绘画效果将绘画描边和纹理绘画效果应用于图层。
 helpx_creative_field: ""

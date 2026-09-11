@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/sub-library-tab.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/assets/sub-library-tab.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的“子库”选项卡来组织和访问嵌套的资源库。
 helpx_creative_field: ""

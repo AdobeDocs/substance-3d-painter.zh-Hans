@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/clone-tool.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/clone-tool.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Painter中的仿制工具将纹理细节从一个区域复制到另一个区域，以实现无缝的纹理绘画。
 helpx_creative_field: ""

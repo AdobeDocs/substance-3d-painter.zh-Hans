@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Painter的Lib Random着色器 API参考，以便在自定义着色器开发中生成随机值。
 helpx_creative_field: ""

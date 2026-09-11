@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/project-configuration.html'
+helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/interface/project-configuration.html'
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置项目设置，以设置纹理分辨率、通道和项目属性。
 helpx_creative_field: ''

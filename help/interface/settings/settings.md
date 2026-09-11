@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/settings.html"
 breadcrumb-title: ''
 description: 访问并配置Substance 3D Painter中的设置以自定义应用程序首选项、快捷键和行为。
 helpx_creative_field: ""

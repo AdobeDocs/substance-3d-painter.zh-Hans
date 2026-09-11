@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/baking-visualization-settings.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/baking/baking-visualization-settings.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置烘焙可视化设置以预览和调试网格图烘焙结果。
 helpx_creative_field: ""

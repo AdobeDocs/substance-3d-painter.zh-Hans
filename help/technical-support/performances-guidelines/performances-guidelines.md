@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/performances-guidelines.html"
 breadcrumb-title: ''
 description: 访问Substance 3D Painter性能优化准则，以提高应用速度和效率。
 helpx_creative_field: ""

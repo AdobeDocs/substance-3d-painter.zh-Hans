@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中直接绘制正常映射，向纹理添加表面细节和深度。
 helpx_creative_field: ""

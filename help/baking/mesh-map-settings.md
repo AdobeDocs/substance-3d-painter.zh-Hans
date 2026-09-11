@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/baking/mesh-map-settings.html'
+helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/baking/mesh-map-settings.html'
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置网格图设置，以控制烘焙参数和输出质量。
 helpx_creative_field: ''

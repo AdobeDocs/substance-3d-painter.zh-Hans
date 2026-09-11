@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/display-settings.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中配置显示设置以自定义视口渲染和视觉品质。
 helpx_creative_field: ""

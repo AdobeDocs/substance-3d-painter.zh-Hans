@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/vector-graphic-svg.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/vector-graphic-svg.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用矢量图形（SVG和AI文件）向纹理添加可缩放矢量图稿。
 helpx_creative_field: ""

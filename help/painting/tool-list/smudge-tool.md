@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/smudge-tool.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/smudge-tool.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Painter中的“涂抹”工具混合和涂抹绘画描边，以创建平滑的纹理过渡。
 helpx_creative_field: ""

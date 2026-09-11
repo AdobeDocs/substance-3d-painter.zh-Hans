@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/iray-renderer.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/iray-renderer.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用Iray渲染器创建逼真的材料预览和渲染。
 helpx_creative_field: ""

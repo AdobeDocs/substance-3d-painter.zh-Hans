@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-correction.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/post-processing/color-correction.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用颜色校正后期处理来调整亮度、对比度和饱和度。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/settings/shortcuts.html'
+helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/interface/settings/shortcuts.html'
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中自定义键盘快捷键，以简化您的工作流程并提高效率。
 helpx_creative_field: ''
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 ## 快捷键概述
 
-有关所有可用快捷键的简要概述，请查看我们的图形[，我们的教程中提供了该图形](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) 。
+有关所有可用快捷键的简要概述，请查看我们的图形[，我们的教程中提供了该图形](https://helpx.adobe.com/cn/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) 。
 
 ## 如何更改快捷键
 

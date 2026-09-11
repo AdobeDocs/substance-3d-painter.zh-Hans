@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/saved-searches.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/assets/saved-searches.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中创建和使用保存的搜索，以快速访问常用资源过滤器。
 helpx_creative_field: ""

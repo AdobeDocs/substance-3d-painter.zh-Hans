@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/filled-path.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/filled-path.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的填充路径工具来创建用于纹理绘画的填充形状和路径。
 helpx_creative_field: ""

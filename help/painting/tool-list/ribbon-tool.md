@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/ribbon-tool.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/ribbon-tool.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Painter中的“色带”工具沿路径创建类似色带的绘画描边，以进行装饰性纹理绘画。
 helpx_creative_field: ""

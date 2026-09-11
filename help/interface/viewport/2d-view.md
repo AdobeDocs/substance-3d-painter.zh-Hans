@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/viewport/2d-view.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/viewport/2d-view.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的2D 视图查看和编辑UV空间中的纹理，以精准纹理绘画。
 helpx_creative_field: ""

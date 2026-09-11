@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中创建和保存笔刷预设，以构建可重用的自定义绘画工具库。
 helpx_creative_field: ""

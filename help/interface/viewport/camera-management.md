@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport/camera-management.html'
+helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/interface/viewport/camera-management.html'
 breadcrumb-title: ''
 description: 了解如何在视口中管理相机视图以有效地导航和帧您的3D模型。
 helpx_creative_field: ''

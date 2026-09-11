@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/adding-a-new-library.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/assets/adding-a-new-library.html"
 breadcrumb-title: ''
 description: 了解如何向Substance 3D Painter添加新库以扩展您的资源收藏集和访问其他资源。
 helpx_creative_field: ""

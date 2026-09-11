@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/main-menu/plugins-menu.html'
+helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/interface/main-menu/plugins-menu.html'
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的“插件”菜单访问和管理已安装的插件和扩展。
 helpx_creative_field: ''

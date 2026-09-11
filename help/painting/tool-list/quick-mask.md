@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/quick-mask.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/quick-mask.html"
 breadcrumb-title: ''
 description: 使用Substance 3D Painter中的快速蒙版工具快速创建和编辑蒙版，以实现精确的纹理绘画控制。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list.html"
 breadcrumb-title: ''
 description: 探索Substance 3D Painter的完整工具列表，找到所有可用的绘画和纹理创建工具。
 helpx_creative_field: ""

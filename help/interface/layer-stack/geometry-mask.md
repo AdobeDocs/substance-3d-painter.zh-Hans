@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/geometry-mask.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/layer-stack/geometry-mask.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用几何蒙版来根据网格几何和表面属性蒙版图层。
 helpx_creative_field: ""

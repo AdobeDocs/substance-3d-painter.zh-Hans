@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/smart-materials-and-masks.html"
 breadcrumb-title: ''
 description: 了解如何使用Substance 3D Painter中的智能材质和蒙版来创建适应几何形状的程序化纹理。
 helpx_creative_field: ""

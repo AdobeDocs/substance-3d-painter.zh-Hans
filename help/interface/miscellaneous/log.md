@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/log.html'
+helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/interface/miscellaneous/log.html'
 breadcrumb-title: ''
 description: 了解如何访问和使用Substance 3D Painter中的“日志”窗口查看应用程序消息和调试信息。
 helpx_creative_field: ''

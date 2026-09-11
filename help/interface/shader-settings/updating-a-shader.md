@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/shader-settings/updating-a-shader.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/shader-settings/updating-a-shader.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中更新自定义着色器以应用着色器更改并重新加载着色器文件。
 helpx_creative_field: ""

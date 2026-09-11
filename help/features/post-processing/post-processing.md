@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/post-processing.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用后期处理效果，通过颜色分级和视觉效果增强视口渲染。
 helpx_creative_field: ""

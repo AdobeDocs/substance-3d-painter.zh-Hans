@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles.html"
+helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/uv-tiles.html"
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用UV拼贴来处理拼贴的UV布局和多个纹理集。
 helpx_creative_field: ""
