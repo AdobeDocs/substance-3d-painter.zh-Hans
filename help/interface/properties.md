@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/properties.html"
 breadcrumb-title: ''
-description: 了解如何使用Substance 3D Painter中的“属性”面板来调整图层、素材和工具参数。
+description: 了解如何使用Substance 3D Painter中的“属性”面板调整图层、材料和工具参数。
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Properties
 helpx_experience_level: ""

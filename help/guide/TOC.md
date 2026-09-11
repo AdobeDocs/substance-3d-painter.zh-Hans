@@ -39,7 +39,7 @@ ht-degree: 14%
     + [Viewport settings](/help/interface/display-settings/viewport-settings.md)
   + [历史记录](/help/interface/history.md)
   + 图层堆叠{#layer-stack}
-    + [图层栈栈概述](/help/interface/layer-stack/layer-stack.md)
+    + [图层堆叠概述](/help/interface/layer-stack/layer-stack.md)
     + [创建图层](/help/interface/layer-stack/creating-layers.md)
     + [管理图层](/help/interface/layer-stack/managing-layers.md)
     + [蒙版和效果](/help/interface/layer-stack/masking-and-effects.md)
@@ -53,7 +53,7 @@ ht-degree: 14%
     + [“编辑”菜单](/help/interface/main-menu/edit-menu.md)
     + [“模式”菜单](/help/interface/main-menu/mode-menu.md)
     + [“窗口”菜单](/help/interface/main-menu/window-menu.md)
-    + [视区菜单](/help/interface/main-menu/viewport-menu.md)
+    + [视口菜单](/help/interface/main-menu/viewport-menu.md)
     + [JavaScript和Python菜单](/help/interface/main-menu/plugins-menu.md)
     + [“帮助”菜单](/help/interface/main-menu/help-menu.md)
   + [项目配置](/help/interface/project-configuration.md)
@@ -73,7 +73,7 @@ ht-degree: 14%
     + [纹理集重新分配](/help/interface/texture-set/texture-set-reassignment.md)
   + [工具栏](/help/interface/toolbars.md)
   + 视口{#viewport}
-    + [视区概述](/help/interface/viewport/viewport.md)
+    + [视口概述](/help/interface/viewport/viewport.md)
     + [2D 视图](/help/interface/viewport/2d-view.md)
     + [3D 视图](/help/interface/viewport/3d-view.md)
     + [相机管理](/help/interface/viewport/camera-management.md)
@@ -84,13 +84,13 @@ ht-degree: 14%
   + 烘焙模式{#baking-mode}
     + [网格图烘焙](/help/interface/baking-panels/mesh-map-bakers.md)
     + [常用设置](/help/interface/baking-panels/common-mesh-map-settings.md)
-    + [“网格映射设置”面板](/help/interface/baking-panels/mesh-map-settings.md)
-    + [烘焙木](/help/interface/baking-panels/baking-log.md)
+    + [“网格图设置”面板](/help/interface/baking-panels/mesh-map-settings.md)
+    + [烘焙日志](/help/interface/baking-panels/baking-log.md)
 + 绘画{#painting}
   + [绘画概述](/help/painting/painting.md)
   + 绘画工具{#paint-tools}
     + [绘画工具概述](/help/painting/tool-list/tool-list.md)
-    + [画笔](/help/painting/tool-list/paint-brush.md)
+    + [绘画画笔](/help/painting/tool-list/paint-brush.md)
     + [橡皮擦](/help/painting/tool-list/eraser.md)
     + [投影](/help/painting/tool-list/projection.md)
     + [Polygon fill](/help/painting/tool-list/polygon-fill.md)
@@ -109,10 +109,10 @@ ht-degree: 14%
     + [径向对称](/help/painting/symmetry/radial-symmetry.md)
   + 填充投影{#fill-projections}
     + [填充投影概述](/help/painting/fill-projections/fill-projections.md)
-    + [填充 — 每个UV图块匹配](/help/painting/fill-projections/fill-match-per-uv-tile.md)
+    + [填充 — 按UV 平铺匹配](/help/painting/fill-projections/fill-match-per-uv-tile.md)
     + [UV 投影](/help/painting/fill-projections/uv-projection.md)
-    + [三平面投影](/help/painting/fill-projections/tri-planar-projection.md)
-    + [平面投影](/help/painting/fill-projections/planar-projection.md)
+    + [三投影](/help/painting/fill-projections/tri-planar-projection.md)
+    + [投影](/help/painting/fill-projections/planar-projection.md)
     + [Spherical projection](/help/painting/fill-projections/spherical-projection.md)
     + [圆柱投影](/help/painting/fill-projections/cylindrical-projection.md)
     + [变形投影](/help/painting/fill-projections/warp-projection.md)
@@ -124,10 +124,10 @@ ht-degree: 14%
       + [安装粒子编辑器](/help/painting/presets/creating-particles-pre/installing-the-particle-editor.md)
       + [粒子编辑器概述](/help/painting/presets/creating-particles-pre/overview-of-the-particle-editor.md)
       + [创建新的粒子脚本](/help/painting/presets/creating-particles-pre/creating-a-new-particle-script.md)
-    + Photoshop画笔预设{#photoshop-brush-presets}
-      + [Photoshop画笔预设概述](/help/painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)
-      + [从Photoshop导出画笔预设](/help/painting/presets/photoshop-brush-presets/exporting-brush-presets-from-photoshop.md)
-      + [导入Photoshop画笔预设](/help/painting/presets/photoshop-brush-presets/importing-photoshop-brush-presets.md)
+    + 笔刷预设{#photoshop-brush-presets}
+      + [笔刷预设概述](/help/painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)
+      + [从Photoshop导出笔刷预设](/help/painting/presets/photoshop-brush-presets/exporting-brush-presets-from-photoshop.md)
+      + [导入笔刷预设](/help/painting/presets/photoshop-brush-presets/importing-photoshop-brush-presets.md)
       + [Photoshop画笔参数兼容性](/help/painting/presets/photoshop-brush-presets/photoshop-brush-parameters-compatibility.md)
   + 动态笔触{#dynamic-strokes}
     + [动态笔触概述](/help/painting/dynamic-strokes/dynamic-strokes.md)
@@ -140,7 +140,7 @@ ht-degree: 14%
     + [流量图](/help/painting/advanced-channel-painting/flow-map-painting.md)
     + [Height图](/help/painting/advanced-channel-painting/height-map-painting.md)
     + [法线贴图](/help/painting/advanced-channel-painting/normal-map-painting.md)
-  + [矢量图形 — .svg .ai](/help/painting/vector-graphic-svg.md)
+  + [矢量图形- .svg .ai](/help/painting/vector-graphic-svg.md)
   + [文本资源](/help/painting/text-resource.md)
 + 效果{#effects}
   + 生成器{#generators}
@@ -176,7 +176,7 @@ ht-degree: 14%
 + Baking{#baking}
   + [烘焙概述](/help/baking/baking.md)
   + [烘焙界面](/help/baking/baking-interface.md)
-  + [如何烘焙网格图](/help/baking/how-to-bake-mesh-maps.md)
+  + [如何网格图](/help/baking/how-to-bake-mesh-maps.md)
   + [倾斜校正](/help/baking/skew-correction.md)
   + [网格图设置](/help/baking/mesh-map-settings.md)
   + [烘焙可视化设置](/help/baking/baking-visualization-settings.md)
@@ -198,16 +198,16 @@ ht-degree: 14%
   + [自动资源更新](/help/features/auto-update.md)
   + [自动UV展开](/help/features/automatic-uv-unwrapping.md)
   + [实际大小](/help/features/physical-size.md)
-  + [智能素材和蒙版](/help/features/smart-materials-and-masks.md)
+  + [智能材质和蒙版](/help/features/smart-materials-and-masks.md)
   + 次表面散射{#subsurface-scattering}
-    + [次表面散射概览](/help/features/subsurface-scattering/subsurface-scattering.md)
+    + [次表面散射概述](/help/features/subsurface-scattering/subsurface-scattering.md)
     + [在项目中启用子曲面](/help/features/subsurface-scattering/enabling-subsurface-in-a-project.md)
     + [次曲面参数](/help/features/subsurface-scattering/subsurface-parameters.md)
-    + [次表面材料类型](/help/features/subsurface-scattering/subsurface-material-type.md)
+    + [次曲面材料类型](/help/features/subsurface-scattering/subsurface-material-type.md)
   + [动态材质分层](/help/features/dynamic-material-layering.md)
   + [UV重投影](/help/features/uv-reprojection.md)
   + UV 平铺{#uv-tiles}
-    + [UV磁贴概述](/help/features/uv-tiles/uv-tiles.md)
+    + [UV 平铺概述](/help/features/uv-tiles/uv-tiles.md)
     + [图像序列](/help/features/uv-tiles/image-sequence.md)
   + 色彩管理{#color-management}
     + [色彩管理概述](/help/features/color-management/color-management.md)
@@ -226,8 +226,8 @@ ht-degree: 14%
     + [色调映射](/help/features/post-processing/tone-mapping.md)
     + [色彩校正](/help/features/post-processing/color-correction.md)
     + [颜色配置文件](/help/features/post-processing/color-profile.md)
-  + 图像渲染器{#iray-renderer}
-    + [图像渲染器概述](/help/features/iray-renderer/iray-renderer.md)
+  + Iray渲染器{#iray-renderer}
+    + [Iray渲染器概述](/help/features/iray-renderer/iray-renderer.md)
     + [图像设置](/help/features/iray-renderer/iray-settings.md)
     + [查看器和MDL设置](/help/features/iray-renderer/viewer-and-mdl-settings.md)
   + 插件{#plugins}
@@ -235,10 +235,10 @@ ht-degree: 14%
     + [自动存储](/help/features/plugins/autosave.md)
     + [资源更新程序](/help/features/plugins/resources-updater.md)
     + [ZBrush到Painter bridge](../features/plugins/zbrush-bridge.md)
-  + [稀疏虚拟纹理](/help/features/sparse-virtual-textures.md)
+  + [Sparse Virtual Texture](/help/features/sparse-virtual-textures.md)
   + [自定义着色器](/help/features/custom-shaders.md)
   + [3Dconnection的SpaceMouse®](/help/features/spacemouse-by-3dconnexion.md)
-  + [通用场景描述 — 美元](/help/features/universal-scene-description-usd.md)
+  + [通用场景描述- USD](/help/features/universal-scene-description-usd.md)
   + [发送至](/help/features/send-to.md)
 + 导出{#export}
   + [导出概述](../export/export.md)
@@ -252,7 +252,7 @@ ht-degree: 14%
     + 默认输出模板{#default-output-templates}
       + [默认输出模板](/help/export/export-presets/default-presets.md)
       + [预定义的输出模板](/help/export/export-presets/predefined-presets/predefined-presets.md)
-      + [USD PBR金属粗糙度预设](/help/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.md)
+      + [USD PBR Metal粗糙度预设](/help/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.md)
     + [创建输出模板](/help/export/creating-export-presets.md)
 + 技术支持{#technical-support}
   + 性能指南{#performance-guidelines}
@@ -270,7 +270,7 @@ ht-degree: 14%
       + [使用超频的GPU时崩溃](/help/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.md)
       + [在Mac操作系统上强制使用外部GPU](/help/technical-support/technical-issues/gpu-issues/forcing-the-external-gpu-on-mac-os.md)
       + [GPU驱动程序兼容性](/help/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.md)
-      + [GPU驱动程序崩溃导致计算时间过长 — TDR崩溃](/help/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.md)
+      + [GPU驱动程序与长崩溃- TDR崩溃](/help/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.md)
       + [GPU具有过时的驱动程序](/help/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers.md)
       + [无法识别GPU](/help/technical-support/technical-issues/gpu-issues/gpu-is-not-recognized.md)
       + [GPU无法识别，并被提及为GDI通用](/help/technical-support/technical-issues/gpu-issues/gpu-is-not-recognized-and-is-mentionned-as-gdi-generic.md)
@@ -284,29 +284,29 @@ ht-degree: 14%
       + [软件冲突](/help/technical-support/technical-issues/startup-issues/software-conflicts.md)
     + 渲染问题{#rendering-issues}
       + [具有自定义GPU的Mac操作系统上的伪影和故障](/help/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.md)
-      + [视区的纹理上出现块状伪像](/help/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.md)
-      + [网格在视区中显示为粉红色](/help/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.md)
-      + [移动相机时网格闪光灯变为白色](/help/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.md)
+      + [视口中的纹理上出现块状伪像](/help/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.md)
+      + [网格在视口中显示为粉红色](/help/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.md)
+      + [移动相机时网格闪烁为白色](/help/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.md)
       + [某些HDPI缩放值不起作用](/help/technical-support/technical-issues/rendering-issues/some-hdpi-scaling-values-are-not-working.md)
-      + [在Ubuntu上，视口显示为已损坏或无响应](/help/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.md)
+      + [在Ubuntu上视口似乎已损坏或无响应](/help/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.md)
     + 稳定性问题{#stability-issues}
-      + [导出过程中崩溃](/help/technical-support/technical-issues/stability-issues/crash-during-export.md)
+      + [导出期间崩溃](/help/technical-support/technical-issues/stability-issues/crash-during-export.md)
       + [打开或存储文件时崩溃](/help/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.md)
       + [烘焙时崩溃](/help/technical-support/technical-issues/stability-issues/crash-while-baking.md)
-      + [虚拟内存不足时崩溃](/help/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.md)
+      + [虚拟内存不足的崩溃](/help/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.md)
       + [Windows蓝屏](/help/technical-support/technical-issues/stability-issues/windows-blue-screens.md)
     + 其他问题{#miscellaneous-issues}
-      + [纹理损坏错误消息](/help/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.md)
-      + [7.2更新后架子资源消失](/help/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.md)
+      + [损坏的纹理错误消息](/help/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.md)
+      + [7.2更新后工具架资源消失](/help/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.md)
       + [错误：驱动器中没有磁盘](/help/technical-support/technical-issues/miscellaneous-issues/error-there-is-no-disk-in-the-drive.md)
       + [缺少api-ms-crt dll时出错](/help/technical-support/technical-issues/miscellaneous-issues/error-with-missing-api-ms-crt-dll.md)
-      + [无法将文件拖放到架子中](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.md)
+      + [无法将文件拖放到工具架中](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.md)
       + [无法在Linux上使用ALT键盘快捷键](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-use-the-alt-keyboard-shortcut-on-linux.md)
-      + [资源 — 或架子预览为空](/help/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.md)
+      + [资源 — 或工具架预览为空](/help/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.md)
   + 工作流程问题{#workflow-issues}
     + 导出问题{#export-issues}
       + [我导出的不透明度图完全为黑色](/help/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.md)
-      + [纹理扩展或填充](/help/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.md)
+      + [膨胀或填充](/help/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.md)
     + 工具问题{#tools-issues}
       + [法线图显示不正确](/help/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.md)
       + [在其他UV 岛上绘画工具出血](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
@@ -316,10 +316,10 @@ ht-degree: 14%
       + [保留画笔描边设置保持禁用状态](/help/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.md)
       + [项目非常大](/help/technical-support/workflow-issues/project-issues/projects-are-really-big.md)
     + 库问题{#library-issues}
-      + [架子中的缩览图看起来不正确](/help/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.md)
+      + [工具架中的缩览图看起来不正确](/help/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.md)
       + [导入字体时出错](/help/technical-support/workflow-issues/shelf-issues/font-import.md)
-    + 视区问题{#viewport-issues}
-      + [从后面查看网格人脸时，网格人脸消失](/help/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.md)
+    + 视口问题{#viewport-issues}
+      + [从后面查看脸部时，这些颜色消失](/help/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.md)
       + [视区和纹理模糊或缺乏锐度](/help/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.md)
     + 增效工具问题{#plugins-issues}
       + [Substance Source增效工具无法加载](/help/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.md)
@@ -337,11 +337,11 @@ ht-degree: 14%
     + [查询当前软件版本](/help/pipeline-and-integration/configuration/querying-current-software-version.md)
     + [远程桌面](/help/pipeline-and-integration/configuration/remote-desktop.md)
   + 资源管理{#resource-management}
-    + [货架和资源位置](/help/pipeline-and-integration/resource-management/shelf-and-assets-location.md)
+    + [工具架和资源位置](/help/pipeline-and-integration/resource-management/shelf-and-assets-location.md)
     + 资源路径{#resource-paths}
       + [手动添加资源路径](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/adding-resource-paths-by-editing-preferences-manually.md)
       + [手动编辑资源路径](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-resource-paths-manually.md)
-      + [使用Python编辑托架偏好设置](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-the-shelf-preferences-with-python.md)
+      + [使用Python编辑工具架偏好设置](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-the-shelf-preferences-with-python.md)
     + [手动添加保存的搜索](/help/pipeline-and-integration/resource-management/adding-saved-searches-manually.md)
     + [首选项和内容迁移](/help/pipeline-and-integration/resource-management/preferences-and-content-migration.md)
     + [排除资源路径中的资源](/help/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.md)
@@ -356,7 +356,7 @@ ht-degree: 14%
       + [库Alpha-着色器 API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.md)
       + [Lib Bayer -着色器 API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api.md)
       + [库定义 — 着色器 API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-defines-shader-api.md)
-      + [Lib Emissive -着色器 API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.md)
+      + [库Emissive-着色器 API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.md)
       + [Lib Env -着色器 API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.md)
       + [库正常 — 着色器 API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.md)
       + [Lib PBR -着色器 API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-shader-api.md)
@@ -372,13 +372,13 @@ ht-degree: 14%
       + [所有自定义参数 — 着色器 API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.md)
       + [所有引擎参数 — 着色器 API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.md)
       + [所有渲染状态参数 — 着色器 API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.md)
-      + [分层装订材质 — 着色器 API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.md)
-      + [分层声明栈栈 — 着色器 API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.md)
+      + [分层绑定材料-着色器 API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.md)
+      + [分层声明堆叠-着色器 API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.md)
     + 着色器 — 着色器 API{#shaders-shader-api}
-      + [PBR材质图层 — 着色器 API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.md)
+      + [PBR材料图层 — 着色器 API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.md)
       + [PBR Metal Rough -着色器 API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.md)
       + [像素化 — 着色器 API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.md)
-      + [表面着色器 — 着色器 API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.md)
+      + [表面着色器-着色器 API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.md)
       + [Toon -着色器 API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.md)
 + 发行说明{#release-notes}
   + [发行说明概述](/help/release-notes/release-notes.md)

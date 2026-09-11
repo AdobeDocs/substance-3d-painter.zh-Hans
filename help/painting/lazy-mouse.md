@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/lazy-mouse.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中使用懒惰鼠标，创建光标响应延迟的流畅画笔描边。
+description: 了解如何使用Substance 3D Painter中的延迟鼠标功能创建光标响应延迟的流畅画笔描边。
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Lazy mouse
 helpx_experience_level: ""
@@ -22,23 +22,23 @@ ht-degree: 2%
 
 ![](../assets/lazy-mouse-example.png)
 
-延迟鼠标是指鼠标光标与实际绘画之间的距离偏移，可绘制更精确或平滑的描边。
+延迟鼠标是鼠标光标与实际绘画之间的距离偏移，允许绘画更精确或平滑的描边。
 
 可以通过[上下文工具栏](../interface/toolbars.md)启用它。 这样使绘画变得干净连续，线条更加简单。
 
-## 启用懒惰鼠标
+## 启用延迟鼠标
 
-要启用或禁用Lazy鼠标，只需单击上下文工具栏中可用的按钮即可：
+要启用或禁用该延迟鼠标，只需单击上下文工具栏中可用的按钮即可：
 
 ![](../assets/lazy-mouse-button.png)
 
-启用后，视区中的画笔光标周围应该会显示一个灰色圆圈：
+启用后，视口中的画笔光标周围应该会显示一个灰色圆圈：
 
 ![](../assets/lazy-mouse-radius.png)
 
-## 懒惰鼠标半径
+## 延迟鼠标半径
 
-可以在上下文工具栏中更改鼠标延迟距离。 距离定义刷子图章将在原始绘画位置绘制的半径。 距离越小，将越快绘制图章，这样可快速翻转，但会减少绘制线条的平滑度。
+可以在上下文工具栏中更改延迟鼠标距离。 距离定义刷子图章将在原始绘画位置绘制的半径。 距离越小，将越快绘制图章，这样可快速翻转，但会减少绘制线条的平滑度。
 
 * 大距离：
 

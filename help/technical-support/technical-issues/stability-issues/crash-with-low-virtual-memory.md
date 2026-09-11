@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html"
 breadcrumb-title: ''
-description: 了解如何修复由虚拟内存不足导致的Substance 3D Painter崩溃，以确保稳定的应用程序性能。
+description: 了解如何修复由虚拟内存不足导致的崩溃，以确保稳定的应用程序性能。
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash with low virtual memory
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 虚拟内存不足时崩溃
+title: 虚拟内存不足的崩溃
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# 虚拟内存不足时崩溃
+# 虚拟内存不足的崩溃
 
 如果&#x200B;**分页**&#x200B;文件（ **交换**&#x200B;内存/ **虚拟**&#x200B;内存）的值设置为&#x200B;**太低** ，则Substance 3D Painter可能不稳定。\
 建议让操作系统处理这些设置（默认情况下通常如此）。 Substance 3D Painter需要&#x200B;**最小**&#x200B;的&#x200B;**16GB**&#x200B;虚拟内存才能正常工作。

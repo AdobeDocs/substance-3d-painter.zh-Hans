@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/texture-set.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中使用纹理集来组织纹理和管理不同的素材分配。
+description: 了解如何在Substance 3D Painter中使用纹理集来整理纹理和管理不同的材料任务。
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Texture Set
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 ![](../../assets/texture-set.png)
 
-每当Substance 3D Painter在导入的网格上找到材质ID时，它都会自动创建新纹理集（[，除非项目使用UV拼贴工作流程](../../features/uv-tiles/uv-tiles.md)）。
+每当Substance 3D Painter在导入的网格上找到材料ID时，它都会自动创建新纹理集（[，除非项目使用UV 平铺工作流程](../../features/uv-tiles/uv-tiles.md)）。
 
 每个材质ID都应具有唯一的UV（或镜像几何的逻辑重叠）。
 

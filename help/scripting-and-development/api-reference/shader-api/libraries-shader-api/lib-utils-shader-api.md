@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 色调映射
 
-下面是您可以在着色器中使用的色调映射示例。 Painter不应用任何色调映射，但Yebis应用的可选色调映射除外。 如果您决定在着色器中执行某些色调映射，则会在Yebis色调映射之前应用该映射。
+下面是您可以在着色器中使用的色调映射示例。 Painter不应用任何色调映射，但Yebis应用的可选色调映射除外。 如果您决定在着色器中进行某些色调映射，则会在Yebis色调映射之前应用该映射。
 
 根据参数sigma和n执行S曲线色调映射。
 
@@ -43,7 +43,7 @@ vec3 tonemapSCurve(vec3 value, float sigma, float n)
 
 ## sRGB转换
 
-这些是Painter中使用的转换。 您可以通过在自定义着色器中放置以下线条来覆盖视区中的自动线性 — > sRGB转换：
+这些是Painter中使用的转换。 您可以通过将此行放在自定义着色器中来覆盖视口中的自动线性 — > sRGB转换：
 
 *#define DISABLE\_FRAMEBUFFER\_SRGB\_CONVERSION*
 
@@ -243,11 +243,11 @@ vec4 convertOutput(vec4 rgba)
 ```
 
 
-## 抖动
+## 仿色
 
-这些是向着色器添加抖动的一些帮助程序。
+下面是向着色器添加仿色的一些助手。
 
-使用8x8 Bayer矩阵进行抖动模式
+使用8x8 Bayer矩阵作为仿色模式
 
 ```
 import lib-bayer.glsl 
@@ -278,7 +278,7 @@ vec4 RGB2Gray(vec4 rgba)
 ```
 
 
-移除光滑金属表面（接近镜像）上的AO和阴影
+移除光面金属表面（接近镜像）上的AO和阴影
 
 ```
 float specularOcclusionCorrection(float diffuseOcclusion, float metallic, float roughness) 

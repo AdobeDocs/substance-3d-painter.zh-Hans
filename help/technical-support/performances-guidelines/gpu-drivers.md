@@ -32,15 +32,15 @@ GPU驱动程序与任何软件一样，每个新版本都可能会引入性能�
 
 ## 其他应用程序如何利用GPU
 
-使用GPU的不只有Substance 3D Painter，其他应用程序也是如此。 几乎任何3D应用程序都将使用GPU和VRAM运行，包括那些常与Painter一起使用的应用程序，例如Blender、Maya、Unreal Engine、Unity、C4D等。 在保持这些应用程序打开的同时确保良好性能的解决方案是确保Substance 3D Painter首先启动，以便请求其自己的VRAM分配。 但是，某些软件可以动态获取VRAM的某些部分，并且即使在Painter之后启动它们仍然可能与Substance 3D Painter发生冲突。
+使用GPU的不只有Substance 3D Painter，其他应用程序也是如此。 几乎任何3D应用程序都将使用GPU和VRAM运行，包括那些常与Painter一起使用的应用程序，例如Blender、Maya、虚构引擎、Unity、C4D等。 在保持这些应用程序打开的同时，确保良好性能的解决方案是：确保首先启动Substance 3D Painter以请求其自己的VRAM分配。 尽管如此，某些软件仍然可以动态获取VRAM的某些部分，并且即使在Painter之后启动这些软件，它们仍然可能与Substance 3D Painter发生冲突。
 
-通常，Painter可以访问的VRAM越多，运行速度就越快，因此请尝试将与Painter同时运行的其他应用程序所使用的VRAM量降至最低。
+通常，Painter可以访问的VRAM越多，运行速度就越快，因此请尝试尽量减少与Painter同时运行的其他应用程序使用的VRAM量。
 
-## GPU VRAM量和带宽
+## GPU VRAM数量和带宽
 
 Substance 3D Painter很大程度上依靠GPU来执行大多数计算。 因此，具有符合[系统要求](../../getting-started/system-requirements.md)的GPU非常重要。
 
-Painter的工作方式是将纹理传输到GPU内存(VRAM)中以进行计算（如混合操作以创建最终纹理）。 但是，如果VRAM开始变满，则未使用的纹理将被传回计算机的RAM以释放VRAM空间。 Substance 3D Painter在工作时读写数GB数据。 这意味着VRAM的容量（数量）和传输时的带宽速度都很重要。 您可以使用[MSI AfterBurner](https://www.msi.com/page/afterburner)等工具监视此行为。
+Painter的工作方式是将纹理转移到GPU内存(VRAM)中以便执行计算（如混合操作以创建最终纹理）。 但是，如果VRAM空间开始变满，则未使用的纹理将被传输回计算机的RAM以释放VRAM空间。 Substance 3D Painter在工作时读写数GB数据。 这意味着VRAM的容量（数量）和传输时的带宽速度都很重要。 您可以使用[MSI AfterBurner](https://www.msi.com/page/afterburner)等工具监视此行为。
 
 >[!NOTE]
 >

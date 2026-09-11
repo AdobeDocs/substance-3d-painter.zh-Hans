@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.html"
 breadcrumb-title: ''
-description: 了解如何使用Substance 3D Painter中的USDz (Apple AR)导出预设为Apple AR工作流程导出纹理。
+description: 了解如何使用Substance 3D Painter中的USDz (Apple AR)导出预设来导出Apple AR工作流程的纹理。
 helpx_creative_field: ""
 helpx_description: Painter > Getting Started > Export > Export presets > Predefined Presets > USDz (Apple AR) Preset
 helpx_experience_level: ""
@@ -22,18 +22,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 要使用自定义输出模板导出为美元，不要使用USDz (Apple AR)模板。 而是使用您选择的输出模板，并在<b>“设置”选项卡</b>的底部启用<b>导出USD资源</b>。
+> 要导出到具有自定义输出模板的USD，不要使用USDz (Apple AR)模板。 请改用您选择的输出模板，然后在<b>“设置”选项卡</b>的底部启用<b>导出USD资源</b>。
 
 USDz (Apple AR)预定义输出模板可导出配置为与Apple AR应用程序一起使用的资源。
 
 要使用USDz (Apple AR)模板，请执行以下操作：
 
-1. 使用<b>文件>导出纹理</b>或键盘快捷键<b>Ctrl + Shift + E</b>打开“导出”窗口。
+1. 使用<b>文件>导出纹理</b>或使用键盘快捷键<b>Ctrl + Shift + E</b>打开“导出”窗口。
 1. 在<b>设置选项卡</b>中，打开<b>输出模板下拉列表</b>，然后选择<b>USDz (Apple AR)</b>。
 
 ![显示打开输出模板下拉菜单并选择USDz (Apple AR)的导出窗口图像。](../../../assets/export-usd.png){zoomable="yes"}
 
-创建并保存五个纹理文件（基色、金属、法线、遮蔽和粗糙度）。 除法线映射外，所有文件都存储为JPG，法线映射存储为PNG以避免因有损压缩而产生伪像。
+创建并保存五个纹理文件（base color、金属、普通、遮蔽和粗糙度）。 除存储为PNG的法线图外，所有文件都存储为JPG，以避免因有损压缩而出现伪像。
 
 此外，还将创建两个扩展名为usdc和usdz的其他文件：
 

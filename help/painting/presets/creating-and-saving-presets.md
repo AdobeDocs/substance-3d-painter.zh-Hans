@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中创建和保存画笔预设，以构建可重复使用的自定义绘画工具库。
+description: 了解如何在Substance 3D Painter中创建和保存笔刷预设，以构建可重用的自定义绘画工具库。
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Creating and saving presets
 helpx_experience_level: ""
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 ![](../../assets/save-preset-1.png)
 
-当工具属性可用（绘画图层或绘画效果）时，可在“属性”窗口中右键单击以创建预设。
+当“工具”属性可用（绘画图层或绘画效果）时，在“属性”窗口中右键单击可创建预设。
 
 在“属性”窗口中右键单击以打开包含以下选项的上下文菜单：
 
-* <b>创建工具预设</b> ：将画笔参数和材质与所有必需的资源保存在同一预设文件中。
-* <b>创建素材预设</b> ：仅将素材属性和素材资源保存在预设文件中。
-* <b>创建画笔预设</b> ：仅在预设文件中保存画笔参数以及Alpha和模板资源。
+* <b>创建工具预设</b> ：将画笔参数和材料与所有必需的资源保存在同一预设文件中。
+* <b>创建材质预设</b> ：仅将材料属性和材料资源保存在预设文件中。
+* <b>创建笔刷预设</b> ：仅将画笔参数以及Alpha和模板资源存储到预设文件中。
 
 ## 更新现有预设
 

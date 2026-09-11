@@ -22,13 +22,13 @@ ht-degree: 12%
 
 ![](../../assets/v12_banner_post_effects2.jpg)
 
-后期效果是可以应用于Substance 3D Painter视口中渲染的图像以模拟常见相机效果的滤镜。
+后期效果是可以应用于视口中渲染的图像以模拟常见相机效果的滤镜。
 
 可以通过[显示设置](../../interface/display-settings/display-settings.md)窗口在任何项目中激活后期效果。
 
 >[!NOTE]
 >
-> 为方便起见，这些后期效果不会应用到2D视图。 只有3D视图会显示带有效果的图像结果。
+> 为方便起见，未将这些后期效果应用于2D 视图。 只有3D视图会显示带有效果的图像结果。
 
 以下各页介绍了当前支持的各种后期处理效果：
 
@@ -43,4 +43,4 @@ ht-degree: 12%
 * [色调映射](tone-mapping.md)
 * [色彩校正](color-correction.md)
 
-查找纹理表还可用于微调最终图像结果。 有关详细信息，请参阅[颜色配置文件](color-profile.md)文档。
+查找纹理表还可以用于微调最终图像结果。 有关详细信息，请参阅[颜色配置文件](color-profile.md)文档。

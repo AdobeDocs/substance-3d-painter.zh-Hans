@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Multi/Bi-GPU
 
-某些GPU配置和/或GPU型号与Substance 3D Painter不兼容，并且会导致不稳定和崩溃。 以下是不兼容配置的列表：
+某些GPU配置和/或GPU型号与Substance 3D Painter不兼容，并将导致不稳定和崩溃。 以下是不兼容配置的列表：
 
 | ***配置*** | ***解决方案*** |
 | --- | --- |

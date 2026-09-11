@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/presets/creating-particles-presets/installing-the-particle-editor.html"
 breadcrumb-title: ''
-description: 了解如何安装适用于Substance 3D Painter的粒子编辑器增效工具以创建自定义粒子画笔预设。
+description: 了解如何安装适用于Substance 3D Painter的粒子编辑器增效工具以创建自定义粒子笔刷预设。
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Creating particles presets > Installing the particle editor
 helpx_experience_level: ""

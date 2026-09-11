@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中使用地下材料类型来创建逼真的皮肤、蜡和有机材料。
+description: 了解如何在Substance 3D Painter中使用地下的材料类型来创建逼真的皮肤、蜡和有机材料。
 helpx_creative_field: ""
 helpx_description: Painter > Features > Subsurface Scattering > Subsurface Material Type
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 次表面材料类型
+title: 次曲面材料类型
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,9 +18,9 @@ ht-degree: 1%
 ---
 
 
-# 次表面材料类型
+# 次曲面材料类型
 
-本页面列出了可使用“次表面散射”功能创建的各种类型的素材，以及如何配置Substance 3D Painter以创建这些素材。 为每种类型的材质指定可在[子曲面参数](subsurface-parameters.md)中设置的比例和颜色。
+此页面列出了可使用次表面散射功能创建的各种类型的材料，以及如何配置Substance 3D Painter来创建这些文档。 为每种类型的材质指定可在[子曲面参数](subsurface-parameters.md)中设置的比例和颜色。
 
 >[!NOTE]
 >
@@ -30,10 +30,10 @@ ht-degree: 1%
 
 ![](../../assets/mat-skin.jpg)
 
-要获得良好的皮肤材质，它需要：
+要获得良好的皮肤材料，需要：
 
-* 良好的基础纹理：对于真实人物，这意味着具有大量的细节和各种颜色。
-* 强Height/法向纹理：地下效果将柔化表面细节，首先具有强烈的细节将获得补偿。
+* 良好的基本纹理：对于真实人物，这意味着具有大量的细节和各种颜色。
+* 强Height/正常纹理：子表面效果将柔化表面细节，从一开始就具有强细节将起到补偿作用。
 
 | *设置* | *描述* |
 | --- | --- |

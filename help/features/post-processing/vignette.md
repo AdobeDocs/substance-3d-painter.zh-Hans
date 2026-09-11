@@ -22,6 +22,6 @@ ht-degree: 5%
 
 ![](../../assets/vignette-22.png)
 
-晕影效果可使视区的角落变暗，以模拟相机阴影。
+晕影效果可调暗视口的角落，以模拟相机阴影。
 
 ![](../../assets/vignette-example-2.jpg)

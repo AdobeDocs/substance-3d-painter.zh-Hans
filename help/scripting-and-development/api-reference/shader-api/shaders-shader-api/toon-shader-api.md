@@ -36,7 +36,7 @@ const vec3 light_pos = vec3(10.0, 10.0, 10.0);
 ```
 
 
-我们&#x200B;**将**&#x200B;自动参数世界眼睛位置绑定到我们的制服&#x200B;**摄像机\_pos**。
+我们&#x200B;**将**&#x200B;自动参数世界眼睛位置绑定到我们的制服&#x200B;**相机\_pos**。
 
 ```
 //: param auto world_eye_position 
@@ -45,7 +45,7 @@ uniform vec3 camera_pos;
 ```
 
 
-我们&#x200B;**绑定**&#x200B;文档的通道&#x200B;**基色**&#x200B;到统一的&#x200B;**basecolor\_tex**。
+我们&#x200B;**绑定**&#x200B;文档的通道&#x200B;**base color**&#x200B;到我们的统一通道&#x200B;**basecolor\_tex**。
 
 ```
 //: param auto channel_basecolor 
@@ -54,7 +54,7 @@ uniform SamplerSparse basecolor_tex;
 ```
 
 
-我们&#x200B;**绑定**&#x200B;**网格曲率**&#x200B;到我们的统一&#x200B;**曲率\_tex**。 如果没有可用的曲率，则会提供透明纹理。
+我们&#x200B;**绑定**&#x200B;**弯曲**&#x200B;到我们的统一&#x200B;**弯曲\_tex**。 如果没有弯曲可用，则提供透明纹理。
 
 ```
 //: param auto texture_curvature 
@@ -101,7 +101,7 @@ uniform float lit_outline_thickness;
 ```
 
 
-无论我们是否喜欢使用曲率。
+无论我们是否更喜欢使用弯曲。
 
 ```
 //: param custom { 
@@ -140,7 +140,7 @@ void shade(V2F inputs)
 ```
 
 
-**优先级**&#x200B;用于执行&#x200B;**轮廓检测**。 允许用户选择是否偏好使用曲率映射进行轮廓检测。
+**优先级**&#x200B;用于执行&#x200B;**轮廓检测**。 允许用户选择是否使用弯曲图进行轮廓检测。
 
 ```
   if (use_curvature) { 

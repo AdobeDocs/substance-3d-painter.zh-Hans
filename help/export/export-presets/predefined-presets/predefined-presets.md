@@ -31,4 +31,4 @@ ht-degree: 5%
 * Substance 3D Stager
 * [USDz (Apple AR)](usd-pbr-metal-roughness-preset.md)
 * glTF PBR金属粗糙度
-* glTF PBR金属粗糙度+位移纹理（试验）
+* glTF PBR金属粗糙度+位移纹理（实验性）

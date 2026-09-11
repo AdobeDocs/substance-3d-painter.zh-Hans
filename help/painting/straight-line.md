@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/straight-line.html"
 breadcrumb-title: ''
-description: 使用Substance 3D Painter中的直线工具，为纹理绘画创建精确的直线绘画描边。
+description: 使用Substance 3D Painter中的直线工具为纹理绘画创建精确的直线绘画描边。
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Straight line
 helpx_experience_level: ""
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 使用任何绘画工具，直线都可轻松地绘制直线，且点击次数更少、精度更高。
 
-这是一种借助键盘快捷键临时应用的修改。
+这是一个在键盘快捷键的帮助下临时应用的修改。
 
-直线位置是根据视口计算的，这意味着如果在画笔笔触之间移动相机，则下一直线可能会定位错误。
+直线位置根据视口计算，这意味着，如果在画笔描边之间移动相机，则下一直线可能会定位错误。
 
 ## 启用直线
 
@@ -34,8 +34,8 @@ ht-degree: 0%
 
 ![](../assets/straight-line-optim.gif){width="400px"}
 
-## 对齐直线
+## 捕捉直线
 
-除了“Shift”之外，还可以按“Ctrl”以每5度对齐一条直线。
+除了“Shift”之外，还可以按“Ctrl”以每5度捕捉一次直线。
 
 ![](../assets/straight-line-snap-optim.gif){width="400px"}

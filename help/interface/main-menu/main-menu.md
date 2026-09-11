@@ -28,6 +28,6 @@ ht-degree: 0%
 * [“编辑”菜单](edit-menu.md)
 * [“模式”菜单](mode-menu.md)
 * [“窗口”菜单](window-menu.md)
-* [视区菜单](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
+* [视口菜单](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
 * [“插件”菜单](plugins-menu.md)
 * [“帮助”菜单](help-menu.md)

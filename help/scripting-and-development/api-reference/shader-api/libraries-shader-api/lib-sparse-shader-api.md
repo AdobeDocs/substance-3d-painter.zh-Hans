@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## lib-sparse.glsl
 
-此文件提供有助于确保稀疏纹理采样正确性(ARB\_sparse\_texture)的功能。 仅对视频内存中真实存在的部分纹理进行取样。
+此文件提供有助于确保稀疏纹理采样正确性的函数(ARB\_sparse\_纹理)。 仅对视频内存中真实存在的部分纹理进行取样。
 
 **公共函数：** *getSparseCoord* *getSparseCoordLod0* *textureSparseQueryLod* *textureSparse*
 
 **公共结构：** *SamplerSparse* *稀疏代码*
 
-仅在启用了稀疏虚拟纹理扩展时定义&#x200B;*FEATURE\_SPARSE\_TEXTURE*&#x200B;宏。
+仅在启用了稀疏虚拟纹理扩展的情况下才定义&#x200B;*FEATURE\_SPARSE\_纹理*&#x200B;宏。
 
-如果启用，请处理其他纹理查找检查，以便在缺少纹理时向上爬过mipmap金字塔。
+如果启用，则处理其他纹理查找检查，以便在缺少纹理时向上爬镜像转换金字塔。
 
 ```
 ## ifdef FEATURE_SPARSE_TEXTURE
@@ -84,7 +84,7 @@ struct SamplerSparse {
 
 稀疏采样坐标
 
-存储UV坐标和材料级稀疏LoD蒙版
+存储UV坐标和面向材料的稀疏LoD掩码
 
 ```
 struct SparseCoord { 
@@ -144,7 +144,7 @@ SparseCoord getSparseCoord(vec2 tex_coord) {
 ```
 
 
-生成&#x200B;*textureSparse()*&#x200B;采样函数使用的纹理坐标结构基级别采样版本（如果位于片断着色器外部，则可以使用）
+生成&#x200B;*textureSparse()*&#x200B;采样函数使用的纹理坐标结构基级别采样版本（如果外部碎片着色器可以使用）
 
 ```
 SparseCoord getSparseCoordLod0(vec2 tex_coord) { 
@@ -181,7 +181,7 @@ SparseCoord getSparseCoordLod0(vec2 tex_coord) {
 
 计算用于从稀疏纹理中采样的细节级别
 
-如果纹理缺失，向上爬过mipmap金字塔返回LoD BEFORE LoD bias applied
+如果纹理元素缺失，则向上爬镜像转换金字塔返回到应用LoD偏压之前的LoD
 
 ```
 float textureSparseQueryLod(SamplerSparse sampler, SparseCoord coord) { 
@@ -210,9 +210,9 @@ float textureSparseQueryLod(SamplerSparse sampler, SparseCoord coord) {
 ```
 
 
-计算用于从稀疏纹理中采样的导数
+计算将用于从稀疏纹理中采样的导数
 
-如果缺少纹理，请向上爬过mipmap金字塔
+如果纹理缺失，请向上爬镜像转换金字塔
 
 ```
 void textureSparseQueryGrad(out vec2 dfdx, out vec2 dfdy, SamplerSparse sampler, SparseCoord coord) { 
@@ -249,9 +249,9 @@ void textureSparseQueryGrad(out vec2 dfdx, out vec2 dfdy, SamplerSparse sampler,
 ```
 
 
-在稀疏纹理上执行纹理查找，必要时向上查找多级渐远纹理级别
+在稀疏纹理上执行纹理查找，如果需要，请上移多级渐远纹理级别
 
-此函数替代标准&#x200B;*纹理(sampler2D， vec2)*&#x200B;以从稀疏纹理检索纹理元素
+此函数替代标准&#x200B;*纹理(sampler2D， vec2)*&#x200B;以从稀疏纹理中检索纹理元素
 
 ```
 vec4 textureSparse(SamplerSparse sampler, SparseCoord coord) { 
@@ -266,9 +266,9 @@ vec4 textureSparse(SamplerSparse sampler, SparseCoord coord) {
 ```
 
 
-给定纹理，使用小偏移执行优化的多纹理查找
+给定纹理，使用较小的偏移执行优化的多纹理查找
 
-我们提供此帮助程序的替代版本，最多N=4
+我们将提供此助手的替代版本，最多N=4
 
 ```
 void textureSparseOffsets(SamplerSparse sampler, SparseCoord coord, vec2 offsets[N], out vec4 results[N]) { 

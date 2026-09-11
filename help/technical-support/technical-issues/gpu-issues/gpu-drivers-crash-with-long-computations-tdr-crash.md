@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中修复长时间计算期间GPU驱动程序崩溃以防止TDR超时错误。
+description: 了解如何在Substance 3D Painter中长计算期间修复GPU驱动程序崩溃以防止TDR超时错误。
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: GPU驱动程序因长时间计算而崩溃（TDR崩溃）
+title: GPU驱动程序与长崩溃(TDR崩溃)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# GPU驱动程序因长时间计算而崩溃（TDR崩溃）
+# GPU驱动程序与长崩溃(TDR崩溃)
 
 ![Substance 3D Painter中的TDR警告](../../../assets/tdr-window-v2.png "Substance 3D Painter中的TDR警告"){zoomable="yes"}
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 为什么GPU驱动程序崩溃？
 
-为防止&#x200B;**锁定系统**&#x200B;执行任何渲染或GPU计算，只要渲染时间超过几秒钟，Windows操作系统&#x200B;**就会终止GPU驱动程序**。 驱动程序被终止时，使用该驱动程序的应用程序会自动崩溃。 无法知道渲染任务或计算所需的时间（具体取决于GPU、驱动程序、操作系统、网格大小、纹理大小等），因此不可能限制计算机应处理多少时间并从应用程序级别避免崩溃。
+为防止任何渲染或GPU计算&#x200B;**锁定系统**，只要渲染时间超过几秒钟，Windows操作系统&#x200B;**就会终止GPU驱动程序**。 当驱动程序被终止时，使用该驱动程序的应用程序将自动崩溃。 无法知道渲染任务或计算可能花费多长时间（具体取决于GPU、驱动程序、操作系统、网格大小、纹理大小等），因此不可能限制计算机应处理多少并从应用程序级别避免崩溃。
 
 在Windows上，有一个&#x200B;**注册表** **项**&#x200B;指定操作系统在终止GPU驱动程序之前应等待的时间。 应用程序无权直接修改此设置，此过程必须手动完成（请参阅下文）。
 
@@ -115,7 +115,7 @@ Windows注册表树中的![“GraphicsDrivers”](../../../assets/reg-left-pane.
 
 在&#x200B;**右侧窗格**&#x200B;中，双击值&#x200B;**TdrDelay**。 将&#x200B;**基数**&#x200B;设置更改为&#x200B;**小数** 。 将该值设置为除默认&#x200B;**2**&#x200B;以外的其他值（我们建议&#x200B;**60**）。
 
-此值以秒为单位表示考虑到GPU在计算期间无响应，操作系统将等待多长时间。
+此值以秒为单位表示在考虑GPU在计算期间无响应之前，操作系统将等待的时间。
 
 Windows注册表编辑器中的![“TdrDelay”DWORD值](../../../assets/tdrdelay-edit.png "“Windows注册表编辑器中的“TdrDelay”DWORD值"){zoomable="yes"}
 

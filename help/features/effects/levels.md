@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/effects/levels.html"
 breadcrumb-title: ''
-description: 了解如何使用Substance 3D Painter中的“色阶”效果调整纹理的亮度、对比度和色调范围。
+description: 了解如何使用Substance 3D Painter中的“色阶”效果来调整纹理的亮度、对比度和色调范围。
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Levels
 helpx_experience_level: ""
@@ -38,6 +38,6 @@ ht-degree: 0%
 > 如&#x200B;*受影响的通道*&#x200B;选项所选择，色阶效果一次只能应用于一个通道。 如果要将某个级别应用于多个通道，则必须创建多个级别效果。
 
 * 通过右上角的颜色下拉框，可以更改整个rgb图像或仅红色、绿色和蓝色通道之一的色阶。
-* 右下角的“夹紧”选项允许将色阶值夹在0和1 (0-255)之间。 在处理非HDR通道（如&#x200B;**基色**）时，应始终选中此选项。
+* 右下角的“钳制”选项允许您将电平值固定在0和1 (0-255)之间。 在处理非HDR通道（如&#x200B;**Base color**）时，应始终选中此选项。
 
 [要进一步了解Levels，您应该观看我们在Substance学院举办的专门针对该主题的课程。](https://academy.substance3d.com/courses/Mastering-Levels-Histogram)

@@ -25,7 +25,7 @@ ht-degree: 3%
 ## 2018.3.2
 
 * [lib-sparse.glsl](libraries-shader-api/lib-sparse-shader-api.md)：采样函数使用纹理导数代替简单多级渐远纹理级别。 这是对各向异性采样的支持要求。 采样函数签名不会被修改。
-* [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md)： *getParallaxOffset*&#x200B;函数签名已更改，以使用纹理衍生产品
+* [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md)： *getParallaxOffset*&#x200B;函数签名已更改，以使用纹理派生
 
 ## 2018.3.0
 
@@ -43,7 +43,7 @@ ht-degree: 3%
 * *shadeShadow*&#x200B;函数不再使用，可以安全地从自定义表面着色器中移除
 * 添加次表面散射支持，请参阅[surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md)和[lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md)以获取详细信息
 * [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api.md)： *pbrComputeBRDF*&#x200B;函数已被删除。 请参阅[pbr-metal-rough.glsl](shaders-shader-api/pbr-metal-rough-shader-api.md)示例，立即了解如何使用库
-* 已添加新引擎参数： *纹理\_blue\_noise*、*长宽比*、*camera\_vp\_matrix\_inverse*、*环境\_曝光*、*环境\_旋转*、*fovy*、*main\_light*&#x200B;和&#x200B;*screen\_size*。 有关详细信息，请参阅[all-engine-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
+* 已添加新的引擎参数： *纹理\_blue\_噪声*、*长宽比*、*camera\_vp\_matrix\_inverse*、*环境\_曝光度*、*环境\_旋转*、*fovy*、*main\_light*&#x200B;和&#x200B;*screen\_size*。 有关详细信息，请参阅[所有引擎params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
 * 添加&#x200B;*描述*&#x200B;元数据以提供自定义着色器参数的工具提示
 
 ## 2017.4.2
@@ -59,46 +59,46 @@ ht-degree: 3%
 
 ## 2017.4.0
 
-* 某些网格在2D视图中的Specular反射不正确
+* 某些网格在2D 视图中的Specular反射不正确
 
 ## 2017.3.1
 
-* 更便宜的抖动
+* 更便宜的仿色
 
 ## 2017.2.0
 
-* 移除插值tbn标准化以匹配Substance Designer和面包师行为
-* [视港]用斐波那契螺旋代替哈默斯利桌子
+* 删除插值tbn标准化以匹配Substance Designer和Baker行为
+* [视口]用斐波那契螺旋代替哈默斯利桌
 
 ## 2.6.0
 
 * 修复着色器混合和剔除模式
-* 重做抖动。 现在，如果我们有一个线性渲染，我们将其应用于颜色配置文件
+* 重工仿色。 现在，如果我们有一个线性渲染，我们将其应用于颜色配置文件之后
 
 ## 2.5.0
 
-* 在视区中添加对颜色配置文件(LUT)的支持（可选sRGB转换）
-* 向着色器中的不透明度添加抖动
+* 在视口中添加对颜色配置文件(LUT)的支持（可选sRGB转换）
+* 向着色器中的不透明度添加仿色
 * 将视差遮蔽映射添加到PBR着色器
 * 添加在默认着色器UI中隐藏自定义参数的方法
-* 在图层着色器文档中添加指向通道标记列表的链接
+* 在分层着色器文档中添加渠道标记列表链接
 * 将“channel\_ao”标记替换为“channel\_ambientocclusion”
-* [视区]某些正常映射具有固定值，这些值显示为伪像
+* [视口]某些法线图具有固定值，这些值显示为伪像
 * 修复着色器文档中的可用通道
 * 允许定义自定义着色器UI
-* 为材质图层着色器添加标准的自定义着色器UI
-* 自定义UI文件现在相对于书架中的着色器/自定义UI文件夹（如mdl）进行搜索
+* 为材料图层着色器添加标准的自定义着色器UI
+* 自定义UI文件现在相对于工具架中的着色器/自定义UI文件夹（如mdl）进行搜索
 * 在默认着色器中使用Specular level通道
 * 修复vec3着色器参数示例
 * 将Painter升级到OpenGL核心配置文件
 
 ## 2.4.0
 
-* 修复合并导出的法线图与视区中显示的法线图之间的差异
+* 修复了导出的文档与视口中显示的法线图之间的差异
 
 ## 2.2.0
 
-* 在非文档纹理的通用素材中添加对无绑定纹理的支持
+* 为非文档纹理添加对通用材料中无绑定纹理的支持
 * 更新自定义着色器滑块文档
 * 允许定义滑块的步长精度
 * 动态材质分层文档
@@ -109,7 +109,7 @@ ht-degree: 3%
 
 ## 2.1.0
 
-* 允许为着色器参数和材质/蒙版定义组
+* 允许为着色器参数和材料/蒙版定义组
 * 在文档中添加缺失的通道(“ao”、“spinder”、“specularlevel”)
 
 ## 2.0.4
@@ -122,8 +122,8 @@ ht-degree: 3%
 
 * 允许按专用通道覆盖普通/AO附加映射
 * 将Height2Normal函数更改为使用Sobel方法
-* 添加为每个着色器定义模型的可能性
-* 在架子中添加新的mdl文件夹
+* 添加为每个着色器定义mdl的可能性
+* 在工具架中添加新的mdl文件夹
 * 添加扩散和Specular level通道预设
 * 色调映射的文档更新
 * 在正交模式下修复反射
@@ -132,12 +132,12 @@ ht-degree: 3%
 
 ## 1.7.0
 
-* 允许从货架上取样外部纹理
+* 允许对外部纹理取样（来自工具架）
 
 ## 1.6.0
 
-* 显示灰度系数/色调映射功能以允许覆盖它们
-* 公开多个文本代码
+* 公开灰度系数/色调映射函数以允许覆盖它们
+* 公开多个纹理
 
 ## 1.5.0
 
@@ -146,25 +146,25 @@ ht-degree: 3%
 ## 1.4.1
 
 * 所有sRGB转换均遵循sRGB标准，但具有近似值的着色器除外
-* 将Height通道转换为法线映射，导致色彩空间错误
+* 将Height通道转换为法线图空间
 
 ## 1.4.0
 
-* 添加环境遮蔽通道
+* 添加ambient occlusion渠道
 * 为普通版本添加新工作流
-* 为与纹理相关的自动参数添加“or”表达式语法
+* 为纹理相关的自动参数添加“or”表达式语法
 * 在OSX上修复Intel gpu的pbr着色器
 
 ## 1.3.4
 
 * 允许在片段着色器中插入二项式
-* 固定Mikt切线空间
+* 修复Mikt正切空间
 
 ## 1.3.3
 
 * 产生负光强度的固定球面谐波
-* 曝光度计算与Substance Designer（并修复曝光度滑块）不同
-* 100%金属表面上不应出现阴影
+* 曝光计算与Substance Designer不同（请修复曝光滑块）
+* 阴影不应在100%金属表面上可见
 
 ## 1.3.0
 

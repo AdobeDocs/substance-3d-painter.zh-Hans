@@ -31,7 +31,7 @@ ht-degree: 0%
 我们建议：
 
 * **Substance Source**，可从以下网站下载材料： <https://www.substance3d.com/>
-* **Substance启动器** ：可以使用“发送到”功能，通过专用Substance Source选项卡将素材发送到应用程序。
+* **Substance启动器** ：可以使用“发送到”功能，通过专用材料选项卡将Substance Source发送到应用程序。
 
 ### 卸载
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 删除插件不会影响已下载到盘架中的内容。
+> 删除增效工具不会影响已下载到工具架中的内容。

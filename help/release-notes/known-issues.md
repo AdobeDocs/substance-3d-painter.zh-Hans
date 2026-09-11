@@ -24,31 +24,31 @@ ht-degree: 0%
 
 * `[Baking]`简单多维数据集上的AO错误
 * `[Baking]`按名称后缀解释匹配错误
-* 重新导入后`[Baking]` Uv接缝未显示
-* `[Baking]`个包含某些设置的类似网格的对象
-* `[Baking]`环境遮蔽“按网格名称忽略背面”不起作用
-* `[Baking]` `[AMD]`设备在使用高多边形网格进行烘焙时丢失
+* 重新导入后`[Baking]`个Uv接缝未显示
+* `[Baking]`个包含某些设置的类网格伪像
+* 按网格名称`[Baking]`Ambient occlusion忽略背面不起作用
+* `[Baking]` `[AMD]`设备在使用高多边形烘焙时丢失
 
 * `[Substance]`资源中存在多个拼写错误
 * `[Substance]`空格断开可视性条件
-* `[Substance]`某些素材的预设加载时间过长
+* 某些材料的`[Substance]`预设加载时间过长
 * `[Substance]`无法导入使用方式混合的资源
 
-* 如果纹理集没有拼贴1001，则使用智能素材时出现`[Engine]`错误
-* `[Engine]`使用仿制工具在正常通道中绘画时颜色转换不正确
-* `[Engine]`几何蒙版在UV边界处显示实例化图层的伪像
+* 如果纹理集没有磁贴1001，则使用智能材质时出现`[Engine]`错误
+* `[Engine]`使用正常通道中的仿制工具绘画时颜色转换不正确
+* `[Engine]`几何蒙版在UV边框处显示实例化图层的伪像
 
 * `[Color Management]`绑定与未在掩码中使用的生成器不兼容
 * 未正确考虑`[Color Management]`筛选器输出
-* 在Linux上使用ACE进行`[Color Management]`次HDR色彩空间转换生成固定颜色
+* `[Color Management]`个HDR色彩空间转换在Linux上使用ACE生成固定颜色
 
 * `[Shelf]`资源如果放置在具有特定名称的文件夹中，则使用方式不正确
-* `[Shelf]` `[Substance]`生成托架缩览图时未考虑用户数据
+* `[Shelf]` `[Substance]`生成工具架缩略图时未考虑用户数据
 
-* `[Shader]`无法识别“camera_vp_matrix_inverse”参数
-* `[Shader]`个user0通道始终不能用特定的着色器读取为sRGB
+* `[Shader]`无法识别“相机_vp_matrix_inverse”参数
+* `[Shader]` user0通道始终不能作为具有特定着色器的sRGB读取
 
-* `[Scripting]` `[Javascript]`在导出函数中指定抖动参数时出现“已禁用”拼写错误
+* `[Scripting]` `[Javascript]`在导出函数中指定仿色参数时出现“禁用”拼写错误
 * `[Scripting]` `[Python]` substance_painter.project模块中的各种拼写错误
 
 * `[USD]`在某些情况下，分配的usda有误

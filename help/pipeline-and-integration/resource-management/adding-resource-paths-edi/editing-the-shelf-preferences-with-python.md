@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-the-shelf-preferences-with-python.html"
 breadcrumb-title: ''
-description: 了解如何使用Substance 3D Painter中的Python脚本编辑托架偏好设置，以实现自动资源路径管理。
+description: 了解如何使用Substance 3D Painter中的Python脚本编辑工具架偏好设置，以实现自动资源路径管理。
 helpx_creative_field: ""
 helpx_description: Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Edit Shelf Preferences with Python
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 使用Python编辑托架偏好设置
+title: 使用Python编辑工具架偏好设置
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# 使用Python编辑托架首选项
+# 使用Python编辑工具架偏好设置
 
 以下是修改Windows注册表以处理资源路径的示例Python脚本。
 
@@ -32,11 +32,11 @@ ht-degree: 2%
 
 添加资源路径需要检查已经存在哪个资源路径，以便用新路径增加该列表。
 
-下面的代码在检查当前已定义的路径数后，在注册表项中添加一个新的托架路径。
+下面的代码在检查当前已定义的工具架数量后将新的路径添加到注册表项中。
 
 >[!NOTE]
 >
-> 子项&#x200B;**Shelf** （与&#x200B;**pathInfos**&#x200B;一起）可能不在注册表中。 要使它看起来像是启动应用程序，请打开偏好设置（“编辑”>“设置”），然后单击“确定”并关闭应用程序。
+> 工具架中可能不存在子项&#x200B;**路径**（与&#x200B;**pathInfos**&#x200B;一起）。 要使它看起来像是启动应用程序，请打开偏好设置（“编辑”>“设置”），然后单击“确定”并关闭应用程序。
 
 ```
 import winreg 
@@ -123,7 +123,7 @@ Key.Close()
 
 创建的任何路径都可以在不需要时删除，但对于默认路径（无法完全删除）也可禁用。
 
-以下代码解析Windows注册表并禁用默认托架（名为“starter\_assets”）。
+以下代码解析Windows注册表并禁用该默认工具架（名为“starter\_assets”）。
 
 ```
 import winreg 

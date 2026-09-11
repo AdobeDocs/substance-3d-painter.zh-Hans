@@ -14,7 +14,7 @@ ht-degree: 5%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_grayscale_conversion.png" alt=""/><br><strong>英寸：</strong>生成器，灰度，颜色</td>
-    <td style="border: 0;" valign="top"><strong>描述</strong><br>灰度转换生成器将纹理或地图转换为灰度值。<br><br>灰度转换生成器输出单色（黑白）纹理。 因此，它对于从全色输入映射生成蒙版非常有用。</td>
+    <td style="border: 0;" valign="top"><strong>描述</strong><br>灰度转换生成器将纹理或地图转换为灰度值。<br><br>灰度转换生成器输出黑白纹理。 因此，它对于从全色输入图生成蒙版非常有用。</td>
   </tr>
 </table>
 

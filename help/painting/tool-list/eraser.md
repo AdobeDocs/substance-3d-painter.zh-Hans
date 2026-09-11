@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/eraser.html"
 breadcrumb-title: ''
-description: 使用Substance 3D Painter中的橡皮擦工具，通过精确控制从3D模型中移除颜料和纹理。
+description: 使用Substance 3D Painter中的橡皮擦工具，通过精确控制从3D模型中移除绘画和纹理。
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Eraser
 helpx_experience_level: ""
@@ -20,16 +20,16 @@ ht-degree: 1%
 
 # 橡皮擦
 
-橡皮擦是一种绘画工具，可擦除/隐藏其他工具之前已绘制的内容。 此工具一次只影响一个图层。
+橡皮擦是一种绘画工具，可擦除/隐藏其他工具之前绘制的内容。 此工具一次只影响一个图层。
 
-橡皮擦与绘画工具共享公共参数和行为。 要了解有关画笔的更多信息，Alpha和模板控件请查看[绘画工具页面](paint-brush.md)。
+该橡皮擦与“绘画”工具共享常见的参数和行为。 要了解有关画笔、Alpha和模板控件的更多信息，请查看[绘画工具页面](paint-brush.md)。
 
 >[!NOTE]
 >
 > 从技术上讲，**橡皮擦不会真正删除信息**。 只需将图层Alpha设置为零，即可擦除/隐藏以前的绘画信息。 这意味着：
 > 
 > * 在应用了橡皮擦的画笔描边之前，当重新打开项目时，仍然会计算以前绘制的任何画笔描边。
-> * 如果忽略Alpha信息，Substance滤镜可以检索绘画信息
+> * 如果忽略Alpha信息，Substance过滤器可以检索绘画信息
 > 
 > 因此，有时更建议&#x200B;**删除图层并重新创建它**，而不是使用橡皮擦，因为它可以提高性能。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 与绘画工具相反，橡皮擦仅允许定义将受到影响的通道。 不能从盘架加载资源来影响每个通道。
+> 与绘画工具相反，该橡皮擦仅允许定义将受到影响的通道。 不能从工具架加载资源来影响每个通道。
 
 * 如果启用了所有通道，橡皮擦将删除所有通道中的信息：
 

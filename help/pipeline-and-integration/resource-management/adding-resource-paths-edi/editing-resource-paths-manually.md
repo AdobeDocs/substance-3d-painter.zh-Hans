@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-resource-paths-manually.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter首选项中手动编辑资源路径以自定义托架资源位置。
+description: 了解如何在Substance 3D Painter首选项中手动编辑资源路径以自定义工具架资源位置。
 helpx_creative_field: ""
 helpx_description: Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Editing resource paths manually
 helpx_experience_level: ""
@@ -52,8 +52,8 @@ ht-degree: 1%
 1. 在&#x200B;**注册表编辑器**&#x200B;窗口左侧的树形视图中导航，然后转到上述注册表项。
 1. **在** pathInfos **下面添加一个密钥**，并以&#x200B;**数字**&#x200B;作为名称。 根据现有键递增编号（从1开始）。
 1. 在窗口右侧执行&#x200B;**右键单击** > **新建** > **字符串值**。 将其命名为&#x200B;**已禁用**&#x200B;并将值设置为&#x200B;**false**。
-1. 在窗口右侧执行&#x200B;**右键单击** > **新建** > **字符串值**。 将其命名为&#x200B;**name**&#x200B;并输入自定义托架的名称。
-1. 在窗口右侧执行&#x200B;**右键单击** > **新建** > **字符串值**。 将其命名为&#x200B;**path**，并将值设置为盘架所在的path。
+1. 在窗口右侧执行&#x200B;**右键单击** > **新建** > **字符串值**。 将其命名为&#x200B;**name**&#x200B;并输入自定义工具架的名称。
+1. 在窗口右侧执行&#x200B;**右键单击** > **新建** > **字符串值**。 将其命名为&#x200B;**path**，并将值设置为工具架所在的path。
 1. 不要忘记在“**pathInfos**”内按1递增键“**size**”。
 1. 关闭窗口。
 1. 启动应用程序。
@@ -68,9 +68,9 @@ ht-degree: 1%
 
 1. 导航到上述路径。
 1. 打开文件&#x200B;**Substance 3D Painter.config**
-1. 向下滚动到&#x200B;**[托架]**&#x200B;部分
+1. 向下滚动到&#x200B;**[工具架]**&#x200B;部分
 
-通过递增最后一个可见编号来添加新托架路径，例如：
+通过递增最后一个可见数字来添加新的工具架路径，例如：
 
 ```
 pathInfos2disabled=false  

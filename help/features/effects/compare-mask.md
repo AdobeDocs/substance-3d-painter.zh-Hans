@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/effects/compare-mask.html"
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中使用比较蒙版效果根据纹理比较操作创建蒙版。
+description: 了解如何使用Substance 3D Painter中的比较蒙版效果根据纹理比较操作创建蒙版。
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Compare Mask
 helpx_experience_level: ""
@@ -36,5 +36,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 可以右键单击图层并选择快捷方式“**使用Height组合添加蒙版**”以在图层上快速添加此新效果。 此快捷键还会将Height通道&#x200B;**混合模式**&#x200B;切换为“**正常**”，而不是默认的“**线性减淡（添加）**”。\
+> 可以右键单击图层并选择快捷键“**添加具有Height组合的蒙版**”以在图层上快速添加此新效果。 此快捷键还会将Height通道&#x200B;**混合模式**&#x200B;切换为“**正常**”，而不是默认的“**Linear dodge（添加）**”。\
 > ![](../../assets/compare-shortcut.png)

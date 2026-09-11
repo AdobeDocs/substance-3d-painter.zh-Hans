@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/content/creating-custom-effects.html"
 breadcrumb-title: ''
-description: 了解如何为Substance 3D Painter创建自定义效果，以使用自定义滤镜、生成器和素材扩展功能。
+description: 了解如何为Substance 3D Painter创建自定义效果，以使用自定义滤镜、生成器和材料扩展功能。
 helpx_creative_field: ""
 helpx_description: Painter > Content > Creating custom effects
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 自定义效果可以导入到默认搁板的项目中，请参阅： [导入资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+> 可以在默认工具架的项目中导入自定义效果，请参阅： [导入资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 有关创建自定义效果的详细信息，请参阅以下页面：
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.html"
 breadcrumb-title: ''
-description: 了解如何从Substance 3D Painter中的资源路径中排除特定资源，以便更好地整理存储架。
+description: 了解如何从Substance 3D Painter中的资源路径中排除特定资源，以便更好地整理工具架。
 helpx_creative_field: ""
 helpx_description: Painter > Pipeline and integration > Resource management > Excluding resources in a resource path
 helpx_experience_level: ""

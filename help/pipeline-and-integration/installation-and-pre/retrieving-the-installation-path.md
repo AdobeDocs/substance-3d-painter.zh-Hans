@@ -34,7 +34,7 @@ ht-degree: 6%
 >[!NOTE]
 >
 > 此注册表项仅从版本7.2开始可用。\
->  对于旧版本，可从&#x200B;**HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ Explorer\FileExts**&#x200B;中的文件关联检索安装路径。
+>  对于旧版本，可从&#x200B;**资源管理器\FileExts**&#x200B;中的文件关联检索安装路径。
 
 ### Substance 3D Standalone
 

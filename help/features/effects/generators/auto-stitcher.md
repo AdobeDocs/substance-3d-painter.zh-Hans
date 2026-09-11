@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_auto_stitcher.png" alt=""/><br><strong>进入：</strong>缝合，缝合</td>
-    <td style="border: 0;" valign="top"><strong>说明</strong><br>自动缝合器生成器会自动沿程序生成的路径创建缝合效果。 这些路径可以基于UV接缝、曲率或自定义输入映射生成。<br><br>自动缝合器生成器输出单色（黑白）纹理。 因此，它对于生成蒙版以应用拼接效果非常有用。<br><br>要使用曲率蒙版模式，需要烘焙曲率图。 <a href="../../../baking/baking.md">在此处了解有关烘焙的更多信息</a>。</td>
+    <td style="border: 0;" valign="top"><strong>说明</strong><br>自动缝合器生成器会自动沿程序生成的路径创建缝合效果。 可以基于接缝、弯曲或自定义输入图生成这些路径。<br><br>自动缝合器生成器输出单色（黑白）纹理。 因此，它对于生成蒙版以应用拼接效果非常有用。<br><br>要使用弯曲蒙版模式，需要烘焙弯曲图。 <a href="../../../baking/baking.md">在此详细了解烘焙</a>。</td>
   </tr>
 </table>
 
@@ -26,8 +26,8 @@ ht-degree: 1%
     <th>描述</th>
   </tr>
   <tr>
-    <td><strong>曲率</strong>灰度</td>
-    <td>选择如何生成拼接路径：<br><ul><li><strong>UV蒙版</strong>沿UV接缝生成路径。</li><li><strong>曲率</strong>在硬边缘附近生成路径。</li><li><strong>自定义输入</strong>允许您控制使用映射生成路径的位置。<br>使用<strong>自定义输入</strong>时，将在高对比度区域生成路径。</li></ul></td>
+    <td><strong>弯曲</strong>灰度</td>
+    <td>选择如何生成拼接路径：<br><ul><li><strong>UV 蒙版</strong>沿UV接缝生成路径。</li><li><strong>弯曲</strong>生成硬边缘附近的路径。</li><li><strong>自定义输入</strong>允许您控制使用映射生成路径的位置。<br>使用<strong>自定义输入</strong>时，将在高对比度区域生成路径。</li></ul></td>
   </tr>
   <tr>
     <td><strong>自定义输入</strong>灰度</td>
@@ -44,7 +44,7 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>蒙版模式</strong></td>
-    <td>选择蒙版模式。<br><ul><li>UV蒙版：基于UV 岛的蒙版。</li><li>曲率：基于曲率图的蒙版。</li><li>自定义输入：基于自定义输入纹理的蒙版。</li></ul></td>
+    <td>选择蒙版模式。<br><ul><li>UV 蒙版：基于UV 岛的蒙版。</li><li>弯曲：基于弯曲图的蒙版。</li><li>自定义输入：基于自定义输入纹理的蒙版。</li></ul></td>
   </tr>
   <tr>
     <td><strong>路径Smoothness</strong></td>
@@ -72,7 +72,7 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>抖动</strong></td>
-    <td>调整拼接流动方向的抖动。</td>
+    <td>沿缝合线流动方向调整抖动。</td>
   </tr>
 </table>
 
@@ -81,6 +81,6 @@ ht-degree: 1%
 <table>
   <tr>
     <td><img src="../../../assets/generators/examples/auto-stitcher/custom-input2.png" alt=""/></td>
-    <td>此示例说明自定义输入如何创建拼接路径。 <br><ul><li>黑白基色显示我们正在用作自动缝合器生成器的自定义输入的杂色纹理。</li><li>自动缝合器生成器正在遮盖红色图层，使红色缝合路径可见。</li><li>请注意，红色拼接路径会适合自定输入杂色纹理的足够大的黑色或白色区域。 红色缝合绝不会从白色到黑色或从黑色到白色交叉。</li></ul><br>下图显示了用于创建此示例的简单图层设置。<br><br><img src="../../../assets/generators/examples/auto-stitcher/custom-input-layer-stack.png" alt=""/></td>
+    <td>此示例说明自定义输入如何创建拼接路径。 <br><ul><li>黑白base color显示了我们用作自动缝合器生成器的自定义输入的噪声纹理。</li><li>自动缝合器生成器正在遮盖红色图层，使红色缝合路径可见。</li><li>请注意，红色拼接路径会适合自定义输入纹理的足够大的黑白区域。 红色缝合绝不会从白色到黑色或从黑色到白色交叉。</li></ul><br>下图显示了用于创建此示例的简单图层设置。<br><br><img src="../../../assets/generators/examples/auto-stitcher/custom-input-layer-stack.png" alt=""/></td>
   </tr>
 </table>

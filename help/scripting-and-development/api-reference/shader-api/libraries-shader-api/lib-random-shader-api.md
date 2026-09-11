@@ -40,7 +40,7 @@ uniform sampler2D texture_blue_noise;
 ```
 
 
-蓝色杂色纹理分辨率
+蓝色纹理分辨率
 
 ```
 const ivec2 texture_blue_noise_size = ivec2(256);

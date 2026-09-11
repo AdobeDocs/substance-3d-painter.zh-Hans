@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/text-resource.html"
 breadcrumb-title: ''
-description: 了解如何使用Substance 3D Painter中的文本资源向纹理绘画工作流程添加文本和排版规则。
+description: 了解如何使用Substance 3D Painter中的文本资源将文本和排版添加到纹理绘画工作流程。
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../assets/v10_text_resource_banner-1.jpg)
 
-中的<b>文本资源</b>可用于使用特定的<b>字体文件</b>将文本写入纹理。 有多个参数可用于调整最终文本绘制的外观。
+中的<b>文本资源</b>可用于使用特定的<b>纹理文件</b>将文本写入字体。 有多个参数可用于调整最终文本绘制的外观。
 
 ## 浏览字体
 
@@ -54,9 +54,9 @@ Painter同时支持<b>.ttf</b>和<b>.otf</b>两种字体格式。
 
 ### 将字体用作文本资源
 
-纹理资源的工作方式与其他资源（例如图像或Substance素材）类似，并且可用于画笔参数、填充投影或Substance图像输入。
+纹理资源的工作方式与其他资源（例如图像或Substance材料）类似，并且可用于画笔参数、填充投影或Substance图像输入。
 
-要创建文本资源，只需将字体添加到资源插槽中即可。 还可以在视区中拖放字体。
+要创建文本资源，只需将字体添加到资源插槽中即可。 也可以将字体拖放到视口中。
 
 ![](../assets/v10_text_drag_drop.gif)
 
@@ -79,9 +79,9 @@ Painter同时支持<b>.ttf</b>和<b>.otf</b>两种字体格式。
 
 | <b>参数</b> | <b>描述</b> |
 | --- | --- |
-| <b>行距</b> | 文本行之间的距离（“行距”）相对于字体大小。 |
+| <b>行间距</b> | 文本行之间的距离（“行距”）相对于字体大小。 |
 | <b>字符间距</b> | 相邻字符之间相对于字体大小的间距大小。 可以为负值以减去间距。 |
 | <b>偏移</b> | 文本的水平和垂直偏移。 规范化为字体大小。 |
 | <b>背景填充</b> | 文本后面的背景颜色。 |
 | <b>背景不透明度</b> | 背景颜色的可见程度。 |
-| <b>分辨率</b> | 指定用于计算渲染文本所用纹理大小的模式。 可用模式包括：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>自动</b>：分辨率是自动计算的。</li> <li data-preserve-html="true"><b>自定义</b>：可通过专用设置手动定义分辨率。</li> </ul> |
+| <b>分辨率</b> | 指定用于计算用于呈现文本的纹理大小的模式。 可用模式包括：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>自动</b>：分辨率是自动计算的。</li> <li data-preserve-html="true"><b>自定义</b>：可通过专用设置手动定义分辨率。</li> </ul> |

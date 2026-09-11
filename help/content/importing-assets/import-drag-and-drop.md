@@ -30,19 +30,19 @@ ht-degree: 0%
 
 ![显示如何将资源拖放到资源窗口的Gif](../../assets/import_dragdrop_assets_window.gif)
 
-### 导入到视区
+### 导入视口
 
-要将素材直接导入并应用到项目中，只需将素材拖放到视区中即可。 拖动文件时，它应突出显示网格，以指示将应用于项目的哪个部分。
+要将材料直接导入并应用于项目，只需将其拖放到视口中即可。 拖动文件时，它应突出显示网格，以指示将其应用于项目的哪个部分。
 
-![显示将资源拖放到视区中的Gid](../../assets/import_dragdrop_material_viewport.gif)
+![显示将资源拖放到视口中的Gid](../../assets/import_dragdrop_material_viewport.gif)
 
-也可以通过将SVG文件拖放到视区中来导入此文件。 此操作将使用变形投影模式和资源<b>图形到材质</b>创建新图层，从而便于创建贴花。
+也可以通过将SVG文件拖放到视口中来导入该文件。 此操作将使用变形投影模式和资源<b>图形到材料</b>创建新图层，便于创建贴花。
 
-![显示将资源拖放到视区中的Gid](../../assets/import_dragdrop_material_svg.gif)
+![显示将资源拖放到视口中的Gid](../../assets/import_dragdrop_material_svg.gif)
 
-### 导入到图层栈栈
+### 导入图层堆叠
 
-将资源拖放到层中将创建层（或效果）。 如果资源不是Substance素材或滤镜，可能会出现一个菜单，询问将资源放入哪个通道。
+将资源拖放到层中将创建层（或效果）。 如果资源不是材料或过滤器，可能会出现一个菜单，询问要将资源放在哪个通道。
 
 <table>
 <tr style="border: 0;">
@@ -66,12 +66,12 @@ ht-degree: 0%
 </tr>
 </table>
 
-![显示将资源拖放到图层栈栈中的Gid](../../assets/import_dragdrop_layerstack.gif)
+![显示将资源拖放到图层堆叠中的Gid](../../assets/import_dragdrop_layerstack.gif)
 
 ![](../../assets/120-0-comparison.png)
 
 ### 导入到资源槽
 
-将文件拖放到接口中的一个资源插槽中（例如，拖放到填充层内的通道中），将导入资源并自动应用它。
+将文件拖放到接口中的一个资源插槽中（例如，拖放到填充图层内的通道中），将导入资源并自动应用它。
 
 ![显示将资源拖放到资源插槽中的Gid](../../assets/import_dragdrop_slot.gif)
