@@ -27,7 +27,7 @@ ht-degree: 6%
 ### Creative Cloud 桌面版
 
 1. 打开Windows注册表编辑器(**regedit**)。
-1. 导航到注册表项： ** HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\**
+1. 导航到注册表项： **&#x200B; HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\**
 1. 打开名为&#x200B;**Adobe Substance 3D Painter.exe**&#x200B;的子密钥
 1. 密钥的值包含安装该密钥的应用程序可执行文件的路径
 

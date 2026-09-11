@@ -24,7 +24,7 @@ ht-degree: 0%
 
 在视口中移动相机上的旧项目可能会短暂显示由空白/空白纹理创建的白色闪光灯。 这是因为[Sparse Virtual Texture](https://substance3d.adobe.com/display/DRAFTPAINTER/Sparse+Virtual+Textures) (SVT)系统依赖于旧版着色器不使用的特定着色器配置。
 
-要去除白色闪光灯，只需&#x200B;**更新****项目着色器**：
+要去除白色闪光灯，只需&#x200B;**更新**&#x200B;**项目着色器**：
 
 * 对于&#x200B;**默认着色器**：按照[更新着色器](../../../interface/shader-settings/updating-a-shader.md)页中的分步过程操作。
 * 对于&#x200B;**自定义着色器**：查看日志中的错误消息以及[着色器 API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)页。

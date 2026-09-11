@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## lib-normal.glsl
 
-**公共函数：** *normalBlend* *normalBlendOriented* *normalFade* *normalUnpack* *normalFromBaseNormal* *normalFromNormal* *normalFromHeight* *getTSNormal* *computeWSB9}*&#x200B;计算NORMAL WSNORMAL **
+**公共函数：** *normalBlend* *normalBlendOriented* *normalFade* *normalUnpack* *normalFromBaseNormal* *normalFromNormal* *normalFromHeight* *getTSNormal* *computeWSB9&rbrace;*&#x200B;计算NORMAL WSNORMAL **
 
 从库导入
 

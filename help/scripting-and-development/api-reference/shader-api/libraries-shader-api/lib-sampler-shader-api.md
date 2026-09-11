@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## lib-sampler.glsl
 
-**公共函数：** *getAO* *getShadowFactor* *getGlossiness* *getRoughness* *getMetallic* *getInvisionalLevel* *getInvisionalAngle* *getOpacity* *getHeight* *getDisplacement* *get2} specularLevel* *getBaseColor* *getSpream* *getSpecularColor* *getScreattering* *generateOtherspariousRoughness* *generateSpreamColor* *generateSpecularColor*
+**公共函数：** *getAO* *getShadowFactor* *getGlossiness* *getRoughness* *getMetallic* *getInvisionalLevel* *getInvisionalAngle* *getOpacity* *getHeight* *getDisplacement* *get2&rbrace; specularLevel* *getBaseColor* *getSpream* *getSpecularColor* *getScreattering* *generateOtherspariousRoughness* *generateSpreamColor* *generateSpecularColor*
 
 从库导入
 

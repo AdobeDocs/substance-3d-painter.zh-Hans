@@ -22,7 +22,7 @@ ht-degree: 0%
 
 使用Substance 3D独立安装程序时，可以在静默模式下安装应用程序，以方便部署。
 
-我们正在使用&#x200B;**InnoSetup**&#x200B;生成安装程序。 此处提供了可用于安装程序的整组参数[](http://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline)。
+我们正在使用&#x200B;**InnoSetup**&#x200B;生成安装程序。 此处提供了可用于安装程序的整组参数[&#128279;](http://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline)。
 
 ## 通过命令行以静默模式安装
 

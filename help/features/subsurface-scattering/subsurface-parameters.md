@@ -21,7 +21,7 @@ ht-degree: 0%
 # 次曲面参数
 
 Substance 3D Painter实时地下实施是一种屏幕空间次表面散射效果。 本页说明了控制它的参数。\
-当前实现基于PIXAR](http://graphics.pixar.com/library/ApproxBSSRDF/)发布的“高效次表面散射的近似反射率配置文件”方法[。
+当前实现基于PIXAR[&#128279;](http://graphics.pixar.com/library/ApproxBSSRDF/)发布的“高效次表面散射的近似反射率配置文件”方法。
 
 有关基于这些参数的材料的示例，请参阅： [子曲面材料类型](subsurface-material-type.md)。
 

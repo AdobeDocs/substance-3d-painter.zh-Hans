@@ -54,7 +54,7 @@ uniform SamplerSparse basecolor_tex;
 ```
 
 
-我们&#x200B;**绑定****弯曲**&#x200B;到我们的统一&#x200B;**弯曲\_tex**。 如果没有弯曲可用，则提供透明纹理。
+我们&#x200B;**绑定**&#x200B;**弯曲**&#x200B;到我们的统一&#x200B;**弯曲\_tex**。 如果没有弯曲可用，则提供透明纹理。
 
 ```
 //: param auto texture_curvature 

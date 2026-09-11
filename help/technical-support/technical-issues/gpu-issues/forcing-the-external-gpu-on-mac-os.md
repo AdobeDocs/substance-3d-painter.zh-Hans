@@ -27,7 +27,7 @@ ht-degree: 0%
 要启用它，请执行以下操作：
 
 1. 如果Substance 3D Painter已在运行，请将其关闭。
-1. 在访达中选择Substance 3D Painter，您可以在&#x200B;**Applications**&#x200B;文件夹中找到它**.**
+1. 在访达中选择Substance 3D Painter，您可以在&#x200B;**Applications**&#x200B;文件夹中找到它&#x200B;**.**
 1. 按&#x200B;**Command-I**&#x200B;或右键单击&#x200B;**Substance 3D Painter**&#x200B;应用程序，然后选择&#x200B;**获取信息**。
 1. 在新窗口中，启用设置&#x200B;**首选外部GPU**。
 1. 重新启动Substance 3D Painter。

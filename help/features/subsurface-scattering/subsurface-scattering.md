@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ![](../../assets/sss-sarah.jpg){width="500px"}
 
->> 
+&#x200B;>> 
 
 (来源：《战士》，[里贝罗莱斯·利奥](https://www.artstation.com/artwork/xNYDm) )
 
