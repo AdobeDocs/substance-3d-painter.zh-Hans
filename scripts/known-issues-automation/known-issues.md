@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/know-issues.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter的已知问题，了解最新版本中的当前限制和解决方法。
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
@@ -8,24 +8,22 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 已知问题
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 
 # 已知问题
 
-本页列出了Substance 3D Painter v12.1.3中存在的所有活动已知问题：
+本页列出了Substance 3D Painter v12.1.5中存在的所有活动已知问题：
 
 * `[Baking]`简单多维数据集上的AO错误
 * `[Baking]`按名称后缀解释匹配错误
 * 重新导入后`[Baking]` Uv接缝未显示
-* `[Baking]`个包含某些设置的类似网格的对象
+* `[Baking]`个包含某些设置的类网格伪像
 * `[Baking]`环境遮蔽“按网格名称忽略背面”不起作用
 * `[Baking]` `[AMD]`设备在使用高多边形网格进行烘焙时丢失
 
@@ -34,25 +32,29 @@ ht-degree: 0%
 * `[Substance]`某些素材的预设加载时间过长
 * `[Substance]`无法导入使用方式混合的资源
 
-* 如果纹理集没有拼贴1001，则使用智能素材时出现`[Engine]`错误
-* `[Engine]`使用仿制工具在正常通道中绘画时颜色转换不正确
+* 如果纹理集没有磁贴1001，则使用智能材质时出现`[Engine]`错误
+* `[Engine]`使用正常通道中的仿制工具绘画时颜色转换不正确
 * `[Engine]`几何蒙版在UV边界处显示实例化图层的伪像
 
 * `[Color Management]`绑定与未在掩码中使用的生成器不兼容
 * 未正确考虑`[Color Management]`筛选器输出
 * 在Linux上使用ACE进行`[Color Management]`次HDR色彩空间转换生成固定颜色
 
+* `[USD]`在某些情况下，分配的usda有误
+* `[USD]`导出的USD几何形状沿UV边框滑动
+* `[USD]`加载格式错误的USDz时冻结
+
 * `[Shelf]`资源如果放置在具有特定名称的文件夹中，则使用方式不正确
-* `[Shelf]` `[Substance]`生成托架缩览图时未考虑用户数据
+* `[Shelf]` `[Substance]`生成工具架缩略图时未考虑用户数据
 
 * `[Shader]`无法识别“camera_vp_matrix_inverse”参数
 * `[Shader]`个user0通道始终不能用特定的着色器读取为sRGB
 
-* `[Scripting]` `[Javascript]`在导出函数中指定抖动参数时出现“已禁用”拼写错误
+* `[Scripting]` `[Javascript]`在导出函数中指定仿色参数时出现“禁用”拼写错误
 * `[Scripting]` `[Python]` substance_painter.project模块中的各种拼写错误
 
-* `[USD]`在某些情况下，分配的usda有误
-* `[USD]`导出的USD几何形状沿UV边框滑动
+* `[Path]`Height混合多条路径可能会导致伪影
+* `[Path]`蓝色方形选区可见性问题
 
 * 更新Painter版本后，以基色视图保存的`[Single Channel View]`项目看起来更暗
 * 更新Painter版本后，以基色视图保存的`[Single Channel View]`项目看起来更暗
@@ -93,11 +95,12 @@ ht-degree: 0%
 * `[User Channels]`混色空间预览错误
 * 切换到“烘焙”模式后，`[Mask]`几何选区仍处于活动状态
 * `[Sonoma]`图标未出现在菜单中
-* `[Path]`Height混合多条路径可能会导致伪影
 * `[Polygon Fill]`更改基色的色彩空间不会更新拾色器
 * 导出时将纹理从4k放大到8k时`[UV Padding]`个伪像
 * `[Performances]`个Painter hogs VRAM使用情况
-* `[Generator]`将“使用纹理”设置为false不会禁用纹理输入
+* `[FBX]`缩放问题
+* 可以将`[Texture set list]`个UV 平铺选为纹理集
+* `[Viewport]`光标在烘焙模式视口底部滞后
 * 在画笔通道的槽中使用时，会拉伸非方形资源
 * 无法解码substance
 * 非完全叠加的UV可能产生伪像
@@ -116,8 +119,6 @@ ht-degree: 0%
 * 历史记录中不会显示根据上下文工具栏修改的画笔参数
 * 如果已在此会话中删除并重新创建导出预设，则无法重命名或删除该预设
 * 在某些情况下，通道映射无法用于投影工具预览
-* 编辑3d投影时存储时视口冻结
-* 素材图层分辨率太低
 
 ## 稳定性
 
