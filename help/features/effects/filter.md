@@ -1,9 +1,9 @@
 ---
-title: 滤镜
+title: Filters
 description: 了解如何在Substance 3D Painter中使用滤镜效果来应用图像处理滤镜和纹理调整。
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 4b8afda243f2969b036efe14588f201177ee3139
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '635'
 ht-degree: 3%
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 * 手动方法需要多个步骤来设置过滤器，但可直接控制流程的每个步骤。
 * 拖放方法允许您快速添加滤镜，并自动将混合模式设置为在所有通道上穿透。
 
-### 手动应用滤镜
+### 手动添加筛选器
 
 在以下示例中，模糊滤镜应用于图层的内容，但更常用于将滤镜应用于蒙版：
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 >
 > 手动应用滤镜时，请记住，如果您希望滤镜影响其下方图层的内容，则可能需要使用穿透混合模式。
 
-## 从层架中拖放滤镜
+## 从工具架中拖放筛选器
 
 此方法仅适用于应应用于整个图层栈栈的滤镜。 它将自动设置所有通道[混合模式](../../interface/layer-stack/blending-modes.md) 。 此操作不适用于将滤镜应用于蒙版。
 
@@ -55,13 +55,17 @@ ht-degree: 3%
 
 请注意，在上例中，拖放的滤镜已具有“通过混合”模式。 这适用于文档的所有渠道。
 
-## 添加新过滤器
+## 将新滤镜添加到Painter
 
-所有滤镜都是Substance，可使用Substance 3D Designer创建滤镜。 作为快速启动，Substance 3D Designer提供了可立即用于Substance 3D Painter的模板。
+如果有新的滤镜可以导入Painter，则可以添加这些滤镜，就像添加标准资源一样 — 只需将该Sbsar 文件拖放到&#x200B;**资源面板**&#x200B;上即可，这样您就可以管理新滤镜的导入。
+
+## 创建您自己的滤镜
+
+所有滤镜都是Substance，可使用Substance 3D Designer创建滤镜。 Substance 3D Designer为Substance 3D Painter提供模板以帮助您快速入门。
 
 有关详细信息，请参阅此页面： [创建自定义效果](../../content/creating-custom-effects/creating-custom-effects.md)
 
-## 可用过滤器
+## Painter中的默认滤镜
 
 ### Standard
 
