@@ -2,13 +2,11 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
+source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 14%
-
+source-wordcount: '1346'
+ht-degree: 13%
 ---
-
 
 # Substance 3D Painter {#using}
 
@@ -138,7 +136,7 @@ ht-degree: 14%
     + [通道绘画概述](/help/painting/advanced-channel-painting/advanced-channel-painting.md)
     + [环境光遮蔽](/help/painting/advanced-channel-painting/ambient-occlusion-painting.md)
     + [流量图](/help/painting/advanced-channel-painting/flow-map-painting.md)
-    + [Height图](/help/painting/advanced-channel-painting/height-map-painting.md)
+    + [高度图](/help/painting/advanced-channel-painting/height-map-painting.md)
     + [法线贴图](/help/painting/advanced-channel-painting/normal-map-painting.md)
   + [矢量图形- .svg .ai](/help/painting/vector-graphic-svg.md)
   + [文本资源](/help/painting/text-resource.md)
@@ -166,12 +164,80 @@ ht-degree: 14%
     + [UV随机颜色](/help/features/effects/generators/uv-random-color.md)
     + [UV纹理密度](/help/features/effects/generators/uv-texel-density.md)
     + [世界空间法线](/help/features/effects/generators/world-space-normals.md)
+  + 滤镜{#filters}
+    + [滤镜概述](/help/features/effects/filter.md)
+    + Standard{#standard-filters}
+      + [模糊](/help/features/effects/filters/standard/blur.md)
+      + [模糊方向](/help/features/effects/filters/standard/blur-directional.md)
+      + [模糊斜率](/help/features/effects/filters/standard/blur-slope.md)
+      + [夹持](/help/features/effects/filters/standard/clamp.md)
+      + [色彩平衡](/help/features/effects/filters/standard/color-balance.md)
+      + [颜色校正](/help/features/effects/filters/standard/color-correct.md)
+      + [对比度明度](/help/features/effects/filters/standard/contrast-luminosity.md)
+      + [投影](/help/features/effects/filters/standard/drop-shadow.md)
+      + [填充区域颜色](/help/features/effects/filters/standard/fill-area-color.md)
+      + [填充区域蒙版](/help/features/effects/filters/standard/fill-area-mask.md)
+      + [FXAA（消除锯齿）](/help/features/effects/filters/standard/fxaa-anti-aliasing.md)
+      + [发光](/help/features/effects/filters/standard/glow.md)
+      + [渐变](/help/features/effects/filters/standard/gradient.md)
+      + [渐变动态](/help/features/effects/filters/standard/gradient-dynamic.md)
+      + [灰度转换](/help/features/effects/filters/standard/grayscale-conversion.md)
+      + [高通](/help/features/effects/filters/standard/highpass.md)
+      + [直方图扫描](/help/features/effects/filters/standard/histogram-scan.md)
+      + [直方图偏移](/help/features/effects/filters/standard/histogram-shift.md)
+      + [HSL Perceptive](/help/features/effects/filters/standard/hsl-perceptive.md)
+      + [反相](/help/features/effects/filters/standard/invert.md)
+      + [镜像](/help/features/effects/filters/standard/mirror.md)
+      + [像素化](/help/features/effects/filters/standard/pixelate.md)
+      + [色调分离](/help/features/effects/filters/standard/posterize.md)
+      + [锐化](/help/features/effects/filters/standard/sharpen.md)
+      + [平滑步骤](/help/features/effects/filters/standard/smoothstep.md)
+      + [Threshold](/help/features/effects/filters/standard/threshold.md)
+      + [变换](/help/features/effects/filters/standard/transform.md)
+      + [变形](/help/features/effects/filters/standard/warp.md)
+    + 结束语{#finish-filters}
+      + [MatFinish拉丝线性](/help/features/effects/filters/finishes/matfinish-brushed-linear.md)
+      + [MatFinish镀锌](/help/features/effects/filters/finishes/matfinish-galvanized.md)
+      + [MatFinish粒状](/help/features/effects/filters/finishes/matfinish-grainy.md)
+      + [MatFinish磨光](/help/features/effects/filters/finishes/matfinish-grinded.md)
+      + [MatFinish Hammered](/help/features/effects/filters/finishes/matfinish-hammered.md)
+      + [MatFinish多孔圆](/help/features/effects/filters/finishes/matfinish-perforated-circles.md)
+      + [MatFinish粉末涂层](/help/features/effects/filters/finishes/matfinish-powder-coated.md)
+      + [MatFinish Raw](/help/features/effects/filters/finishes/matfinish-raw.md)
+      + [MatFinish粗加工](/help/features/effects/filters/finishes/matfinish-rough.md)
+    + MatFX{#matfx-filters}
+      + [MatFX漫画书](/help/features/effects/filters/matfx/matfx-comic-book.md)
+      + [MatFX详细信息Edge Wear](/help/features/effects/filters/matfx/matfx-detail-edge-wear.md)
+      + [MatFX边缘损坏](/help/features/effects/filters/matfx/matfx-edge-damages.md)
+      + [MatFX HBAO](/help/features/effects/filters/matfx/matfx-hbao.md)
+      + [MatFX石油绘画](/help/features/effects/filters/matfx/matfx-oil-paint.md)
+      + [MatFX剥落绘画](/help/features/effects/filters/matfx/matfx-peeling-paint.md)
+      + [MatFX风化](/help/features/effects/filters/matfx/matfx-rust-weathering.md)
+      + [MatFX Shut Line](/help/features/effects/filters/matfx/matfx-shut-line.md)
+      + [MatFX水彩](/help/features/effects/filters/matfx/matfx-watercolor.md)
+      + [MatFX水滴](/help/features/effects/filters/matfx/matfx-water-drops.md)
+    + 光照{#lighting-filters}
+      + [烘焙光照环境](/help/features/effects/filters/lighting/baked-lighting-environment.md)
+      + [风格化烘焙光照](/help/features/effects/filters/lighting/baked-lighting-stylized.md)
+    + 高级{#advanced-filters}
+      + [各向异性科威特语](/help/features/effects/filters/advanced/anisotropic-kuwahara.md)
+      + [斜面](/help/features/effects/filters/advanced/bevel.md)
+      + [斜面平滑](/help/features/effects/filters/advanced/bevel-smooth.md)
+      + [颜色匹配](/help/features/effects/filters/advanced/color-match.md)
+      + [方向距离](/help/features/effects/filters/advanced/directional-distance.md)
+      + [渐变曲线](/help/features/effects/filters/advanced/gradient-curve.md)
+      + [Height调整](/help/features/effects/filters/advanced/height-adjustments.md)
+      + [Height为正常](/help/features/effects/filters/advanced/height-to-normal.md)
+      + [蒙版轮廓](/help/features/effects/filters/advanced/mask-outline.md)
+      + [PBR 验证](/help/features/effects/filters/advanced/pbr-validate.md)
+      + [量化](/help/features/effects/filters/advanced/quantize.md)
+      + [风格化](/help/features/effects/filters/advanced/stylization.md)
+      + [三平面高级](/help/features/effects/filters/advanced/tri-planar-advanced-filter.md)
   + [效果概述](/help/features/effects/effects.md)
   + [绘画](/help/features/effects/paint.md)
   + [填充](/help/features/effects/fill.md)
   + [色阶](/help/features/effects/levels.md)
   + [比较蒙版](/help/features/effects/compare-mask.md)
-  + [滤镜](/help/features/effects/filter.md)
   + [锚点](/help/features/effects/anchor-point.md)
 + Baking{#baking}
   + [烘焙概述](/help/baking/baking.md)
@@ -196,7 +262,7 @@ ht-degree: 14%
     + [从其他Substance 3D应用程序接收资源](/help/content/importing-assets/receiving-assets-from-other-substance-3d-applications.md)
 + 功能{#features}
   + [自动资源更新](/help/features/auto-update.md)
-  + [自动UV展开](/help/features/automatic-uv-unwrapping.md)
+  + [自动展开](/help/features/automatic-uv-unwrapping.md)
   + [实际大小](/help/features/physical-size.md)
   + [智能材质和蒙版](/help/features/smart-materials-and-masks.md)
   + 次表面散射{#subsurface-scattering}
@@ -211,7 +277,7 @@ ht-degree: 14%
     + [图像序列](/help/features/uv-tiles/image-sequence.md)
   + 色彩管理{#color-management}
     + [色彩管理概述](/help/features/color-management/color-management.md)
-    + [使用AdobeACE - ICC进行色彩管理](/help/features/color-management/color-management-with-adobe-ace-icc.md)
+    + [使用ACE - ICC进行色彩管理](/help/features/color-management/color-management-with-adobe-ace-icc.md)
     + [使用OpenColorIO进行色彩管理](/help/features/color-management/color-management-with-opencolorio.md)
   + 后处理{#post-processing}
     + [概述](/help/features/post-processing/post-processing.md)
@@ -228,7 +294,7 @@ ht-degree: 14%
     + [颜色配置文件](/help/features/post-processing/color-profile.md)
   + Iray渲染器{#iray-renderer}
     + [Iray渲染器概述](/help/features/iray-renderer/iray-renderer.md)
-    + [图像设置](/help/features/iray-renderer/iray-settings.md)
+    + [Iray设置](/help/features/iray-renderer/iray-settings.md)
     + [查看器和MDL设置](/help/features/iray-renderer/viewer-and-mdl-settings.md)
   + 插件{#plugins}
     + [增效工具概述](/help/features/plugins/plugins.md)
@@ -308,8 +374,8 @@ ht-degree: 14%
       + [我导出的不透明度图完全为黑色](/help/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.md)
       + [膨胀或填充](/help/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.md)
     + 工具问题{#tools-issues}
-      + [法线图显示不正确](/help/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.md)
-      + [在其他UV 岛上绘画工具出血](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
+      + [法线图看起来不正确](/help/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.md)
+      + [其他UV 岛上的绘画工具出血](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
     + 项目问题{#project-issues}
       + [损坏的项目文件](/help/technical-support/workflow-issues/project-issues/a-project-has-been-processed-as-a-text-file-and-is-now-corrupted.md)
       + [从网络加载文件](/help/technical-support/workflow-issues/project-issues/loading-files-from-a-network.md)
@@ -320,7 +386,7 @@ ht-degree: 14%
       + [导入字体时出错](/help/technical-support/workflow-issues/shelf-issues/font-import.md)
     + 视口问题{#viewport-issues}
       + [从后面查看脸部时，这些颜色消失](/help/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.md)
-      + [视区和纹理模糊或缺乏锐度](/help/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.md)
+      + [视口和纹理模糊或缺乏锐度](/help/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.md)
     + 增效工具问题{#plugins-issues}
       + [Substance Source增效工具无法加载](/help/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.md)
     + 许可证问题{#license-issues}
