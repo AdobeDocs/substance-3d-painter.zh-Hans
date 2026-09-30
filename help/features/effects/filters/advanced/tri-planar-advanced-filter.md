@@ -1,10 +1,10 @@
 ---
 title: 三平面高级
 description: 了解如何使用Substance 3D Painter的三平面高级滤镜。
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: 5078774d081555f586a50965b91d85f7c340ef13
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 1%
 ---
 
 # 三平面高级
@@ -56,20 +56,11 @@ ht-degree: 0%
 
 ### 轴X
 
-<table>
-<tr>
-<td><b>旋转X轴：</b></td>
-<td>调整X纹理投影的旋转。</td>
-</tr>
-<tr>
-<td><b>位移X X：</b></td>
-<td>调整X轴沿X轴的X投影偏移。</td>
-</tr>
-<tr>
-<td><b>位移X Y：</b></td>
-<td>调整X轴沿Y轴的投影偏移。</td>
-</tr>
-</table>
+| 参数名称 | 描述 |
+| --- | --- |
+| **旋转X：** | 调整X纹理投影的旋转。 |
+| **偏移X X：** | 调整X轴沿X轴的X投影偏移。 |
+| **偏移X Y：** | 调整X轴沿Y轴的投影偏移。 |
 
 >[!NOTE]
 >
@@ -79,20 +70,11 @@ ht-degree: 0%
 
 ### 轴Y
 
-<table>
-<tr>
-<td><b>旋转X轴：</b></td>
-<td>调整Y纹理投影的旋转。</td>
-</tr>
-<tr>
-<td><b>位移Y X：</b></td>
-<td>调整Y轴沿X轴的投影偏移。</td>
-</tr>
-<tr>
-<td><b>位移Y Y：</b></td>
-<td>调整Y轴沿Y轴的投影偏移。</td>
-</tr>
-</table>
+| 参数名称 | 描述 |
+| --- | --- |
+| **旋转X：** | 调整Y纹理投影的旋转。 |
+| **偏移Y X：** | 调整Y轴沿X轴的投影偏移。 |
+| **偏移Y：** | 调整Y轴沿Y轴的投影偏移。 |
 
 >[!NOTE]
 >
@@ -102,20 +84,11 @@ ht-degree: 0%
 
 ### 轴Z
 
-<table>
-<tr>
-<td><b>旋转X轴：</b></td>
-<td>调整Z纹理投影的旋转。</td>
-</tr>
-<tr>
-<td><b>位移Z X：</b></td>
-<td>调整Z轴沿X轴的投影偏移。</td>
-</tr>
-<tr>
-<td><b>偏移Z Y：</b></td>
-<td>调整Z轴沿Y轴的投影偏移。</td>
-</tr>
-</table>
+| 参数名称 | 描述 |
+| --- | --- |
+| **旋转X：** | 调整Z纹理投影的旋转。 |
+| **偏移Z X：** | 调整Z轴沿X轴的投影偏移。 |
+| **偏移Z Y：** | 调整Z轴沿Y轴的投影偏移。 |
 
 >[!NOTE]
 >
