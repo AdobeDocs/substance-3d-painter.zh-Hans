@@ -13,4 +13,4 @@ ht-degree: 0%
 # 与后台应用程序冲突
 
 某些在后台运行的应用程序可能会干扰Substance 3D Painter并造成问题。 反间谍软件和反病毒软件通常会分析可能导致速度减慢的低级别进程，因此禁用此软件有助于在使用Painter时提高性能。\
-此处提供了可Painter或至少减慢其运行速度的已知应用程序的列表[](../technical-issues/startup-issues/software-conflicts.md)。
+此处提供了可Painter或至少减慢其运行速度的已知应用程序的列表[&#128279;](../technical-issues/startup-issues/software-conflicts.md)。

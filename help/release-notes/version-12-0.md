@@ -126,7 +126,7 @@ ht-degree: 0%
 * [后期效果]使用新添加的后期效果替换颜色
 * [Post-effects]更新色调映射器
 * [Post-effects]为Post-effects资源添加新用法
-* [Content][Post-effects]在库中集成默认的后效果资源
+* [Content]&#x200B;[Post-effects]在库中集成默认的后效果资源
 * [新建项目]改进用于项目创建的UI
 * [新项目]重新导入网格功能的更改
 * [新项目]允许打开\*.geo.usd文件
@@ -144,5 +144,5 @@ ht-degree: 0%
 * [导入]导入EXR文件时，USD纹理将被强制导入sRGB而不是线性格式
 * [UV 平铺]包含单个图像的图像序列还填充了其他UV 平铺
 * [烘焙] CPU和GPU烘焙的AO不同
-* [色彩管理][MacOS]视口BaseColor与拾色器不匹配
+* [色彩管理]&#x200B;[MacOS]视口BaseColor与拾色器不匹配
 * [USD]在某些情况下，不会导入统一值

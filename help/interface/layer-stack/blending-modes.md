@@ -86,4 +86,4 @@ ht-degree: 2%
 | 法线图详细信息 | “面向细节的混合操作”（重定向“法线映射”），比“法线图组合”更精确。 保留平面法线图和两个源的强度。 要确保结果，顶部层法线将重新定向为跟随底部层表面。 有关详细信息，请参阅[法线图绘画](../../painting/advanced-channel-painting/normal-map-painting.md)。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r37-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-detail.jpg"/></div> |
 | 法线图逆向细节 | 与法线图详细信息混合操作的行为相同，但为了适应顶部图层的表面，将变换底部图层。 有关详细信息，请参阅[法线图绘画](../../painting/advanced-channel-painting/normal-map-painting.md)。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r38-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-inverse-detail.jpg"/></div> |
 
->>
+&#x200B;>>

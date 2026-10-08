@@ -148,7 +148,7 @@ ht-degree: 0%
 * [VFX Platform 2024]更新到Python 3.11
 * [VFX Platform 2024]更新至OpenEXR3.2
 * [VFX Platform 2024] [USD]更新OpenSubdiv 3.6.0
-* [VFX Platform 2024][色彩管理]更新至OCIO 2.3.2
+* [VFX Platform 2024]&#x200B;[色彩管理]更新至OCIO 2.3.2
 * [Linux]迁移到Linux RedHat
 * [Linux]将Nvidia驱动程序的最低版本更新为535.171.04
 * [导入]在导入GLTF网格时添加翻转法线图的选项
@@ -162,10 +162,10 @@ ht-degree: 0%
 <b>已修复</b>：
 
 * [Illustrator]在特定情况下崩溃导出带.ai图形的UV 平铺
-* [动态笔触][路径]每个描边随机不适用于路径
-* [UI][属性]当拼贴不均匀时，锁定处于启用状态
+* [动态笔触]&#x200B;[路径]每个描边随机不适用于路径
+* [UI]&#x200B;[属性]当拼贴不均匀时，锁定处于启用状态
 * 双击Painter项目时创建&#x200B;调试TXT文件
-* [USD][导出]可能缺少某些纹理
+* [USD]&#x200B;[导出]可能缺少某些纹理
 * [ASM]散射颜色通道忽略金属
 * [内容]模糊滤镜在“工作”色彩空间中不起作用
 * [内容]Height调整滤镜也会修改图层的Alpha
@@ -173,9 +173,9 @@ ht-degree: 0%
 <b>已知问题</b>：
 
 * [色彩管理] HDR色彩空间与Linux上的ACE转换生成固定颜色
-* [Win][崩溃] [ACE]未使用sRGB ICE色彩空间进行显示变换
-* [回归][UI]右键单击菜单在高清屏幕上过小
-* [崩溃][Python]由TextureStateEvent触发的USD导出
+* [Win]&#x200B;[崩溃] [ACE]未使用sRGB ICE色彩空间进行显示变换
+* [回归]&#x200B;[UI]右键单击菜单在高清屏幕上过小
+* [崩溃]&#x200B;[Python]由TextureStateEvent触发的USD导出
 * [MacOS Intel]导入某些预设时崩溃
 * [崩溃]重定位资源并保存项目
 * [引擎]使用正常声道中的仿制工具绘画时无法正确转换颜色
