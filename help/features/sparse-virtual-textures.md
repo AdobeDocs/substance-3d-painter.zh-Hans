@@ -52,7 +52,7 @@ Sparse Virtual Texture是一种不完整的纹理。 这意味着应用程序仅
 ![](../assets/settings-temp.png)
 
 当没有足够的可用系统内存(Ram)来存储SVT缓存时，Substance 3D Painter将改为切换到计算机硬盘驱动器以存储缓存。\
-此缓存的位置默认位于“操作系统临时文件”文件夹中。 可通过进入应用程序的主要设置来更改此位置，请参阅[常规首选项](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) 。
+此缓存的位置默认位于“操作系统临时文件”文件夹中。 可通过进入应用程序的主要设置来更改此位置，请参阅[常规首选项](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/general-71008262.html) 。
 
 ## 着色器兼容性
 
@@ -61,7 +61,7 @@ Sparse Virtual Texture是一种不完整的纹理。 这意味着应用程序仅
 要更新着色器，请执行以下操作：
 
 * 对于&#x200B;**默认着色器** ：按照[更新着色器](../interface/shader-settings/updating-a-shader.md)页面中的分步过程操作。
-* 对于&#x200B;**自定义着色器** ：查看日志中的错误消息以及[着色器 API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)页。
+* 对于&#x200B;**自定义着色器** ：查看日志中的错误消息以及[着色器 API](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)页。
 
 >[!WARNING]
 >

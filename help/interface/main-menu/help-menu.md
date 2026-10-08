@@ -21,7 +21,7 @@ ht-degree: 6%
 
 | 操作 | 描述 |
 | --- | --- |
-| 教程 | 链接到与该应用程序相关的正式[教程](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html)。 |
+| 教程 | 链接到与该应用程序相关的正式[教程](https://helpx.adobe.com/cn/substance-3d/unlisted/tutorials.html)。 |
 | 发行说明 | 链接到[发行说明](../../release-notes/all-changes.md)。 |
 | 文档 | 指向此文档的链接。 |
 | 快捷键列表 | 链接到[快捷方式](../settings/shortcuts.md)文档。 |

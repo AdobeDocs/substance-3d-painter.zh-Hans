@@ -76,4 +76,4 @@ ociolutimage --generate --cubesize 64 --config nuke-default/config.ocio --colorc
 
 只需打开导入窗口（或将LUT拖放到工具架中）。 在Substance 3D Painter中导入LUT纹理时，请确保将“ **colorlut**”**用法**&#x200B;分配给新资源。 否则，资源将无法在工具架中正确显示。
 
-有关详细信息，请参阅有关导入新资源的文档： [通过导入窗口添加资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+有关详细信息，请参阅有关导入新资源的文档： [通过导入窗口添加资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)

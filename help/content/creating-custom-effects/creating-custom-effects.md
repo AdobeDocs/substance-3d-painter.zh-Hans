@@ -16,13 +16,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 可以在默认工具架的项目中导入自定义效果，请参阅： [导入资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+> 可以在默认工具架的项目中导入自定义效果，请参阅： [导入资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 有关创建自定义效果的详细信息，请参阅以下页面：
 
 * [通用过滤器](generic-filter.md)
 * [特定于通道的滤镜](channel-specific-filter.md)
 * [生成器](generators.md)
-* [网格图](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/additional-map-140902415.html)
+* [网格图](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/additional-map-140902415.html)
 * [基于网格的输入](mesh-based-input.md)
 * [用户数据](user-data.md)

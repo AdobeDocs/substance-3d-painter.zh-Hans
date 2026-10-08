@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ## 参数
 
-要详细了解这些参数的功能，请参阅官方[Photoshop文档](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html) 。
+要详细了解这些参数的功能，请参阅官方[Photoshop文档](https://helpx.adobe.com/cn/photoshop/using/creating-modifying-brushes.html) 。
 
 并非支持所有Photoshop画笔参数。 请参阅图例，了解下面所述的每个参数的状态：
 

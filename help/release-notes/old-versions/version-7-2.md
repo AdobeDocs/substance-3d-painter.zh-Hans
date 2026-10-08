@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 版本7.2
 
-**Substance 3D Painter 7.2**&#x200B;通过Adobe Standard Material工作流程、在[Substance 3D应用程序](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)之间共享内容的新方法以及经过全面调整的“资源”窗口，提供了新的渲染功能。
+**Substance 3D Painter 7.2**&#x200B;通过Adobe Standard Material工作流程、在[Substance 3D应用程序](https://www.adobe.com/cn/products/substance3d/3d-augmented-reality.html)之间共享内容的新方法以及经过全面调整的“资源”窗口，提供了新的渲染功能。
 
 发行日期：*2021年6月23日*
 

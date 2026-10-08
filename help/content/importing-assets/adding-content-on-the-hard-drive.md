@@ -49,7 +49,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 从版本7.2.0开始，可以在库中使用自定义文件夹和类别。 可以通过[按路径筛选](../../interface/assets/filter-by-path.md)或[痕迹导航](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html)在“资源”窗口中访问它们。
+> 从版本7.2.0开始，可以在库中使用自定义文件夹和类别。 可以通过[按路径筛选](../../interface/assets/filter-by-path.md)或[痕迹导航](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html)在“资源”窗口中访问它们。
 
 >[!WARNING]
 >

@@ -19,4 +19,4 @@ ht-degree: 0%
 要去除白色闪光灯，只需&#x200B;**更新**&#x200B;**项目着色器**：
 
 * 对于&#x200B;**默认着色器**：按照[更新着色器](../../../interface/shader-settings/updating-a-shader.md)页中的分步过程操作。
-* 对于&#x200B;**自定义着色器**：查看日志中的错误消息以及[着色器 API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)页。
+* 对于&#x200B;**自定义着色器**：查看日志中的错误消息以及[着色器 API](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)页。

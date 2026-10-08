@@ -29,4 +29,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 要详细了解一般烘焙，请查看专用的[烘焙文档](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)。
+> 要详细了解一般烘焙，请查看专用的[烘焙文档](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/home)。

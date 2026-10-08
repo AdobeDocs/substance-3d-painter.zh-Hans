@@ -58,4 +58,4 @@ ht-degree: 1%
 
 我们建议从界面手动重新调整应用程序设置。 这是迁移信息的最安全方式，而不会产生兼容性问题。
 
-否则，请查看以下页面以了解首选项现在所在的位置： [首选项和应用程序数据位置](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)。
+否则，请查看以下页面以了解首选项现在所在的位置： [首选项和应用程序数据位置](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)。

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 超时检测和恢复(TDR)是Microsoft Windows的一种安全机制，用于防止GPU使用永不结束的计算锁定系统。 遗憾的是，对于默认的Substance 3D Painter而言，这种机制的限制性太强。
 
-有关详细信息，请参阅： [带有长计算的GPU驱动程序崩溃(TDR崩溃)](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html)。
+有关详细信息，请参阅： [带有长计算的GPU驱动程序崩溃(TDR崩溃)](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html)。
 
 ## 虚拟内存不足
 

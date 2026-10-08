@@ -18,7 +18,7 @@ ht-degree: 4%
 
 ## 快捷键概述
 
-有关所有可用快捷键的简要概述，请查看我们的图形[，我们的教程中提供了该图形](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) 。
+有关所有可用快捷键的简要概述，请查看我们的图形[，我们的教程中提供了该图形](https://helpx.adobe.com/cn/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html) 。
 
 ## 如何更改快捷键
 

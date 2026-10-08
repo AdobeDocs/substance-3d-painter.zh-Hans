@@ -22,6 +22,6 @@ ht-degree: 1%
 
 要管理您的预设，请参阅：
 
-* [创建和存储预设](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
+* [创建和存储预设](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
 * [创建粒子预设](../../painting/presets/creating-particles-pre/creating-particles-presets.md)
 * [笔刷预设(ABR)](../../painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)
