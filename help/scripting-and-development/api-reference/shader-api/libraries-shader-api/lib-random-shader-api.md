@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 访问Substance 3D Painter的Lib Random着色器 API参考，以便在自定义着色器开发中生成随机值。
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Random - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 库随机 — 着色器 API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
-
 ---
-
 
 # 库随机 — 着色器 API
 
@@ -31,7 +23,7 @@ import lib-defines.glsl
 ```
 
 
-包含标量值的2D蓝色杂色纹理
+包含标量值的2D蓝色纹理
 
 ```
 //: param auto texture_blue_noise 

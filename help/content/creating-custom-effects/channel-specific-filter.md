@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何为Substance 3D Painter创建特定于通道的滤镜效果，以处理单个纹理通道。
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > Channel specific filter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 特定于通道的滤镜
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
-
 ---
-
 
 # 特定于通道的滤镜
 
@@ -50,14 +42,14 @@ ht-degree: 0%
 
 | 频道名称 | 使用情况 | 标识符/标识符Alpha |
 | --- | --- | --- |
-| *环境遮蔽* | **ambientOcclusion** | **ambientOcclusion / ambientOcclusion\_Alpha** |
-| *各向异性角度* | **各向异性角度** | **各向异性角度/各向异性角度\_Alpha** |
-| *各向异性级别* | **各向异性层级** | **各向异性级别/各向异性级别\_Alpha** |
-| *基色* | **基色** | **baseColor / baseColor\_Alpha** |
-| *混合蒙版* | **混合蒙版** | **blendingmask / blendingmask\_Alpha** |
-| *扩散* | **扩散** | **扩散/扩散\_Alpha** |
+| *Ambient occlusion* | **ambientOcclusion** | **ambientOcclusion / ambientOcclusion\_Alpha** |
+| *Anisotropy angle* | **各向异性角度** | **各向异性角度/各向异性角度\_Alpha** |
+| *Anisotropy level* | **各向异性层级** | **各向异性级别/各向异性级别\_Alpha** |
+| *Base color* | **基色** | **baseColor / baseColor\_Alpha** |
+| *Blending mask* | **混合蒙版** | **blendingmask / blendingmask\_Alpha** |
+| *Diffuse* | **扩散** | **扩散/扩散\_Alpha** |
 | *位移* | **位移** | **位移/位移\_Alpha** |
-| *具发射性* | **emissive** | **发送/发送\_Alpha** |
+| *Emissive* | **emissive** | **emissive/emissive\_Alpha** |
 | *光泽度* | **光泽度** | **光泽度/光泽度\_Alpha** |
 | *Height* | **Height** | **Height/Height\_Alpha** |
 | *IOR* | **或** | **i或/ ior\_Alpha** |

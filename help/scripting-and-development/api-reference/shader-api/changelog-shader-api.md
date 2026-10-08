@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看着色器 API的更改日志，以跟踪随时间推移的更新、新功能和更改。
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Changelog - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 更改日志 — 着色器 API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 3%
-
 ---
-
 
 # 更改日志 — 着色器 API
 
@@ -35,13 +27,13 @@ ht-degree: 3%
 * **弃用**：先前基于vec2纹理坐标和纹理取样器的函数已被弃用（请使用新签名）
 * [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md)：添加&#x200B;*applyParallaxOffset*&#x200B;函数以简化视差遮蔽效果的使用
 * [lib-random.glsl](libraries-shader-api/lib-random-shader-api.md)：添加蓝色噪声随机值生成器和时间替代项
-* [lib-sampler.glsl](libraries-shader-api/lib-sampler-shader-api.md)：拆分所有通道采样帮助程序以同时具有值解释和采样帮助程序
+* [lib-sampler.glsl](libraries-shader-api/lib-sampler-shader-api.md)：拆分所有通道采样助手，以便同时具有值解释和采样助手
 
 ## 2018.2.0
 
-* **表面着色器 API更改**： *shade*&#x200B;函数签名已更改，请参阅[surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md)
+* **表面着色器 API更改**： *shade*&#x200B;函数签名已更改，请参阅[surface-着色器.glsl](shaders-shader-api/surface-shader-shader-api.md)
 * *shadeShadow*&#x200B;函数不再使用，可以安全地从自定义表面着色器中移除
-* 添加次表面散射支持，请参阅[surface-shader.glsl](shaders-shader-api/surface-shader-shader-api.md)和[lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md)以获取详细信息
+* 添加次表面散射支持，有关详细信息，请参阅[surface-着色器.glsl](shaders-shader-api/surface-shader-shader-api.md)和[lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md)
 * [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api.md)： *pbrComputeBRDF*&#x200B;函数已被删除。 请参阅[pbr-metal-rough.glsl](shaders-shader-api/pbr-metal-rough-shader-api.md)示例，立即了解如何使用库
 * 已添加新的引擎参数： *纹理\_blue\_噪声*、*长宽比*、*camera\_vp\_matrix\_inverse*、*环境\_曝光度*、*环境\_旋转*、*fovy*、*main\_light*&#x200B;和&#x200B;*screen\_size*。 有关详细信息，请参阅[所有引擎params.glsl](parameters-shader-api/all-engine-params-shader-api.md)
 * 添加&#x200B;*描述*&#x200B;元数据以提供自定义着色器参数的工具提示
@@ -49,7 +41,7 @@ ht-degree: 3%
 ## 2017.4.2
 
 * 修复文档示例中缺少的着色器（像素化和卡通着色器）
-* 修复抖动以获取高分辨率
+* 修复高分辨率仿色
   * [lib-bayer.glsl](libraries-shader-api/lib-bayer-shader-api.md)： **bayerMatrix8()**&#x200B;返回> 4k坐标的有效值
 
 ## 2017.4.1
@@ -116,7 +108,7 @@ ht-degree: 3%
 
 * 使用低Alpha值的正常解包函数不正确
 * 允许在自定义着色器中读取网格顶点颜色
-* [视口]某些计算机上的延长环境映射
+* [视口]某些计算机上的拉伸环境图
 
 ## 2.0.0
 

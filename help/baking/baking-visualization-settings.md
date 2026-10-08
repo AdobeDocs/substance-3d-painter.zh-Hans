@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/baking/baking-visualization-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中配置烘焙可视化设置以预览和调试网格图烘焙结果。
-helpx_creative_field: ""
-helpx_description: Painter > Baking > Baking visualization settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 烘焙可视化设置
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 6%
-
 ---
-
 
 # 烘焙可视化设置
 
@@ -42,7 +34,7 @@ ht-degree: 6%
 
 | 设置 | 描述 |
 | --- | --- |
-| <b>笼形表面</b> | 如果启用，则在3D视图中将显示保持架网格曲面。 笼子的表面由设置旁边的“颜色”按钮定义。 |
+| <b>笼子的表面</b> | 如果启用，网格曲面将在3D视图中显示。 笼子的表面由设置旁边的“颜色”按钮定义。 |
 | <b>笼子的表面不透明度</b> | 使网格增加或减少透明度，以管理基础网格中的详细信息的可见性。 |
 | <b>笼子的线框</b> | 如果启用，则网格的线框将在视口中可见。 可以使用此设置旁边的“线框”按钮调整颜色。 |
 | <b>线框不透明度</b>笼子 | 使线框或多或少透明。 |

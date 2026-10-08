@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/version-9-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本9.0的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本9.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
-
 ---
-
 
 # 版本9.0
 
@@ -30,7 +22,7 @@ ht-degree: 0%
 
 ![皮鞋的特写，带有一条路径，在其顶部及其助手UI](../assets/v90_banner_path.jpg)
 
-<b>沿路径绘画</b>工具是在3D视口中绘画描边的新方法。 与其他应用程序类似，您可以创建由3D对象表面上的点驱动的基于贝塞尔曲线的曲线来绘制图案。 结合Substance材料，这种新工具可以开启许多新的可能性。
+<b>沿路径绘画</b>工具是在3D视口中绘画描边的新方法。 与其他应用程序类似，您可以创建由3D对象表面上的点驱动的基于贝塞尔曲线的曲线来绘制图案。 此新材料与Substance工具相结合，可开启许多新的可能性。
 
 * <b>用于创建由具有点的路径驱动的绘画描边的新工具</b>\
   该工具的工具栏内部有一个专用于路径工具的新图标。 此新工具允许在3D模型表面绘制曲线以创建绘画描边。 这些描边始终可以重新编辑。 当工具处于活动状态时，只需单击网格曲面即可添加点。 单击现有点并按delete键将其删除。
@@ -60,7 +52,7 @@ ht-degree: 0%
   * 启用对称允许绘制路径多次，而仅管理一条路径。
   * 已启用几何图形蒙版的图层上的路径可以在隐藏几何图形下绘画
 
-  ![Gif显示路径在对称属性的帮助下被淹没两次](../assets/v90_path_symmetry.gif)
+  ![显示路径在对称属性的帮助下被淹没两次的Gif](../assets/v90_path_symmetry.gif)
 * <b>使用其他工具（如橡皮擦或涂抹）进行绘画</b>\
   路径工具还与橡皮擦和涂抹工具兼容，解锁更高级的绘画和组合笔触方式以及操作路径点的简单且可重新编辑的方式。
 
@@ -167,9 +159,9 @@ ht-degree: 0%
 * [动态笔触]为动态笔触添加距离属性
 * [动态笔触]向动态笔触添加大小和间距属性
 * [动态笔触]为动态笔触添加start/middle/end属性
-* [Python]&#x200B;[USD]公开USD格式的项目配置参数
-* [Python]&#x200B;[USD]公开USD格式的项目创建参数
-* [导出]&#x200B;[USD]在导出的USD文件中添加项目路径信息
+* [Python][USD]公开USD格式的项目配置参数
+* [Python][USD]公开USD格式的项目创建参数
+* [导出][USD]在导出的USD文件中添加项目路径信息
 * [GLTF]重新加载GLTF文件时更新库中的纹理
 * [着色器]减少方向各异的UV 岛的接缝伪影
 * [引擎]更新至Substance引擎版本9.0

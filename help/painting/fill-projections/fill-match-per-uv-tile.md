@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 在Substance 3D Painter中使用每个UV拼贴的填充匹配来匹配UV拼贴之间的纹理模式，从而实现无缝拼贴。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Fill (match per UV Tile)
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: 填充（每个UV图块匹配）
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: 填充（按UV 平铺匹配）
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 1%
-
 ---
 
-
-# 填充（每个UV图块匹配）
+# 填充（按UV 平铺匹配）
 
 **填充（每个UV 平铺匹配）**&#x200B;是一个特殊的2D投影，对[UV 平铺](../../features/uv-tiles/uv-tiles.md)项目很有用。 它允许从序列中为每个UV 平铺分配一个UDIM纹理。
 

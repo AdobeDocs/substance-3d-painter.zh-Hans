@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中配置笔和平板电脑，以获得最佳的压力敏感度和绘图体验。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Configuring Pens and Tablets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 配置笔和平板电脑
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 0%
-
 ---
-
 
 # 配置笔和平板电脑
 

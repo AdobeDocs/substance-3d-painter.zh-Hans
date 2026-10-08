@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/system-requirements.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter的系统要求，确保您的计算机符合硬件和软件规格。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > System requirements
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 系统要求
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 1%
-
 ---
-
 
 # 支持的系统
 
@@ -105,18 +97,18 @@ ht-degree: 1%
 
 有关每个构造函数的GPU驱动程序问题的详细列表，请查看[专用文档页面](../technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.md)。
 
-## 烘焙GPU 射线追踪
+## GPU 射线追踪
 
 要通过Optix或DXR启用GPU 射线追踪，必须安装上面推荐的最低驱动程序。
 
 <b>DXR</b>也需要以下最低配置：
 
-* <b>Windows 10</b>版本1809，有关详细信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/features/gpu-raytracing)
+* <b>Windows 10</b>版本1809，有关详细信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)
 * 具有Pascal体系结构的<b> GPU</b> (Nvidia GeForce 10XX)
 
 >[!TIP]
 >
-> GPU 射线追踪可在专用的光线追踪硬件（例如NVIDIA GeForce RTX或NVIDIA Quadro RTX GPU）上以最佳方式运行。
+> GPU 射线追踪可在专用射线追踪硬件（例如NVIDIA GeForce RTX或NVIDIA Quadro RTX GPU）上以最佳方式运行。
 
 ## 支持的图形平板电脑
 

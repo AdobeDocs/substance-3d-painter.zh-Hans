@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 探索Substance 3D Painter的完整工具列表，找到所有可用的绘画和纹理创建工具。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 工具列表
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
-
 ---
-
 
 # 工具列表
 

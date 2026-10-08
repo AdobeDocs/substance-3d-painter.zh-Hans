@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/assets/advanced-search-queries.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中创建高级搜索查询，以使用复杂的搜索条件查找特定资源。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Advanced search queries
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 高级搜索查询
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 
 # 高级搜索查询
 

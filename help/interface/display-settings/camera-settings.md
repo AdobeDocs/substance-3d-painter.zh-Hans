@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/display-settings/camera-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中配置相机设置，以控制视口相机行为和投影。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Display settings > Camera settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Camera settings
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 3%
-
 ---
-
 
 # Camera settings
 
@@ -28,7 +20,7 @@ ht-degree: 3%
 | --- | --- |
 | **视角** | 允许控制相机的视场（以度为单位） |
 | **焦距** | 定义焦点所在的距离。  此点由场效应深度使用。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/focus-distance-optim.gif"/></div> **注意：**&#x200B;通过使用&#x200B;**CTRL +鼠标中键**&#x200B;单击网格上的某个点，可以自动设置焦距 |
-| **光圈** | 定义字段深度的宽度。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dof-aperture-optim.gif"/></div> **注意：**&#x200B;如果Iray正在控制此参数，则更改它将重新触发计算。 |
+| **光圈** | 定义字段深度的宽度。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/dof-aperture-optim.gif"/></div> **注意：**&#x200B;如果Iray正在控制此参数，则更改此参数将重新触发计算。 |
 
 ## 后期效果
 

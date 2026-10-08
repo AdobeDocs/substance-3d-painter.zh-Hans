@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/version-9-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本9.1的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 9.1 adds tangent control for the Path tool, support of the SVG file format, the ability to import and apply resources by drag and drop and support for translucency in the viewport.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本9.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 0%
-
 ---
-
 
 # 版本9.1
 
@@ -120,7 +112,7 @@ SVG文件非常适用于精确地表示徽标或形状，同时重量非常轻�
 
   * <b>自定义喷涂绘画</b>：允许模拟单个输入图像在墙上绘制的贴花。
   * <b>自定义贴纸</b>：在表面创建塑料贴纸。 它具有多种设置以模拟损坏和折叠。
-  * <b>图形到材质</b>：允许通过单个图像输入创建多个材质属性。 将SVG文件拖放到视区中时，会自动插入此资源。 此资源提供了一种跨多个渠道共享其输入透明度的简单方法，使其非常适合简单的贴花。
+  * <b>图形到材料</b>：允许从单个图像输入创建多个材料属性。 将SVG文件拖放到视口中时，会自动插入此资源。 此资源提供了一种跨多个渠道共享其输入透明度的简单方法，使其非常适合简单的贴花。
 
   ![SVG资源图标](../assets/v91_svg_resources.png)
 
@@ -136,9 +128,9 @@ SVG文件非常适用于精确地表示徽标或形状，同时重量非常轻�
 
 此版本允许将外部文件拖放到应用程序的不同上下文中以自动导入并使用资源。 这个新流程允许跳过与导入文件相关的繁琐步骤。
 
-* <b>通过拖放到视口导入</b>
+* <b>通过拖放导入视口</b>
 
-  将外部文件拖放到视口中，以便能够将其直接放在网格上。 此操作将自动创建新图层。 根据资源的性质（图像、Substance素材、Substance筛选等） 结果将相应调整。
+  将外部文件拖放到视口中，以便能够将其直接放在网格上。 此操作将自动创建新图层。 根据资源的性质（图像、材料、Substance筛选等） 结果将相应调整。
 * <b>通过拖放导入图层堆叠</b>\
   与将外部资源文件拖放到视口中的方式相同，将文件拖放到图层堆叠中允许直接创建包含其中的资源的图层或效果。
 * <b>通过拖放到资源插槽中导入</b>
@@ -247,21 +239,21 @@ SVG文件非常适用于精确地表示徽标或形状，同时重量非常轻�
 <b>已添加：</b>
 
 * [SVG]允许导入矢量文件(SVG)
-* [SVG]&#x200B;[UI]添加对SVG特定属性的支持
+* [SVG][UI]添加对SVG特定属性的支持
 * [SVG]添加一个选项以轻松保留原始图像比例
 * [SVG]允许自动对透明度使用SVGAlpha
 * [互操作]允许将带纹理的网格发送到After Effects (Ae 24.1 Beta)
 * [互操作]添加“发送到After Effects”的设置
-* [QoL]&#x200B;[Assets]&#x200B;[UI]拖放到UI插槽时自动导入资源
+* [QoL][Assets][UI]拖放到UI插槽时自动导入资源
 * [QoL]允许将外部资源拖放到图层堆叠中
-* [QoL]&#x200B;[图层堆叠]将纹理从“资源”面板拖放到图层堆叠中
-* [QoL]&#x200B;[视口]允许在网格上拖放生成器、过滤器
-* [QoL]&#x200B;[视口]允许将外部资源拖放到网格上
-* [QoL]&#x200B;[投影]将新UV 集添加到UV 集投影模式
+* [QoL][图层堆叠]将纹理从“资源”面板拖放到图层堆叠中
+* [QoL][视口]允许在网格上拖放生成器、过滤器
+* [QoL][视口]允许将外部资源拖放到网格上
+* [QoL][投影]将新UV 集添加到UV 集投影模式
 * [QoL]将智能蒙版作为新图层拖放到视口和图层堆叠中
 * [QoL]在蒙版中使用时，为具有多个输出的生成器添加选择器
 * [QoL]允许在填充效果上拖放单通道图像
-* [QoL]&#x200B;[图层堆叠]使用带有拖放操作的CTRL/ALT修饰符来指定创建效果/图层的位置/方式
+* [QoL][图层堆叠]使用带有拖放操作的CTRL/ALT修饰符来指定创建效果/图层的位置/方式
 * [路径]在“路径”面板中单独切换路径可见性
 * [路径]允许对路径点使用变换操纵器
 * [Path]允许手动控制每个顶点的正切
@@ -281,7 +273,7 @@ SVG文件非常适用于精确地表示徽标或形状，同时重量非常轻�
 * [性能]对16位图像应用无损压缩以减少项目占用空间
 * [Python]允许在3D 视图中操纵默认相机
 * [Python]公开通过脚本导出网格的功能
-* [内容]&#x200B;[样本]添加新的样本项目“法式餐厅餐桌”
+* [内容][样本]添加新的样本项目“法式餐厅餐桌”
 * [内容]将Substance徽标alpha更新为新版本
 * [内容]添加三个以SVG为中心的材料滤镜（自定义贴纸、自定义喷色和图形到材料）
 
@@ -296,18 +288,18 @@ SVG文件非常适用于精确地表示徽标或形状，同时重量非常轻�
 * [UI]在某些情况下，不会显示上下文工具栏箭头
 * [Substance]不支持布尔值的并排按钮
 * [级别]在蒙版中使用时通道标签错误
-* [Export]&#x200B;[glTF]从Painter导出的glTF/GLB文件没有物理尺寸单位
+* [Export][glTF]从Painter导出的glTF/GLB文件没有物理尺寸单位
 * [内容]模糊滤镜强度被固定为16
 * [内容]颜色匹配滤镜“目标颜色”图像输入不可见
 
 <b>已知问题：</b>
 
 * [色彩管理] HDR色彩空间与Linux上的ACE转换生成固定颜色
-* 在图层堆叠中拖放资源时，在AMD上使用Linux Wayland进行[崩溃]&#x200B;[Linux]
-* [崩溃]&#x200B;[Mac]在Monterey操作系统上更改各向异性筛选值
+* 在图层堆叠中拖放资源时，在AMD上使用Linux Wayland进行[崩溃][Linux]
+* [崩溃][Mac]在Monterey操作系统上更改各向异性筛选值
 * [崩溃] Exr用作图像输入
 * [崩溃]使用16K环境图
 * [自动展开]文本密度控制的UI问题
-* [回归]&#x200B;[UI]右键单击菜单在高清屏幕上过小
+* [回归][UI]右键单击菜单在高清屏幕上过小
 * [Python]导出USD的崩溃由TextureStateEvent触发
 * [QoL]在贴花模式下拖放Alpha资源可在蒙版中创建UV 投影

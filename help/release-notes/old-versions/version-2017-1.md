@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2017-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本2017.1的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本2017.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 
 # 版本2017.1
 
@@ -40,7 +32,7 @@ Substance Painter会根据新的Substance优惠更改其版本号。 有关更�
 
 ![](../../assets/new-alphas-gif.gif)
 
-在此新版本中，我们将添加&#x200B;**300多个新资源**。 我们在阿尔法中添加了&#x200B;**科幻**、**几何**、**中世纪**&#x200B;甚至&#x200B;**凯尔特语**&#x200B;主题内容。 它还包括大量&#x200B;**新画笔**&#x200B;和&#x200B;**扫描的手印/指纹**。 我们还提供了一些方便的新滤镜，例如&#x200B;**MatFX细节Edge Wear**，它允许直接从绘制在网格上的正常信息&#x200B;**生成**&#x200B;划痕&#x200B;**&#x200B;**。
+在此新版本中，我们将添加&#x200B;**300多个新资源**。 我们在阿尔法中添加了&#x200B;**科幻**、**几何**、**中世纪**&#x200B;甚至&#x200B;**凯尔特语**&#x200B;主题内容。 它还包括大量&#x200B;**新画笔**&#x200B;和&#x200B;**扫描的手印/指纹**。 我们还提供了一些方便的新滤镜，例如&#x200B;**MatFX细节Edge Wear**，它允许直接从绘制在网格上的正常信息&#x200B;**生成**&#x200B;划痕&#x200B;****。
 
 以下是新内容的列表：
 

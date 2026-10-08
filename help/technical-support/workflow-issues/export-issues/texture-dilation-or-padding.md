@@ -1,29 +1,21 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用纹理膨胀和填充，防止导出的纹理中出现边缘伪影。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Export Issues > Texture dilation or Padding
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 膨胀或填充
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
-
 ---
-
 
 # 膨胀或填充
 
 **填充**（有时也称为&#x200B;**膨胀**）是在生成纹理后发生的过程。 其目的是扩大UV 岛的边框，以便用类似的像素填充空白区域。
 
 生成优质填充对于确保游戏引擎或脱机渲染器稍后生成良好的[mipmaps](../../../getting-started/glossary.md)非常重要。\
-Substance 3D Painter可以生成无限边距：这意味着像素将被拉伸，直到到达其他UV 岛或纹理的边框。
+Substance 3D Painter可以生成无限边距：这意味着像素将被拉伸，直到到达其他UV 岛或纹理边框。
 
 ## 无限填充生成
 
@@ -48,7 +40,7 @@ Substance 3D Painter可以生成无限边距：这意味着像素将被拉伸，
 
 在3D计算机图形中，**mipmaps**&#x200B;是预先计算的、优化的纹理序列，每个序列都是同一图像的逐渐降低的分辨率的表示形式。 它们旨在提高渲染速度，减少锯齿伪影。 高分辨率的镜像转换图像用于靠近相机的对象。 当对象看起来距离较远时，将使用较低分辨率的图像。 这是替代从原始纹理读取所有像素的有效渲染方式。 mipmaps（每个级别）嵌入在纹理本身内（当文件格式支持时）。
 
-内边距对于混合图非常重要，因为如果要降低纹理分辨率，可以避免错误的颜色在网格的UV内溢出。
+内边距对于补色图非常重要，因为如果要降低纹理分辨率，可以避免在网格的UV内部产生不正确的颜色溢出。
 
 <table>
 <tr style="border: 0;">
@@ -76,5 +68,5 @@ Substance 3D Painter可以生成无限边距：这意味着像素将被拉伸，
 Substance 3D Painter允许在不同位置更改内边距生成的行为（例如禁用它）：
 
 * **烘焙时** ：有关详细信息，请参阅[烘焙文档](../../../baking/baking.md)。
-* **生成纹理集的纹理时**：有关详细信息，请参阅[纹理集设置](../../../interface/texture-set/texture-set-settings.md)文档。
+* **生成纹理集的纹理**&#x200B;时：有关详细信息，请参阅[纹理集设置](../../../interface/texture-set/texture-set-settings.md)文档。
 * **导出纹理时** ：有关详细信息，请参阅[导出设置](../../../export/export-window/export-window.md)文档的“填充设置”部分。

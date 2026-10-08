@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-during-export.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在导出操作期间修复崩溃，以实现可靠的纹理导出工作流程。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash during export
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 导出期间崩溃
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 
 # 导出期间崩溃
 
@@ -26,7 +18,7 @@ ht-degree: 0%
 
 超时检测和恢复(TDR)是Microsoft Windows的一种安全机制，用于防止GPU使用永不结束的计算锁定系统。 遗憾的是，对于默认的Substance 3D Painter而言，这种机制的限制性太强。
 
-有关详细信息，请参阅： [带有长计算的GPU驱动程序崩溃(TDR崩溃)](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html)。
+有关详细信息，请参阅： [带有长计算的GPU驱动程序崩溃(TDR崩溃)](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html)。
 
 ## 虚拟内存不足
 

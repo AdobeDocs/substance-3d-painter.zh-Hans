@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/assets/adding-a-new-library.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何向Substance 3D Painter添加新库以扩展您的资源收藏集和访问其他资源。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Adding a new library
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 添加新库
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
-
 ---
-
 
 # 添加新库
 

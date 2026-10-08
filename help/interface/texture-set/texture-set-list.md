@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/texture-set/texture-set-list.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何使用Substance 3D Painter中的纹理集列表管理和整理项目中的多个纹理集。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Texture Set > Texture Set list
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 纹理集列表
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
-
 ---
-
 
 # 纹理集列表
 

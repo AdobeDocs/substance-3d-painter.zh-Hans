@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/sparse-virtual-textures.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用稀疏虚拟纹理来高效处理超高分辨率纹理。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Sparse Virtual Textures
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Sparse Virtual Texture
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 0%
-
 ---
-
 
 # Sparse Virtual Texture
 
@@ -60,16 +52,16 @@ Sparse Virtual Texture是一种不完整的纹理。 这意味着应用程序仅
 ![](../assets/settings-temp.png)
 
 当没有足够的可用系统内存(Ram)来存储SVT缓存时，Substance 3D Painter将改为切换到计算机硬盘驱动器以存储缓存。\
-此缓存的位置默认位于“操作系统临时文件”文件夹中。 可通过进入应用程序的主要设置来更改此位置，请参阅[常规首选项](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/general-71008262.html) 。
+此缓存的位置默认位于“操作系统临时文件”文件夹中。 可通过进入应用程序的主要设置来更改此位置，请参阅[常规首选项](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) 。
 
 ## 着色器兼容性
 
-为了充分利用SVT，着色器必须从稀疏系统中请求和读取纹理。 因此，先前基于&#x200B;**vec2纹理坐标**&#x200B;和&#x200B;**取样器**&#x200B;的函数已被弃用。 现在，提供了Helper函数来改用Sparse纹理。
+为了充分利用SVT，着色器必须从稀疏系统中请求和读取纹理。 因此，先前基于&#x200B;**vec2纹理坐标**&#x200B;和&#x200B;**取样器**&#x200B;的函数已被弃用。 现在提供了助手函数来改用稀疏纹理。
 
 要更新着色器，请执行以下操作：
 
 * 对于&#x200B;**默认着色器** ：按照[更新着色器](../interface/shader-settings/updating-a-shader.md)页面中的分步过程操作。
-* 对于&#x200B;**自定义着色器** ：查看日志中的错误消息以及[着色器 API](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)页。
+* 对于&#x200B;**自定义着色器** ：查看日志中的错误消息以及[着色器 API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)页。
 
 >[!WARNING]
 >

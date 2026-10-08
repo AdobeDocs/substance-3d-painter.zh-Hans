@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 通过学习项目创建、界面导航和纹理绘画工作流程的基础知识，开始使用Substance 3D Painter。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 快速入门
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 10%
-
 ---
-
 
 # 快速入门
 

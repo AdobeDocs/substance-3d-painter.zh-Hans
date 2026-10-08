@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/startup-issues/application-failed-to-start-because-of-qt.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何修复由Qt框架问题导致的Substance 3D Painter启动失败以正确启动应用程序。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Application failed to start because of Qt
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 由于Qt，应用程序无法启动
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 
 # 由于Qt，应用程序无法启动
 
 启动应用程序时可能会出现以下错误消息：
 
-&#x200B;>> 
+>> 
 
 此应用程序无法启动，因为无法初始化Qt平台插件。 重新安装应用程序可以修复此问题。
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/interface/main-menu/help-menu.html'
 breadcrumb-title: ''
 description: 访问Substance 3D Painter中的“帮助”菜单以查找文档、教程和支持资源。
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Main menu > Help menu
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: “帮助”菜单
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e370ba212d3e90f71e09b75ff41be6123d37c5eb
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 6%
-
 ---
-
 
 # “帮助”菜单
 
@@ -29,7 +21,7 @@ ht-degree: 6%
 
 | 操作 | 描述 |
 | --- | --- |
-| 教程 | 链接到与该应用程序相关的正式[教程](https://helpx.adobe.com/cn/substance-3d/unlisted/tutorials.html)。 |
+| 教程 | 链接到与该应用程序相关的正式[教程](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html)。 |
 | 发行说明 | 链接到[发行说明](../../release-notes/all-changes.md)。 |
 | 文档 | 指向此文档的链接。 |
 | 快捷键列表 | 链接到[快捷方式](../settings/shortcuts.md)文档。 |

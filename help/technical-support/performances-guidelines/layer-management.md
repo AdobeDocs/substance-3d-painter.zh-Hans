@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解Substance 3D Painter中的图层管理最佳实践，以优化性能并维护有序的项目。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Performances guidelines > Layer management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 图层管理
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 
 # 图层管理
 
@@ -25,14 +17,14 @@ Painter从下至上计算图层堆叠。 因此，如果您对堆叠上的顶部
 您可以使用多种选项来降低对堆叠中较低图层进行更改时的性能成本：
 
 +++使用几何蒙版
-几何蒙版是最佳优化工具。 无论何时可以通过蒙版图层或文件夹隔离网格的一部分以进行处理，都可以这样做。 几何蒙版的工作方式是通过UDIM或网格零件进行隔离，以便不在蒙版中的区域得到处理，从而提高性能。 另外，您还可以在视口中直观地隔离这些零件，以便于添加纹理。
+几何蒙版是最佳优化工具。 无论何时可以通过蒙版图层或文件夹隔离网格的一部分以进行处理，都可以这样做。 几何蒙版的工作方式是通过UDIM或网格零件进行隔离，以便不处理蒙版之外的区域，从而提升性能。 另外，您还可以在视口中以视觉方式隔离这些部件，以便于添加纹理。
 
 您可以[通过本教程](https://www.youtube.com/watch?v=TGASuIGSUns)或通过[参阅文档](../../interface/layer-stack/geometry-mask.md)了解有关几何蒙版的更多信息。
 
 +++
 
 +++隐藏图层
-为了避免在图层栈叠中的较低级别进行更改时速度减慢，您可以在完成调整之前隐藏已编辑图层上方的图层。 Painter无法处理隐藏的图层，因此如果图层上方的所有图层都处于隐藏状态，就好像您正在编辑堆叠中的顶部图层一样。 这样，当您取消隐藏上方图层时，它们只会计算一次，而不是在您每次进行更改之后。
+为了避免在图层堆叠中的较低级别进行更改时速度变慢，您可以在完成调整之前隐藏已编辑图层上方的图层。 Painter无法处理隐藏的图层，因此如果图层上方的所有图层都处于隐藏状态，就好像您正在编辑堆叠中的顶部图层一样。 这样，当您取消隐藏上方图层时，它们只会计算一次，而不是在您每次进行更改之后。
 
 +++
 

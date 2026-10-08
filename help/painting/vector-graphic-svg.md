@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/vector-graphic-svg.html"
-breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中使用矢量图形（SVG和AI文件）向纹理添加可缩放矢量图稿。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: 了解如何在Substance 3D Painter中使用矢量图形（SVG和AI文件）将可缩放矢量图稿添加到纹理。
 title: 矢量图形(SVG)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
-
 ---
-
 
 # 矢量图形(.svg和.ai)
 

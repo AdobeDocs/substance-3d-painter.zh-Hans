@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/advanced-channel-painting/flow-map-painting.html"
-breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中绘制流图以控制材料流方向和各向异性效果。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Flow Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: 了解如何在Substance 3D Painter中绘画流图，以控制材料流方向和各向异性效果。
 title: 流程图绘画
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
-
 ---
-
 
 # 流程图绘画
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/project-creation.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中创建新项目以开始在3D模型上绘制纹理。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Project Creation
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 项目创建
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%
-
 ---
-
 
 # 项目创建
 
@@ -36,7 +28,7 @@ ht-degree: 1%
 
 | *参数* | *描述* |
 | --- | --- |
-| **文件** | 单击“选择”按钮以指定要载入的3D模型文件。 [此处提供了支持的文件格式列表。](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
+| **文件** | 单击“选择”按钮以指定要载入的3D模型文件。 [此处提供了支持的文件格式列表。](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
 | **模板** | 指定将定义项目默认设置的模板。 模板包含以下参数：<ul data-preserve-html="true"> <li data-preserve-html="true">纹理集设置。</li> <li data-preserve-html="true">显示设置。</li> <li data-preserve-html="true">烘焙设置。</li> <li data-preserve-html="true">着色器资源（包括连接的纹理）。</li> <li data-preserve-html="true">文件环境图。</li> </ul>  **注意：**&#x200B;模板是<b>\*.spt</b>文件，通过[文件菜单](../interface/main-menu/file-menu.md)从现有项目创建并保存在Assets文件夹中以便与团队成员轻松共享。 |
 | <b>分辨率</b> | 为每个纹理集定义项目的默认纹理分辨率。 在应用程序内工作时，分辨率可以高达4K（4096x4096像素），而在导出时，分辨率可以高达8K（8192x8192像素）。 稍后可以通过[纹理集设置](../interface/texture-set/texture-set-settings.md)随时更改分辨率。  **注意：** 8K导出至少需要2.5 GB的GPU空间才能使用VRam。 |
 
@@ -88,10 +80,10 @@ ht-degree: 1%
 
 | *网格图* | *文件名约定* |
 | --- | --- |
-| **环境遮蔽** | 环境遮蔽 |
-| **曲率** | 弯曲 |
+| **Ambient occlusion** | 环境遮蔽 |
+| **弯曲** | 弯曲 |
 | **正常** | normal\_base |
-| **世界空间正常** | world\_space\_normals |
+| **世界空间法线** | world\_space\_normals |
 | **ID** | id |
 | **位置** | 位置 |
 | **Thickness** | 厚度 |

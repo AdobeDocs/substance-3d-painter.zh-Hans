@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本2.3的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本2.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
-
 ---
-
 
 # 版本2.3
 
-**Substance Painter2.3**&#x200B;改进了脚本API，以发布其第一个正式增效工具：导出带有完整图层栈栈的Photoshop。
+**Substance Painter2.3**&#x200B;改进了脚本API，以发布其第一个正式增效工具：导出带有完整图层堆叠的Photoshop。
 
 发行日期： *15 2016年9月*
 
@@ -30,7 +22,7 @@ ht-degree: 0%
 
 ![](../../assets/ps-230.jpg)
 
-在此版本中，我们侧重于在脚本API中添加新的可能性，以便为Photoshop **实现**&#x200B;高级导出器。 要访问此新导出，只需单击主工具栏中可用的Photoshop图标（如果增效工具已激活，则为默认情况）。 该增效工具允许导出纹理集中可用的完整图层栈栈，并在PSD文件内创建类似结构。 此功能&#x200B;**需要在计算机上安装Photoshop**&#x200B;才能生成PSD文件。
+在此版本中，我们侧重于在脚本API中添加新的可能性，以便为Photoshop **实现**&#x200B;高级导出器。 要访问此新导出，只需单击主工具栏中可用的Photoshop图标（如果增效工具已激活，则为默认情况）。 该增效工具允许导出纹理集中可用的完整图层堆叠，并在PSD文件内创建类似结构。 此功能&#x200B;**需要在计算机上安装Photoshop**&#x200B;才能生成PSD文件。
 
 一些选项可通过插件菜单的“配置”按钮找到：
 
@@ -48,7 +40,7 @@ ht-degree: 0%
 
 **已添加：**
 
-* [Plugin]&#x200B;[Photoshop]允许指定要导出的素材/栈栈/通道
+* [Plugin][Photoshop]允许指定要导出的材料/堆叠/渠道
 * [脚本]函数名称有一些不一致
 
 **已修复：**
@@ -69,7 +61,7 @@ ht-degree: 0%
 
 **已添加：**
 
-* [增效工具]新增的“导出到Photoshop”增效工具（导出完整的图层栈栈）
+* [Plugin]新的“导出到Photoshop”增效工具（导出完整图层堆叠）
 * [导出]允许指定内边距的宽度（以像素或无限为单位）
 * [导出]允许在UV之外设置背景类型
 * [工具架]用于混合10种材料的新材料图层着色器
@@ -87,28 +79,28 @@ ht-degree: 0%
 * [Substance]读取和连接自定义用法
 * [快捷键]添加修改键(SHIFT)以向后循环单独模式
 * [导出]更新了默认导出预设以禁用Alpha
-* [UI]现在，仅当引擎可用时，才会计算缩览图
+* [UI]现在，仅在引擎可用时计算缩览图
 * [UI]计算缩略图时显示提及
 
 **已修复：**
 
-* 打开某些旧项目时崩溃
-* 纹理通道缓存损坏时崩溃
-* 使用“材质图层”工作流程混合超过4种材质时崩溃
+* 打开旧项目时崩溃这些项目
+* 纹理通道缓存已损坏的崩溃
+* 使用材料图层工作流程混合4个以上的材料时出现崩溃
 * [UI]如果工具栏被隐藏，则工具快捷键不起作用
-* [UI] “视图”菜单将“图像”工具栏标记为“未命名”
+* [UI]Iray工具栏在“视图”菜单中标记为“未命名”
 * [UI]增效工具工具栏在“视图”菜单中命名为“未标题”
-* [烘焙]在编辑烘焙设置时按Enter键将启动烘焙过程
+* [Baker]在编辑烘焙设置时按Enter键可启动烘焙过程
 * [Baker]某些参数的范围不正确
-* [导入]由于非常大的数字，无法导入OBJ网格
+* [导入]由于数量非常多，无法导入网格
 * [导入]某些OBJ文件导入的子对象过多
 * [导出]导出时通道背景填充为黑色，而不是默认颜色
-* [工具]如果FOV太低，粒子将无法正常工作
-* [工具]子栈叠中使用蒙版时，画笔预览颜色不正确
-* [视区]当画笔进入2D视图的空白区域时，它变得巨大
-* [视区]绘制“正常”纹理时出现空白画笔预览
+* [工具]如果FOV太低，粒子无法正常工作
+* [Tool] Brush preview color incorrect with masks in sub-tool（子堆叠中的蒙版画笔预览颜色不正确）
+* [视口]当画笔进入2D 视图的空白区域时，它变得巨大
+* [视口]绘制“正常”纹理时出现空白画笔预览
 * [脚本]文档不正确：列出了“ao”而不是“ambientoclusion”
 * [脚本]关闭Painter时，使用子进程()启动的进程被终止
-* [托架]烘焙光照滤镜使用不正确的AO输入
+* [工具架]烘焙的光照滤镜使用不正确的AO输入
 * [MacOS]已删除消火栓项目（不兼容）
 * 加载\*.spt文件（而不是\*.spp）时，将打开默认项目

@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/color-management/color-management-with-adobe-ace-icc.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用AdobeACE和ICC色彩管理实现一致的色彩工作流程。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Color management > Color management with Adobe ACE - ICC
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: 使用AdobeACE - ICC进行色彩管理
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: 使用ACE - ICC进行色彩管理
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
-
 ---
 
-
-# 使用AdobeACE - ICC进行色彩管理
+# 使用ACE - ICC进行色彩管理
 
 本页列出了与Adobe 颜色引擎(ACE)相关的色彩管理设置，以将图像与ICC配置文件结合使用。
 

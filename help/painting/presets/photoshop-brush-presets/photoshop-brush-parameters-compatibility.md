@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解导入ABR笔刷预设时Photoshop画笔参数在Substance 3D Painter中的兼容性。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Photoshop Brush Parameters Compatibility
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Photoshop画笔参数兼容性
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 1%
-
 ---
-
 
 # Photoshop画笔参数兼容性
 
@@ -40,7 +32,7 @@ ht-degree: 1%
 
 ## 参数
 
-要详细了解这些参数的功能，请参阅官方[Photoshop文档](https://helpx.adobe.com/cn/photoshop/using/creating-modifying-brushes.html) 。
+要详细了解这些参数的功能，请参阅官方[Photoshop文档](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html) 。
 
 并非支持所有Photoshop画笔参数。 请参阅图例，了解下面所述的每个参数的状态：
 
@@ -112,7 +104,7 @@ ht-degree: 1%
 | **最小值（用于不透明度控制）** | ■ | 与绘画刀具“最小流量”参数匹配。 |  |
 | **流抖动** | ■ | 与绘画刀具流抖动参数匹配。 |  |
 | **控制（用于流）** | ■ | 与“流量”参数的绘画工具“压力”设置匹配（如果低于“不透明度”） 。 |  |
-| **最小值（对于流控制）** | ■ | 与绘画工具的最小流量参数匹配（如果小于不透明度）。 |  |
+| **最小值（对于流控制）** | ■ | 与绘画工具“最小流量”参数匹配（如果小于“不透明度”）。 |  |
 | **湿度抖动** | ✖ |  |  |
 | **控件（用于湿度抖动）** | ✖ |  |  |
 | **最小值（用于湿度控制）** | ✖ |  |  |
@@ -129,8 +121,8 @@ ht-degree: 1%
 | **压力** | ✖ |  |  |
 | **覆盖压力** | ✖ |  |  |
 |  |  |  |  |
-| 其它 | **杂色** | ✖ |  |
+| 其它 | **噪声** | ✖ |  |
 | **潮湿的边缘** | ✖ |  |  |
 | **累积** | ✖ |  |  |
-| **平滑** | ■ | 不直接匹配，但可以通过[懒惰鼠标](../../lazy-mouse.md)设置进行处理。 |  |
+| **平滑** | ■ | 不直接匹配，但可以通过[延迟鼠标](../../lazy-mouse.md)设置进行处理。 |  |
 | **纹理** | ✖ |  |  |

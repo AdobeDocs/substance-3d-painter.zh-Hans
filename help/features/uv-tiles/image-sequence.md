@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/uv-tiles/image-sequence.html"
-breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中使用带有UV磁贴的图像序列进行动画纹理工作流程。
-helpx_creative_field: ""
-helpx_description: Painter > Features > UV Tiles > Image Sequence
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: 了解如何在Substance 3D Painter中将图像序列与UV拼贴结合使用于动画纹理工作流程。
 title: 图像序列
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b892d2d6c9d0f1a3b5d9d3ab9b180a7c2770a83
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
-
 ---
-
 
 # 图像序列
 

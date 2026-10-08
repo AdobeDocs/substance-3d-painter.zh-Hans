@@ -1,27 +1,19 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/subsurface-scattering/subsurface-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中配置次表面散射参数，以创建逼真的半透明材料。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Subsurface Scattering > Subsurface Parameters
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 次曲面参数
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
-
 ---
-
 
 # 次曲面参数
 
 Substance 3D Painter实时地下实施是一种屏幕空间次表面散射效果。 本页说明了控制它的参数。\
-当前实现基于PIXAR[&#128279;](http://graphics.pixar.com/library/ApproxBSSRDF/)发布的“高效次表面散射的近似反射率配置文件”方法。
+当前实现基于PIXAR](http://graphics.pixar.com/library/ApproxBSSRDF/)发布的“高效次表面散射的近似反射率配置文件”方法[。
 
 有关基于这些参数的材料的示例，请参阅： [子曲面材料类型](subsurface-material-type.md)。
 

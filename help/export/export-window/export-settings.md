@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/export-window/export-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中配置导出设置，以控制纹理分辨率、格式和输出选项。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export window > Export settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 导出设置
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 1%
-
 ---
-
 
 # 导出设置
 
@@ -46,7 +38,7 @@ ht-degree: 1%
 | <b>输出模板</b> | 选择用于命名声道并将其合成到纹理文件的输出模板。 有关模板的更多信息，请参阅[输出模板](../export-presets/export-presets.md)列表。 |
 | <b>文件类型</b> | 文件格式及其位深度。 如果选择选项<b>基于输出模板</b>，将从导出预设继承文件格式（允许按纹理而不是全局确定格式和位深度）。 可用的位深度取决于文件类型；有关详细信息，请参阅下表。 |
 | <b>大小</b> | 导出的纹理文件的分辨率。 可能的值：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>基于每个纹理集的大小</b></li> <li data-preserve-html="true"><b>128</b></li> <li data-preserve-html="true"><b>256</b></li> <li data-preserve-html="true"><b>512</b></li> <li data-preserve-html="true"><b>1024</b></li> <li data-preserve-html="true"><b>2048</b></li> <li data-preserve-html="true"><b>4096</b></li> <li data-preserve-html="true"><b>8192</b>（仅适用于具有超过1.5 GB Vram的GPU）</li> </ul> |
-| <b>正在填充</b> | 纹理内部填充UV 岛外部区域的方式。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>无填充（穿透）</b>：按原样使用纹理的当前状态。</li> <li data-preserve-html="true"><b>无限扩展</b>：拉伸UV 岛边框，直到它们达到相邻边框或纹理末尾。</li> <li data-preserve-html="true"><b>膨胀+透明</b>：将UV 岛边框拉伸为给定的距离（以像素为单位），其余部分为透明。</li> <li data-preserve-html="true"><b>扩展+默认背景色</b>：将UV 岛边框拉伸到给定距离（以像素为单位），其余部分使用纹理集通道的默认颜色填充。</li> <li data-preserve-html="true"><b>扩展+默认背景色</b>：将UV 岛边框拉伸到给定距离（以像素为单位），其余部分使用纹理集通道的默认颜色填充。</li> <li data-preserve-html="true"><b>膨胀+漫射</b>：将UV 岛边框拉伸为给定的距离（以像素为单位），其余部分填充模糊版本的UV 岛（基于mip映射）。</li> </ul> |
+| <b>正在填充</b> | 纹理内部填充UV 岛外部区域的方式。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>无填充（穿透）</b>：按原样使用纹理的当前状态。</li> <li data-preserve-html="true"><b>无限的膨胀</b>：拉伸UV 岛边框，直到它们达到相邻边框或纹理末尾。</li> <li data-preserve-html="true"><b>膨胀+透明</b>：将UV 岛边框拉伸为给定的距离（以像素为单位），其余部分为透明。</li> <li data-preserve-html="true"><b>膨胀+默认背景色</b>：将UV 岛边框拉伸为给定距离（以像素为单位），其余颜色填充为纹理集通道的默认颜色。</li> <li data-preserve-html="true"><b>膨胀+默认背景色</b>：将UV 岛边框拉伸为给定距离（以像素为单位），其余颜色填充为纹理集通道的默认颜色。</li> <li data-preserve-html="true"><b>膨胀+漫射</b>：将UV 岛边框拉伸为给定的距离（以像素为单位），其余部分填充模糊版本的UV 岛（基于mip映射）。</li> </ul> |
 
 >[!NOTE]
 >
@@ -54,7 +46,7 @@ ht-degree: 1%
 
 ### 仿色
 
-导出8位纹理会导致渐变中出现条纹。 这对于正常映射和Height映射尤其明显。 解决这一问题有两种方法：使用较高的精度或使用仿色进行补偿。
+导出8位纹理会导致渐变中出现条纹。 在“正常”和“高度图”中，这一点尤其明显。 解决这一问题有两种方法：使用较高的精度或使用仿色进行补偿。
 
 精度更高（16位或32位）是理想选择，但可能无法与所有应用程序兼容。 最值得注意的是，游戏引擎通常压缩到8位。 仿色引入了噪声，有助于在仍使用8位信息的同时缓解带宽问题。
 

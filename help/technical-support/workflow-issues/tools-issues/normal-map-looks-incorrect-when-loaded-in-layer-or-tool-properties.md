@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何修复Substance 3D Painter图层和法线图属性中的工具显示问题，以获取准确的表面细节。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Tools Issues > Normal map looks incorrect when loaded in layer or tool properties
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 在图层或法线图属性中加载时，工具看起来不正确
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
-
 ---
-
 
 # 在图层或法线图属性中加载时，工具看起来不正确
 

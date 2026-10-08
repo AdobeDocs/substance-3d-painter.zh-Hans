@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/post-processing/color-profile.html"
-breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中使用颜色配置文件后期处理功能来应用颜色分级和LUT变换。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Post Processing > Color Profile
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: 了解如何在Substance 3D Painter中使用颜色配置文件后期处理来应用颜色分级和LUT变换。
 title: 颜色配置文件
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
-
 ---
-
 
 # 颜色配置文件
 
@@ -33,14 +25,14 @@ Substance 3D Painter允许通过加载&#x200B;**LUT**&#x200B;颜色配置文件�
 ## 使用颜色配置文件
 
 可以通过“显示设置”窗口加载颜色配置文件。\
-选中“**激活颜色配置文件**”复选框以影响视区并启用颜色配置文件。
+选中“**激活颜色配置文件**”复选框以影响视口并启用颜色配置文件。
 
 ![](../../assets/color-profile-ui.png)
 
 * 当“激活颜色配置文件”处于&#x200B;**禁用**&#x200B;状态时，视口的渲染将以&#x200B;**sRGB**&#x200B;格式完成，用于材料视图（对于某些特定通道，为线性）
 * 在“激活颜色配置文件”处于&#x200B;**已启用**&#x200B;的情况下，将在每个视图（包括独奏通道）的&#x200B;**线性/原始数据**&#x200B;中完成视口渲染
 
-如果LUT纹理加载到资源插槽中，则它将用于在&#x200B;**材质模式**&#x200B;下处理视区的渲染。\
+如果LUT纹理加载到资源插槽中，则在&#x200B;**材质模式**&#x200B;中时，将使用该工具来处理视口的渲染。\
 否则，渲染将显示为线性/原始数据（例如，带有单独通道视图）。
 
 **白场**&#x200B;设置可用于更改输入图像的色调映射（在LUT生效之前）。\
@@ -84,4 +76,4 @@ ociolutimage --generate --cubesize 64 --config nuke-default/config.ocio --colorc
 
 只需打开导入窗口（或将LUT拖放到工具架中）。 在Substance 3D Painter中导入LUT纹理时，请确保将“ **colorlut**”**用法**&#x200B;分配给新资源。 否则，资源将无法在工具架中正确显示。
 
-有关详细信息，请参阅有关导入新资源的文档： [通过导入窗口添加资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+有关详细信息，请参阅有关导入新资源的文档： [通过导入窗口添加资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)

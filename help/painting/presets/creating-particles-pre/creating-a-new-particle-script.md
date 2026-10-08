@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/presets/creating-particles-presets/creating-a-new-particle-script.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中创建新粒子脚本以定义自定义粒子画笔行为和效果。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Creating particles presets > Creating A New Particle Script
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 创建新粒子脚本
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
-
 ---
-
 
 # 创建新粒子脚本
 
@@ -56,11 +48,11 @@ PopcornFX仅支持&#x200B;**FBX** ，请确保以此格式导出您的网格。 
 
 然后，在“节点属性”窗口中，将“dummymesh.fbx”替换为您的模型。 保存修改(“文件”(File)=>“保存”(Save))并关闭发射器窗口。
 
-现在，**克隆“\_Receiver** **”**（在“Particles”文件夹中）以从此文件夹创建您自己的接收器。
+现在，**克隆“\_Receiver** **”**（在“粒子”文件夹中）以从此文件夹创建您自己的接收器。
 
-打开它，对于发射器，在“Layer\_Model”中用您的模型替换虚拟网格。 我们&#x200B;**修改了屏幕中显示的网格** **&#x200B;**&#x200B;，但是我们还需要修改&#x200B;**粒子使用的网格** **&#x200B;**&#x200B;。
+打开它，对于发射器，在“Layer\_Model”中用您的模型替换虚拟网格。 我们&#x200B;**修改了屏幕中显示的网格** **** ，但是我们还需要修改&#x200B;**粒子使用的网格** **** 。
 
-为此，在“粒子树”窗口中，单击“**形状**”，它应位于：“粒子效果=>生成器=>图层\_1 =>取样器=>网格”中。
+为此，在“粒子树视图”窗口中，单击“ **形状**”，它应位于： “粒子效果=>生成器=>图层\_1 =>取样器=>网格”中。
 
 然后，用您的模型替换“MeshResource”。
 
@@ -69,7 +61,7 @@ PopcornFX仅支持&#x200B;**FBX** ，请确保以此格式导出您的网格。 
 在接收器的树视图中，选择“编辑器属性”，然后在“OverSpawnEffect”中选择发射器。 保存接收器。
 
 打开发射器（之前复制的发射器），然后在“粒子树视图”窗口中，单击“事件”，其位置应为：“粒子效果=>生成器”。 然后点击“Extern”（外部），用您的接收器替换接收器。\
-完成了！ 现在，如果您选择（发射器或接收器的）3D视图，可以通过按“间距”按钮创建粒子。
+完成了！ 现在，如果您选择（发射器或接收器的）3D视图，可以通过按“空格”按钮来创建粒子。
 
 ## 可选：修改接收者行为
 
@@ -81,9 +73,9 @@ PopcornFX仅支持&#x200B;**FBX** ，请确保以此格式导出您的网格。 
 
 <http://wiki.popcornfx.com/index.php/Main_Page>
 
-## 在Substance 3D Painter中导入发射器/接收器
+## 在Substance 3D Painter中导入发射器/接收者
 
-在Substance 3D Painter中，执行“文件”>“导入粒子”或Ctrl-Alt-R，然后在Pack中选择发射器和接收器（均采用.pkfx格式）。
+在Substance 3D Painter中，选择“文件”>“导入粒子”或Ctrl-Alt-R，然后在Pack中选择发射器和接收器（均采用.pkfx格式）。
 
 Substance 3D Painter将自动检测要求（粒子字段、OnCollide事件），以确定您的pkfx是发射器、接收器还是不兼容。
 

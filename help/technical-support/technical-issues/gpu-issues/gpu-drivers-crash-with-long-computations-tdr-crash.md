@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中长计算期间修复GPU驱动程序崩溃以防止TDR超时错误。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: GPU驱动程序与长崩溃(TDR崩溃)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 0%
-
 ---
-
 
 # GPU驱动程序与长崩溃(TDR崩溃)
 
@@ -143,7 +135,7 @@ Windows注册表编辑器中的![“TdrDelay”DWORD值](../../../assets/tdrdela
 
 仅在计算机启动时查看TdrValue，因此需要强制刷新并重新引导。
 
-如果应用程序在执行长时间计算时仍然崩溃，请尝试将延迟（以秒为单位）从60增加到120（例如）。
+如果在执行长计算时应用程序仍然崩溃，请尝试将延迟（以秒为单位）从60增加到120（例如）。
 
 ## 将TDR值恢复为默认值
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/baking.html'
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中烘焙网格图以生成ambient occlusion、弯曲和其他基于几何的纹理。
-helpx_creative_field: ''
-helpx_description: Painter > Baking
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Baking
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 2%
-
 ---
-
 
 # Baking
 
@@ -37,4 +29,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 要详细了解一般烘焙，请查看专用的[烘焙文档](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/home)。
+> 要详细了解一般烘焙，请查看专用的[烘焙文档](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)。

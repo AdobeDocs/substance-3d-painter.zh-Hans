@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 访问Substance 3D Painter的着色器 API参考，以创建自定义着色器并扩展渲染功能。
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 着色器 API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 0%
-
 ---
-
 
 # 着色器 API
 
@@ -111,7 +103,7 @@ void shade(V2F inputs) {
 支持的密钥包括：
 
 * **custom-ui**：将标准着色器参数用户界面替换为编写为QML模块的自定义视图（请参阅脚本文档）。 该路径可以是绝对路径，也可以是相对于工具架&#x200B;*custom-ui*&#x200B;文件夹之一的路径。
-* **mdl**：定义要与着色器一起使用的Iray mdl素材。 路径语法如下： *mdl：:folder1::folder2:：mdl\_filename：：材料\_name*，其中&#x200B;*folder1：:folder2:：mdl\_filename*&#x200B;是您的工具架&#x200B;*mdl*&#x200B;文件夹之一内的mdl文件路径，*：：材料\_name*&#x200B;是此mdl文件中声明的材料的名称。 （例如： &quot;mdl&quot; ： &quot;mdl：:alg::materials:：physical\_金属\_粗糙度：：physical\_金属\_粗糙度&quot;）
+* **mdl**：定义要与着色器一起使用的Iraymdl材料。 路径语法如下： *mdl：:folder1::folder2:：mdl\_filename：：材料\_name*，其中&#x200B;*folder1：:folder2:：mdl\_filename*&#x200B;是您的工具架&#x200B;*mdl*&#x200B;文件夹之一内的mdl文件路径，*：：材料\_name*&#x200B;是此mdl文件中声明的材料的名称。 （例如： &quot;mdl&quot; ： &quot;mdl：:alg::materials:：physical\_金属\_粗糙度：：physical\_金属\_粗糙度&quot;）
 
 ## 着色器示例（终于见效了！）
 
@@ -123,7 +115,7 @@ void shade(V2F inputs) {
 
 ## 动态材质分层
 
-该动态材质分层是一个特定的工作流程，其中材质在着色器中混合在一起，并且允许用户在Substance Painter中动态编辑混合蒙版。 要启用此工作流程，需要新增两项功能：
+动态材质分层是一个特定的工作流程，材料可在着色器中混合在一起，从而让用户在Substance Painter中动态编辑blending mask。 要启用此工作流程，需要新增两项功能：
 
 * 从着色器定义声明可编辑的堆叠： [layering\_declare\_堆叠.glsl](parameters-shader-api/layering-declare-stacks-shader-api.md)
 * 将材料绑定为着色器参数： [layering\_bind\_材料.glsl](parameters-shader-api/layering-bind-materials-shader-api.md)

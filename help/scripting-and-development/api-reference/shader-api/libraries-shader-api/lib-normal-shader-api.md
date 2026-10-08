@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 访问Substance 3D Painter的“库法线”着色器 API参考，以处理自定义着色器中的法线图和表面法线。
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Normal - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 库正常 — 着色器 API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
-
 ---
-
 
 # 库正常 — 着色器 API
 
 ## lib-normal.glsl
 
-**公共函数：** *normalBlend* *normalBlendOriented* *normalFade* *normalUnpack* *normalFromBaseNormal* *normalFromNormal* *normalFromHeight* *getTSNormal* *computeWSB9&rbrace;*&#x200B;计算NORMAL WSNORMAL **
+**公共函数：** *normalBlend* *normalBlendOriented* *normalFade* *normalUnpack* *normalFromBaseNormal* *normalFromNormal* *normalFromHeight* *getTSNormal* *computeWSB9}*&#x200B;计算NORMAL WSNORMAL **
 
 从库导入
 

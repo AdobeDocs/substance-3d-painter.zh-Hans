@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解Substance 3D Painter中的粒子编辑器，该编辑器可创建用于纹理绘画的自定义粒子笔刷预设。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Creating particles presets > Overview of the particle editor
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 粒子编辑器概述
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 0%
-
 ---
-
 
 # 粒子编辑器概述
 
@@ -130,7 +122,7 @@ Seed = int(rand(0，20000000))；
 
 #### 如何对网格取样
 
-在Substance 3D Painter中，所有名为“Mesh”和“ShapeType”“MESH”的形状取样器都将被Substance 3D Painter中使用的网格覆盖。<b>\
+在Substance 3D Painter中，所有名为“网格”和“ShapeType”“网格”的形状取样器都将被Substance 3D Painter中使用的网格所覆盖。<b>\
 </b>
 
 在编辑器中，将其设置为与背景相同的网格。

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解Substance 3D Painter界面，以了解用于高效纹理绘画工作流程的面板、菜单和工具。
-helpx_creative_field: ""
-helpx_description: Painter > Interface
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 界面
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 24%
-
 ---
-
 
 # 界面
 

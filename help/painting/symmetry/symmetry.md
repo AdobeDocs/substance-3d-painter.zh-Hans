@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/symmetry.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何使用Substance 3D Painter中的对称工具创建平衡和镜像的纹理绘画效果。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Symmetry
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 对称
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 3%
-
 ---
-
 
 # 对称
 

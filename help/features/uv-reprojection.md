@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/uv-reprojection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用UV重新投影在不同的UV布局之间传输纹理。
-helpx_creative_field: ""
-helpx_description: Painter > Features > UV Reprojection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: UV重投影
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
-
 ---
-
 
 # UV重投影
 
@@ -25,14 +17,14 @@ ht-degree: 0%
 
 在2D 视图中绘画
 
-由于在2D视图中进行的每个描边都是在UV空间中执行的，因此如果重新导入后网格的UV发生剧烈变化，则无法正确重新投影该描边。 制作项目重新投影校样的最佳方法是依赖Id 图的蒙版和其他类型的选择和绘画，而不是依赖3D 视图。
+由于在2D 视图中进行的每个描边都是在UV空间中执行的，因此如果重新导入后网格的UV发生显着变化，则无法正确地重新投影它。 制作项目重新投影校样的最佳方法是依赖Id 图的蒙版和其他类型的选择和绘画，而不是依赖3D 视图。
 
 ## 重新投影是如何工作的？
 
-Substance 3D Painter会将其数据以3D世界空间存储，以保持所有内容无损。 这意味着，重新导入网格时，Substance 3D Painter会尝试在重新导入之前网格的位置绘制，但无法知道某些部分可能移动到哪里。
+Substance 3D Painter会将其数据以3D世界空间存储，以保持所有内容无损。 这意味着，重新导入网格时，Substance 3D Painter会尝试绘画网格在重新导入前的位置，但无法知道某些部分可能移动到哪里。
 
-此外，Substance 3D Painter导入网格时，会计算其定界框以注册空间并定义工具（画笔、粒子等）的相对缩放。 此定界框在每个轴上为1单位宽。 导入新网格时，如果取消选中“保留描边”，则我们将边界框重新标准化为新网格。 因此，如果网格的大小发生了显着变化，则描边可以移动。 但是，如果选中“保留描边”，则我们会将原始定界框缩放为新定界框，以便正确重新投影画笔描边。
+此外，Substance 3D Painter在导入网格时会计算其定界框，以注册空间并定义工具（绘画画笔、粒子等）的相对比例。 此定界框在每个轴上为1单位宽。 在导入新网格时，如果取消选中“保留描边”，则会将定界框重新标准化为新网格。 因此，如果网格的大小发生了显着变化，则描边可以移动。 但是，如果选中“保留描边”，则我们会将原始定界框缩放为新定界框，以便正确重新投影画笔描边。
 
 >[!WARNING]
 >
-> 更改3D网格的单位可能会导致UV重新投影不起作用；即使拓扑没有更改，旧网格和新网格也可解释为截然不同的缩放。 理想情况下，应避免更改设备设置，因为这可能很难修复。
+> 更改3D 网格的单位会导致UV重新投影不起作用；即使拓扑结构未发生更改，旧视图和新网格仍可能被解释为大不相同的比例。 理想情况下，应避免更改设备设置，因为这可能很难修复。

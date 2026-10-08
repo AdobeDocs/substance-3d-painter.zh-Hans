@@ -1,36 +1,28 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
-breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中直接绘制正常映射，向纹理添加表面细节和深度。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Normal Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: 了解如何在Substance 3D Painter中直接绘画法线图，向纹理添加表面细节和深度。
 title: 法线图绘画
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
-
 ---
-
 
 # 法线图绘画
 
-绘制细节可以通过直接在网格上绘制法线图数据来完成。 此页面将用不同的方法来管理正常地图绘画。
+绘制细节可以通过直接在网格上绘制法线图数据来完成。 此页将用不同的方法来管理法线图绘画。
 
 ## 绘画法线图详细信息
 
 要法线图详细信息：
 
-1. 在当前纹理集中添加常规通道（如果尚未存在）
+1. 在当前纹理集中添加普通声道（如果尚未存在）
 1. 在当前绘画工具中启用正常通道
 1. 在当前绘画工具的材料部分的“正常”槽中加载“正常”资源。
 
-从此以后，使用法线映射绘画非常类似于[Height映射绘画](height-map-painting.md) ，并且增加了烘焙法线的精度。
+从此以后，使用法线图绘画非常类似于[高度图绘画](height-map-painting.md) ，并且增加了烘焙法线的精度。
 
 ![](../../assets/normal-painting.gif)
 
@@ -46,7 +38,7 @@ ht-degree: 0%
 
 ## 标准色彩空间
 
-将法线映射载入素材槽（工具属性或填充图层）时，可以更改默认色彩空间。
+将法线图加载到材料的插槽（工具属性或填充图层）时，可以更改默认色彩空间。
 
 此设置可用于指定法线贴图格式，因为默认情况下应为DirectX(Y-)法线图（不受项目设置的影响）。 因此，使用OpenGL (Y+)法线图时，需要单击小箭头以打开色彩空间菜单，然后更改位图的色彩空间。
 

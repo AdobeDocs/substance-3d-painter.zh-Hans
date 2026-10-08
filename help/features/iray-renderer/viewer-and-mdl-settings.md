@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/iray-renderer/viewer-and-mdl-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中配置Iray渲染器的查看器和MDL设置以自定义材料渲染。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Iray Renderer > Viewer and MDL Settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 查看器和MDL设置
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
-
 ---
-
 
 # 查看器和MDL设置
 
@@ -83,7 +75,7 @@ Iray使用MDL定义用于呈现对象的材料。 有关更多信息，请参阅
 > 要加载自定义MDL，需要自定义glsl着色器。\
 >  在该着色器中，可以添加一些元数据以指定mdl路径：
 > 
-> // — 声明要用于此着色器的iray mdl材料。 //： metadata { //： &quot;mdl&quot;：&quot;mdl：:alg::materials:：physical\_metallic\_roughness：：physical\_metallic\_roughness&quot; //： }
+> // — 声明要用于此着色器的iray mdl材料。 //： metadata { //： &quot;mdl&quot;：&quot;mdl：:alg::materials:：physical\_金属\_粗糙度：：physical\_金属\_粗糙度&quot; //： }
 > 
 > * **mdl** ：定义要与着色器一起使用的Iraymdl材料。 路径语法如下： *mdl：:folder1::folder2:：mdl\_filename：：材料\_name*，其中&#x200B;*folder1：:folder2:：mdl\_filename*&#x200B;是您的工具架&#x200B;*mdl*&#x200B;文件夹之一内的mdl文件路径，*：：材料\_name*&#x200B;是此mdl文件中声明的材料的名称。 （例如： &quot;mdl&quot; ： &quot;mdl：:alg::materials:：physical\_金属\_粗糙度：：physical\_金属\_粗糙度&quot;）
 
@@ -97,7 +89,7 @@ Substance 3D Painter的默认MDL支持以下属性：
 
 | *设置* | *描述* |
 | --- | --- |
-| **发射强度** | emissive声道的乘数。 较高的值将开始发光。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/emissive-optim.gif"/></div> |
+| **Emissive强度** | emissive声道的乘数。 较高的值将开始发光。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/emissive-optim.gif"/></div> |
 | **折射** | 控制折射量。 |
 | **IOR** | 定义材料的折射率。   注：空气= 1.0，水= 1.2，玻璃= 1.5。 |
 | **散布** | 控制有多少光通过曲面散射。 |

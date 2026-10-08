@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/display-settings/environment-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中配置环境设置，以控制用于材料预览的光照和背景。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Display settings > Environment settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 环境设置
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
-
 ---
-
 
 # 环境设置
 
@@ -34,7 +26,7 @@ ht-degree: 0%
 | **环境曝光** | 曝光值(EV)是表示固定明亮度的数字。 此设置允许偏移默认明亮度值。在使用随应用程序提供的环境图时，此设置应保持为0。 使用不正确的曝光值为资源添加纹理可能会导致其他应用程序出现颜色校准问题。 |
 | **环境轮换** | 控制环境纹理的水平旋转。 适用于旋转场景中的光照并更改对象的反应方式。 可以使用[快捷键](../settings/shortcuts.md)控制。 |
 | **环境模糊** | 控制环境纹理在视口背景中呈现的清晰度或模糊度。 此设置对光照没有影响。 |
-| **环境对齐方式** | 控制环境纹理如何在视区内绕3D模式旋转。 当设置为局部时，此设置可用于照亮3D模型下的区域。可能的值：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>世界</strong>（默认）：环境与场景对齐，并绕3D模型的上轴旋转。</li><li data-preserve-html="true"><strong>局部</strong>：环境与相机对齐，并围绕相机的上轴旋转。</li></ul> |
+| **环境对齐方式** | 控制环境纹理如何围绕视口内的3D模式旋转。 当设置为局部时，此设置可用于照亮3D模型下的区域。可能的值：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>全局</strong>（默认）：环境与场景对齐，并围绕3D模型的向上轴旋转。</li><li data-preserve-html="true"><strong>本地</strong>：环境与相机对齐，并围绕相机的向上轴旋转。</li></ul> |
 
 ## 阴影
 

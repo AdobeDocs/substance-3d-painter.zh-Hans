@@ -1,30 +1,22 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用地下的材料类型来创建逼真的皮肤、蜡和有机材料。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Subsurface Scattering > Subsurface Material Type
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 次曲面材料类型
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 1%
-
 ---
-
 
 # 次曲面材料类型
 
-此页面列出了可使用次表面散射功能创建的各种类型的材料，以及如何配置Substance 3D Painter来创建这些文档。 为每种类型的材质指定可在[子曲面参数](subsurface-parameters.md)中设置的比例和颜色。
+此页面列出了可使用次表面散射功能创建的各种类型的材料，以及如何配置Substance 3D Painter来创建这些文档。 为每种类型的材料指定可在[子曲面参数](subsurface-parameters.md)中设置的比例和颜色。
 
 >[!NOTE]
 >
-> 此页面列出的值概括了每种类型的材料。 它们不是精确值，必须按项目进行解释和/或调整。
+> 本页列出的值概括了每种类型的材料。 它们不是精确值，必须按项目进行解释和/或调整。
 
 ## 人体皮肤
 

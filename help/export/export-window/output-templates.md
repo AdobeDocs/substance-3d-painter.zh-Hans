@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/export-window/output-templates.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何使用Substance 3D Painter导出窗口中的输出模板来配置纹理导出格式和命名。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export window > Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 输出模板
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 1%
-
 ---
-
 
 # 输出模板
 
@@ -73,8 +65,8 @@ ht-degree: 1%
 | 关键字 | 描述 |
 | --- | --- |
 | **$项目** | 替换为项目文件的名称(.spp)。 |
-| **$网格** | 替换为网格文件的名称（输入网格文件，如.fbx） |
-| **$textureset** | 替换为从中生成纹理的材质/纹理集的名称。 |
+| **$网格** | 替换为网格文件名称（输入网格文件，如.fbx） |
+| **$textureset** | 替换为从中生成纹理的材料/纹理集的名称。 |
 | **$udim** | 替换为从中生成纹理的UDIM号。 |
 | **$色彩空间** | 替换为给定通道所用的色彩空间名称（RGB或G，忽略Alpha）。 |
 

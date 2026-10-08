@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/ribbon-tool.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用Substance 3D Painter中的“色带”工具沿路径创建类似色带的绘画描边，以进行装饰性纹理绘画。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 功能区路径
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 2%
-
 ---
-
 
 # 功能区路径
 
@@ -85,8 +77,8 @@ ht-degree: 2%
 | 参数 | 描述 |
 | --- | --- |
 | <b>仅在偏移之间拉伸</b> | 如果启用此选项，则在拉伸中间位置时，图像的开始部分和结束部分将保持不变。 使用<b>起始偏移</b>和<b>结束偏移</b>参数定义这些部分的大小。 中间截面将根据起始/终止自动计算。  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_122891642_row-3t12rpd-column-6c32r7q_image" src="../../assets/ribbon_stretch_guides_path.png"/></div> |
-| <b>拼贴模式</b> | 定义如何沿路径重复图像。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>无</b>：图像将不会重复。 它会沿着整条路被拉长。</li> <li data-preserve-html="true"><b>自动</b>：（默认）图像根据其大小和描边宽度自动重复特定次数。</li> <li data-preserve-html="true"><b>自定义</b>：映像按<b>拼贴量</b>参数定义的次数重复。</li> </ul> |
-| <b>拼贴数量</b> | 指定图像在<b>自定义</b>拼贴模式下的重复次数。 |
+| <b>拼贴模式</b> | 定义如何沿路径重复图像。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>无</b>：图像将不会重复。 它会沿着整条路拉伸。</li> <li data-preserve-html="true"><b>自动</b>：（默认）图像根据其大小和描边宽度自动重复特定次数。</li> <li data-preserve-html="true"><b>自定义</b>：映像按<b>拼贴数量</b>参数定义的次数重复。</li> </ul> |
+| <b>拼贴数量</b> | 指定图像在<b>自定义</b>拼贴模式下重复的次数。 |
 | <b>每隔2个磁贴镜像一次</b> | 每第二次重复一次，沿着路径长度翻转所使用的图像。 |
 | <b>长宽比系数</b> | 拉伸或压缩当前图像长宽比。 |
 
@@ -98,7 +90,7 @@ ht-degree: 2%
 | --- | --- |
 | <b>比率</b> | 定义如何在保持图像比例不变的情况下缩放图像：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>适合路径宽度</b>： （默认）缩放图像以适合路径宽度。 这可能会导致图像被裁剪太长。</li> <li data-preserve-html="true"><b>适合路径长度</b>：调整图像的尺寸，使准确的数目沿路径适合，同时大致保持长宽比。</li> </ul> |
 | <b>移除剪切的拼贴</b> | 如果启用，将删除路径上无法完全显示的重复项（如果已裁切）。 如果<b>比例</b>设置为<b>适合路径长度</b>，则禁用此设置。 |
-| <b>拼贴模式</b> | 定义如何沿路径重复图像。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>无</b>：图像将不会重复。 它会沿着整条路被拉长。</li> <li data-preserve-html="true"><b>自动</b>：（默认）图像根据其大小和描边宽度自动重复特定次数。</li> <li data-preserve-html="true"><b>自定义</b>：映像按<b>拼贴量</b>参数定义的次数重复。</li> </ul> |
+| <b>拼贴模式</b> | 定义如何沿路径重复图像。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>无</b>：图像将不会重复。 它会沿着整条路拉伸。</li> <li data-preserve-html="true"><b>自动</b>：（默认）图像根据其大小和描边宽度自动重复特定次数。</li> <li data-preserve-html="true"><b>自定义</b>：映像按<b>拼贴数量</b>参数定义的次数重复。</li> </ul> |
 | <b>每隔2个磁贴镜像一次</b> | 每第二次重复一次，沿着路径长度翻转所使用的图像。 |
 | <b>对齐</b> | 定义图像应沿着路径从何处开始。 可能的值为：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>起点对齐</b>：从路径上的第一个点开始绘制图像。</li> <li data-preserve-html="true"><b>居中对齐</b>：将图像绘制在路径的中间。</li> <li data-preserve-html="true"><b>末端对齐</b>：从路径上的最后一个点开始绘制图像。</li> </ul> |
 | <b>长宽比系数</b> | 拉伸或压缩当前图像长宽比。 |

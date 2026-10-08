@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何修复工具架中缩览图显示不正确的问题，以确保准确预览资源。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Shelf Issues > Thumbnails in the shelf look incorrect
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 工具架中的缩览图看起来不正确
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%
-
 ---
-
 
 # 工具架中的缩览图看起来不正确
 

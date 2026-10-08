@@ -1,29 +1,21 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
-breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter项目中启用子表面散射，以创建逼真的半透明素材效果。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Subsurface Scattering > Enabling Subsurface in a Project
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: 了解如何在Substance 3D Painter项目中启用次表面散射，以创建逼真的半透明材料效果。
 title: 在项目中启用子曲面
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
-
 ---
-
 
 # 在项目中启用子曲面
 
 要在Substance 3D Painter中正确激活次表面散射，必须先设置一些参数。\
 本页提供了有关要启用哪些参数的指南。
 
-## 1 — 纹理集设置
+## 1 -纹理集设置
 
 在[纹理集](../../interface/texture-set/texture-set.md)中，添加&#x200B;**散射**&#x200B;通道（如果尚未存在）：
 
@@ -35,7 +27,7 @@ ht-degree: 0%
 
 ## 2 — 全局子表面设置
 
-在[显示设置](../../interface/display-settings/display-settings.md)（在“后效果”设置下方）中启用主要“子表面散射”设置：
+在[显示设置](../../interface/display-settings/display-settings.md)中启用主次表面散射设置（在Post-Effects设置下方） ：
 
 ![](../../assets/enable-subsurface.png)
 
@@ -48,11 +40,11 @@ ht-degree: 0%
 ![](../../assets/shader-parameters.png)
 
 在[着色器设置](../../interface/shader-settings/shader-settings.md)窗口中，可以找到具有两个设置的“**SSS参数**”组。\
-更改比例和颜色以适应目标素材。 有关这些设置的更多详细信息，请参阅： [子表面参数](subsurface-parameters.md)
+更改比例和颜色以适合目标材料。 有关这些设置的更多详细信息，请参阅： [子表面参数](subsurface-parameters.md)
 
 ## 福利：启用阴影
 
-次表面散射效果很好，但单独使用时可能看起来很奇怪。\
+次表面散射效果不错，但单独使用可能看起来很奇怪。\
 启用阴影有助于呈现视口的最终效果，并改善最终材料的真实感。
 
 在[环境设置](../../interface/display-settings/environment-settings.md)窗口中，启用“**阴影**”设置：

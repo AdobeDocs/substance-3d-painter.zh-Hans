@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/content/creating-custom-effects/generic-filter.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何为Substance 3D Painter创建通用滤镜效果以应用自定义图像处理和纹理滤镜。
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > Generic filter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 通用过滤器
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
-
 ---
-
 
 # 通用过滤器
 

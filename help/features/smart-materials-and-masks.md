@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/smart-materials-and-masks.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何使用Substance 3D Painter中的智能材质和蒙版来创建适应几何形状的程序化纹理。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Smart Materials and Masks
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 智能材质和蒙版
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
-
 ---
-
 
 # 智能材质和蒙版
 

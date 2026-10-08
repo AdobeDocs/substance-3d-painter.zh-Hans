@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何从Substance 3D Painter导出各种格式的纹理，以便在其他应用程序和游戏引擎中使用。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 导出
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 1%
-
 ---
-
 
 # 导出
 
@@ -36,7 +28,7 @@ Painter可以修改导入的网格，例如，通过自动生成UV。 如果已�
 
 导出网格时，您会看到一些选项：
 
-* <b>无位移/镶嵌</b>：导出基础网格，而不修改基于素材的几何。
+* <b>没有位移/曲面细分</b>：导出基本网格而不修改基于材料的几何图形。
   * <b>应用三角化</b>：如果导入的网格由四边形或多边形组成，您可以启用此选项以导出Painter三角化版本的网格。 这有助于避免在其他应用程序进行不同的三角化时基于视觉三角化的错误。
 * <b>使用位移/曲面细分</b>：Painter镶嵌网格，添加更多多边形，并使用位移或Height更改网格的表面几何。
   * <b>重新计算顶点法线</b>：修改网格的表面可能导致先前存在的顶点法线不正确。 启用此选项后，Painter将自动将顶点法线更新为新表面的正确值。

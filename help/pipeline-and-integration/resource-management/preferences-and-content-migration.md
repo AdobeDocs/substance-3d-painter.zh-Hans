@@ -1,30 +1,22 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/pipeline-and-integration/resource-management/preferences-and-content-migration.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解在升级或移动到新系统时，如何迁移Substance 3D Painter中的首选项和内容。
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Resource management > Preferences and content migration
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 首选项和内容迁移
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 1%
-
 ---
-
 
 # 首选项和内容迁移
 
 本页介绍如何从首选项和工具架/资源迁移数据以在新版本中使用它们。
 
-版本7.2发布后，首选项和托架位置已更改，以便它们在应用程序的多个版本（Substance 3D独立版、Steam和Creative Cloud桌面版）中通用。 此更改意味着默认情况下将忽略以前的首选项和自定义资源&#x200B;**&#x200B;**（**但不会丢失**）。 由于&#x200B;**工具架**&#x200B;已重命名为&#x200B;**资源**，因此迁移涉及一些步骤，详见下文。
+版本7.2发布后，首选项和工具架位置已更改，以便它们在应用程序的多个版本（Substance 3D独立版、Steam和Creative Cloud桌面版）中通用。 此更改意味着默认情况下将忽略以前的首选项和自定义资源&#x200B;****（**但不会丢失**）。 由于&#x200B;**工具架**&#x200B;已重命名为&#x200B;**资源**，因此迁移涉及一些步骤，详见下文。
 
-## 迁移Shelf和Asset资源
+## 迁移工具架和资源资源
 
 默认用户的资源位置已更改，这意味着应用程序的新版本现在将忽略放在Documents文件夹中的任何内容。 要恢复此内容，只需将文件从一个位置移动到另一个位置即可。
 
@@ -66,4 +58,4 @@ ht-degree: 1%
 
 我们建议从界面手动重新调整应用程序设置。 这是迁移信息的最安全方式，而不会产生兼容性问题。
 
-否则，请查看以下页面以了解首选项现在所在的位置： [首选项和应用程序数据位置](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)。
+否则，请查看以下页面以了解首选项现在所在的位置： [首选项和应用程序数据位置](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)。

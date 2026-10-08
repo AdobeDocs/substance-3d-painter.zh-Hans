@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何将硬盘中的内容添加到Substance 3D Painter，以使用本地文件扩展您的资源库。
-helpx_creative_field: ""
-helpx_description: Painter > Content > Importing assets > Adding content on the hard drive
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 在硬盘上添加内容
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 2%
-
 ---
-
 
 # 在硬盘上添加内容
 
@@ -57,7 +49,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 从版本7.2.0开始，可以在库中使用自定义文件夹和类别。 可以通过[按路径筛选](../../interface/assets/filter-by-path.md)或[痕迹导航](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html)在“资源”窗口中访问它们。
+> 从版本7.2.0开始，可以在库中使用自定义文件夹和类别。 可以通过[按路径筛选](../../interface/assets/filter-by-path.md)或[痕迹导航](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html)在“资源”窗口中访问它们。
 
 >[!WARNING]
 >

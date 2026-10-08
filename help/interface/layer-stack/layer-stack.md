@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/layer-stack.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何使用Substance 3D Painter中的图层堆叠来组织和管理多个纹理绘画图层。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 图层堆叠
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 5%
-
 ---
-
 
 # 图层堆叠
 
 ![](../../assets/layer-stack.png)
 
-使用&#x200B;**图层堆叠**&#x200B;可以操作纹理集的图层。 图层包含绘画和各种效果，可在场景中的3D对象上创建纹理。 您可以隐藏和取消隐藏图层，将它们放入文件夹中并更改其不透明度和混合模式。
+使用&#x200B;**图层堆叠**&#x200B;可以操作纹理集的图层。 图层包含绘画和效果，这些效果将在场景中的3D对象上创建纹理。 您可以隐藏和取消隐藏图层，将它们放入文件夹中并更改其不透明度和混合模式。
 
 有关其他信息，请参阅以下页面：
 
@@ -35,7 +27,7 @@ ht-degree: 5%
 
 ## 概述
 
-图层栈叠以特定层次结构显示图层：底部的图层将首先在网格上绘制，顶部的图层将随后绘制。 因此，位于栈栈顶部的图层是最后一个项目，而位于最底部的图层是第一个项目。 同样的原则也适用于文件夹，但文件夹的内容优先。 这意味着文件夹的内容将在同级图层之前处理。
+图层堆叠显示具有特定层次结构的图层：底部的图层将首先在网格上绘制，顶部的图层随后绘制。 因此，堆叠顶部的图层是最后一个项目，而最底部的图层是第一个项目。 同样的原则也适用于文件夹，但文件夹的内容优先。 这意味着文件夹的内容将在同级图层之前处理。
 
 **常见特征：**
 
@@ -45,7 +37,7 @@ ht-degree: 5%
 
 **图层的类型：**
 
-* **绘画图层** ：此类型的图层可以使用画笔和粒子进行绘画
+* **绘画图层** ：此类型的图层可以使用画笔和粒子进行绘制
 * **填充图层** ：无法在此图层上绘制，您可以将材料加载到其中来填充通道。 （例如，也可以通过操控变换来重复材料。）
 * **文件夹** ：此类型的图层仅用于包含其他图层，主要用于整理图层堆叠
 

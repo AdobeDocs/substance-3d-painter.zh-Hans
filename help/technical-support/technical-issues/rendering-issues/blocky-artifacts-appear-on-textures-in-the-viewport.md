@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何修复视口中显示在纹理上的块状伪影，以实现干净的视觉质量。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Rendering Issues > Blocky artifacts appear on textures in the viewport
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 视口中的纹理上出现块状伪像
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
-
 ---
-
 
 # 视口中的纹理上出现块状伪像
 
-从版本2018.3.0开始，视区中可能会显示以下种类的对象：
+从版本2018.3.0开始，视口中可能会出现以下种类的伪像：
 
 ![](../../../assets/viewport-artifacts.jpg){width="400px"}
 
@@ -31,7 +23,7 @@ GeForce **驱动程序440.97**&#x200B;现在&#x200B;**已修复此问题** 。 �
 
 Nvidia网站<https://www.nvidia.com/Download/index.aspx>上提供了新的驱动程序
 
-## 禁用稀疏虚拟纹理硬件加速
+## 禁用Sparse Virtual Texture硬件加速
 
 ### 1 — 启动Substance 3D Painter并打开设置
 
@@ -39,7 +31,7 @@ Nvidia网站<https://www.nvidia.com/Download/index.aspx>上提供了新的驱动
 
 通过“编辑”>“设置”打开主要设置。
 
-### 2 — 查找名为“稀疏虚拟纹理”的部分
+### 2 — 查找名为“Sparse Virtual Texture”的部分
 
 ![](../../../assets/svt-subsection.png)
 

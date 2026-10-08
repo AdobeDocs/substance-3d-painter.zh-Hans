@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何修复由虚拟内存不足导致的崩溃，以确保稳定的应用程序性能。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash with low virtual memory
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 虚拟内存不足的崩溃
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
-
 ---
-
 
 # 虚拟内存不足的崩溃
 

@@ -1,45 +1,37 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中直接绘画ambient occlusion地图，向纹理添加逼真的阴影和深度。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Ambient Occlusion Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: ambient occlusion绘画
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
-
 ---
-
 
 # ambient occlusion绘画
 
-环境遮蔽通道允许在对象的环境阴影中绘制细节。 它可用于添加来自材料的AO详细信息，或者在需要时仅手动修复烘焙错误。
+ambient occlusion通道允许绘画对象周围阴影中的细节。 它可用于添加来自材料的AO详细信息，或者在需要时仅手动修复烘焙错误。
 
-&#x200B;>> 
+>> 
 
 在计算机图形学中，ambient occlusion是一种用于计算场景中每个点与环境光照的公开程度的着色和渲染技术。 管子的内部通常比公开的外表面更被遮盖（因此更暗），并且管子内部越深，照明变得越被遮盖（且更暗）。 ambient occlusion可视为为每个表面点计算的辅助功能值。\
 资料来源：&lt;https://en.wikipedia.org/wiki/Ambient_occlusion>
 
 此计算的&#x200B;**结果**&#x200B;存储在名为“Ambient occlusion”映射的位图中。 可以在应用程序中直接烘焙此映射，请参阅： [烘焙](../../baking/baking.md)。
 
-## 绘制环境遮蔽
+## 绘画Ambient occlusion
 
 要绘画自定义遮蔽详细信息，需要Ambient occlusion渠道。 可以通过[纹理集设置](../../interface/texture-set/texture-set-settings.md)添加它：
 
 ![](../../assets/add-ao-channel.png)
 
-将通道添加到纹理集后，任何图层都可用于绘制新信息。 由于AO通道仅包含灰度信息，因此推荐的混合模式为&#x200B;**正常**（绘画结束）和&#x200B;**正片叠底**（合并）。
+将通道添加到纹理集后，可使用任何图层来绘画新信息。 由于AO通道仅包含灰度信息，因此推荐的混合模式为&#x200B;**正常**（绘画结束）和&#x200B;**正片叠底**（合并）。
 
 要详细了解这些混合模式以及如何按通道更改它们，请参阅： [混合模式](../../interface/layer-stack/blending-modes.md)。
 
-## 在环境遮蔽上绘制附加映射
+## 在Ambient occlusion上绘制其他地图
 
 在某些情况下，在烘焙的Ambient occlusion上绘画可能会很有用，以便隐藏详细信息甚至修复烘焙问题。
 

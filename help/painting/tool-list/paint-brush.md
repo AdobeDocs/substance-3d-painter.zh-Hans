@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/paint-brush.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用Substance 3D Painter中的绘画画笔工具，通过可自定义的画笔设置将纹理直接绘画到3D模型上。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Paint brush
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 绘画画笔
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
-
 ---
-
 
 # 绘画画笔
 
@@ -68,17 +60,17 @@ ht-degree: 1%
 | --- | --- |
 | **大小** | 控制画笔描边内的图章将有多大。 画笔大小是相对的，可根据中定义的相对空间而变化（请参阅下面的“对齐大小空间”参数）。 *此参数可以由笔压力控制。* |
 | **流量** | 画笔描边内各个图章的强度或不透明度。 *此参数可以由笔压力控制。* |
-| **笔触不透明度** | 画笔描边的最大全局不透明度。 与“流量”参数相反，“笔触不透明度”不能通过“笔压力”来控制，因为它是在笔触绘制过程结束时应用的。流量和描边不透明度之间的差异：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>左侧</strong> ：流量为50%，描边不透明度为100%</li><li data-preserve-html="true"><strong>右侧</strong> ：流量为100%，笔触不透明度为50%</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-combined.gif" width="500px"/></div> **注意：**&#x200B;通过按下快捷键“A”，可以像上面的动画中一样继续上一个描边。 |
+| **笔触不透明度** | 画笔描边的最大全局不透明度。 与“流量”参数相反，“笔触不透明度”不能通过“笔压力”来控制，因为它是在笔触绘制过程结束时应用的。流量和描边不透明度之间的差异：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>左侧</strong> ：流量为50%，描边不透明度为100%</li><li data-preserve-html="true"><strong>右侧</strong> ：流量为100%，笔触不透明度为50%</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-combined.gif" width="500px"/></div> **注意：**&#x200B;可以按快捷键“A”继续上一个描边，如上面的动画所示。 |
 | **间距** | 画笔描边各个图章之间的距离。 使用较小的值，可以创建连续的线条，但由于总共绘制的图章要多得多，因此计算的范围更广。 较高的值允许在图章之间创建间隙，该间隙可能更适合特定图案（如木上的钉子）。 |
 | **角度** | 画笔描边内图章的方向。 如果对齐不正确，旋转Alpha非常有用。 可与“跟随路径”组合使用。 |
-| **跟随路径** | 定向画笔描边内的图章以遵循绘画方向。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r6-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/follow-path-demo.png" width="400px"/></div> **注意：**&#x200B;要计算描边方向，Substance 3D Painter会将上一个图章与当前图章进行比较，这就是启用“跟随路径”后，单击一次绘制不会产生任何结果的原因。 启用此功能后，绘画画笔笔触需要至少两个图章。 |
+| **跟随路径** | 定向画笔描边内的图章以遵循绘画方向。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r6-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/follow-path-demo.png" width="400px"/></div> **注意：**&#x200B;要计算描边方向，Substance 3D Painter会将上一个图章与当前图章进行比较，这就是启用“跟随绘画”后，单击一次路径不会产生任何结果的原因。 启用此功能后，绘画画笔笔触需要至少两个图章。 |
 | **大小抖动** | 在画笔描边内对每个图章应用随机大小值。 值为0表示无随机性，值为1表示完全随机性。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r7-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-size-3.png"/></div> |
 | **流抖动** | 在画笔描边内对每个图章应用随机流值。 值为0表示无随机性，值为1表示完全随机性。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r8-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-flow.png"/></div> |
 | **角度抖动** | 在画笔描边内对每个图章应用随机附加旋转角度。 值为0表示无随机性，值为1表示完全随机性。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r9-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-rotation.png"/></div> |
 | **位置抖动** | 在画笔描边内对每个图章应用随机位置偏移。 值为0表示无随机性，值为1表示完全随机性。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r10-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-position.png"/></div> |
-| **对齐** | 确定画笔描边内的图章在3D 网格表面上的投影/取向方式。 以下值可用：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>相机</strong> ：将图章方向调整为视口视角</li><li data-preserve-html="true"><strong>正切`\|`绕排（默认） </strong> ：调整图章方向以与3D 网格表面对齐。 印章也将变形以符合表面。</li><li data-preserve-html="true"><strong>正切`\|`平面</strong> ：调整图章方向以与3D 网格表面对齐。 图章的边框将渐隐到3D网格表面以外的位置。 </li><li data-preserve-html="true"><strong>UV</strong> ：根据3D 网格UV确定图章方向。</li></ul> |
-| **背面剔除** | 允许忽略3D网格上未与图章对齐的曲面。 为了计算3D 网格的哪些部分应被忽略，绘画引擎查看3D 网格表面的法线，并将其角度与定义的值进行比较。 |
-| **大小空间** | 控制计算画笔大小的相对空间。 可能的值为：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>对象（默认） </strong> ：画笔大小与3D 网格大小同步。 在视口中移动相机将影响其相对于3D 网格的大小。</li><li data-preserve-html="true"><strong>视区</strong> ：画笔大小已链接到视区。 调整界面大小将会影响画笔大小。 移动相机不会产生任何效果。</li><li data-preserve-html="true"><strong>纹理</strong> ：画笔大小链接到2D视口缩放级别。</li></ul> |
+| **对齐** | 确定画笔描边内的图章在3D 网格表面上的投影/取向方式。 以下值可用：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>相机</strong> ：将图章方向调整为视口视角</li><li data-preserve-html="true"><strong>正切`\|`绕排（默认） </strong> ：调整图章方向以与3D 网格表面对齐。 印章也将变形以符合表面。</li><li data-preserve-html="true"><strong>正切`\|`平面</strong> ：调整图章方向以与3D 网格表面对齐。 邮票的边框将会渐隐到3D 网格表面距离太远。 </li><li data-preserve-html="true"><strong>UV</strong> ：根据3D 网格UV确定图章方向。</li></ul> |
+| **背面消隐** | 允许忽略3D 网格上未与图章对齐的曲面。 为了计算3D 网格的哪些部分应被忽略，绘画引擎查看3D 网格表面的法线，并将其角度与定义的值进行比较。 |
+| **大小空间** | 控制计算画笔大小的相对空间。 可能的值为：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>对象（默认） </strong> ：画笔大小与3D 网格大小同步。 在视口中移动相机将影响其相对于3D 网格的大小。</li><li data-preserve-html="true"><strong>视口</strong> ：画笔大小已链接到视口。 调整界面大小将会影响画笔大小。 移动相机不会产生任何效果。</li><li data-preserve-html="true"><strong>纹理</strong> ：画笔大小链接到2D视口缩放级别。</li></ul> |
 
 ## Alpha
 
@@ -113,14 +105,14 @@ Alpha是应用于画笔描边内每个图章的灰度蒙版。 它可以是Subst
 > 
 > ![](../../assets/stencil-reset.png)
 
-| *模式* | *视区* |
+| *模式* | *视口* |
 | --- | --- |
 | **未加载资源** | 未加载任何资源时，模板无效。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-none.png" width="350px"/></div> **注意：**&#x200B;可以暂时禁用模板蒙版，而无需通过按并保持[快捷方式](../../interface/settings/shortcuts.md)“N”来移除资源。 |
-| **移动模板** | 按&#x200B;**S**&#x200B;键并使用&#x200B;**鼠标中键**&#x200B;单击并拖动，即可移动模板。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-move.gif" width="350px"/></div> |
+| **移动模板** | 按下&#x200B;**S**&#x200B;键并使用&#x200B;**鼠标中键**&#x200B;单击并拖动，即可移动模板。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-move.gif" width="350px"/></div> |
 | **旋转模板** | 按&#x200B;**S**&#x200B;键并使用&#x200B;**鼠标左键**&#x200B;单击并拖动，即可旋转模板。 此外，按&#x200B;**Shift**&#x200B;键允许每&#x200B;**90度**&#x200B;捕捉一次旋转。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-rotate.gif" width="350px"/></div> |
 | **调整模板大小** | 通过按&#x200B;**S**&#x200B;键并使用&#x200B;**鼠标右键**&#x200B;单击并拖动，可以调整模板大小。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-resize.gif" width="350px"/></div> |
 
-拼贴模式设置控制如何在视口上重复模板蒙版（此设置还会影响纹理化）：
+拼贴模式设置控制模板蒙版在视口上的重复方式（此设置还会影响纹理效果）：
 
 | *拼贴模式* | *描述* |
 | --- | --- |

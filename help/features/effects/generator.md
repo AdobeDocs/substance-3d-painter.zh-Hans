@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中使用生成器效果自动创建程序化纹理和图案。
-helpx_creative_field: ''
-helpx_description: Painter > Features > Effects > Generator
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: 生成器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
-
 ---
-
 
 # 生成器
 
@@ -47,7 +39,7 @@ ht-degree: 0%
 ![](../../assets/generators/generator_spectrum.png)
 
 每个生成器都有一组参数，用于微调生成的蒙版。\
-若要在工具架中添加自定义生成器，请参阅： [向工具架添加内容](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+若要在工具架中添加自定义生成器，请参阅： [向工具架添加内容](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 >[!NOTE]
 >
