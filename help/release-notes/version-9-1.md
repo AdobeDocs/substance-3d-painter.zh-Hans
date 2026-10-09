@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/version-9-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本9.1的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 9.1 adds tangent control for the Path tool, support of the SVG file format, the ability to import and apply resources by drag and drop and support for translucency in the viewport.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本9.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 0%
-
 ---
-
 
 # 版本9.1
 
@@ -120,7 +112,7 @@ SVG文件非常适用于精确地表示徽标或形状，同时重量非常轻�
 
   * <b>自定义喷涂绘画</b>：允许模拟单个输入图像在墙上绘制的贴花。
   * <b>自定义贴纸</b>：在表面创建塑料贴纸。 它具有多种设置以模拟损坏和折叠。
-  * <b>图形到材质</b>：允许通过单个图像输入创建多个材质属性。 将SVG文件拖放到视区中时，会自动插入此资源。 此资源提供了一种跨多个渠道共享其输入透明度的简单方法，使其非常适合简单的贴花。
+  * <b>图形到材料</b>：允许从单个图像输入创建多个材料属性。 将SVG文件拖放到视口中时，会自动插入此资源。 此资源提供了一种跨多个渠道共享其输入透明度的简单方法，使其非常适合简单的贴花。
 
   ![SVG资源图标](../assets/v91_svg_resources.png)
 
@@ -136,9 +128,9 @@ SVG文件非常适用于精确地表示徽标或形状，同时重量非常轻�
 
 此版本允许将外部文件拖放到应用程序的不同上下文中以自动导入并使用资源。 这个新流程允许跳过与导入文件相关的繁琐步骤。
 
-* <b>通过拖放到视口导入</b>
+* <b>通过拖放导入视口</b>
 
-  将外部文件拖放到视口中，以便能够将其直接放在网格上。 此操作将自动创建新图层。 根据资源的性质（图像、Substance素材、Substance筛选等） 结果将相应调整。
+  将外部文件拖放到视口中，以便能够将其直接放在网格上。 此操作将自动创建新图层。 根据资源的性质（图像、材料、Substance筛选等） 结果将相应调整。
 * <b>通过拖放导入图层堆叠</b>\
   与将外部资源文件拖放到视口中的方式相同，将文件拖放到图层堆叠中允许直接创建包含其中的资源的图层或效果。
 * <b>通过拖放到资源插槽中导入</b>

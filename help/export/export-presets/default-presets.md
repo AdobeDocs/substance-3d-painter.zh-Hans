@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解Substance 3D Painter中的默认输出模板，以了解标准导出配置和格式。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export presets > Default Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 默认输出模板
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
-
 ---
-
 
 # 默认输出模板
 
@@ -48,12 +40,12 @@ ht-degree: 0%
 | <b> PBR光泽度（从金属粗糙度</b>转换） | 转换“基色”、“金属”和“粗糙度”通道，使其与“Specular/彩色”工作流程兼容。 |
 | <b> Redshift </b> | Redshift渲染器的预设。 |
 | <b>Renderman (pxrDisney)</b> | 使用金属和粗糙度映射的渲染人预设。 |
-| <b>Renderman (pxrSurface)</b> | 使用扩散和Specular映射的渲染器预设。 |
+| <b>Renderman (pxrSurface)</b> | 使用Diffuse和Specular映射的Renderman预设。 |
 | <b>Roblox (MaterialVariant)</b> | Roblox预设使用反照率但没有Alpha支持。 |
 | <b>Roblox (SurfaceAppearance)</b> | 将颜色映射与Alpha 通道结合使用，可实现Roblox的预设。 |
 | <b>阴影3D </b> | 阴影3D的预设。 |
 | <b>Spark AR Studio</b> | Spark AR Studio的预设。 |
-| <b>Unity HD渲染管道（金属标准）</b> | 使用金属色和光泽度映射的Unity高清渲染管道预设。 |
+| <b>Unity HD渲染管道（金属标准）</b> | 使用金属和光泽度映射的Unity高清渲染管道的预设。 |
 | <b>Unity HD渲染管道(Specular)</b> | 添加了Specular映射的Unity HD渲染管道预设。 |
 | <b>Unity通用渲染管道（金属标准）</b> | 使用金属和Smoothness映射的Unity通用渲染管道的预设。 |
 | <b>Unity通用渲染管道(Specular)</b> | 使用Specular和Smoothness映射的Unity通用渲染管道的预设。 |

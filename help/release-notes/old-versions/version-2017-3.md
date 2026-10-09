@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本2017.3的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本2017.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 
 # 版本2017.3
 
@@ -26,11 +18,11 @@ ht-degree: 0%
 
 ## 主要功能
 
-### Adobe标准素材导出预设
+### Adobe Standard Material导出预设
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-此版本中包括的一个新导出器是对Adobe Standard Material的支持，可与Adobe Dimension（以前AdobeProject Felix）一起使用。 我们允许您通过一键导出要导入Project Felix的场景网格及其纹理。 要访问它，只需在导出纹理窗口中选择“**Adobe Standard Material**”即可。 有关详细信息，请参阅： [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
+此版本中包括的一个新导出器是对Adobe Standard Material的支持，可与Adobe Dimension（以前AdobeProject Felix）一起使用。 我们允许您一键导出网格及其纹理，以便导入Project Felix。 要访问它，只需在导出纹理窗口中选择“**Adobe Standard Material**”即可。 有关详细信息，请参阅： [http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)
 
 你也可以查看我们关于它的博客帖子： <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -38,7 +30,7 @@ ht-degree: 0%
 
 ![](../../assets/gltf-export.jpg)
 
-我们还添加了对&#x200B;**glTF**&#x200B;文件格式的支持，导出了&#x200B;**场景网格**&#x200B;和&#x200B;**PBR纹理**（金属/粗糙度）。 要访问它，只需在导出纹理窗口中选择“**glTF PBR Metal粗糙度**”即可。 **glTF**&#x200B;是由Khronos组指导的开源文件格式。 您可以在&#x200B;**Windows 10**&#x200B;中查看您的glTF文件，或者直接使用WebGL查看器，例如&#x200B;[**Babylon**](http://sandbox.babylonjs.com/)。
+我们还添加了对&#x200B;**glTF**&#x200B;文件格式的支持，导出了&#x200B;**网格**&#x200B;和&#x200B;**PBR纹理**(金属/粗糙度)。 要访问它，只需在导出纹理窗口中选择“**glTF PBR Metal粗糙度**”即可。 **glTF**&#x200B;是由Khronos组指导的开源文件格式。 您可以在&#x200B;**Windows 10**&#x200B;中查看您的glTF文件，或者直接使用WebGL查看器，例如&#x200B;[**Babylon**](http://sandbox.babylonjs.com/)。
 
 有关详细信息，请参阅： <https://github.com/KhronosGroup/glTF>
 
@@ -97,19 +89,19 @@ ht-degree: 0%
 * [UI]改进新版本对话框并添加更改日志
 * [UI]在新版本对话框中指示维护是否已过期
 * [许可证]更新许可证系统以处理维护日期
-* [导出]将Adobe标准素材重命名为Adobe Dimension
+* [导出]将Adobe Standard Material重命名为Adobe Dimension
 
 **已修复：**
 
-* [Mac]绘画会导致黑色方块和纹理损坏
-* [引擎]缓存有时可能会在视区中消失
-* [引擎]内存压缩触发器时出现块状伪像
-* [烘焙]烘焙特定网格时出现奇怪的错误消息
+* [Mac]绘画导致黑场和纹理损坏
+* [引擎]缓存有时可能会在视口中消失
+* [引擎]内存压缩触发时出现块状伪像
+* [烘焙]烘焙特定网格时出现异常错误消息
 * [导出]PSD写入错误，Photoshop无法正确识别
 * [图层]不应跨多个项目复制/粘贴图层
 * [Substance]在某些情况下，常规输入的UserData色彩空间会翻转
-* [托架]生成器中的微法线输出反向曲率
-* [托架] HSL滤镜也会影响Alpha通道
+* [工具架]生成器中的微法线输出反转弯曲
+* [工具架] HSL滤镜也会影响Alpha 通道
 * [Linux]由于缺少依赖项，在Centos上安装失败
 * 在某些情况下，安装程序不会从以前的安装中删除所有资源
 

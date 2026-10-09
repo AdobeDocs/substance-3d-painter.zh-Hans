@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解Substance 3D Painter中的网格和UV设置最佳实践以优化性能和纹理质量。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Performances guidelines > Mesh and UV setup
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 网格和UV设置
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
-
 ---
-
 
 # 网格和UV设置
 
@@ -28,19 +20,19 @@ Painter可以处理的多点计数没有特定的基准，因为它主要取决�
 +++
 
 +++低多角数模型
-有这么一个东西，多边形太低。 这是因为纹理引擎使用多边形来了解应渲染网格的哪个部分来计算画笔笔触。 即使具有可能导致GPU不必要的过度工作的细小画笔描边，具有极低多角计数的网格也可以完全重新渲染。
+有这么一个东西，多边形太低。 这是因为引擎使用多边形来了解应渲染网格的哪个部分来计算画笔描边。 即使具有可能导致GPU不必要的过度工作的细小画笔描边，具有极低多角计数的网格也可以完全重新渲染。
 
 例如，如果对单个四边形平面进行纹理化，则最好再细分网格，尤其是在用大量描边进行手绘时，因为信息会分散到更多顶点上。
 
 +++
 
 +++跨多个分开纹理
-最好将具有较复杂材料分配的较大网格拆分为多个纹理集。 纹理集允许您为每个纹理集分配不同的设置，例如分辨率和着色器属性。 例如，如果仅网格的一部分使用半透明或SSS，则最好为该部分指定另一个“纹理集”和不同的着色器实例。 这样，这些更复杂的属性就不必在未使用的位置进行计算。
+最好将具有较复杂材料分配的较大网格拆分为多个纹理集。 纹理集允许您为每个纹理集分配不同的设置，例如分辨率和着色器属性。 例如，如果只有网格的一部分使用translucency或SSS，则最好为该部分分配另一个纹理集和另一个着色器实例。 这样，这些更复杂的属性就不必在未使用的位置进行计算。
 
 +++
 
 +++保持UV 岛紧密相连
-尝试将3D空间中的邻居UV 岛保持在一起。 这适用于UDIM布局和传统UV空间布局。 如果它们共享绘画描边或纹理工具，则当它们挤在UV空间的同一区域中时更容易计算它们，而不是当它们位于相对端时。
+尝试将3D空间中的邻居UV 岛保持在一起。 这适用于UDIM布局和传统UV空间布局。 如果它们具有绘画描边或纹理共享，则当它们挤在UV空间的同一区域中时更容易计算它们，而不是当它们处于相反端时。
 
 引擎的工作原理是将纹理分为较小的块，以加快计算。 这意味着每个笔触仅更新需要更改的块，而不是使用每个笔触更新整个纹理。 通过将相邻UV 岛保持相互靠近，它将受单个描边影响的块数量减至最少。
 

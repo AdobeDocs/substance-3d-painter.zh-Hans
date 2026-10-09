@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-7-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本7.2的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本7.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2333'
 ht-degree: 1%
-
 ---
-
 
 # 版本7.2
 
@@ -93,7 +85,7 @@ ht-degree: 1%
   * 镜面边缘颜色
   * 8到15个用户渠道
 
-* **改进的纹理集设置**\
+* **改进了纹理集设置**\
   现在，“纹理集设置”中的“声道列表”菜单根据声道与当前着色器的兼容性对声道进行分组。 这有助于确定哪些声道将在视口中生效。
 
   ![](../../assets/channel-list-grouping.png)
@@ -206,7 +198,7 @@ ht-degree: 1%
 
 **已添加：**
 
-* [Libraries]用于更换架子的新资源面板
+* [库]用于替换工具架的新资源面板
 * [库]&#x200B;[UI]新的“资源”面板布局
 * [库]&#x200B;[UI]更改默认资源面板方向和UI
 * [Libraries]&#x200B;[UI]将列表视图选项引入库
@@ -233,26 +225,26 @@ ht-degree: 1%
 * [纹理集设置]用户通道限制增加到16条
 * [纹理集设置]&#x200B;[UI]指示哪些声道与当前选定的着色器兼容
 * [着色器]&#x200B;[ASM]新Adobe Standard Material着色器
-* [Shader]&#x200B;[ASM]增加了对各向异性、透明涂层、次表面散射、Specular edge color和光泽的支持
-* [Shader]&#x200B;[ASM]更改默认通道的颜色值
-* [Shader]&#x200B;[ASM]&#x200B;[Export]更新了Adobe Dimension到Adobe Substance 3D Stager的导出模板
-* [Shader]&#x200B;[ASM]添加了着色器和MDL参数的标签和工具提示
-* [Shader]&#x200B;[ASM]即使不支持SSS，也要使散点颜色在2D视图中可见
-* [Shader]&#x200B;[ASM]&#x200B;[Iray]支持使用新MDL的Iray中的ASM着色器
-* [着色器]&#x200B;[ASM]&#x200B;[射线]更新了旧版PBR规范光泽和铜版纸中的子表面散射
-* [Shader]&#x200B;[ASM]&#x200B;[Content]更改了示例的默认SSS类型
-* [Shader]&#x200B;[ASM]添加了有关ASM API的文档
+* [着色器]&#x200B;[ASM]增加了对各向异性、透明外套、次表面散射、Specular edge color和光泽的支持
+* [着色器]&#x200B;[ASM]更改默认通道的颜色值
+* [着色器]&#x200B;[ASM]&#x200B;[导出]更新了Adobe Dimension到Adobe Substance 3D Stager的导出模板
+* [着色器]&#x200B;[ASM]添加了着色器和MDL参数的标签和工具提示
+* [着色器]&#x200B;[ASM]即使不支持SSS，也使散点颜色在2D 视图中可见
+* [着色器]&#x200B;[ASM]&#x200B;[Iray]支持使用新MDL的Iray中的ASM着色器
+* [着色器]&#x200B;[ASM]&#x200B;[Iray]更新了旧版PBR规范光泽和铜版纸中的次表面散射
+* [着色器]&#x200B;[ASM]&#x200B;[内容]更改了示例的默认SSS类型
+* [着色器]&#x200B;[ASM]添加了有关ASM API的文档
 * [着色器]&#x200B;[ASM]优化着色器以忽略未使用的通道
-* [Shader]显示新的纹理集通道
-* [着色器]改进的次表面散射
-* [着色器]为某些着色器隐藏了新的着色器参数
+* [着色器]公开新的纹理集渠道
+* [着色器]改进了次表面散射
+* [着色器]隐藏了一些着色器的新着色器参数
 * [着色器]对于着色器参数可见
 * [性能]
 * [Libraries]资源预览加载时间和计算性能改进
 * [引擎]绘画性能改进
 * [自动展开]打包性能改进
 * [自动展开]
-* [自动展开]自动展开与UV图块工作流程兼容
+* [自动展开]自动展开与UV 平铺工作流程兼容
 * [自动展开]根据网格方向放置UV的新选项
 * [其他]
 * [设置]更改了默认缩放方向
@@ -261,7 +253,7 @@ ht-degree: 1%
 * [UI]替换反转图标
 * [UI]&#x200B;[插件]替换插件dcc链接的图标
 * [UI]&#x200B;[AMD]更新所需的最低版本和弹出消息
-* [图层栈栈]在选定的空文件夹内创建新图层
+* [图层堆叠]在选定的空文件夹内创建新图层
 * 更新Python文档
 * [品牌]
 * [品牌推广]&#x200B;[UI]应用程序名称已更新为Adobe Substance 3D Painter

@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中修复模糊的视口和纹理，以确保清晰、锐利的视觉品质。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Viewport Issues > Viewports and textures are blurry or lack sharpness
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: 视区和纹理模糊或缺乏锐度
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: 视口和纹理模糊或缺乏锐度
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 1%
-
 ---
 
-
-# 视区和纹理模糊或缺乏锐度
+# 视口和纹理模糊或缺乏锐度
 
 视口可能由于各种原因而显得模糊。
 

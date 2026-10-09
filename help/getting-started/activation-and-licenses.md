@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/activation-and-licenses.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何激活Substance 3D Painter并管理许可证以开始使用应用程序进行纹理绘画。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Activation and licenses
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 激活和许可证
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 1%
-
 ---
-
 
 # 激活和许可证
 

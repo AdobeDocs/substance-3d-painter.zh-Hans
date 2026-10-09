@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/interface/miscellaneous/log.html'
 breadcrumb-title: ''
 description: 了解如何访问和使用Substance 3D Painter中的“日志”窗口查看应用程序消息和调试信息。
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Miscellaneous > Log
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: 日志
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3e4ef9bd5897f042b01d6c0819ec06cc21ba208a
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 2%
-
 ---
-
 
 # 日志
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 访问Substance 3D Painter的像素化着色器 API参考以创建自定义像素化渲染效果。
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Pixelated - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 像素化 — 着色器 API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
-
 ---
-
 
 # 像素化 — 着色器 API
 
@@ -45,7 +37,7 @@ uniform vec3 camera_pos;
 ```
 
 
-我们&#x200B;**绑定**&#x200B;文档的通道&#x200B;**基色**&#x200B;到统一的&#x200B;**basecolor\_tex**。
+我们&#x200B;**绑定**&#x200B;文档的通道&#x200B;**base color**&#x200B;到我们的统一通道&#x200B;**basecolor\_tex**。
 
 ```
 //: param auto channel_basecolor 

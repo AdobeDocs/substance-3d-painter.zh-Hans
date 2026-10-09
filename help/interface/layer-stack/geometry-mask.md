@@ -1,33 +1,25 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/layer-stack/geometry-mask.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用几何蒙版来根据网格几何和表面属性蒙版图层。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Geometry mask
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 几何蒙版
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 1%
-
 ---
-
 
 # 几何蒙版
 
 ![](../../assets/geometry-mask.png)\
-几何图形蒙版是图层上的辅助蒙版，它允许基于关联纹理集的3D模型几何图形来蒙版图层。 它可以按网格名称或UV磁贴进行蒙版。
+几何图形蒙版是图层上的辅助蒙版，它允许基于关联纹理集的3D模型几何图形来蒙版图层。 它可以按网格名称或UV 平铺进行遮盖。
 
 ## 概述
 
 几何蒙版的工作方式是指定图层应通过包含/排除列表应用于3D模型的哪个部分。
 
-几何蒙版是快速丢弃3D模型几何大片区域的有用工具。 它为绘画蒙版提供了几个优点：
+几何蒙版是快速丢弃3D模型几何大片区域的有用工具。 它为绘画蒙版提供了以下几项优势：
 
 * 设置和使用与视口选择模式结合使用通常会更快一些。
 * 在生成纹理时，由于可以完全放弃几何，因此它提供了更好的性能。
@@ -41,7 +33,7 @@ ht-degree: 1%
 
 | 图标 | 描述 |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/geo-mask-icon-default.png"/></div> | 未排除任何几何，图层将应用于关联纹理集的整个网格。这是任何新图层或文件夹的默认状态。 |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/geo-mask-icon-default.png"/></div> | 未排除任何几何，图层将应用于相关纹理集的整个网格。这是任何新图层或文件夹的默认状态。 |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/geo-mask-icon-selection.png"/></div> | 已排除一个或多个网格名。 编号指示图层仍然影响的剩余元素的数量。 |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/geo-mask-icon-uvtiles.png"/></div> | 已排除一个或多个UV 平铺。 编号指示图层仍然影响的剩余元素的数量。 |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/geo-mask-icon-empty.png"/></div> | 不包括网格名称，图层将不具有任何实际效果。 |

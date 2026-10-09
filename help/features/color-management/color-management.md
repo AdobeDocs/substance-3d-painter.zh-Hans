@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/color-management.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中配置色彩管理，以确保整个工作流程中的色彩准确一致。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Color management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 色彩管理
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 4%
-
 ---
-
 
 # 色彩管理
 
@@ -34,7 +26,7 @@ ht-degree: 4%
 
 色彩管理设置：
 
-* [使用AdobeACE - ICC进行色彩管理](color-management-with-adobe-ace-icc.md)
+* [使用ACE - ICC进行色彩管理](color-management-with-adobe-ace-icc.md)
 * [使用OpenColorIO进行色彩管理](color-management-with-opencolorio.md)
 
 ## 词汇

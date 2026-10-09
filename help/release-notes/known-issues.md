@@ -1,16 +1,10 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: 查看Substance 3D Painter的已知问题，了解最新版本中的当前限制和解决方法。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 已知问题
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -129,4 +123,4 @@ ht-degree: 0%
 * `[Crash]`在功能区中创建超长文本可以崩溃
 * `[Crash]`设备在烘焙中丢失后返回绘画模式
 * `[Crash]`取消映射导出后退出Painter
-* `[Crash]`导出带有相机名称中某些特殊符号的网格
+* `[Crash]`正在导出网格名中包含一些特殊符号的相机

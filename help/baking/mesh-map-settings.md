@@ -1,26 +1,18 @@
 ---
-helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/baking/mesh-map-settings.html'
 breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中配置网格图设置，以控制烘焙参数和输出质量。
-helpx_creative_field: ''
-helpx_description: Substance 3D Painter
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
+description: 了解如何在Substance 3D Painter中配置网格图设置，以控制烘焙参数和输出品质。
 title: 网格图设置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 9%
-
 ---
-
 
 # 网格图设置
 
-<b>网格图设置面板</b>在烘焙模式下可用，具有用于准备网格以进行烘焙的控件。 要调整给定映射的网格映射设置，请在<b>网格映射烘焙器面板</b>中选择该映射。 每个网格图可以有不同的可用设置。 “Baker”面板顶部提供了一个由所有网格图共享的<b>常用设置</b>的集合。
+<b>网格图设置面板</b>在烘焙模式下可用，具有用于准备网格以进行烘焙的控件。 要调整给定地图的网格图设置，请在<b>网格图Baker面板</b>中选择该地图。 每个网格图可以有不同的可用设置。 “Baker”面板顶部提供了一个由所有网格图共享的<b>常用设置</b>的集合。
 
 跨网格图共享的任何设置都将显示在“常用设置”页面上，而不是显示在每个单独的网格图上。
 
@@ -43,7 +35,7 @@ ht-degree: 9%
 | 使用低模网格作为高模网格 | 启用此设置后，将根据项目烘焙映射。 |
 | High definition meshes | 将高多边形网格添加到您的项目中，以从高模网格制作到项目中的低模网格上。 可以导入多个网格。 |
 | 包裹 | 确定如何生成笼子。<ul data-preserve-html="true"> <li data-preserve-html="true">基于距离：将顶点膨胀到远离网格的均匀距离，以跨模型创建笼子。</li> <li data-preserve-html="true">自动（实验性）：Painter将分析您的网格并自动生成笼子，尝试在不创建相交的情况下将笼子保持靠近表面，以获得最佳效果。</li> <li data-preserve-html="true">自定义文件：导入已创建用作笼子的文件。 请注意，导入文件的顶点数量必须与基本网格相同，才能正常工作。</li> </ul> |
-| 忽略背面 | 切换是否在烘焙时忽略背面。 这有助于减少伪影，但在某些边缘情况下也会导致错误。 |
+| 忽略背面 | 切换在烘焙时是否忽略返回脸部。 这有助于减少伪影，但在某些边缘情况下也会导致错误。 |
 | 匹配 | 更改Baker确定在烘焙时是否包含对象的方式：<ul data-preserve-html="true"> <li data-preserve-html="true">始终：包括烘焙时在笼子中点击的所有高多边形网格。</li> <li data-preserve-html="true">按网格名称：对于每个笼子，仅使用相应的网格后缀烘焙网格。</li> </ul> |
 | 低模网格后缀 | 使用“按网格匹配”名称时，使用此后缀可定义低多边形网格。 |
 | 高模网格后缀 | 使用“按网格匹配”名称时，使用此后缀可定义高多边形网格并将它们与相应的低模网格匹配。 |

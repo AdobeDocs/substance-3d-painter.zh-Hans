@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/interface/settings/shortcuts.html'
 breadcrumb-title: ''
 description: 了解如何在Substance 3D Painter中自定义键盘快捷键，以简化您的工作流程并提高效率。
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Settings > Shortcuts
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: Shortcuts
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 4%
-
 ---
-
 
 # Shortcuts
 
@@ -98,7 +90,7 @@ ht-degree: 4%
 | **仅视口布局3D** | F2 | F2 | 将视口显示更改为仅显示3D视图。 |
 | **仅视口布局2D** | F3 | F3 | 更改视口显示以仅显示2D 视图。 |
 | **交换2D/3D视图** | F4 | F4 | 在视口视图和2DUV视图中的2D和3D视图之间切换。 |
-| **纹理集隔离** | Alt+Q | Option+Q | 通过隐藏视口中的另一个来隔离当前纹理集。 |
+| **纹理集隔离** | Alt+Q | Option+Q | 通过隐藏另一个纹理集来隔离视口中的当前文档。 |
 |  |  |  |  |
 | **使用绘画/工具** | 鼠标左移 | 鼠标左移 |  |
 | **绘制直线** | Shift +鼠标左键 | Shift +鼠标左键 |  |
@@ -106,8 +98,8 @@ ht-degree: 4%
 | **相机旋转** | Alt +鼠标左键 | Option+left |  |
 | **捕捉旋转** | Alt + Shift +鼠标左键 | Shift +⌘+鼠标左键 | 每90度角相机旋转。 |
 | **相机平移** | Alt +鼠标中键 | Option+⌘+鼠标左键 |  |
-| **相机翻译（替代）** | Ctrl+Alt+鼠标左键 |  |  |
-| **相机变焦** | Alt +鼠标右键 | 鼠标中键 |  |
+| **相机平移（备用）** | Ctrl+Alt+鼠标左键 |  |  |
+| **相机缩放** | Alt +鼠标右键 | 鼠标中键 |  |
 | **模板旋转** | S +鼠标左键 | S +鼠标左键 |  |
 | **捕捉旋转** | Shift + S +鼠标左键 | Shift + S +鼠标左键 |  |
 | **模板翻译** | S+中键 |  |  |

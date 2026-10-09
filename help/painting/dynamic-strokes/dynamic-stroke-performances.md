@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解Substance 3D Painter中的动态笔触性能注意事项，以优化画笔笔触渲染和响应。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Dynamic strokes > Dynamic Stroke Performances
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 动态描边性能
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
-
 ---
-
 
 # 动态描边性能
 

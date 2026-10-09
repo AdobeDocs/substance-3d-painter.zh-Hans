@@ -1,27 +1,19 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/content/creating-custom-effects/user-data.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何使用Substance 3D Painter自定义效果中的用户数据将自定义信息传递给着色器效果。
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > User data
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 用户数据
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 1%
-
 ---
-
 
 # 用户数据
 
 本页介绍可在图形上添加以执行特定行为的自定义属性（用户数据）。\
-用户数据设置通常应用于图形的输入或输出节点，以指示应用程序应如何解释它们。 这允许以某种方式请求输入图形以应用效果，这是已知的上下文（例如：请求特定的色彩空间），或者指示在应用程序之后需要应用额外转换时如何进行输出。
+用户数据设置通常应用于图形的输入或输出节点，以指示应用程序应如何解释这些节点。 这允许以某种方式请求输入图形以应用效果，这是已知的上下文（例如：请求特定的色彩空间），或者指示在应用程序之后需要应用额外转换时如何进行输出。
 
 * 使用数据设置定义为&#x200B;**键=值**
 * 用分号(**；**)分隔多个设置
@@ -118,10 +110,10 @@ ht-degree: 1%
 
 一些条件可能适用：
 
-* 如果标识符为&#x200B;**channels\_node**&#x200B;的输出节点存在，而其他输出Alpha没有userdata，则此节点将用作通道掩码。
+* 如果标识符为&#x200B;**channels\_node**&#x200B;的输出节点存在，而其他输出没有userdata，则将使用此节点作为通道掩码。Alpha为channels\_node。
 * 如果输出具有userdata，则只要没有&#x200B;**channels\_node** Alpha，就会将其用作通道蒙版。
 * 如果同时存在&#x200B;**channels\_node** Alpha和包含userdata的节点，则将首先使用&#x200B;**channels\_node**&#x200B;输出Alpha。
-* 如果有多个节点拥有用户数据，则应用程序找到的第一个节点将用作通道掩码。 发现输出的顺序不能保证与Substance图定义的顺序相同。
+* 如果有多个节点拥有用户数据，则应用程序找到的第一个节点将用作通道掩码。 发现输出的顺序不能保证与图形定义的顺序相同。
 
 >[!NOTE]
 >

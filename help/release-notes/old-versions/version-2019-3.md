@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本2019.3的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2019.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本2019.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '3861'
 ht-degree: 0%
-
 ---
-
 
 # 版本2019.3
 
@@ -30,14 +22,14 @@ ht-degree: 0%
 
 ![](../../assets/banner-abr.png)
 
-您现在可以在Substance Painter中使用Photoshop画笔。 只需将预设导出为ABR文件，即可将其导入为常规画笔预设。 ABR文件中包含的预设将作为单独的画笔预设显示在架中。
+您现在可以在Substance Painter中使用Photoshop画笔。 只需将预设导出为ABR文件，现在即可将其导入为常规笔刷预设。 ABR文件中包含的预设将在工具架中显示为单个笔刷预设。
 
 如果您没有可导入的ABR文件，则可以在线找到大量此类文件：
 
 * [Kyle的笔刷预设](https://www.adobe.com/cn/products/photoshop/brushes.html)
-* [ArtStation上的画笔预设](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
+* [ArtStation上的笔刷预设](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [DevicantArt笔刷预设](https://www.deviantart.com/search?q=photoshop%20brush)
-* [Cubebrush上的画笔预设](https://cubebrush.co/marketplace?categories=354,57)
+* [Cubebrush上的笔刷预设](https://cubebrush.co/marketplace?categories=354,57)
 
 为了支持Photoshop画笔，向绘画工具属性添加了各种新功能：
 
@@ -48,8 +40,8 @@ ht-degree: 0%
   为了与Photoshop的画笔行为匹配，我们添加了一些新设置。 现在可以定义将抖动应用于哪个轴以及如何分布随机位置（选择&#x200B;**一致**&#x200B;以匹配Photoshop）。\
   ![](../../assets/position-jitter-settings.png)\
   ![](../../assets/gaussian-vs-uniform.png)
-* **新的Alpha混合模式**\
-  Photoshop合成画笔描边的方式与Substance Painter不同，因此我们添加了一个新的混合模式（变亮），以更好地匹配绘画效果。 当图章重叠时，此混合模式不会过度累积，这可以改善使用低“流量/不透明度”值绘画时的压力感。\
+* **新建Alpha 值混合处理模式**\
+  Photoshop合成画笔描边的方式与Substance Painter不同，因此我们添加了一个新的混合模式(变亮（最大）)，以更好地匹配绘画效果。 当图章重叠时，此混合模式不会过度累积，这可以改善使用低“流量/不透明度”值绘画时的压力感。\
   ![](../../assets/alpha-blend-mode.png)\
   ![](../../assets/lighten-vs-normal-demo.png)
 * **支持圆度和翻转**\
@@ -62,9 +54,9 @@ ht-degree: 0%
   ![](../../assets/layer-menu.png) ![](../../assets/layer-icon.png)\
   ![](../../assets/gamma-correction-demo.png)
 * **间距和位置抖动的最大值已增加**\
-  为了正确匹配Photoshop画笔预设参数，已增加以下参数的最大值：
+  为了正确匹配笔刷预设参数，已增加以下参数的最大值：
 
-  * **间距**：最大间距现在可以设置为1000。
+  * **间距**：最大值现在可以设置为1000。
   * **位置抖动**：最大值现在可以设置为1000。
 
 有关更多信息（例如如何导出ABR文件以及如何导入它们），请查看[笔刷预设](../../painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)文档。
@@ -108,14 +100,14 @@ ht-degree: 0%
   >
   > 确保您的Wacom驱动程序是最新的，并且已在平板电脑设置中启用“Windows Ink”。
 
-### 自动UV展开（Beta版）
+### 自动展开(Beta)
 
 ![](../../assets/banner-uv-unwrap.jpg)
 
-现在，Substance Painter将自动展开缺少UV坐标的网格。 这样就可以导入任何类型的几何并立即开始绘制。 我们的展开系统将为每个子网格生成一个UV 岛，同时仍遵循材料分配以创建纹理集。 此功能当前处于测试阶段，以后版本中将继续改进。 自动展开将仅应用于&#x200B;**不使用UDIM工作流**&#x200B;的项目。
+Substance Painter现在将自动展开缺少UV坐标的网格。 这样可以导入任何类型的几何并立即开始绘画。 我们的展开系统将为每个子网格生成一个UV 岛，同时仍遵循材料分配以创建纹理集。 此功能当前处于测试阶段，以后版本中将继续改进。 自动展开将仅应用于&#x200B;**不使用UDIM工作流**&#x200B;的项目。
 
 * **自动展开**\
-  默认情况下，Substance Painter现在会自动为缺少坐标的网格生成UV坐标。 这适用于项目创建和网格重新导入。 但是，可以通过进入[主要设置](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/general-71008262.html)并在&#x200B;**导入选项**&#x200B;下禁用&#x200B;**启用自动UV解封**&#x200B;来禁用此行为。
+  默认情况下，Substance Painter现在会自动为缺少坐标的网格生成UV坐标。 这适用于项目创建和网格重新导入。 但是，可以通过进入[主要设置](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/general-71008262.html)并在&#x200B;**导入选项**&#x200B;下禁用&#x200B;**启用自动展开**&#x200B;来禁用此行为。
 
   ![](../../assets/uv-unwrap-setting.png)
 * **展开进度栏**\
@@ -127,7 +119,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在架子中添加了一个新的&#x200B;**生成器**，以帮助可视化自动展开。 要使用它，只需创建一个新图层，添加生成器效果，并将新的&#x200B;**UV检查器**&#x200B;资源加载到其中。
+> 已在工具架中添加新的&#x200B;**生成器**，以帮助可视化自动展开。 要使用它，只需创建一个新图层，添加生成器效果，并将新的&#x200B;**UV检查器**&#x200B;资源加载到其中。
 
 ### Substance集成改进
 
@@ -214,7 +206,7 @@ ht-degree: 0%
     > 这是一个非常昂贵的滤镜，可能需要一些时间进行计算。 迭代时，建议在微调下方的图层之前禁用包含该效果的图层。
 * **新笔刷预设**
 
-  * **102个Photoshop画笔预设**\
+  * **102个笔刷预设**\
     随着Photoshop画笔支持的引入，包含了一组新的预设来展示它。 这些预设是从[Adobe网站](https://www.adobe.com/cn/products/photoshop/brushes.html)上提供的Kyle T. Webster包中选择的。
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
@@ -233,7 +225,7 @@ ht-degree: 0%
     * 带分段的摆动笔触
     * 摆动描边
     * 绘画滚轮箭头
-    * 宽涂辊装订钉
+    * 绘画辊式订书钉宽
     * 绘画辊装订器
     * 绘画辊缝
     * 绘画辊Stripe
@@ -252,7 +244,7 @@ ht-degree: 0%
   除了用于创建新笔刷预设的alpha外（见上文），还集成了两个新的重要Alpha：
 
   * **画笔制作器Photoshop**\
-    这个新的图形通过“动态描边”功能复制Photoshop中一些可用的特定画笔参数。 可以通过控制圆度和翻转或输入图像。 一些抖动参数可用于创建更多变化。 单击来自ABR文件的Photoshop画笔预设时，此Substance图表自动插入Alpha部分。
+    这个新的图形通过“动态描边”功能复制Photoshop中一些可用的特定画笔参数。 通过此功能，可控制“圆度”、“翻转”或输入图像。 一些抖动参数可用于创建更多变化。 单击来自ABR文件的图形时，此SubstanceAlpha会自动插入到笔刷预设部分。
 
     ![](../../assets/icon-brush-maker-photoshop.png)
   * **画笔制作器绘画辊**\
@@ -311,13 +303,13 @@ ht-degree: 0%
 
 **已知问题：**
 
-* [UV展开]处理高多边形网格可能需要较长时间
-* [UV Unwrapping]合并完全相同坐标的顶点
-* [UV展开]在某些情况下，UV生成在某些网格部分上可能会失败
-* [UV展开]在某些情况下，单个UV 岛中的非均匀或高度扭曲的纹理比率
-* [UV展开]纹理集之间的非均匀纹理比
-* [UV展开]生成的UV 岛可能非常细长，在某些情况下，不适合UV空间
-* [UV展开]具有小边或重叠边的退化表面或非三角形网格表面可能无法展开UV
+* [展开]处理高多边形网格可能需要很长时间
+* [展开]合并完全相同坐标的顶点
+* [展开]在极少数情况下，在某些网格部件上生成UV可能会失败
+* [展开]在某些情况下，单个UV 岛中的非均匀或高度扭曲的纹理比率
+* [展开]纹理集之间的非均匀纹理比率
+* [展开]生成的UV 岛可能非常细长，并且在某些情况下不适合UV空间
+* [展开]具有小边缘或重叠边缘的退化脸部或非三角形网格脸部可能无法展开UV
 
 ### 2019.3.2
 
@@ -327,18 +319,18 @@ ht-degree: 0%
 **已修复：**
 
 * 打开以独奏声道模式保存的项目不会显示网格
-* 使用仿制工具在图层下绘画时，视区并不总是更新的
+* 使用仿制工具在图层下绘画时，视口并非始终更新
 
 **已知问题：**
 
-* [Bakers]与Ryzen CPU上的多线程相关的崩溃
-* [UV展开]处理高多边形网格可能需要较长时间
-* [UV Unwrapping]合并完全相同坐标的顶点
-* [UV展开]在某些情况下，UV生成在某些网格部分上可能会失败
-* [UV展开]在某些情况下，单个UV 岛中的非均匀或高度扭曲的纹理比率
-* [UV展开]纹理集之间的非均匀纹理比
-* [UV展开]生成的UV 岛可能非常细长，在某些情况下，不适合UV空间
-* [UV展开]具有小边或重叠边的退化表面或非三角形网格表面可能无法展开UV
+* [Baker]与Ryzen CPU上的多线程相关的崩溃
+* [展开]处理高多边形网格可能需要很长时间
+* [展开]合并完全相同坐标的顶点
+* [展开]在极少数情况下，在某些网格部件上生成UV可能会失败
+* [展开]在某些情况下，单个UV 岛中的非均匀或高度扭曲的纹理比率
+* [展开]纹理集之间的非均匀纹理比率
+* [展开]生成的UV 岛可能非常细长，并且在某些情况下不适合UV空间
+* [展开]具有小边缘或重叠边缘的退化脸部或非三角形网格脸部可能无法展开UV
 
 ### 2019.3.1
 
@@ -347,27 +339,27 @@ ht-degree: 0%
 
 **已修复：**
 
-* 使用具有特定UV 投影的网格时崩溃
+* 处理具有特定UV 投影的网格时崩溃
 * [ABR]在Photoshop预设之间切换时崩溃
 * [Linux]由于libGLX依赖性问题，无法在CentOS 7.4上启动Substance Painter
-* [Bakers]使用“文件”>“清理”后烘焙时崩溃
-* [烘焙师]取消后烘焙进度对话框冻结
-* [烘焙师]导出纹理后的烘焙网格不起作用
-* [面包师]对黑色网格图使用“按名称匹配”结果
-* [面包师]凯奇没有被考虑在内
-* [托架]导入PSD文件会导致图像损坏
-* [示例] “Mat”示例项目中的相机损坏且导出预设不正确
+* [Baker]使用“文件”>“清理”后烘焙时崩溃
+* [Baker]取消后烘焙进度对话框冻结
+* [Baker]导出纹理后烘焙网格不起作用
+* [Baker]将“按名称匹配”结果用于黑色网格图
+* [Baker]未考虑笼子
+* [工具架]导入PSD文件会导致图像损坏
+* [示例] “Mat”示例项目具有损坏的相机和错误的导出预设
 
 **已知问题：**
 
-* [Bakers]与Ryzen CPU上的多线程相关的崩溃
-* [UV展开]处理高多边形网格可能需要较长时间
-* [UV Unwrapping]合并完全相同坐标的顶点
-* [UV展开]在某些情况下，UV生成在某些网格部分上可能会失败
-* [UV展开]在某些情况下，单个UV 岛中的非均匀或高度扭曲的纹理比率
-* [UV展开]纹理集之间的非均匀纹理比
-* [UV展开]生成的UV 岛可能非常细长，在某些情况下，不适合UV空间
-* [UV展开]具有小边或重叠边的退化表面或非三角形网格表面可能无法展开UV
+* [Baker]与Ryzen CPU上的多线程相关的崩溃
+* [展开]处理高多边形网格可能需要很长时间
+* [展开]合并完全相同坐标的顶点
+* [展开]在极少数情况下，在某些网格部件上生成UV可能会失败
+* [展开]在某些情况下，单个UV 岛中的非均匀或高度扭曲的纹理比率
+* [展开]纹理集之间的非均匀纹理比率
+* [展开]生成的UV 岛可能非常细长，并且在某些情况下不适合UV空间
+* [展开]具有小边缘或重叠边缘的退化脸部或非三角形网格脸部可能无法展开UV
 
 ### 2019.3.0
 
@@ -376,9 +368,9 @@ ht-degree: 0%
 
 **已添加：**
 
-* 在Substance Painter中集成“自动UV解包0.3.0”版本
-* [UV展开]当没有UV或部分UV时，Substance Painter中自动展开UV
-* [UV展开]一个全局设置可激活和停用它
+* 在Substance Painter中集成“自动UV展开0.3.0”版本
+* [展开]当不存在UV或部分UV时，在Substance Painter中自动UV展开
+* [展开]一个全局设置可激活和停用它
 * [展开]日志文件中报告的版本
 * [展开]&#x200B;[UI]指示UV展开进度
 * [UI]上下文工具栏中用于选择画笔预览的新设置：完整预览、画笔轮廓和十字线

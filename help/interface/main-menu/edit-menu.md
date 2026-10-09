@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/main-menu/edit-menu.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何使用Substance 3D Painter中的“编辑”菜单来访问撤消、重做和编辑操作。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Main menu > Edit menu
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: “编辑”菜单
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 2%
-
 ---
-
 
 # “编辑”菜单
 

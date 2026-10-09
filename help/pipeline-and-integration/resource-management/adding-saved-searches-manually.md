@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/pipeline-and-integration/resource-management/adding-saved-searches-manually.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中手动添加保存的搜索以快速访问常用资源筛选器。
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Resource management > Adding saved searches manually
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 手动添加保存的搜索
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 2%
-
 ---
-
 
 # 手动添加保存的搜索
 
@@ -24,7 +16,7 @@ ht-degree: 2%
 
 ## 配置文件的位置
 
-要添加自定义保存的查询，请导航到用户的“文档”文件夹并打开&#x200B;**Shelf.ini**&#x200B;文件。
+要添加自定义保存的查询，请导航到用户的“文档”文件夹并打开&#x200B;**工具架.ini**&#x200B;文件。
 
 <table data-preserve-html="true" style="width: 100.0%;"> <colgroup> <col style="width: 15.0%;"/> <col style="width: 15.0%;"/> <col style="width: 70.0%;"/> </colgroup> <tbody> <tr> <th>Platform</th> <th>Version</th> <th>路径</th> </tr> <tr> <td rowspan="2"><strong>Windows</strong></td> <td><strong>7.2</strong>或更高版本</td> <td colspan="1">C:\Users\username\Documents\Adobe\Adobe Substance 3D Painter</td> </tr> <tr> <td colspan="1">旧版</td> <td colspan="1">C:\Users\username\Documents\Allegorithmic\Substance Painter</td> </tr> <tr> <td rowspan="2"><strong>Mac</strong></td> <td colspan="1"><strong>7.2</strong>或更高版本</td> <td colspan="1">/用户/用户名/文稿/Adobe/Adobe Substance 3D Painter</td> </tr> <tr> <td colspan="1">旧版</td> <td colspan="1">/Users/用户名/Documents/Allegorithmic/Substance Painter</td> </tr> <tr> <td rowspan="2"><strong>Linux</strong></td> <td colspan="1"><strong>7.2</strong>或更高版本</td> <td colspan="1">/home/username/Documents/Adobe/Adobe Substance 3D Painter</td> </tr> <tr> <td>旧版</td> <td colspan="1">/home/username/Documents/Allegorithmic/Substance Painter</td> </tr> </tbody> </table>
 

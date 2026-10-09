@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/layer-stack/blending-modes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用混合模式来组合图层并创建各种纹理混合效果。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Blending modes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 混合模式
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 2%
-
 ---
-
 
 # 混合模式
 
@@ -56,13 +48,13 @@ ht-degree: 2%
 | *名称* | *描述* |
 | --- | --- |
 | 法线 | 将顶部图层显示在底部图层上方，而不进行变换（复制模式）。 如果顶部图层具有透明度(alpha)，则它将通过透明像素显示底部图层。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-copy.jpg"/></div> |
-| Passthrough | 将底部图层拼合为顶部图层。 主要适用于以下情况：<ul data-preserve-html="true"> <li data-preserve-html="true">对顶部图层下方的所有图层应用效果</li> <li data-preserve-html="true">涂抹或仿制顶部图层下方的图层</li> </ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-passthrough.jpg"/></div> **注意：**&#x200B;**效果**&#x200B;可以&#x200B;**直接拖放到图层栈栈中**，这样将创建其所有通道的“混合模式”均设置为“穿透”的图层。 |
-| Disable | 放弃图层的混合，仅显示前面的图层。 它可以通过在顶层中忽略通道来优化通道计算。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-disable.jpg"/></div> |
+| Passthrough | 将底部图层拼合为顶部图层。 主要适用于以下情况：<ul data-preserve-html="true"> <li data-preserve-html="true">对顶部图层下方的所有图层应用效果</li> <li data-preserve-html="true">涂抹或仿制顶部图层下方的图层</li> </ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-passthrough.jpg"/></div> **注意：** **效果**&#x200B;可以&#x200B;**直接拖放到图层堆叠中**，这样将创建一个图层，并将“混合模式”设置为通过所有通道。 |
+| Disable | 放弃图层的混合，仅显示前面的图层。 它可通过在顶层图层中忽略通道来优化通道的计算。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-disable.jpg"/></div> |
 | 替换 | 覆盖底层。 例如，这对于避免将信息与下面的图层混合是非常有用的。 “替换”的工作方式与“正常”混合不同，因为它还会忽略顶部图层中的Alpha，这可能会导致透明像素。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-replace.jpg"/></div> |
 |  |  |
 | 相乘 | 将顶部图层与底部图层相乘。 结果将始终是较暗的颜色。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r6-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-multiply.jpg"/></div> |
 | Divide | 用当前图层的颜色信息除以下面的图层。 结果图像大多数时间都比较亮，有时看起来像烧焦了一样。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r7-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-divide.jpg"/></div> |
-| 反分割 | 与分开混合模式相同，但在混合操作中交换顶层和底层。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r8-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-inverse-divide.jpg"/></div> |
+| 反向分开 | 与分开混合模式相同，但在混合操作中交换顶层和底层。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r8-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-inverse-divide.jpg"/></div> |
 | 变暗（最小值） | 在顶部图层与底部图层之间保留最小颜色值。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r9-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-darken.jpg"/></div> |
 | 变亮（最大值） | 在顶部图层与底部图层之间保持最大颜色值。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r10-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-lighten.jpg"/></div> |
 |  |  |

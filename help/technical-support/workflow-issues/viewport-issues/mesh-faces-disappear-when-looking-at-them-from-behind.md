@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何修复在视口中从后方观看时网格脸部消失的问题，以确保网格正确可见。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Viewport Issues > Mesh faces disappear when looking at them from behind
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 从后面查看脸部时，这些颜色消失
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
-
 ---
-
 
 # 从后面查看脸部时，这些颜色消失
 

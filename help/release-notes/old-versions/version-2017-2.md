@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2017-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter 2017.2版的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本2017.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
-
 ---
-
 
 # 版本2017.2
 
@@ -66,10 +58,10 @@ ht-degree: 0%
 
 * [工具]调整材料参数时出现性能问题
 * [引擎]更改分辨率时画笔描边消失(4K>2K)
-* [3D视图]切线空间未与生成器同步
+* [3D 视图]正切空间未与Baker同步
 * [工具架]不会自动创建工具架文档中的用户路径
 * [工具架]更新后使预设与以前版本兼容
-* [Shader]非PBR着色器不再工作
-* [Bakers]启用“按名称匹配”后，ID映射生成失败
+* [着色器]非PBR着色器不再有效
+* [Baker]启用“按名称匹配”后，Id 图烘焙失败
 * [示例] Meet Mat示例项目纹理集名称不正确
 * 在创建模板之前保存项目会返回写入权限错误

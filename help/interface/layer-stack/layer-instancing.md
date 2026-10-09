@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/layer-stack/layer-instancing.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何使用Substance 3D Painter中的图层实例化在多个纹理集上高效地重复使用图层。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Layer instancing
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 图层实例化
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
-
 ---
-
 
 # 图层实例化
 
@@ -58,7 +50,7 @@ ht-degree: 0%
 
 1. 选择任何现有图层
 1. 右键单击图层以打开上下文菜单
-1. 选择&#x200B;**跨纹理集实例化**
+1. 选择&#x200B;**跨实例化**
 1. 在新窗口中，检查需要接收实例的纹理集。
 1. 单击“确定”以验证并创建实例。
 
@@ -84,7 +76,7 @@ ht-degree: 0%
 ## 在实例及其源之间切换
 
 由于实例&#x200B;**只能**&#x200B;通过&#x200B;**编辑源**&#x200B;进行更新（由于技术原因），因此必须选择源图层以编辑其属性。\
-这可以通过单击图层栈栈中的图层上的&#x200B;**实例属性按钮**&#x200B;来完成。
+这可以通过单击图层堆叠中图层上的&#x200B;**实例属性按钮**&#x200B;来完成。
 
 ![](../../assets/instance-properties-optim.gif)
 

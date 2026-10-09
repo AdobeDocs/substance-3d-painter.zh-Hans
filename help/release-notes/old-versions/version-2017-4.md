@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2017-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter 2017.4版的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本2017.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 0%
-
 ---
-
 
 # 版本2017.4
 
@@ -90,7 +82,7 @@ ht-degree: 0%
 
 * [导出]获取包含步骤进度的导出的状态
 * [导出]允许取消导出
-* [导出]将纹理导出到Sketchfab而不损失正常映射质量
+* [导出]将纹理导出到Sketchfab而不降低法线图质量
 * [导出]以glTF二进制格式(glb)导出
 * [导出]允许在导出窗口的“配置”选项卡中调整列大小
 * [着色器]为着色器 API添加更改日志
@@ -100,16 +92,16 @@ ht-degree: 0%
 **&#x200B;**&#x200B;已修复：**&#x200B;**
 
 * 在显示主窗口之前退出应用程序时崩溃
-* [MAC]使用IRAY加载灰度地图时崩溃
-* [MAC]新的High Sierra操作系统无法正确检测VRAM
+* [MAC]使用IRAY加载灰度图时崩溃
+* [MAC]使用新的High Sierra操作系统时VRAM检测不正确
 * [Plugin]从Substance Source下载资源不再有效
 * [脚本]不正确的最低增效工具版本检测
 * [导出]导出纹理后无法保存导出预设
-* [实例化]在TextureSet中实例化且没有其他映射的生成器出现问题
-* [视区]分辨率高于4k时，抖动不起作用
-* [视口] 2D视图素材显示被噪声覆盖
-* [Shelf]缩短了Shelf预设的加载时间
-* [引擎]在颜色选区下绘画时，混合不正确
+* [实例]实例化TextureSet的生成器上无其他映射的问题
+* [视口]分辨率高于4k时仿色无法正常工作
+* [视口]2D 视图材料显示包含噪声
+* [工具架]缩短了工具架预设的加载时间
+* [引擎]在颜色选择下绘画时，混合不正确
 
 ### 2017.4.1
 
@@ -118,20 +110,20 @@ ht-degree: 0%
 **已添加：**
 
 * [脚本]通过脚本API导出网格
-* [导入]禁用不支持的网格文件格式的导入（仅允许obj、fbx、dae、ply）
+* [导入]禁用不支持的导入网格文件格式（仅允许obj、fbx、dae、ply）
 * [Log]在日志文件中更准确地指出TDR问题
 
 **已修复：**
 
-* 如果在资源搜索完成之前关闭应用程序，则会崩溃
+* 崩溃应用程序是否在资源搜索完成之前关闭
 * 使用涂抹/仿制工具打开项目时崩溃
-* 在查看器设置中撤消着色器更改后使用重做时发生崩溃
-* [引擎] Painter 2017.2和2017.4之间的纹理设置不同
-* [视区]从实例中选取ID映射会取样错误的颜色
-* [导出]导出无效的正常纹理或遮蔽纹理时崩溃
+* 在查看器设置中撤消着色器更改后使用重做时崩溃
+* [引擎]Painter 2017.2和2017.4之间的纹理设置不同
+* [视口]从实例中选取Id 图取样错误的颜色
+* [导出]导出无效的普通文档或纹理时出现崩溃
 * [导出]在Photoshop CS6中打开PSD文件时，锁定这些文件的组
 * [Plugin] Photoshop增效工具会忽略通道选择并始终导出所有内容
-* [图层]在纹理集之间复制/粘贴时，锚点中断
+* [图层]在纹理集间复制/粘贴锚点时会中断
 * [图层]如果某些锚点的引用损坏，则无法恢复
 * [着色器] pbr涂层二次粗糙度参数损坏
 * [Steam]版本检查器弹出窗口在启动时不可见
@@ -165,11 +157,11 @@ ht-degree: 0%
 **已修复：**
 
 * 崩溃：计算分辨率过大的Substance
-* 使用粒子进行重绘时崩溃
-* [视区]使用特定网格时，2D视图中的Specular反射不正确
+* 使用粒子进行大量绘画时崩溃
+* [视口]2D 视图中具有特定Specular的网格反射不正确
 * [UI]在“历史记录”窗口中显示一些不需要的操作
 
 **已知问题：**
 
 * [图层]如果某些锚点的引用损坏，则无法恢复
-* 在查看器设置中撤消着色器更改后使用重做时发生崩溃
+* 在查看器设置中撤消着色器更改后使用重做时崩溃

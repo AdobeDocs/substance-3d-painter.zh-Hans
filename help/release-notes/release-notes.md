@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 访问Substance 3D Painter发行说明，以便及时了解各个版本中的新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 发行说明
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 19578e843e2843a708e479ec81d94fd8c48c3648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 8%
-
 ---
-
 
 # 发行说明
 

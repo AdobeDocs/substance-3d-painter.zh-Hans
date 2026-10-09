@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/toolbars.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用和自定义工具栏以有效地访问工具和功能。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Toolbars
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 工具栏
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 1%
-
 ---
-
 
 # 工具栏
 
@@ -28,9 +20,9 @@ ht-degree: 1%
 
 ![](../assets/tool-toolbar.png){width="450px"}
 
-默认情况下，**工具工具栏**&#x200B;在主界面的左上角可用。 其中列出了[绘画工具](../painting/painting.md)的所有内容，这些工具可用于对当前打开的项目的3D网格进行纹理化处理。 只有在选择了绘画图层时，才能访问这些工具。
+默认情况下，**工具工具栏**&#x200B;在主界面的左上角可用。 它列出了所有可用于纹理当前打开项目的[绘画3D 网格](../painting/painting.md)。 只有在选择绘画图层后，才能访问这些工具。
 
-某些工具具有名为“物理”的第二种模式，此模式支持粒子绘画。 还可以通过单击[资源](assets/assets.md)窗口中的笔刷预设来访问粒子绘画。
+某些工具具有名为“Physical”（物理）的第二种模式，可以进行粒子绘画。 还可以通过单击[资源](assets/assets.md)窗口中的笔刷预设来访问粒子绘画。
 
 此工具栏只能在主界面的左侧或右侧垂直停放。
 

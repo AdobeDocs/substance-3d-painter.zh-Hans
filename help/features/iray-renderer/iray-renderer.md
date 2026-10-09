@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/iray-renderer.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用Iray渲染器创建逼真的材料预览和渲染。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Iray Renderer
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Iray渲染器
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
-
 ---
-
 
 # Iray渲染器
 
@@ -51,14 +43,14 @@ ht-degree: 0%
 
 ## Iray参数
 
-Iray使用一组特定的参数，但还使用由Substance 3D Painter的常规视口共享的常见属性。
+Iray使用一组特定的参数，但也使用由Substance 3D Painter常规视口共享的通用属性。
 
-* [图像设置](iray-settings.md)
+* [Iray设置](iray-settings.md)
 * [查看器和MDL设置](viewer-and-mdl-settings.md)
 
 ## 显示设置
 
 使用“显示”设置可以控制相机和后期效果设置。\
-它们与常规视口渲染相同，因此它们允许同步并避免不需要的光照差异。
+它们与常规视口渲染相同，因此它们允许保持同步并避免不需要的光照差异。
 
 有关更多详细信息，请参阅专用页面： [显示设置](../../interface/display-settings/display-settings.md)

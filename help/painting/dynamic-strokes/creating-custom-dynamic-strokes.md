@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中创建自定义动态笔触，以设计独特的画笔描边行为和效果。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Dynamic strokes > Creating Custom Dynamic Strokes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 创建自定义动态笔触
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
-
 ---
-
 
 # 创建自定义动态笔触
 
@@ -37,7 +29,7 @@ ht-degree: 0%
 
 以下是图形中的动态笔触支持的参数列表。
 
-| 变量标识符 | 描述 |
+| 可变标识符 | 描述 |
 | --- | --- |
 | <b>随机植入</b> | 如果Substance文件是使用公开的随机种子进行烹饪的，则它将可以使用“动态描边”功能进行控制。 |
 | <b>stampIndex</b> | <b>整数1</b>将在绘制画笔描边时由Substance 3D Painter提供。 最小值和最大值无效，Substance 3D Painter将忽略它们。 |

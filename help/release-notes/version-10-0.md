@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/version-10-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本10.0的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter 10.0 brings support of Fonts via Text resources, layer stack functionalities in the Python API, support of Illustrator (.ai) files and several quality of life improvements.
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本10.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '2328'
 ht-degree: 0%
-
 ---
-
 
 # 版本10.0
 
@@ -229,14 +221,14 @@ ht-degree: 0%
 * [Illustrator]&#x200B;[SVG]在范围选择中添加预览
 * [Substance 3D Assets]直接在Painter中浏览、选择和下载3D资源
 * [Substance 3D Assets]&#x200B;[UI]新面板
-* [Substance 3D Assets]支持环境地图和材料
+* [Substance 3D Assets]支持环境图和材料
 * [Substance 3D Assets]允许重新加载、导航和打开新Substance 3D Assets面板中的位置文件夹
 * [Substance 3D Assets]添加下载管理器
 * [文本资源]允许使用可嵌入字体
-* [文本资源]允许在网格上渲染字体/文本
+* [文本资源]允许在网格上呈现字体/文本
 * [文本资源]在“资源”面板中使用新类别显示用户和其他共享路径的字体
 * [文本资源]&#x200B;[属性]添加对高级字体属性的支持
-* [文本资源]允许在迷你货架中搜索/查看字体
+* [文本资源]允许在微型工具架中搜索/查看字体
 * [文本资源]导入不兼容的字体时添加错误消息/对话框
 * 杂项
 * [填充投影]在使用小值时改进缩放操纵器行为

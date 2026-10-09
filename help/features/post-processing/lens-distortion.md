@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/lens-distortion.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用镜头扭曲后期处理功能来模拟视口中的相机镜头效果。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Post Processing > Lens Distortion
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 镜头扭曲
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 2%
-
 ---
-
 
 # 镜头扭曲
 
@@ -28,6 +20,6 @@ ht-degree: 2%
 | *设置* | *描述* |
 | --- | --- |
 | **电源** | 控制从屏幕边缘应用扭曲的速度。 |
-| **FOV** | 控制镜头扭曲量（模拟视场）。 |
+| **FOV** | 控制镜头扭曲量（模拟视角）。 |
 | **边缘圆度** | 控制边缘或视口处的圆形形状。 |
-| **边缘Smoothness** | 控制视区的黑色边缘的硬度/Smoothness。 |
+| **边缘平滑度** | 控制视口黑边的硬度/Smoothness。 |

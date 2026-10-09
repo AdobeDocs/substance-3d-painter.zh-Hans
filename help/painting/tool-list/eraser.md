@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/eraser.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用Substance 3D Painter中的橡皮擦工具，通过精确控制从3D模型中移除绘画和纹理。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Eraser
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 橡皮擦
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 1%
-
 ---
-
 
 # 橡皮擦
 

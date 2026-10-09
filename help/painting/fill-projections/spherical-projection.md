@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/fill-projections/spherical-projection.html"
-breadcrumb-title: ''
-description: 使用Substance 3D Painter中的球面投影功能投影球体中的纹理，以便围绕对象环绕纹理。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Spherical projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: 使用Substance 3D Painter中的球面投影功能投影球面中的纹理，以便将纹理绕排在对象周围。
 title: Spherical projection
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e24e45387178db5efa813e64e4b86ac2ae2e5aa
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 2%
-
 ---
-
 
 # Spherical projection
 
@@ -28,11 +20,11 @@ ht-degree: 2%
 
 | 设置 | 描述 |
 | --- | --- |
-| **筛选** | 控制如何过滤纹理或材料。 此设置可能会影响纹理在多次重复时的外观。 如果高缩放值使用的筛选与默认设置不同，可能会产生更好的外观效果。 当前可用设置：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>双线性`\|` HQ</strong>（默认）：高级双线性筛选，尝试在拼贴值较高时提高纹理的质量。</li><li data-preserve-html="true"><strong>双线性`\|`锐化</strong>：简单的双线性筛选，会略微平滑纹理，但会尝试保留细节。</li><li data-preserve-html="true"><strong>最接近</strong>：无过滤，如果双线性过滤产生模糊结果并破坏细微细节，则非常有用。 可以在纹理中引入锯齿。</li></ul> |
-| **UV 展开** | 控制纹理在投影中的重复方式。 可能的值为：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>无</strong>：纹理不重复。 纹理之外的任何内容都是黑色/透明的。</li><li data-preserve-html="true"><strong>水平重复</strong>：纹理仅水平重复。</li><li data-preserve-html="true"><strong>垂直重复</strong>：纹理仅垂直重复。</li><li data-preserve-html="true"><strong>重复</strong>（默认）：纹理在这两个轴上重复。</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/spherical-repeat.jpg" width="500px"/></div> |
+| **筛选** | 控制如何过滤纹理或材料。 此设置可能会影响纹理在多次重复时的外观。 如果高缩放值使用的筛选与默认设置不同，可能会产生更好的外观效果。 当前可用设置：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>双线性`\|` HQ</strong>（默认）：高级双线性筛选，尝试在拼贴值较高时提高纹理的质量。</li><li data-preserve-html="true"><strong>双线性`\|`锐化</strong>：简单的双线性筛选，会略微平滑纹理，但会尝试保留细节。</li><li data-preserve-html="true"><strong>最近</strong>：无筛选，如果双线性筛选显示模糊结果并破坏细微细节，则非常有用。 可以在纹理中引入锯齿。</li></ul> |
+| **UV 展开** | 控制纹理在投影中的重复方式。 可能的值为：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>无</strong>：纹理不重复。 纹理外的任何内容均为黑色/透明。</li><li data-preserve-html="true"><strong>水平重复</strong>：纹理仅水平重复。</li><li data-preserve-html="true"><strong>垂直重复</strong>：纹理仅垂直重复。</li><li data-preserve-html="true"><strong>重复</strong>（默认）：纹理在这两个轴上重复。</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/spherical-repeat.jpg" width="500px"/></div> |
 | **形状裁剪** | 定义投影纹理是否应该在投影区域之外可见。 可能的值为：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>项目已裁剪为形状</strong>：投影限制在投影区域内。</li><li data-preserve-html="true"><strong>投影延伸至形状</strong>之外（默认）：投影延伸至投影区域之外。</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/spherical-shape-crop.jpg" width="500px"/></div> |
 
-### UV转换
+### UV变换
 
 UV变换设置控制投影中的纹理。
 

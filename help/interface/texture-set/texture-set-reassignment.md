@@ -1,30 +1,22 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/texture-set/texture-set-reassignment.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中重新分配纹理集，以重新组织网格分配和纹理映射。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Texture Set > Texture Set reassignment
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 纹理集重新分配
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
-
 ---
-
 
 # 纹理集重新分配
 
 ![](../../assets/txtset-reassignment-window.png)
 
-“纹理集重新分配”窗口允许将图层栈叠分配更改为场景网格的不同部分。 例如，在将新网格导入到某些纹理集变为禁用的现有项目后，此功能非常有用。 之所以发生这种情况，是因为将图层堆叠分配给了不再存在的材料。 使用重新分配窗口，可以恢复该图层堆叠（请参阅下面的“恢复已禁用的纹理集”）。
+通过“纹理集重新分配”窗口可以将图层堆叠分配更改为场景网格的其他部分。 例如，在将新网格导入到某些纹理集变为禁用的现有项目后，此功能非常有用。 之所以发生这种情况，是因为将图层堆叠分配给了不再存在的材料。 使用重新分配窗口，可以恢复该图层堆叠（请参阅下面的“恢复已禁用的纹理集”）。
 
-要访问“重新分配纹理集”窗口，请转到[纹理集列表](texture-set-list.md)窗口，然后选择&#x200B;**设置>重新分配纹理集**。
+要访问“纹理集重新分配”窗口，请转到[纹理集列表](texture-set-list.md)窗口，然后选择&#x200B;**设置>重新分配纹理集**。
 
 该窗口分为三个部分：
 
@@ -45,7 +37,7 @@ ht-degree: 0%
 
 只需拖放这些纹理集，即可完成重新分配按钮。
 
-## 恢复禁用的纹理集
+## 恢复已禁用的纹理集
 
 ![](../../assets/reassign-disabled-sets.gif)
 

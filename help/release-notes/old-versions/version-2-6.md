@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2-6.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本2.6的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.6
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本2.6
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
-
 ---
-
 
 # 版本2.6
 
@@ -47,7 +39,7 @@ ht-degree: 0%
 
 ![](../../assets/texture-set-rename-description.png)
 
-现在可以直接在Substance Painter内更改纹理集的名称。 重命名纹理集将会影响导出到磁盘上的纹理名称（取决于使用的导出预设）。\
+现在可以直接在Substance Painter中更改纹理集的名称。 重命名纹理集会影响磁盘上导出的纹理的名称（具体取决于使用的导出预设）。\
 要重命名纹理集，只需双击其名称对其进行修改，或者使用右键单击打开上下文菜单。 还可以添加自定义描述，以详细介绍纹理集的功能。 在处理[UDIM项目](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html)时，此功能非常有用。 使用“**设置**”按钮配置说明在列表中的显示方式。
 
 ![](../../assets/reasign-texture-set.png)
@@ -66,24 +58,24 @@ ht-degree: 0%
 
 **已添加：**
 
-* [纹理集]允许删除禁用的纹理集
-* [Shelf]允许多个用户在同一个Shelf文件夹中进行写入
+* [纹理集]允许删除已禁用的纹理集
+* [工具架]允许多个工具架在同一用户文件夹中进行写入
 * [脚本]能够重新加载插件文件夹
 * [脚本]在增效工具元数据中添加所需的最低API版本以确保兼容性
-* [IRay]导出图像对话框改进
+* [Iray]导出图像对话框改进
 
 **已修复：**
 
-* [引擎]更改分辨率时出现笔触消失问题(4K>2K)
-* [Bakers]启用“按名称匹配”后，ID映射生成失败
-* [Bakers]错误消息不够明确
-* [3D视图]切线空间未与生成器同步
+* [引擎]更改分辨率时，笔触消失问题(4K>2K)
+* [Baker]启用“按名称匹配”后，Id 图烘焙失败
+* [Baker]错误消息不够明确
+* [3D 视图]正切空间未与Baker同步
 * [工具]使用涂抹工具时出现黑色伪像
-* [Shader]非PBR着色器不再工作
-* [着色器] “pbr-coated”损坏
-* [着色器] “pbr涂层”着色器的涂层粗糙度不再有影响
+* [着色器]非PBR着色器不再有效
+* [着色器]“pbr-coated”损坏
+* [着色器] “pbr涂层”着色器的涂覆粗糙度不再产生影响
 * [着色器]规格光泽着色器与Iray和SD不匹配
-* [托架]加载两个名称相同但扩展名不同的文件时崩溃
+* [工具架]加载两个名称相同但扩展名不同的文件时崩溃
 * [工具架]无法在工具架中再编辑预设
 * [工具架]无法为在工具架中导入的资源设置自定义预览
 * 从缓存加载的资源将失去其使用实例
@@ -129,24 +121,24 @@ ht-degree: 0%
 * [TextureSet]在列表底部显示“已禁用”的纹理集
 * [Substance]使用当前纹理集分辨率下的其他映射以提高性能
 * [脚本]允许更新项目中使用的资源（材料、生成器等）
-* [脚本]添加添加/删除托架的方法
+* [脚本]添加添加/删除工具架的方法
 * [脚本]允许从项目中的资源查询信息
 * [脚本]允许检索可用搁板的列表
 * [脚本]改进AlgWidget缩略图教程
 * [导出]基于文件位深度支持禁用/启用格式
 * [Log]添加插件名称以在控制台中打印
-* [Log]移除有关隐藏纹理集的错误
+* [Log]删除有关隐藏纹理集的错误
 * 用新的图标和示例文本更新“欢迎屏幕”
 
 **已修复** ：
 
-* 更新特定项目中的网格时崩溃
-* [视区]对称平面内部颜色不再可见
-* [视口]使用独奏视图时，某些后期处理效果已启用
+* 在特定项目中更新网格时崩溃
+* [视口]对称平面内颜色不再可见
+* [视口]使用“独奏”视图时，某些后期处理效果已启用
 * [着色器]“over\_premult”混合无法正常工作
-* [着色器]关于使用默认着色器的alpha测试的警告
-* [Shelf]来自Substance的标签解析不正确
-* [托架] MatFX铁锈风化无法正常工作
+* [着色器]有关使用默认着色器进行alpha测试的警告
+* [工具架]从Substance错误解析标签
+* [工具架] MatFX铁锈风化无法正常工作
 * [工具架]默认情况下，在不正确的声道上启用HSL滤镜
 * [工具架]默认情况下，在Height/正常声道上启用锐化
 * [导出]视频导出预设不使用OpenGL法线图

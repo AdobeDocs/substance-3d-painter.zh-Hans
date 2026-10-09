@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何修复Substance 3D Painter中Ubuntu上的视口损坏或无响应问题，以正确3D渲染。
-helpx_creative_field: ""
-helpx_description: Viewport appears broken or unresponsive on Ubuntu
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 在Ubuntu上视口似乎已损坏或无响应
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
-
 ---
-
 
 # 在Ubuntu上视口似乎已损坏或无响应
 
-从版本11.1开始在Ubuntu上从Steam运行Painter时，视口可能会损坏或无响应。
+从版本11.1开始，在Ubuntu上从Steam运行Painter时，视口可能会损坏或无响应。
 
 这与Painter未从为其分配正确的GPU开始有关。 在Ubuntu上，集成的GPU而不是单独的GPU可能最终被选中。 Painter通过Steam继承此配置，这可能会造成问题。
 

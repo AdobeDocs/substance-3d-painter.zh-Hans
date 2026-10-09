@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/workflow-issues/project-issues/projects-are-really-big.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何减小Substance 3D Painter项目文件大小以优化性能和存储要求。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Project Issues > Projects are really big
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 项目非常大
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
-
 ---
-
 
 # 项目非常大
 
@@ -27,11 +19,11 @@ Substance 3D Painter项目可能非常大，并且会使用大量磁盘空间。
 在制作纹理期间使用的每个资源都存储到项目文件中，其中包括：
 
 * **源网格**（不是原始文件，而是已处理的文件）
-* **烘焙网格图**
+* **烘焙的网格图**
 * **材料**（类似于Substance材料）
 * **位图**&#x200B;或由任何图层/预设/画笔描边使用的其他资源。
 
-项目中不包含高多边形网格。 它们只是相互关联。
+项目不包含高多边形网格。 它们只是相互关联。
 
 ## 为什么项目存储这么多资源？
 

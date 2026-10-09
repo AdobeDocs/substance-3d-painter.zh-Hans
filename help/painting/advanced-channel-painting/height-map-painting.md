@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
-breadcrumb-title: ''
-description: 了解如何在Substance 3D Painter中直接绘制Height图，以创建位移和表面仰角效果。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Height Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: Height地图绘画
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+breadcrumb-title: ""
+description: 了解如何在Substance 3D Painter中直接绘画高度图以创建位移和表面仰角效果。
+title: 高度图绘画
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
-
 ---
 
-
-# Height地图绘画
+# 高度图绘画
 
 ## 总体思路
 
@@ -44,7 +36,7 @@ Height通道使用&#x200B;**HDR**&#x200B;色彩格式，它允许绘画正值和
 
 ### Height可视化
 
-在“独奏”模式下显示Height映射时，默认预览将仅显示正值，而负值显示强烈的黑色饱和度。
+在“独奏”模式下显示高度图时，默认预览将仅显示正值，而负值显示强烈的黑色饱和度。
 
 **+/- color**&#x200B;设置允许使用不同的颜色为正值和负值可视化整个范围。
 

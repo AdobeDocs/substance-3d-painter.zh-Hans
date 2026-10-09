@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/automatic-uv-unwrapping.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用自动UV展开功能自动为3D模型生成UV布局。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Automatic UV Unwrapping
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: 自动UV展开
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: 自动展开
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
-
 ---
 
-
-# 自动UV展开
+# 自动展开
 
 ![](../assets/auto-unwrap-update-810.jpg)\
 自动展开允许在导入3D模型时自动生成UV 岛。 它可用于绘画没有任何现有UV的3D模型。
@@ -29,7 +21,7 @@ ht-degree: 0%
 
 创建新项目或将网格重新导入现有项目时，请确保选中设置“自动展开”。 如果禁用，则将跳过该过程，并且网格UV将保持原样。
 
-## UV展开设置
+## 展开设置
 
 ![](../assets/unwrap-settings.png)
 
@@ -37,8 +29,8 @@ ht-degree: 0%
 
 | 章节 | ***设置*** | ***描述*** |
 | --- | --- | --- |
-| **取消包装序列** | **接缝** | 控制是否应该只为没有或总是重新生成接缝的网格生成UV 岛（颜色边框）。可能的值：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>生成缺少的数据</strong> （默认）：将为缺少数据的网格生成接缝。</li><li data-preserve-html="true"><strong>重新计算所有</strong> ：将为所有网格生成接缝。</li></ul> |
-| **UV 岛** | 控制是否应从没有UV的网格或任何网格生成UV展开。 可能的值：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>生成缺失数据</strong>（默认）：将为缺失UV的网格生成UV解包。</li><li data-preserve-html="true"><strong>重新计算所有</strong> ：将为所有网格生成UV展开。</li></ul> |  |
+| **展开序列** | **接缝** | 控制是否应该只为没有或总是重新生成接缝的网格生成UV 岛（颜色边框）。可能的值：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>生成缺少的数据</strong> （默认）：将为缺少数据的网格生成接缝。</li><li data-preserve-html="true"><strong>重新计算所有</strong> ：将为所有网格生成接缝。</li></ul> |
+| **UV 岛** | 控制是否应从没有UV的网格或任何网格生成UV展开。 可能的值：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>生成缺少的数据</strong> （默认）：将为缺少UV的网格生成UV展开。</li><li data-preserve-html="true"><strong>重新计算所有</strong> ：将为所有网格生成UV展开。</li></ul> |  |
 | **打包** | 控制UV 岛的打包/布局。可能的值：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>生成缺少的数据</strong> （默认）：为缺少UV的网格打包UV 岛。</li><li data-preserve-html="true"><strong>重新计算所有</strong> ：打包所有UV 岛。</li></ul> |  |
 |  |  |  |
 | **布局自定义** | **边距大小** | 定义UV 岛之间的间距。 此设置应用与分辨率无关的一般百分比。可能的值：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>无边距</strong> ： 0%</li><li data-preserve-html="true"><strong>小</strong> （默认）： 0.2%</li><li data-preserve-html="true"><strong>中等</strong> ： 0.5%</li><li data-preserve-html="true"><strong>大</strong> ： 1%</li></ul> |

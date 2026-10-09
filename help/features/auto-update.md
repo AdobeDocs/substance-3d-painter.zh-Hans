@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/auto-update.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何使用Substance 3D Painter中的自动资源更新使资源库保持同步并处于最新状态。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 自动资源更新
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 1%
-
 ---
-
 
 # 自动资源更新
 
@@ -71,7 +63,7 @@ ht-degree: 1%
 
 | 设置 | 描述 |
 | --- | --- |
-| <b>当资源参数不匹配时跳过资源</b> | 如果启用，当新版本与旧版本不匹配时，自动更新过程将避免更新资源。 例如，如果Substance素材包含新版本中不再存在的参数（因为它们已被移除或重命名），则更新过程将忽略该资源并保留旧版本。 |
+| <b>当资源参数不匹配时跳过资源</b> | 如果启用，当新版本与旧版本不匹配时，自动更新过程将避免更新资源。 例如，如果材料的参数在新版本中不再存在（因为它们已被删除或重命名），则更新过程将忽略该资源并保留旧版本。 |
 
 >[!NOTE]
 >

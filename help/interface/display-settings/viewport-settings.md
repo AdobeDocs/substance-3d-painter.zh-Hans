@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/display-settings/viewport-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中配置视口设置以自定义显示选项和渲染品质。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Display settings > Viewport settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Viewport settings
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 1%
-
 ---
-
 
 # Viewport settings
 
@@ -73,8 +65,8 @@ ht-degree: 1%
 | --- | --- |
 | **显示没有光照的独奏视图（无光）** | 在单通道模式下查看时，启用此设置将移除光照并将通道显示为平面色。 如果禁用，将在网格的边界应用阴影。 |
 | **缩放HDR 值** | 在单通道模式下查看&#x200B;**HDR**&#x200B;纹理（如Height）时，此设置将缩放总值。 这对于查看超过1或低于–1的值非常有用。 结果等于&#x200B;**被比例驱动的通道**。在下面的示例中，Height声道的值最多为3。 但在默认情况下，除非更改比例值，否则无法查看比例值： <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/scale-hdr.jpg"/></div> |
-| **将+/ — 颜色用于HDR值** | 此设置允许通过用第一种颜色替换正值和用第二种颜色替换负值来更轻松地查看纹理。 中性值(0)为黑色。示例： <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/colored-hdr.jpg"/></div> |
-| **颜色通道** | 修改视口视图模式，以仅单独显示当前通道的R、G、B或Alpha分量。 此设置在“材质”显示模式下不可用。 启用后，所选颜色通道的名称会显示在视口中：  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r4-column-c1_image" src="../../assets/color-channel.png"/></div>  可能的值：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGBA</strong>（默认）：在颜色通道上，显示所有具有透明度的组件。</li><li data-preserve-html="true"><strong>灰度+Alpha</strong>（默认）：在灰度通道上，使用透明度显示灰度值。</li><li data-preserve-html="true"><strong>R</strong>：在颜色通道上，仅显示“红色”组件。</li><li data-preserve-html="true"><strong>G</strong>：在颜色通道上，仅显示绿色组件。</li><li data-preserve-html="true"><strong>B</strong>：在颜色通道上，仅显示蓝色组件。</li><li data-preserve-html="true"><strong>Alpha</strong>：在任何通道上，仅显示纹理的透明度。</li></ul> |
+| **将+/ — 颜色用于HDR 值** | 此设置允许通过用第一种颜色替换正值和用第二种颜色替换负值来更轻松地查看纹理。 中性值(0)为黑色。示例： <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/colored-hdr.jpg"/></div> |
+| **颜色通道** | 修改视口视图模式，以仅单独显示当前通道的R、G、B或Alpha分量。 此设置在材料显示模式下不可用。 启用后，所选颜色通道的名称会显示在视口中：  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r4-column-c1_image" src="../../assets/color-channel.png"/></div>  可能的值：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGBA</strong>（默认）：在颜色通道上，显示所有具有透明度的组件。</li><li data-preserve-html="true"><strong>灰度+Alpha</strong>（默认）：在灰度通道上，使用透明度显示灰度值。</li><li data-preserve-html="true"><strong>R</strong>：在颜色通道上，仅显示“红色”组件。</li><li data-preserve-html="true"><strong>G</strong>：在颜色通道上，仅显示绿色组件。</li><li data-preserve-html="true"><strong>B</strong>：在颜色通道上，仅显示蓝色组件。</li><li data-preserve-html="true"><strong>Alpha</strong>：在任何通道上，仅显示纹理的透明度。</li></ul> |
 
 ## 网格
 
@@ -82,7 +74,7 @@ ht-degree: 1%
 
 使用网格设置可以显示和控制3D网格在3D视口内的绘制。
 
-网格划分是根据当前相机的缩放比例和角度自动进行的。 当前网格单位显示在视区的左下角。
+网格划分是根据当前相机的缩放比例和角度自动进行的。 当前网格单位显示在视口的左下角。
 
 | 设置 | 描述 |
 | --- | --- |

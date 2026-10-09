@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/error-with-missing-api-ms-crt-dll.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何修复Substance 3D Painter中缺少的api-ms-crt DLL错误，以获取正确的Windows运行时库支持。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Error with missing api-ms-crt dll
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 缺少api-ms-crt dll时出错
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
-
 ---
-
 
 # 缺少api-ms-crt dll时出错
 

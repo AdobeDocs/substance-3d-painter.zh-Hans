@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter导出窗口中管理导出列表以整理纹理导出。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export window > List of exports
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 导出列表
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%
-
 ---
-
 
 # 导出列表
 

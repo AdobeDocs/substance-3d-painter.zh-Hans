@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-7-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本7.4的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本7.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1910'
 ht-degree: 0%
-
 ---
-
 
 # 版本7.4
 
@@ -49,14 +41,14 @@ ht-degree: 0%
 
 * **拾色器设置**\
   启用色彩管理后，拾色器将提供新控件。 颜色可在配置指定的工作色彩空间中编辑。\
-  在HSV/RGB滑块下方显示最终颜色值，该值从工作空间转换为显示色彩空间。
+  HSV/RGB滑块下方将显示最终颜色值，该值从工作空间变换为显示色彩空间。
 
   ![](../../assets/color-picker-demo.png)
 
   ![](../../assets/cm-picker-display-value.png)
 
 * **导入具有自定色彩空间的位图和材料**\
-  专用设置可用于指定应如何处理资源，包括应如何解释Substance素材输出。\
+  专用设置可用于指定应如何处理资源，包括应如何解释材料输出。\
   还可以通过解析资源文件名来了解该资源使用的色彩空间。
 
   ![](../../assets/auto-color-space.png)
@@ -218,9 +210,9 @@ Python API提供了一种允许调用Javascript API的新方法。
 
 * macOS不支持3D连接空格鼠标
 * [UI]在某些情况下，新项目窗口中会显示带有色彩管理的水平滚动条
-* [烘焙师]“平均法线”设置在UV磁贴项目中不起作用
-* [Mac M1]智能素材无法正确显示
-* [色彩管理]在投影模式下使用的资源在叠加中不受色彩管理
+* [Baker]“平均法线”设置在UV 平铺项目中不起作用
+* [Mac M1]智能材质无法正确显示
+* [色彩管理]在投影模式中使用的资源在叠加中不受色彩管理
 
 ### 7.4.1
 
@@ -229,24 +221,24 @@ Python API提供了一种允许调用Javascript API的新方法。
 **已添加：**
 
 * [色彩管理]在导出的文件名中使用数据角色
-* [色彩管理]在新建项目和项目设置窗口中选择OCIO时，默认展开色彩管理部分
-* [色彩管理]在旧模式下添加ACES调色板
+* [色彩管理]当在新的项目和项目设置窗口中选定OCIO时，默认展开色彩管理部分
+* [色彩管理]在旧模式下添加ACE调色板
 * [色彩管理]调整默认配置设置
 * [色彩管理]&#x200B;[导出]在数据通道的文件名中填充$colorSpace
-* [导出]将UV磁贴项目导出到Stager
+* [导出]将UV 平铺项目导出到Stager
 * [互操作性]不适用于Steam和Substance版本
-* [互操作性]允许将UV磁贴项目发送到Stager
+* [互操作性]允许将UV 平铺项目发送到Stager
 
 **已修复：**
 
 * [MacOS]&#x200B;[崩溃] Painter不以Catalina开头
-* [色彩管理]&#x200B;[崩溃]在用户通道上播放数据类型/色彩管理时出现随机崩溃
+* [色彩管理]&#x200B;[崩溃]在用户通道上播放数据类型/色彩管理时，会出现随机崩溃
 * [色彩管理]在蒙版显示色彩空间新菜单中用作灰度的资源
-* [色彩管理]在旧版模式+单独视图中，用户通道在视区中较暗
+* [色彩管理]在视口中，用户通道在旧版模式+独奏视图下的颜色较暗
 * [色彩管理]在iRay中使用时，环境映射始终是线性的
 * [色彩管理]在旧版模式下，拾色器未为数据通道选择正确的值
 * [色彩管理]在旧版模式下，拾色器在Substance内部损坏
-* [色彩管理]使用下拉菜单时，在视区中的单独通道视图之间切换时会显示正确的色彩空间
+* [色彩管理]使用下拉菜单时，在视口中的独奏声道视图之间切换时会显示正确的色彩空间
 * [色彩管理]在旧模式下，导出对色彩管理的用户通道应用错误的转换
 * 切换回材料视图时，不会显示以独奏视图蒙版绘制的描边
 * [导出]转换后的映射无法导出为色彩管理的通道

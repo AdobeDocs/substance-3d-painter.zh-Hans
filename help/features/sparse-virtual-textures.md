@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/sparse-virtual-textures.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用稀疏虚拟纹理来高效处理超高分辨率纹理。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Sparse Virtual Textures
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Sparse Virtual Texture
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 0%
-
 ---
-
 
 # Sparse Virtual Texture
 
@@ -64,7 +56,7 @@ Sparse Virtual Texture是一种不完整的纹理。 这意味着应用程序仅
 
 ## 着色器兼容性
 
-为了充分利用SVT，着色器必须从稀疏系统中请求和读取纹理。 因此，先前基于&#x200B;**vec2纹理坐标**&#x200B;和&#x200B;**取样器**&#x200B;的函数已被弃用。 现在，提供了Helper函数来改用Sparse纹理。
+为了充分利用SVT，着色器必须从稀疏系统中请求和读取纹理。 因此，先前基于&#x200B;**vec2纹理坐标**&#x200B;和&#x200B;**取样器**&#x200B;的函数已被弃用。 现在提供了助手函数来改用稀疏纹理。
 
 要更新着色器，请执行以下操作：
 

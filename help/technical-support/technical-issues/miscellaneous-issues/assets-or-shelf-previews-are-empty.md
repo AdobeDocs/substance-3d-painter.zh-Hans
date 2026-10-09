@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/assets-or-shelf-previews-are-empty.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中修复空资源和工具架预览以恢复缩览图显示功能。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Assets (or shelf) previews are empty
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: 资源（或架）预览为空
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: 资源（或工具架）预览为空
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
-
 ---
 
-
-# 资源（或架）预览为空
+# 资源（或工具架）预览为空
 
 此问题可能是由其他软件引起的，请参阅： [软件冲突](../startup-issues/software-conflicts.md)。
 

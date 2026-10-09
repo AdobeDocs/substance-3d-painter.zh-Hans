@@ -1,15 +1,11 @@
 ---
 title: 拼合图层
-description: ''
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/layer-stack/flatten-layers.html"
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+description: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 1%
-
 ---
-
 
 # 拼合图层
 
@@ -80,9 +76,9 @@ ht-degree: 1%
 
 ## 如何生成拼合的图层？
 
-拼合函数将在新填充图层内为每个启用的通道创建位图。 分辨率基于纹理集分辨率，位深度由纹理集设置决定。
+flatten函数将在新填充图层中为每个启用的通道创建位图。 分辨率基于纹理集分辨率，位深度由纹理集设置决定。
 
-当给定声道内存在纹理数据时，拼合有效。 拼合无法用于空的绘画图层，并且如果所选内容中没有数据，则将向日志发布错误消息。
+当给定声道内存在纹理数据时，拼合有效。 拼合操作不适用于空绘画图层，如果所选内容中没有数据，则拼合操作将会在日志中发布错误消息。
 
 只能拼合可见图层和效果。 如果在拼合组时禁用了该组中的某些图层，则这些图层的效果将不会包含在拼合结果中。
 

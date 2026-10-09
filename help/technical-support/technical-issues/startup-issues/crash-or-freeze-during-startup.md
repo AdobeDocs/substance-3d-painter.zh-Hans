@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter启动期间修复崩溃和冻结问题，以稳定启动应用程序。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Crash or freeze during startup
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 启动期间崩溃或冻结
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
-
 ---
-
 
 # 启动期间崩溃或冻结
 
@@ -48,7 +40,7 @@ ht-degree: 0%
 
 ## 崩溃，因为系统路径/Python路径不正确
 
-应用程序会检查系统Path以加载Python模块和环境设置。 如果系统设置不正确，则可能会导致在启动过程中崩溃。
+应用程序会检查系统Path以加载Python模块和环境设置。 如果系统设置不正确，则可能会导致在启动期间出现崩溃。
 
 在Windows上：
 

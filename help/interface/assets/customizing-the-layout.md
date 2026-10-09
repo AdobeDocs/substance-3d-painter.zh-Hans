@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/assets/customizing-the-layout.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中自定义“资源”面板布局以优化您的资源浏览体验。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Assets > Customizing the layout
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 自定义布局
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
-
 ---
-
 
 # 自定义布局
 

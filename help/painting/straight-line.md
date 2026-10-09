@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/painting/straight-line.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用Substance 3D Painter中的直线工具为纹理绘画创建精确的直线绘画描边。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Straight line
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 直线
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
-
 ---
-
 
 # 直线
 

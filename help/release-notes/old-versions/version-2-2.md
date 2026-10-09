@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本2.2的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.2
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本2.2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
-
 ---
-
 
 # 版本2.2
 
@@ -30,7 +22,7 @@ ht-degree: 0%
 
 ![](../../assets/dynamic-material-blending-materials-preview.jpg)
 
-在此新版本中，我们添加了一个名为&#x200B;**材料分层**&#x200B;的新&#x200B;**工作流**。 传统纹理化工作流程依赖于&#x200B;**高分辨率**&#x200B;至&#x200B;**保留细节**&#x200B;的纹理创建，但在用例中，这&#x200B;**不方便**。 更有趣的方法是&#x200B;**创建小型拼贴材料**，然后&#x200B;**在着色器中重复这些操作**。 它允许保留一定的品质，并且能够使用此着色器&#x200B;**与对象**&#x200B;真正接近&#x200B;**的缩放而不会丢失细节**。 唯一的问题是，要预览最终结果，之前必须转到显示最终着色器的游戏引擎/渲染器。 但现在情况不再如此，因为在此新版本中，现在可以在Substance Painter中使用类似的着色器，这样您可以&#x200B;**同时可视化最终结果和绘画**。
+在此新版本中，我们添加了一个名为&#x200B;**材料分层**&#x200B;的新&#x200B;**工作流**。 传统纹理化工作流程依赖于&#x200B;**高分辨率**&#x200B;到&#x200B;**保留细节**&#x200B;的纹理创建，但在用例中，这&#x200B;**不方便**。 更有趣的方法是&#x200B;**创建小型拼贴材料**，然后&#x200B;**在着色器中重复这些操作**。 它允许保留一定的品质，并且能够使用此着色器&#x200B;**与对象**&#x200B;真正接近&#x200B;**的缩放而不会丢失细节**。 唯一的问题是，要预览最终结果，之前必须转到显示最终着色器的游戏引擎/渲染器。 但现在情况不再如此，因为在此新版本中，现在可以在Substance Painter中使用类似的着色器，这样您可以&#x200B;**同时可视化最终结果和绘画**。
 
 已添加名为“**FireHydrant**”的&#x200B;**新示例项目**&#x200B;来展示新工作流。
 
@@ -41,11 +33,11 @@ ht-degree: 0%
 * 材料是在着色器中定义的，您只能绘画蒙版以进行混合
 * 可以同时绘制材料和蒙版
 
-在任何情况下，都可以每次定义新图层堆叠，在创建蒙版和材料时提供更多的自由。 这样可以更轻松地管理图层，每个栈栈可以有自己的一组特定通道，这些通道可以在最终着色器中混合。\
-我们还在Share上提供了适用于Unity 5和Unreal Engine 4的特殊着色器：
+在任何情况下，都可以每次定义新图层堆叠，在创建蒙版和材料时提供更多的自由。 这样可以更轻松地管理图层，每个堆叠可以拥有一组可以在最终着色器中混合的特定通道。\
+我们还在“共享”中提供了一项Unity 5和Unreal引擎4的特别着色器：
 
 * [Unity 5](https://share.allegorithmic.com/libraries/2126)
-* [虚引擎4](https://share.allegorithmic.com/libraries/2125)
+* [虚线引擎4](https://share.allegorithmic.com/libraries/2125)
 
 有关更多详细信息，请参阅文档的专用页： [动态材质分层](../../features/dynamic-material-layering.md)
 
@@ -70,20 +62,20 @@ ht-degree: 0%
 * [工具架]改进搜索系统和查询
 * [工具架]为微型工具架添加搜索字段
 * [着色器]允许定义滑块的步长精度
-* [着色器]为着色器参数添加“撤消”/“重做”按钮
+* [着色器]为着色器参数添加“还原/重做”按钮
 * [着色器]重新加载着色器不应重置其参数
 * [MatLayering]添加对动态材质分层和子堆叠的支持
 * [MatLayering]允许导入json文件以设置着色器设置
 * [MatLayering]解锁纹理取样器限制（切换到无绑定纹理）
 * [脚本]允许设置Baker设置并启动其计算
-* [Substance]除标识符外，还使用输入/输出连接的“使用情况”
+* [Substance]除了标识符之外，还使用“使用情况”进行输入/输出连接
 * [工具]允许在投影工具的视口中选择预览声道
 
 **已修复：**
 
 * 在启动期间崩溃物质是否位于错误的文件夹中
 * 由于日志文件不正确，崩溃报告有时无法正常工作
-* [Iray] Iray暂停时，帖子效果不刷新
+* [Iray]Iray暂停时后期效果不刷新
 * [Iray]自动对焦快捷键不再有效
 * [Iray]光圈滑块行为随资源大小而变化
 * [图层]如果首个材料声道都处于禁用状态，则默认情况下不会启用它们
@@ -91,4 +83,4 @@ ht-degree: 0%
 
 **已知问题：**
 
-* [Mac]纹理样本限制锁定为16（GPU驱动程序问题）
+* [Mac]纹理样本限制已锁定为16（GPU驱动程序问题）

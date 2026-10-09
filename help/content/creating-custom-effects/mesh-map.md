@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何使用Substance 3D Painter自定义效果中的网格图来访问基于几何的纹理信息。
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > Mesh Map
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 网格图
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 3%
-
 ---
-
 
 # 网格图
 
@@ -30,9 +22,9 @@ ht-degree: 3%
 
 | 网格图 | 使用情况 | 标识符 |
 | --- | --- | --- |
-| *环境遮蔽* | **ambientOcclusionBase** | **环境\_遮蔽** |
+| *Ambient occlusion* | **ambientOcclusionBase** | **环境\_遮蔽** |
 | *ID* | **id** | **id** |
-| *曲率* | **弯曲** | **弯曲** |
+| *弯曲* | **弯曲** | **弯曲** |
 | *正常* | **normalBase** | **normal\_base** |
 | *世界空间法线* | **正常WS** | **world\_space\_normals** |
 | *位置* | **位置** | **位置** |

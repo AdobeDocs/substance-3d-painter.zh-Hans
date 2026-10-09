@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/interface/settings/libraries-configuration.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter设置中配置库，以管理资源路径和资源组织。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Settings > Libraries configuration
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 库配置
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 1%
-
 ---
-
 
 # 库配置
 

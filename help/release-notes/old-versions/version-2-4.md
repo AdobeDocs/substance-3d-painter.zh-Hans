@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/old-versions/version-2-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本2.4的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.4
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本2.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
-
 ---
-
 
 # 版本2.4
 
@@ -91,8 +83,8 @@ ht-degree: 0%
 * 为迷你工具架分配错误资源时崩溃
 * [工具架]清理+保存项目中资源的删除标记和元数据
 * [工具架]导入预设将在工具架中显示其资源
-* [导出]从Height声道生成的法线图的强度较低
-* [导出]网格中的法线并不总是出现在最终法线映射中
-* [导出]有时会产生带有透明度的扩展
+* [导出]从Height声道生成的法线图强度较低
+* [导出]最终法线图中并不总是存在“正常的网格”模式
+* [导出]有时会产生带有透明度的膨胀，但不包含透明度
 * [脚本] &quot;alg.plugin\_root\_directory&quot;可以返回截断的网络路径
 * [TextureSet]重新打开非方形项目时启用“锁定”按钮

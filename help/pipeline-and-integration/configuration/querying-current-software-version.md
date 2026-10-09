@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/pipeline-and-integration/configuration/querying-current-software-version.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何以编程方式查询当前的Substance 3D Painter软件版本，实现管道集成和自动化。
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Configuration > Querying Current Software Version
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 查询当前软件版本
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
-
 ---
-
 
 # 查询当前软件版本
 

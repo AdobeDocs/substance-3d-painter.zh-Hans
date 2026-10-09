@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/release-notes/version-10-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 查看Substance 3D Painter版本10.1的发行说明，了解新增功能、改进和错误修复。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 版本10.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
-
 ---
-
 
 # 版本10.1
 
@@ -94,7 +86,7 @@ ht-degree: 0%
   现在，导入USD文件也会将其纹理导入到它创建的项目中，从而更轻松地在应用程序之间来回切换。 如果USD文件使用Adobe Standard Material，这也将配置着色器设置，使视口中的结果与其他源应用程序匹配。
 * <b>Gltf更改\
   </b>在USD更新后，需要对GLTF格式的行为进行一些更改以确保奇偶校验。 在导入gltf文件时，Painter现在会假定法线图将采用OpenGL格式。\
-  某些gltf文件可能会改用DirectX格式。 因此，新项目窗口中添加了一个新设置以考虑该设置（请注意，也可以从图层栈栈覆盖普通格式）。
+  某些gltf文件可能会改用DirectX格式。 因此，新项目窗口中增加了一个新设置以考虑该设置（请注意，也可以从图层堆叠覆盖普通格式）。
 
   ![](../assets/v101_import_gltf.png)
 * <b>已更新的依赖项</b>\
@@ -141,16 +133,16 @@ ht-degree: 0%
 
 发行日期：<b>2024/09/17</b>
 
-摘要：<b>主要版本，新内容：填充区域蒙版/颜色滤镜、刺绣贴花滤镜和六个通用Substance滤镜，导入具有材质和着色器属性的美元，性能改进，符合VFX平台2024并迁移到Linux RedHat</b>
+摘要：<b>主要版本，新内容：填充区域蒙版/颜色滤镜、刺绣贴花滤镜和六个常规Substance滤镜，导入具有材料和着色器属性的USD，性能改进，符合VFX平台2024并迁移到Linux RedHat</b>
 
 <b>已添加</b>：
 
 * [内容]添加新的填充区域蒙版/颜色滤镜
 * [内容]添加新的刺绣贴花滤镜
 * [内容]添加6个新的通用Substance滤镜（FXAA、像素化、高通、色调分离、平滑步骤、阈值）
-* [USD]导出具有定义的ASM材料的USD图层
-* [USD]导入具有材质和着色器属性的美元
-* [性能]默认情况下启用优化的图层栈栈缩览图
+* [USD]使用定义的ASM材料导出USD图层
+* [USD]导入具有材料和着色器属性的USD
+* [性能]默认情况下启用优化的图层堆叠缩览图
 * [性能]减少项目文件打开时间和内存消耗（数据解码）
 * 符合VFX平台2024标准
 * [VFX Platform 2024]更新到Python 3.11
@@ -159,29 +151,29 @@ ht-degree: 0%
 * [VFX Platform 2024]&#x200B;[色彩管理]更新至OCIO 2.3.2
 * [Linux]迁移到Linux RedHat
 * [Linux]将Nvidia驱动程序的最低版本更新为535.171.04
-* [导入]在导入GLTF网格时添加用于翻转法线图的选项
+* [导入]在导入GLTF网格时添加翻转法线图的选项
 * [UI]使用操作系统默认值作为拖动事件检测距离
 * [Substance 引擎]添加调用条函数以从可执行文件中删除符号
 * [初始屏幕]更新为新的初始屏幕格式
 * 将Substance 引擎更新到版本9.1.3
-* [Python]在图层栈栈文档菜单中显示示例链接
+* [Python]在图层堆叠文档菜单中显示示例链接
 * [JavaScript]将JavaScript插件移动到javaScript/plugins子文件夹中
 
 <b>已修复</b>：
 
-* [Illustrator]在特定情况下导出带有.ai图形的UV图块时崩溃
+* [Illustrator]在特定情况下崩溃导出带.ai图形的UV 平铺
 * [动态笔触]&#x200B;[路径]每个描边随机不适用于路径
-* [UI]&#x200B;[属性]拼贴非均匀时启用锁定
+* [UI]&#x200B;[属性]当拼贴不均匀时，锁定处于启用状态
 * 双击Painter项目时创建&#x200B;调试TXT文件
-* [USD]&#x200B;[Export]部分纹理可能丢失
-* [ASM]散布颜色通道忽略金属质感
+* [USD]&#x200B;[导出]可能缺少某些纹理
+* [ASM]散射颜色通道忽略金属
 * [内容]模糊滤镜在“工作”色彩空间中不起作用
 * [内容]Height调整滤镜也会修改图层的Alpha
 
 <b>已知问题</b>：
 
-* [色彩管理]在Linux上使用ACE进行HDR色彩空间转换时，会产生固定颜色
-* [Win]&#x200B;[崩溃]&#x200B;[ACE]未使用sRGB ICE色彩空间进行显示变换
+* [色彩管理] HDR色彩空间与Linux上的ACE转换生成固定颜色
+* [Win]&#x200B;[崩溃] [ACE]未使用sRGB ICE色彩空间进行显示变换
 * [回归]&#x200B;[UI]右键单击菜单在高清屏幕上过小
 * [崩溃]&#x200B;[Python]由TextureStateEvent触发的USD导出
 * [MacOS Intel]导入某些预设时崩溃

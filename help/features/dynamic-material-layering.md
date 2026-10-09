@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/features/dynamic-material-layering.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中使用动态材质分层功能将材料与程序化蒙版混合及组合。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Dynamic Material Layering
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 动态材质分层
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
-
 ---
-
 
 # 动态材质分层
 
@@ -92,7 +84,7 @@ ht-degree: 0%
 
 材料分辨率可使用“size”参数定义。 使用“default”参数创建着色器时（通过使用需要加载的资源的名称/标签），也可以默认加载材料。
 
-要访问着色器本身中的素材和蒙版，只需使用“param auto”关键字连接它们：
+要访问着色器本身中的材料和蒙版，只需使用“param auto”关键字连接它们：
 
 ```
 //: param auto Material1.channel_basecolor 

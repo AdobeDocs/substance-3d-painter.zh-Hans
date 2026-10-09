@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/project-creation.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中创建新项目以开始在3D模型上绘制纹理。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Project Creation
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 项目创建
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%
-
 ---
-
 
 # 项目创建
 
@@ -88,10 +80,10 @@ ht-degree: 1%
 
 | *网格图* | *文件名约定* |
 | --- | --- |
-| **环境遮蔽** | 环境遮蔽 |
-| **曲率** | 弯曲 |
+| **Ambient occlusion** | 环境遮蔽 |
+| **弯曲** | 弯曲 |
 | **正常** | normal\_base |
-| **世界空间正常** | world\_space\_normals |
+| **世界空间法线** | world\_space\_normals |
 | **ID** | id |
 | **位置** | 位置 |
 | **Thickness** | 厚度 |

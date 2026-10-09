@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/cn/substance-3d-painter/getting-started/export/creating-export-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解如何在Substance 3D Painter中创建自定义输出模板以定义您自己的纹理导出配置。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Creating Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 创建输出模板
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
-
 ---
-
 
 # 创建输出模板
 
@@ -72,9 +64,9 @@ ht-degree: 0%
 > 该按钮还指示插槽中加载了什么：
 > 
 > * 背景色：指示加载了哪些<b>输入</b>映射。
-> * RGB栏：指示已加载输入映射中的<b>R</b> 、 <b>G</b>和<b>B</b>声道。
+> * RGB栏：指示已加载输入图中的<b>R</b> 、 <b>G</b>和<b>B</b>声道。
 > * 红色条：指示已加载输入图中的<b>红色</b>声道。
-> * 绿色条：指示已加载输入映射中的<b>绿色</b>通道。
+> * 绿条：指示已加载输入图中的<b>绿色</b>通道。
 > * 蓝色条：指示已加载输入图中的<b>蓝色</b>声道。
 > * 灰色条：指示输入图加载为<b>灰度</b>（从RGB到灰度转换，或者因为输入已处于灰度状态）。
 > * 黑线/白线：指示输入图的<b>alpha</b>通道已加载。 在Substance 3D Painter中，输入中的Alpha与总绘制区域相对应。
@@ -89,10 +81,10 @@ ht-degree: 0%
 * <b> $textureSet</b> ：纹理集的名称
 * <b> /</b>（正斜杠）：文件夹分隔
 
-<b>示例</b> ：具有名为“MaterialBase”的纹理集的cymourai.fbx
+<b>示例</b> ： cymourai.fbx，带有名为“MaterialBase”的纹理集
 
-* <b>$mesh\_$textureSet\_BaseColor</b>将生成<b>cymourai\_MaterialBase\_BaseColor.png。</b>
-* <b>$mesh/$textureSet\_BaseColor</b>将生成一个名为<b>cymourai</b>的文件夹，其中包含名为<b>MaterialBase\_BaseColor.png</b>的纹理。
+* <b>$网格\_$textureSet\_BaseColor</b>将生成<b>cymourai\_MaterialBase\_BaseColor.png。</b>
+* <b>$网格/$textureSet\_BaseColor</b>将生成一个名为<b>cymourai</b>的文件夹，其中包含名为<b>MaterialBase\_BaseColor.png</b>的纹理。
 
 >[!NOTE]
 >
@@ -116,7 +108,7 @@ ht-degree: 0%
 * <b>个网格图</b>：纹理集（烘焙的纹理）的其他映射槽中存在的纹理。
 * <b>转换后的映射：</b>虚拟纹理，这些映射在导出过程中根据文档中存在的声道生成。
   * <b>Normal OpenGL/DirectX</b> ：通过组合附加映射中的法线、Height和法线声道，在专用空间中输出法线。
-  * <b>混合AO</b>：将环境遮蔽附加映射与环境色遮蔽通道相结合。
+  * <b>混合AO</b>：将Ambient occlusion附加映射与Ambient occlusion声道合并。
   * <b>Diffuse</b>：从BaseColor和金属通道生成的Diffuse（金属部分将替换为黑色）。
   * <b>Specular</b>：从BaseColor和金属通道生成的Specular。
   * <b>光泽度</b>：粗糙度声道的反向。
@@ -124,5 +116,5 @@ ht-degree: 0%
   * <b>Unity4光泽</b>：从粗糙度和金属通道生成的光泽度，以匹配Unity4着色器。
   * <b>反射</b>：导出地图，其中白色表示材料的介电材料和其他颜色
   * <b>1/ior</b>： 1除以ior值，从金属映射中生成ior：1.4（电介质），100(金属（黑色）)
-  * <b>光泽度<sup>2</sup></b>：光泽度通道的方形版本（光泽度\*光泽度）
+  * <b>光泽度<sup>2</sup></b>：光泽度声道的方形版本(光泽度\*光泽度)
   * <b>f0</b>：菲涅耳0处的反射率值（电介质0.04，金属1.0）

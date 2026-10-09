@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/cn/substance-3d-painter/painting/tool-list/path.html'
 breadcrumb-title: ''
 description: 使用Substance 3D Painter中的“路径”工具创建和编辑路径，以便精确绘制纹理和放置描边。
-helpx_creative_field: ''
-helpx_description: Painting > Path tools list > Path tool
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: 路径工具概述
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6fcf10add7086a0e2a070ee6046c0a261ef1ae34
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 0%
-
 ---
-
 
 # 路径工具概述
 
@@ -31,13 +23,13 @@ ht-degree: 0%
 * **通过界面**：导航到左侧的工具工具栏，然后单击顶部的第三个图标。
 * **通过键盘快捷键**：默认情况下，未为该工具分配任何资源。 可通过编辑“沿路径选择绘画”快捷键，在“设置”菜单中对此进行更改。
 
-选择该工具后，可通过单击3D视口内的3D模型曲面来放置点。 创建路径至少需要两个点（或顶点）。
+选择该工具后，可通过单击3D视口中的3D模型曲面来放置点。 创建路径至少需要两个点（或顶点）。
 
 ![显示路径工具的选择以及点的创建的Gif](../../assets/path_create_points.gif)
 
 “路径”工具具有多种模式，它们可能与应用程序中提供的其他绘画工具类似：
 
-* 沿路径绘制：沿定义的路径绘制常规画笔描边。
+* 沿路径绘画：沿定义的路径绘制常规画笔描边。
 * [功能区路径](ribbon-tool.md)：沿路径绘制重复或拉伸的图像。
 * [填充路径](filled-path.md)：使用统一颜色填充路径的内部。
 * 沿路径擦除：绘制沿定义路径擦除/删除信息的描边。
@@ -67,13 +59,13 @@ ht-degree: 0%
 
 * **画笔**
 * **Alpha**
-* **材质**
+* **材料**
 
 **画笔**&#x200B;部分包含仅适用于“路径”工具的其他选项：
 
 | **设置** | **描述** |
 | --- | --- |
-| **投影深度** | 确定路径需要离网格表面多近才能显示画笔图章。 若要直接在视口中查看此视觉反馈，可以在&#x200B;**路径显示设置**&#x200B;中启用&#x200B;**法线**（请参阅下文）。 |
+| **深度** | 确定路径需要离网格表面多近才能显示画笔图章。 若要直接在视口中查看此视觉反馈，可以在&#x200B;**路径显示设置**&#x200B;中启用&#x200B;**法线**（请参阅下文）。 |
 | **向上轴** | **跟随路径**&#x200B;关闭时用于定向画笔图章的轴。   在有些情况下，让所有图章沿全球轴/方向而不是沿路径对齐更有意义。 例如，在金属表面上使用铆钉。 |
 
 其他属性按路径上的点(顶点)定义，例如压力。 要编辑特定点，只需单击它（或使用矩形选区）。 然后使用上下文工具栏编辑选定的点值。
@@ -82,9 +74,9 @@ ht-degree: 0%
 
 ### 控制正切
 
-有时，平滑路径并不理想，可能是因为它不遵循3D模型的最佳表面，也可能是因为它不适合特定的外观。 为了解决这些问题，可以修改给定顶点的切线。 正切是控制路径弯曲方式的点的方向。
+有时，平滑路径并不理想，可能是因为它不遵循3D模型的最佳表面，也可能是因为它不适合特定的外观。 为了解决这些问题，可以修改给定顶点的正切。 正切是控制路径弯曲方式的点的方向。
 
-要在平滑或线性/断开切线之间切换，只需双击顶点（或使用上下文工具栏中的专用按钮）：
+要在平滑或线性/断开正切之间切换，只需双击某个顶点（或使用上下文工具栏中的专用按钮）：
 
 ![显示如何控制正切上的Gid](../../assets/path_break_tangents.gif)
 
@@ -129,7 +121,7 @@ ht-degree: 0%
   </tr>
   <tr>
     <td><strong>自定义正切</strong><br><img src="../../assets/path_icon_custom_tangents.png" alt="自定义正切的路径工具图标"/></td>
-    <td>如果启用，则允许手动控制路径上给定点的切线。<br><img src="../../assets/paht_cutom_tangents_demo.png" alt="显示自定路径正切的图像"/></td>
+    <td>如果启用，请允许手动控制路径上给定点的正切。<br><img src="../../assets/paht_cutom_tangents_demo.png" alt="显示自定路径正切的图像"/></td>
   </tr>
   <tr>
     <td><strong>开放/闭合路径</strong><br><img src="../../assets/path_contextual_toolbar_close.png" alt="开放闭合路径图标"/></td>
@@ -141,7 +133,7 @@ ht-degree: 0%
   </tr>
   <tr>
     <td><strong>对称</strong><br><img src="../../assets/path_contextual_toolbar_symmetry.png" alt="对称功能的图标"/></td>
-    <td>启用或禁用当前路径的对称性。 有关详细信息，请参阅<a href="../symmetry/symmetry.md">对称文档</a>。<br><img src="../../assets/v90_path_symmetry.gif" alt="显示正在对称中绘制的路径的Gif"/></td>
+    <td>为当前对称启用或禁用路径。 有关详细信息，请参阅<a href="../symmetry/symmetry.md">对称文档</a>。<br><img src="../../assets/v90_path_symmetry.gif" alt="显示正在对称中绘制的路径的Gif"/></td>
   </tr>
   <tr>
     <td><strong>隐藏/忽略排除的几何</strong><br><img src="../../assets/path_contextual_toolbar_exclude.png" alt="几何蒙版排除功能的图标"/></td>
@@ -155,9 +147,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如果当前工具不是路径工具或者选择了填充图层/文件夹，则会隐藏面板。
+> 如果当前工具不是“路径”工具，或者选择了填充图层/文件夹，则会隐藏该面板。
 
-视区内部是&#x200B;**路径**&#x200B;面板，其中列出了当前选定的绘画图层/效果的所有路径。 它提供了一种选择和管理路径的简单方法。
+视口内部是&#x200B;**路径**&#x200B;面板，其中列出了当前所选绘画图层/效果的所有路径。 它提供了一种选择和管理路径的简单方法。
 
 使用此面板，可以：
 
