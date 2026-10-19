@@ -3,7 +3,9 @@ cloud: Experience Cloud
 solution: Substance 3D Painter, Substance 3D
 product_v2:
   - id: af8ad8dc-25aa-4180-b93f-92edb04e13d4
+    internal-label: "Substance 3D Painter"
   - id: b5c1b9d0-8765-43f4-b8ea-1aa286ab7892
+    internal-label: "Substance 3D"
 usetq: true
 landing-page-name: substance-3d
 landing-page-breadcrumb-title: Substance 3D
@@ -13,11 +15,9 @@ git-repo: https://github.com/AdobeDocs/substance-3d-painter.zh-Hans
 index: true
 source-git-commit: 7808377fae4ecd1db700ff9c2ddfc16bc2e39136
 workflow-type: tm+mt
-source-wordcount: 70
+source-wordcount: '64'
 ht-degree: 0%
-
 ---
-
 
 # 供内部使用的元数据
 
