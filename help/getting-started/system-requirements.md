@@ -107,7 +107,7 @@ ht-degree: 1%
 
 **DXR**&#x200B;也需要以下最低配置：
 
-* **Windows 10**&#x200B;版本1809，有关详细信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)
+* **Windows 10**&#x200B;版本1809，有关详细信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/features/gpu-raytracing)
 * **具有Pascal体系结构的GPU** (Nvidia GeForce 10XX)
 
 >[!TIP]
