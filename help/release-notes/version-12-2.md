@@ -94,7 +94,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 有关&#x200B;**多边形填充**&#x200B;工具的更多信息，请查看[专用文档页面](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill)。
+> 有关&#x200B;**多边形填充**&#x200B;工具的更多信息，请查看[专用文档页面](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill)。
 
 ### 在烘焙模式下新建笼子绘画
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 有关烘焙的更多信息，请查看[专用文档页面](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/baking/baking)。
+> 有关烘焙的更多信息，请查看[专用文档页面](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/baking/baking)。
 
 ### 视口中新的纹理集突出显示
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 
   新的`mesh_uv_neighbor`引擎映射输入可用于Substance材料和筛选器。 它可以作为UV平流纹理来查找UV 岛接缝的另一侧。 它的红色和绿色通道存储了UV平流，用于跨UV接缝到达邻近像素。
 
-  有关这些纹理的详细信息，请参阅[专用文档页面](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input)。
+  有关这些纹理的详细信息，请参阅[专用文档页面](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input)。
 
 ## 发行说明
 
