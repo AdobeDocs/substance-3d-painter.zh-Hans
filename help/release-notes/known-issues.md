@@ -4,22 +4,20 @@ description: 查看Substance 3D Painter的已知问题，了解最新版本中�
 title: 已知问题
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 08fc43babcb6f7a9be61508748c4068b6bd0c8b6
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '932'
 ht-degree: 0%
 ---
 
 # 已知问题
 
-本页列出了Substance 3D Painter v12.1.5中存在的所有活动已知问题：
+本页列出了Substance 3D Painter v12.2.0中存在的所有活动已知问题：
 
 * `[Baking]`简单多维数据集上的AO错误
 * `[Baking]`按名称后缀解释匹配错误
 * 重新导入后`[Baking]`个Uv接缝未显示
 * `[Baking]`个包含某些设置的类网格伪像
-* 按网格名称`[Baking]`Ambient occlusion忽略背面不起作用
-* `[Baking]` `[AMD]`设备在使用高多边形烘焙时丢失
 
 * `[Substance]`资源中存在多个拼写错误
 * `[Substance]`空格断开可视性条件
@@ -33,10 +31,6 @@ ht-degree: 0%
 * `[Color Management]`绑定与未在掩码中使用的生成器不兼容
 * 未正确考虑`[Color Management]`筛选器输出
 * `[Color Management]`个HDR色彩空间转换在Linux上使用ACE生成固定颜色
-
-* `[USD]`在某些情况下，分配的usda有误
-* `[USD]`导出的USD几何图形沿UV边框滑动
-* `[USD]`加载格式错误的USDz时冻结
 
 * `[Shelf]`资源如果放置在具有特定名称的文件夹中，则使用方式不正确
 * `[Shelf]` `[Substance]`生成工具架缩略图时未考虑用户数据
@@ -52,6 +46,12 @@ ht-degree: 0%
 
 * 更新Painter版本后，以base color视图保存的`[Single Channel View]`项目看起来更暗
 * 更新Painter版本后，以base color视图保存的`[Single Channel View]`项目看起来更暗
+
+* `[Viewport]`光标在烘焙模式视口底部滞后
+* `[Viewport]`将多边形填充选区从一个窗口拖动到另一个窗口可能会导致视口滞后
+
+* 在一个UV 岛上绘画时`[Cage Painting]`笼子几何孔
+* Mac上的烘焙模式视口出现`[Cage Painting]`性能问题
 
 * `[gltf]`无法打开通过巴比伦导出器导出的文件
 * `[Displacement]`绘画时出现故障
@@ -89,12 +89,17 @@ ht-degree: 0%
 * `[User Channels]`混色空间预览错误
 * 切换到烘焙模式后，`[Mask]`几何选区仍处于活动状态
 * `[Sonoma]`图标未出现在菜单中
+* `[USD]`在某些情况下，分配的usda有误
 * `[Polygon Fill]`更改base color的色彩空间不会更新拾色器
 * 在导出时将纹理从4k放大到8k时出现`[UV Padding]`个伪像
-* `[Performances]`个Painterhogs VRAM使用情况
 * `[FBX]`缩放问题
 * 可以将`[Texture set list]`个UV 平铺选为纹理集
-* `[Viewport]`光标在烘焙模式视口底部滞后
+* `[Paint Properties]`在绘画属性窗口中右键单击鼠标时无法打开预设弹出菜单
+* `[MACOS]` `[Subsurface Scattering]`内存噪声，具有一些SS Radius缩放值
+* 显示设置中来自筛选的`[Mac]`镜像转换偏差不起作用
+* 关闭时，即使项目尚未修改，也会显示`[Project]`保存弹出窗口
+* `[Library]` Painter在生成环境图缩略图时可能会卡住
+* `[Windows]` `[Nvidia]`生成画笔和材料预览可能会导致TDR
 * 在画笔通道的槽中使用时，将拉伸非方形资源
 * 无法解码substance
 * 非完全叠加的UV可能产生伪像
@@ -113,6 +118,7 @@ ht-degree: 0%
 * 历史记录中不会显示根据上下文工具栏修改的画笔参数
 * 如果已在此会话中删除并重新创建导出预设，则无法重命名或删除该预设
 * 在某些情况下，声道映射不适用于投影工具预览
+* 当“仅按名称匹配”和“仅选定纹理集”为“打开”时，“网格匹配错误”不会忽略其他高位策略
 
 ## 稳定性
 
