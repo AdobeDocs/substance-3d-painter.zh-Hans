@@ -2,10 +2,10 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-source-git-commit: eb0b1c111b0c96a87283785cf702def7305f0aa9
+source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 13%
+source-wordcount: '1350'
+ht-degree: 14%
 ---
 
 # Substance 3D Painter {#using}
@@ -244,7 +244,7 @@ ht-degree: 13%
   + [烘焙界面](/help/baking/baking-interface.md)
   + [如何网格图](/help/baking/how-to-bake-mesh-maps.md)
   + [倾斜校正](/help/baking/skew-correction.md)
-  + {hide-from-toc}[笼子绘画](/help/baking/cage-painting.md)
+  + [笼子绘画](/help/baking/cage-painting.md)
   + [网格图设置](/help/baking/mesh-map-settings.md)
   + [烘焙可视化设置](/help/baking/baking-visualization-settings.md)
 + 内容{#content}
@@ -450,6 +450,7 @@ ht-degree: 13%
 + 发行说明{#release-notes}
   + [发行说明概述](/help/release-notes/release-notes.md)
   + [所有更改](/help/release-notes/all-changes.md)
+  + [版本 12.2](/help/release-notes/version-12-2.md)
   + [版本 12.1](/help/release-notes/version-12-1.md)
   + [版本12.0](/help/release-notes/version-12-0.md)
   + [版本11.1](/help/release-notes/version-11-1.md)

@@ -1,10 +1,9 @@
 ---
 title: 笼子绘画
 description: 了解如何通过Substance 3D Painter中的笼子绘画，在烘焙过程中避免出现伪影并自定义笼子。
-hold: true
-source-git-commit: 8e09732a300f321ad8fc04883db7a338b8c6a5a7
+source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1044'
 ht-degree: 0%
 ---
 
@@ -89,7 +88,7 @@ ht-degree: 0%
 
 ### Polygon fill
 
-在&#x200B;**笼子绘画**&#x200B;**模式**&#x200B;中，**多边形填充视口**&#x200B;具有一项附加功能，在进行可用于调整最后一组选定多边形值的更改时，**强度**&#x200B;中会显示&#x200B;**滑块值**。
+在&#x200B;**笼子绘画****模式**&#x200B;中，**多边形填充视口**&#x200B;具有一项附加功能，在进行可用于调整最后一组选定多边形值的更改时，**强度**&#x200B;中会显示&#x200B;**滑块值**。
 
 在具有多个单独网格的场景中使用&#x200B;**网格填充模式**&#x200B;进行按元素调整时，此功能特别有用。
 
