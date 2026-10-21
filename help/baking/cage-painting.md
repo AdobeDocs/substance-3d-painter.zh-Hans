@@ -1,10 +1,9 @@
 ---
 title: 笼子绘画
 description: 了解如何通过Substance 3D Painter中的笼子绘画，在烘焙过程中避免出现伪影并自定义笼子。
-hold: true
-source-git-commit: 8e09732a300f321ad8fc04883db7a338b8c6a5a7
+source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1044'
 ht-degree: 0%
 ---
 
