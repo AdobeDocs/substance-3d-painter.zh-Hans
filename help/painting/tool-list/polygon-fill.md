@@ -76,7 +76,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 该工具支持的混合模式与该图层堆叠中可用的混合模式相同。 有关详细信息，请参阅[混合模式文档页面](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/layer-stack/blending-modes)。
+> 该工具支持的混合模式与该图层堆叠中可用的混合模式相同。 有关详细信息，请参阅[混合模式文档页面](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/interface/layer-stack/blending-modes)。
 
 ### 材质
 
@@ -100,5 +100,5 @@ ht-degree: 2%
 此工具存在一些限制：
 
 * **多边形环填充**&#x200B;和&#x200B;**部分多边形环填充**&#x200B;仅适用于四边形，因此三角形和n边形无法填充这些模式。
-* **径向对称**&#x200B;的支持也受到限制，并且可能不可靠。 要使用对称，最好改用镜像模式。 有关详细信息，请参阅[对称文档页面](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/symmetry/symmetry)。
+* **径向对称**&#x200B;的支持也受到限制，并且可能不可靠。 要使用对称，最好改用镜像模式。 有关详细信息，请参阅[对称文档页面](https://experienceleague.adobe.com/zh-hans/docs/substance-3d-painter/using/painting/symmetry/symmetry)。
 * 此工具仅填充&#x200B;**活动纹理集**&#x200B;中的几何。 此时会显示该纹理集的线框，并在活动纹理集更改时进行更新。
