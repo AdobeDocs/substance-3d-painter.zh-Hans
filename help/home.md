@@ -4,7 +4,7 @@ description: 开始使用Substance 3D Painter，以将纹理直接绘画到3D模
 title: Substance 3D Painter
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 99552782763c4f8313c5f8e7aeeb3a860ecf943d
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 9%
@@ -20,7 +20,7 @@ Substance 3D Painter是一款3D绘画软件，允许您纹理和渲染3D网格�
 
 本文档旨在帮助您学习如何使用该软件，从基本技术到高级技术。
 
-如果您有任何在本手册中未得到解答的问题，欢迎在我们的[论坛](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter)上提问。 如果您想了解有关 PBR 的更多信息，您还可以下载我们的[基于物理的渲染指南](https://helpx.adobe.com/cn/substance-3d/unlisted/tutorials.html)。
+如果您有任何在本手册中未得到解答的问题，欢迎在我们的[论坛](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter)上提问。 如果您想了解有关 PBR 的更多信息，您还可以下载我们的[基于物理的渲染指南](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html)。
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
@@ -75,7 +75,7 @@ Substance 3D Painter是一款3D绘画软件，允许您纹理和渲染3D网格�
 ### 内容
 
 * [创建自定义效果](content/creating-custom-effects/creating-custom-effects.md)
-* [导入资源](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+* [导入资源](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 ### 功能
 
@@ -104,7 +104,7 @@ Substance 3D Painter是一款3D绘画软件，允许您纹理和渲染3D网格�
 
 ### 脚本编写和开发
 
-* [脚本和插件](https://helpx.adobe.com/cn/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
+* [脚本和插件](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
 
 ### 技术支持
 
@@ -116,7 +116,6 @@ Substance 3D Painter是一款3D绘画软件，允许您纹理和渲染3D网格�
 ### 发行说明
 
 * [所有更改](release-notes/all-changes.md)
-* [版本11.1](release-notes/version-11-1.md)
-* [版本11.0](release-notes/version-11-0.md)
-* [版本10.1](release-notes/version-10-1.md)
-
+* [版本 12.2](release-notes/version-12-2.md)
+* [版本 12.1](release-notes/version-12-1.md)
+* [版本12.0](release-notes/version-12-0.md)
