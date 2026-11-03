@@ -1,7 +1,7 @@
 ---
 description: 了解当前的Substance 3D Painter测试版，包括新增功能和完整的更改日志。
 title: 测试版
-source-git-commit: 1df909bd0658eac40b726b493e73758e64c01d16
+source-git-commit: d84430d131a0857e981006698faf536d59aa707b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ### **生成2**
 
-发行日期：**2026年10月29日**
+发行日期：**2026年11月2日**
 
 **已添加**：
 
