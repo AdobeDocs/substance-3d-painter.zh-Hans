@@ -4,9 +4,9 @@ description: 查看Substance 3D Painter的系统要求，确保您的计算机�
 title: 系统要求
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: fbfe7e52b226b5a92f5b46ebbf82728f0ff9e3c5
+source-git-commit: 0937bc291815e86b7a33d804729dbef599748d13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '798'
 ht-degree: 1%
 ---
 
@@ -56,9 +56,8 @@ ht-degree: 1%
 其他：
 
 * 许多Substance应用程序依靠OpenSSL 1.1.1来与RHEL8/9兼容。 对于具有较新OpenSSL版本的系统，客户需要手动提供它
-* 为了在舒适的条件下工作，我们建议使用垂直分辨率大于1000像素且宽于1280像素的显示器。
-* 以&#x200B;**8K**（8192\*8192像素）导出需要具有超过&#x200B;**2GB VRam的GPU。**
-* 为了在MacOS 10.15 (Catalina)上运行，仅对版本2019.x及更高版本进行了公证。
+* 为了营造舒适的工作条件，我们建议使用垂直分辨率大于1000像素且宽于1280像素的显示器。
+* 在&#x200B;**小于** 2 GB的VRAM上，无法以&#x200B;**8K**（8192\*8192像素）进行导出。
 * 要通过RDP（远程桌面）使用软件，请参阅专用的[文档页面](../pipeline-and-integration/configuration/remote-desktop.md)。
 * 烘焙时崩溃在Ryzen CPU上，可通过更新BIOS来修复。
 
@@ -107,7 +106,7 @@ ht-degree: 1%
 
 **DXR**&#x200B;也需要以下最低配置：
 
-* **Windows 10**&#x200B;版本1809，有关详细信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/substance-3d/bakers/features/gpu-raytracing)
+* **Windows 10**&#x200B;版本1809，有关详细信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)
 * **具有Pascal体系结构的GPU** (Nvidia GeForce 10XX)
 
 >[!TIP]
