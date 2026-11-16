@@ -4,9 +4,9 @@ description: 查看Substance 3D Painter的已知问题，了解最新版本中�
 title: 已知问题
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 08fc43babcb6f7a9be61508748c4068b6bd0c8b6
+source-git-commit: a03b6eb503f036d0ea991ebffe4996fde2f0ffb9
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '925'
 ht-degree: 0%
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 0%
 本页列出了Substance 3D Painter v12.2.0中存在的所有活动已知问题：
 
 * `[Baking]`简单多维数据集上的AO错误
-* `[Baking]`按名称后缀解释匹配错误
 * 重新导入后`[Baking]`个Uv接缝未显示
 * `[Baking]`个包含某些设置的类网格伪像
 
