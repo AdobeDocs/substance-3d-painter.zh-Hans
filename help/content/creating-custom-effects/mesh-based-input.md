@@ -4,9 +4,9 @@ description: 了解如何在Substance 3D Painter的自定义效果中使用基�
 title: 基于网格的输入
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 4432887b652896f77fc3c99010436ef44aeb8a3e
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '279'
 ht-degree: 1%
 ---
 
@@ -28,3 +28,4 @@ ht-degree: 1%
 | *世界空间Bitangent(RGB)* | **mesh\_world\_space\_bitangent** | **meshBitangentWS** | 检索世界空间中包含顶点双正切（双法线）的纹理。 |
 | *文本大小（灰度）* | **网格\_texel\_size** | **meshTexelSize** | 检索包含纹理大小（像素密度和UV之间的差异）的纹理。 |
 | *UV 蒙版（灰度）* | **网格\_uv\_蒙版** | **meshUVMask** | 将纹理检索为网格UV 岛的黑色（外部）和白色（内部）蒙版。 |
+| *邻居(RGB)UV* | **网格\_uv\_neighbor** | **meshUVNeighbor** | 检索包含两个信息的纹理。 UV 岛的内部存储常规UV坐标。 UV 岛的外部存储UV接缝另一侧像素的UV坐标。 此纹理可用于创建无缝效果。 |
